@@ -11,7 +11,7 @@ import bank from "../data/audio-events.json" with { type: "json" };
 import { pauseReason } from "../src/ui/game-clock.js";
 test("audio bank has distinct variants, matching payloads, safe decoded peaks and bounded bytes", () => {
   const report = JSON.parse(
-    fs.readFileSync("review/gdw/step2/audio-metrics.json"),
+    fs.readFileSync("tests/fixtures/audio-metrics.json"),
   );
   assert.equal(Object.keys(bank.events).length, 64);
   let bytes = 0;
