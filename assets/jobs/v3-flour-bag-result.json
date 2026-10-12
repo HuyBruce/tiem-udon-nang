@@ -1,0 +1,11 @@
+{
+  "mode": "builtin-imagegen",
+  "reference": "assets/style_reference/character_ref.png",
+  "jobs": [
+    {
+      "id": "v3-flour-bag",
+      "prompt": "Pastel cream udon flour bag with lavender tie and small yellow wheat motif; thin colored outline, true transparent background, no text; direct-tap kitchen object.",
+      "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-21e99a21-187f-43e0-9465-f37c82aa42b3.png"
+    }
+  ]
+}

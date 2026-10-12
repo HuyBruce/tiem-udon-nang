@@ -1,0 +1,74 @@
+{
+  "id": "guests",
+  "status": "raster-art",
+  "zones": {
+    "wall": [
+      0,
+      35
+    ],
+    "counter": [
+      35,
+      65
+    ],
+    "floor": [
+      65,
+      100
+    ]
+  },
+  "background": "sample_seating",
+  "layers": [
+    {
+      "id": "stool",
+      "asset": "stool",
+      "x": 25,
+      "y": 86,
+      "width": 25,
+      "height": 24,
+      "anchor": [
+        0.5,
+        1
+      ],
+      "z": 2
+    },
+    {
+      "id": "stool",
+      "asset": "stool",
+      "x": 75,
+      "y": 86,
+      "width": 25,
+      "height": 24,
+      "anchor": [
+        0.5,
+        1
+      ],
+      "z": 2
+    }
+  ],
+  "hotspots": [],
+  "seats": [
+    {
+      "x": 6,
+      "y": 30,
+      "width": 38,
+      "height": 55
+    },
+    {
+      "x": 56,
+      "y": 30,
+      "width": 38,
+      "height": 55
+    }
+  ],
+  "decoration": {
+    "asset": "flowers",
+    "x": 88,
+    "y": 48,
+    "width": 15,
+    "height": 18,
+    "anchor": [
+      0.5,
+      1
+    ],
+    "z": 2
+  }
+}

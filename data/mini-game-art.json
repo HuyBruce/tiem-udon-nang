@@ -1,0 +1,16 @@
+{
+  "noodlePot": {
+    "empty": "v3-noodle-pot-empty",
+    "water": "v3-noodle-pot-water",
+    "heating": "v3-noodle-pot-water",
+    "boiling": "v3-noodle-pot-boiling"
+  },
+  "handmade": [
+    "v3-handmade-flour",
+    "v3-handmade-dry",
+    "v3-handmade-wet",
+    "v3-handmade-dough",
+    "v3-handmade-sheet"
+  ],
+  "handmadeFinished": "v3-handmade-cut"
+}

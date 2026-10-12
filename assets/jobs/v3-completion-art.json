@@ -1,0 +1,18 @@
+{
+  "id": "v3-completion-art",
+  "generationMethod": "built-in imagegen; transparent alpha; style references only",
+  "entries": [
+    {
+      "id": "side-foods",
+      "source": "sprites/sources/v3-side-food-sheet.png",
+      "prompt": "Use case: stylized-concept. Production food sprite sheet for the cozy Japanese Tiệm mì Udon mobile game. Reference images are STYLE ONLY, same warm hand-painted cream/honey/sage palette, thin colored line art, soft gouache highlights, readable at 70px. One transparent-alpha landscape 1536x1024 sheet, precise THREE equal columns and TWO equal rows, no grid drawn. Each sprite completely inside its cell, centered with generous 12 percent empty alpha margins. Top row left-to-right: a small serving of four golden crispy chicken karaage chunks on a cream ceramic shallow dish; five crescent Japanese pan-fried gyoza dumplings on cream shallow dish, browned underside visible; four thick yellow rolled tamagoyaki omelette slices on cream dish. Bottom row left-to-right: a little serving of terracotta-red kimchi cabbage on cream dish; two raw pink boneless chicken thigh portions, no plate; kimchi cabbage in a simple open sage green ceramic pantry jar, no label. Entire sprites and dishes fully visible with gentle contact shadow only. No cutlery, people, text, logo, watermark, background, checkerboard, white rectangles, photorealism or 3D. Genuine transparency.",
+      "packing": "scripts/prepare-side-art.mjs"
+    },
+    {
+      "id": "season-decor",
+      "source": "sprites/sources/v3-season-decor-sheet.png",
+      "prompt": "Use case: stylized-concept. One production transparent sprite sheet for Japanese cozy udon game. Reference paper lantern is style only: warm hand-painted cream, sage, honey, terracotta, thin colored outlines with gentle gouache texture, front view. Square 1024x1024 canvas, exact 2 by 2 equal cells, four independent horizontal seasonal hanging decorations. Each whole object centered in its own cell with 15 percent empty margins, transparent center/backdrop. Top left: slim natural twig garland with pale pink sakura blossoms and sage leaves. Top right: small horizontal bamboo branch with four muted colored rectangular tanzaku wish slips and two tiny paper stars, no writing. Bottom left: slim wooden string garland with burnt-orange maple leaves and one little hanging cream-and-terracotta pumpkin charm. Bottom right: slim evergreen and holly garland with three small cream paper stars and dusty red ribbons. Each subtle festive hanging ornament occupies width 75 percent and height 50 percent of its cell. Genuine alpha transparency, no wall/background/grid/text/logos/checkerboard. Match illustration lighting top left and preserve delicate silhouettes.",
+      "packing": "scripts/prepare-season-art.mjs"
+    }
+  ]
+}

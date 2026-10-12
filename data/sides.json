@@ -1,0 +1,64 @@
+{
+  "tempura": {
+    "name": "Tôm tempura riêng",
+    "shortName": "Tempura",
+    "availableFromDay": 4,
+    "stock": "prepared.tempura",
+    "art": "ingredient-tempura"
+  },
+  "egg": {
+    "name": "Trứng lòng đào riêng",
+    "shortName": "Trứng lòng đào",
+    "availableFromDay": 8,
+    "stock": "prepared.egg",
+    "art": "topping-egg"
+  },
+  "seaweed": {
+    "name": "Rong biển riêng",
+    "shortName": "Rong biển",
+    "availableFromDay": 8,
+    "stock": "seaweed",
+    "art": "topping-seaweed"
+  },
+  "daikon": {
+    "name": "Củ cải ngâm riêng",
+    "shortName": "Củ cải ngâm",
+    "availableFromDay": 9,
+    "stock": "daikon",
+    "art": "topping-daikon"
+  },
+  "karaage": {
+    "name": "Gà karaage riêng",
+    "shortName": "Karaage",
+    "availableFromDay": 10,
+    "stock": "prepared.karaage",
+    "art": "side-karaage",
+    "preparation": ["chicken", "soy", "flour", "oil"],
+    "steps": ["Ướp gà", "Áo bột", "Thả vào dầu", "Vớt gà"]
+  },
+  "gyoza": {
+    "name": "Gyoza riêng",
+    "shortName": "Gyoza",
+    "availableFromDay": 11,
+    "stock": "prepared.gyoza",
+    "art": "side-gyoza",
+    "preparation": ["flour", "chicken", "onion", "oil"],
+    "steps": ["Trộn nhân", "Gói bánh", "Áp chảo", "Lấy bánh"]
+  },
+  "tamagoyaki": {
+    "name": "Trứng cuộn tamagoyaki riêng",
+    "shortName": "Tamagoyaki",
+    "availableFromDay": 12,
+    "stock": "prepared.tamagoyaki",
+    "art": "side-tamagoyaki",
+    "preparation": ["egg", "mirin", "oil"],
+    "steps": ["Đánh trứng", "Rót vào chảo", "Cuộn trứng", "Cắt lát"]
+  },
+  "kimchi": {
+    "name": "Kim chi riêng",
+    "shortName": "Kim chi",
+    "availableFromDay": 13,
+    "stock": "kimchi",
+    "art": "side-kimchi"
+  }
+}

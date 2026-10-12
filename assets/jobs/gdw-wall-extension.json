@@ -1,0 +1,6 @@
+{
+  "tool": "image_gen",
+  "reference": "assets/backgrounds/gdv-world-kitchen.webp",
+  "source": "assets/backgrounds/sources/gdw-wall-extension.png",
+  "prompt": "Create a game production background texture: a simple empty warm cream plaster wall, a wide landscape rectangular strip that can repeat vertically. Match the soft honey cream wall tones of the provided cozy udon shop reference but draw ONLY the empty plaster. Flat cozy hand-painted 2D mobile game art, fine soft warm-brown lines, very subtle watercolor texture, even light, low contrast, no shadows from anything, no furniture, no hood, no shelves, no plants, no floor, no frames, no text. Uniform subtle wall all the way to each edge so upper and lower edges repeat cleanly. This is a NEW background texture using the image as a style and palette reference; do not redraw the original kitchen."
+}

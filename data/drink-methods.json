@@ -1,0 +1,187 @@
+{
+  "ramune": [
+    {
+      "action": "bottle",
+      "label": "Mở tủ, lấy chai ramune",
+      "items": ["ramune"]
+    }
+  ],
+  "tea": [
+    {
+      "action": "tea",
+      "label": "Cho lá trà vào ấm",
+      "items": ["tea"]
+    },
+    {
+      "action": "water",
+      "label": "Rót nước nóng"
+    },
+    {
+      "action": "pour",
+      "label": "Rót trà ra tách"
+    }
+  ],
+  "matcha": [
+    {
+      "action": "matcha",
+      "label": "Cho bột matcha vào bát",
+      "items": ["matcha"]
+    },
+    {
+      "action": "water",
+      "label": "Thêm nước nóng"
+    },
+    {
+      "action": "whisk",
+      "label": "Đánh trà theo vòng tròn"
+    },
+    {
+      "action": "milk",
+      "label": "Rót sữa",
+      "items": ["milk"]
+    },
+    {
+      "action": "art",
+      "label": "Vẽ lá trên lớp sữa"
+    }
+  ],
+  "yuzuSoda": [
+    {
+      "action": "yuzu",
+      "label": "Thêm siro yuzu",
+      "items": ["yuzu"]
+    },
+    {
+      "action": "ice",
+      "label": "Thả đá"
+    },
+    {
+      "action": "soda",
+      "label": "Rót nước soda",
+      "items": ["soda"]
+    },
+    {
+      "action": "garnish",
+      "label": "Trang trí lát yuzu"
+    }
+  ],
+  "coffee": [
+    {
+      "action": "coffee",
+      "label": "Xay và lấy cà phê",
+      "items": ["coffee"]
+    },
+    {
+      "action": "water",
+      "label": "Chiết xuất với nước nóng"
+    },
+    {
+      "action": "milk",
+      "label": "Thêm sữa",
+      "items": ["milk"]
+    },
+    {
+      "action": "art",
+      "label": "Vẽ trái tim sữa"
+    }
+  ],
+  "hojicha": [
+    {
+      "action": "hojicha",
+      "label": "Cho trà rang vào ấm",
+      "items": ["hojicha"]
+    },
+    {
+      "action": "water",
+      "label": "Ủ với nước nóng"
+    },
+    {
+      "action": "pour",
+      "label": "Rót trà rang ra tách"
+    }
+  ],
+  "hojichaLatte": [
+    {
+      "action": "hojicha",
+      "label": "Cho trà rang vào ấm",
+      "items": ["hojicha"]
+    },
+    {
+      "action": "water",
+      "label": "Ủ trà với nước nóng"
+    },
+    {
+      "action": "pour",
+      "label": "Rót trà rang ra tách"
+    },
+    {
+      "action": "milk",
+      "label": "Rót sữa",
+      "items": ["milk"]
+    },
+    {
+      "action": "art",
+      "label": "Vẽ lá trên lớp sữa"
+    }
+  ],
+  "sakuraTea": [
+    {
+      "action": "tea",
+      "label": "Cho lá trà vào ấm",
+      "items": ["tea"]
+    },
+    {
+      "action": "water",
+      "label": "Ủ trà với nước nóng"
+    },
+    {
+      "action": "sakura",
+      "label": "Thêm cánh hoa anh đào",
+      "items": ["sakura"]
+    },
+    {
+      "action": "pour",
+      "label": "Rót trà hoa ra tách"
+    }
+  ],
+  "melonSoda": [
+    {
+      "action": "melon",
+      "label": "Thêm siro dưa lưới",
+      "items": ["melon"]
+    },
+    {
+      "action": "ice",
+      "label": "Thả đá"
+    },
+    {
+      "action": "soda",
+      "label": "Rót nước soda",
+      "items": ["soda"]
+    },
+    {
+      "action": "garnish",
+      "label": "Trang trí ly soda"
+    }
+  ],
+  "strawberryMilk": [
+    {
+      "action": "strawberry",
+      "label": "Dầm dâu tây",
+      "items": ["strawberry"]
+    },
+    {
+      "action": "milk",
+      "label": "Rót sữa",
+      "items": ["milk"]
+    },
+    {
+      "action": "stir",
+      "label": "Khuấy đều sữa dâu"
+    },
+    {
+      "action": "garnish",
+      "label": "Trang trí lát dâu"
+    }
+  ]
+}

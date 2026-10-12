@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-02",
+  "mode": "built-in-imagegen",
+  "purpose": "Make the visible vegetable beds match the plots and plant growth saved by the game.",
+  "background": {
+    "source": "assets/backgrounds/sources/v4-garden-field.png",
+    "output": "assets/backgrounds/v4-garden-field.webp",
+    "prompt": "Outdoor Japanese kitchen garden in warm hand-painted gouache: sky, low fence, flowering branches, open cultivated soil and mossy stone path. No indoor counter, no built-in raised boxes, no decorative rows of vegetables that the player cannot tend, no people or text. Leave the central soil clear for one to four interactive plots."
+  },
+  "bed": {
+    "source": "assets/sprites/sources/v4-garden-bed.png",
+    "output": "assets/sprites/v4-garden-bed.webp",
+    "prompt": "Isolated transparent in-ground vegetable plot, a shallow oval rectangular mound of tilled dark soil with two furrows and small stones, low earthen edge, no wooden planter, crop, pot, scenery or text. Match the garden gouache style."
+  },
+  "plantSheets": [
+    {
+      "crop": "onion",
+      "source": "assets/sprites/sources/v4-garden-onion-sheet.png",
+      "outputs": "assets/sprites/v4-garden-onion-{sprout,growing,ripe,wilted}.webp",
+      "prompt": "Four separate transparent scallion clusters rooted directly in soil, one horizontal row: small seedling, young greens, mature harvestable scallions, drooping wilted scallions. No wooden box, pot, scenery or labels; consistent gouache style and shared ground baseline."
+    },
+    {
+      "crop": "flowers",
+      "source": "assets/sprites/sources/v4-garden-flowers-sheet.png",
+      "outputs": "assets/sprites/v4-garden-flowers-{sprout,growing,ripe,wilted}.webp",
+      "prompt": "Four separate transparent daisy clusters rooted directly in soil, one horizontal row: seedling, leafy closed buds, open cream flowers, drooping wilted flowers. No container, scenery or labels; consistent gouache style and shared ground baseline."
+    },
+    {
+      "crop": "yuzu",
+      "source": "assets/sprites/sources/v4-garden-yuzu-sheet.png",
+      "outputs": "assets/sprites/v4-garden-yuzu-{sprout,growing,ripe,wilted}.webp",
+      "prompt": "Four separate transparent compact yuzu shrubs rooted directly in soil, one horizontal row: seedling, green unripe fruit, small yellow ripe fruit, drooping wilted shrub. No container, scenery or labels; consistent gouache style and shared ground baseline."
+    }
+  ],
+  "processing": "scripts/prepare-garden-field-art.mjs slices the three 2172x724 transparent sheets at transparent gutters, keeps stage scale and baseline in 720x700 frames, trims the soil bed and exports WebP."
+}

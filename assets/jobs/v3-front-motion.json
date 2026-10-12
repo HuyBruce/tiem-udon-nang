@@ -1,0 +1,29 @@
+{
+  "id": "v3-front-motion",
+  "generationMethod": "built-in imagegen: edit background plate, generate independent transparent curtain and lantern",
+  "reference": "backgrounds/v4-front-entrance.webp",
+  "postprocess": "scripts/prepare-front-motion.mjs",
+  "entries": [
+    {
+      "id": "front-background",
+      "prompt": "Edit the reference background for a 2D cozy udon game. Preserve EXACTLY the full composition, tiled roof, blank wooden sign, horizontal curtain rod, sliding shoji door frame, side timber columns, flower vines, wooden counter, green front fascia, stepping stone garden path, sunlight, painterly warm gouache style and viewpoint. ONLY remove all four orange noren curtain panels including their attachment fabric loops, and remove both cream paper lantern bodies and hanging cords. Restore the shoji paper and wood behind the removed curtains, and the unchanged wall/foliage behind removed lanterns. This is a clean background plate so independently animated sprite curtains and lamps can be placed at the same positions. No new objects, no people, no letters or text. Preserve the reference portrait framing and proportions.",
+      "alpha": false,
+      "source": "backgrounds/sources/v5-front-motion.png",
+      "output": "backgrounds/v5-front-motion.webp"
+    },
+    {
+      "id": "noren",
+      "prompt": "Use case: stylized-concept. Create ONE independent sprite, a single warm terracotta orange Japanese noren curtain panel for the reference udon storefront. Reference only provides color, gouache paper texture, warm thin line art and lighting. A rectangular fabric panel seen directly from front, gently uneven bottom hem, subtle folds, ONE small fabric loop extending above near the center to hang on a wooden rod. No rod included. Entire silhouette within canvas with 10% margin; panel roughly width:height 3:4; warm sun from top left, one subtle darker orange fold and fabric texture. GENUINE transparent alpha outside the panel and loop. No shadows outside, no background, no wood, no lanterns, no letters, no text or symbols.",
+      "alpha": true,
+      "source": "sprites/sources/v3-front-noren.png",
+      "output": "sprites/v3-front-noren.webp"
+    },
+    {
+      "id": "lantern",
+      "prompt": "Use case: stylized-concept. Create ONE independent sprite, a warm glowing Japanese paper lantern matching the lamps on the reference udon storefront. Reference is STYLE ONLY: hand-painted gouache, fine brown outline, warm cream rice paper and honey light. Direct front view of a rounded vertically oval paper lantern, horizontal bamboo ribs, small dark bronze cap and base, short thin hanging cord above. Entire silhouette centered with 12% transparent margin. Readable friendly shape at 45px wide, roughly width:height 1:2. GENUINE transparent alpha outside lamp and cord. No wall, wood, flowers, curtain, background, labels, letters, text, handles or red paint. One object only.",
+      "alpha": true,
+      "source": "sprites/sources/v3-front-lantern.png",
+      "output": "sprites/v3-front-lantern.webp"
+    }
+  ]
+}

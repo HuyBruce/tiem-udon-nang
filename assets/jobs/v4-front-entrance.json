@@ -1,0 +1,9 @@
+{
+  "date": "2026-10-02",
+  "mode": "built-in-imagegen",
+  "purpose": "Give the front room a distinct shop exterior and align the owner's half-body presentation with the new counter.",
+  "source": "assets/backgrounds/sources/v4-front-entrance.png",
+  "output": "assets/backgrounds/v4-front-entrance.webp",
+  "prompt": "Warm hand-painted gouache Japanese udon shop exterior in spring, vertical mobile scene. Blank timber shop sign, four terracotta noren panels, shoji entrance, low wood and green storefront counter, lanterns, flowers and a mossy stone lane in the foreground. Match the existing cozy room backgrounds. No characters, letters, logos or second serving tray.",
+  "integration": "layouts/front.json layers the dynamic Vietnamese sign and noren letters over the art, places the half-body owner behind the wood ledge, and keeps the existing entrance hotspot."
+}

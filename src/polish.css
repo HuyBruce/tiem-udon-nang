@@ -1,0 +1,125 @@
+.customer.dirty {
+  display: none;
+}
+.customer svg {
+  clip-path: inset(0 0 17% 0);
+}
+.topping-flight {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  z-index: 100;
+  pointer-events: none;
+}
+.topping-flight svg {
+  width: 100%;
+  height: 100%;
+}
+.broth-flight {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 44px;
+  height: 44px;
+  z-index: 100;
+  pointer-events: none;
+}
+.pour-stream {
+  position: fixed;
+  width: 12px;
+  height: 82px;
+  transform-origin: top;
+  z-index: 100;
+  pointer-events: none;
+}
+.pour-stream > .sprite {
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.pot-hit > .sprite.pot-steam {
+  position: absolute;
+  left: 22%;
+  top: -34%;
+  width: 56%;
+  height: 78%;
+  object-fit: contain;
+  opacity: 0.75;
+  pointer-events: none;
+  animation: steam 3.2s ease-in-out infinite;
+}
+.ingredients.tops .chosen svg {
+  animation: topping-bounce 0.35s ease-out;
+}
+.scene-arrow {
+  min-height: 50px;
+}
+.tray-slot > .sprite.accessory {
+  position: absolute;
+  pointer-events: none;
+  z-index: 1;
+}
+.tray-slot .dish-name,
+.tray-slot .food-layers {
+  position: relative;
+  z-index: 2;
+}
+.tray-slot > .sprite.tray-mat {
+  position: absolute;
+  z-index: 1;
+  left: 5%;
+  top: 26px;
+  width: 90%;
+  height: 42px;
+  pointer-events: none;
+}
+.tray-slot .dish-name {
+  z-index: 4;
+  padding: 0 2px;
+  border-radius: 3px;
+  background: #fff6e4e6;
+}
+.tray-slot .tiny-drink,
+.tray-slot .tiny-side {
+  z-index: 3;
+}
+.tray-slot > .sprite.chopsticks {
+  width: 34px;
+  height: 10px;
+  bottom: 15px;
+  left: 8%;
+  transform: rotate(-8deg);
+}
+.tray-slot > .sprite.spoon {
+  width: 9px;
+  height: 24px;
+  left: 4px;
+  top: 27px;
+  transform: rotate(13deg);
+}
+.tray-slot > .sprite.coaster {
+  right: 0;
+  top: 49px;
+  width: 18px;
+  height: 9px;
+}
+.tray-slot > .sprite.saucer {
+  width: 20px;
+  height: 10px;
+  bottom: 15px;
+  right: 0;
+}
+@keyframes topping-bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-7px) rotate(-5deg);
+  }
+  70% {
+    transform: translateY(2px);
+  }
+}

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="140" viewBox="0 0 220 140">
+  <path d="M22 12q88-16 176 0" fill="none" stroke="#927455" stroke-width="3"/>
+  <rect x="4" y="17" width="212" height="117" rx="8" fill="#bb8a54" stroke="#88603d" stroke-width="3"/>
+  <rect x="13" y="25" width="194" height="101" rx="4" fill="#526450"/>
+  <text x="110" y="58" text-anchor="middle" font-family="serif" font-size="26" fill="#fff0ce">UDON</text>
+  <path d="M40 84h57q-4 24-28 24T40 84zm8-7q-8-7 0-14m17 14q-8-7 0-14m17 14q-8-7 0-14M120 80h59m-59 13h48m-48 13h55" fill="none" stroke="#eedfb8" stroke-width="3" stroke-linecap="round"/>
+</svg>

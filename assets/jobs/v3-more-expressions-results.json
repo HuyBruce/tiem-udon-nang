@@ -1,0 +1,258 @@
+{
+  "mode": "builtin-imagegen",
+  "referenceMode": "identity-preserve-original-alpha",
+  "jobs": [
+    {
+      "id": "ha-happy",
+      "characterId": "ha",
+      "expression": "happy",
+      "prompt": "Use case: identity-preserve. Image 1 is the approved minimalist pastel half-body game character. Create a NEW sprite of the SAME person with only this facial expression change: soft eyes and slightly wider relaxed smile. Change only eyes, brows, mouth and very light blush as needed. Preserve all hair, clothes, colors, pose, body silhouette, head size, exact framing, tiny subtle nose, thin colored line weight and clean flat rendering. Real transparent alpha background. No checkerboard, no green screen, text or objects.",
+      "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-3ef5bc25-06c3-4c60-905b-d59a07795469.png"
+    },
+    {
+      "id": "ha-very-happy",
+      "characterId": "ha",
+      "expression": "very-happy",
+      "prompt": "Use case: identity-preserve. Image 1 is the approved minimalist pastel half-body game character. Create a NEW sprite of the SAME person with only this facial expression change: joyful curved upward eyes, wider delighted smile, subtle brighter blush. Change only eyes, brows, mouth and very light blush as needed. Preserve all hair, clothes, colors, pose, body silhouette, head size, exact framing, tiny subtle nose, thin colored line weight and clean flat rendering. Real transparent alpha background. No checkerboard, no green screen, text or objects.",
+      "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-073cc133-8ee0-4762-aa99-b3998d67d7a3.png"
+    },
+    {
+      "id": "ha-sad",
+      "characterId": "ha",
+      "expression": "sad",
+      "prompt": "Use case: identity-preserve. Image 1 is the approved minimalist pastel half-body game character. Create a NEW sprite of the SAME person with only this facial expression change: eyes droop subtly, small downturned mouth, gentle disappointment. Change only eyes, brows, mouth and very light blush as needed. Preserve all hair, clothes, colors, pose, body silhouette, head size, exact framing, tiny subtle nose, thin colored line weight and clean flat rendering. Real transparent alpha background. No checkerboard, no green screen, text or objects.",
+      "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-323ccfce-918c-418e-a295-a99bf4f76648.png"
+    },
+    {
+      "id": "ha-angry",
+      "characterId": "ha",
+      "expression": "angry",
+      "prompt": "Use case: identity-preserve. Image 1 is the approved minimalist pastel half-body game character. Create a NEW sprite of the SAME person with only this facial expression change: lowered eyebrows and short flat mouth, quietly displeased, never shouting. Change only eyes, brows, mouth and very light blush as needed. Preserve all hair, clothes, colors, pose, body silhouette, head size, exact framing, tiny subtle nose, thin colored line weight and clean flat rendering. Real transparent alpha background. No checkerboard, no green screen, text or objects.",
+      "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-f2918ca9-f639-49ab-a8f7-af02d6a04ab8.png"
+    },
+    {
+      "id": "ha-thinking",
+      "characterId": "ha",
+      "expression": "thinking",
+      "prompt": "Use case: identity-preserve. Image 1 is the approved minimalist pastel half-body game character. Create a NEW sprite of the SAME person with only this facial expression change: one brow slightly raised, small thoughtful mouth, pensive. Change only eyes, brows, mouth and very light blush as needed. Preserve all hair, clothes, colors, pose, body silhouette, head size, exact framing, tiny subtle nose, thin colored line weight and clean flat rendering. Real transparent alpha background. No checkerboard, no green screen, text or objects.",
+      "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-ca55a6ec-36d7-4a36-8234-642016351a14.png"
+    },
+    {
+      "id": "son-happy",
+      "characterId": "son",
+      "expression": "happy",
+      "prompt": "Use case: identity-preserve. Image 1 is the approved minimalist pastel half-body game character. Create a NEW sprite of the SAME person with only this facial expression change: soft eyes and slightly wider relaxed smile. Change only eyes, brows, mouth and very light blush as needed. Preserve all hair, clothes, colors, pose, body silhouette, head size, exact framing, tiny subtle nose, thin colored line weight and clean flat rendering. Real transparent alpha background. No checkerboard, no green screen, text or objects.",
+      "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-0e2d7fc7-28b1-4c01-84c5-2864c164de79.png"
+    },
+    {
+      "id": "son-very-happy",
+      "characterId": "son",
+      "expression": "very-happy",
+      "prompt": "Use case: identity-preserve. Image 1 is the approved minimalist pastel half-body game character. Create a NEW sprite of the SAME person with only this facial expression change: joyful curved upward eyes, wider delighted smile, subtle brighter blush. Change only eyes, brows, mouth and very light blush as needed. Preserve all hair, clothes, colors, pose, body silhouette, head size, exact framing, tiny subtle nose, thin colored line weight and clean flat rendering. Real transparent alpha background. No checkerboard, no green screen, text or objects.",
+      "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-be65f5c6-74a2-4e12-9ce3-0f4ccd9be0ef.png"
+    },
+    {
+      "id": "son-sad",
+      "characterId": "son",
+      "expression": "sad",
+      "prompt": "Use case: identity-preserve. Image 1 is the approved minimalist pastel half-body game character. Create a NEW sprite of the SAME person with only this facial expression change: eyes droop subtly, small downturned mouth, gentle disappointment. Change only eyes, brows, mouth and very light blush as needed. Preserve all hair, clothes, colors, pose, body silhouette, head size, exact framing, tiny subtle nose, thin colored line weight and clean flat rendering. Real transparent alpha background. No checkerboard, no green screen, text or objects.",
+      "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-32ff090e-4755-4c37-a758-ba59126e14b0.png"
+    },
+    {
+      "id": "son-angry",
+      "characterId": "son",
+      "expression": "angry",
+      "prompt": "Use case: identity-preserve. Image 1 is the approved minimalist pastel half-body game character. Create a NEW sprite of the SAME person with only this facial expression change: lowered eyebrows and short flat mouth, quietly displeased, never shouting. Change only eyes, brows, mouth and very light blush as needed. Preserve all hair, clothes, colors, pose, body silhouette, head size, exact framing, tiny subtle nose, thin colored line weight and clean flat rendering. Real transparent alpha background. No checkerboard, no green screen, text or objects.",
+      "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-bef4f17b-cc52-45f0-99a0-e22e0f09c109.png"
+    },
+    {
+      "id": "son-thinking",
+      "characterId": "son",
+      "expression": "thinking",
+      "prompt": "Use case: identity-preserve. Image 1 is the approved minimalist pastel half-body game character. Create a NEW sprite of the SAME person with only this facial expression change: one brow slightly raised, small thoughtful mouth, pensive. Change only eyes, brows, mouth and very light blush as needed. Preserve all hair, clothes, colors, pose, body silhouette, head size, exact framing, tiny subtle nose, thin colored line weight and clean flat rendering. Real transparent alpha background. No checkerboard, no green screen, text or objects.",
+      "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-0f64ee22-a788-49ab-b23e-da28f57fc6fe.png"
+    },
+    {
+      "id": "linh-happy",
+      "characterId": "linh",
+      "expression": "happy",
+      "prompt": "Use case: identity-preserve. Image 1 is the approved minimalist pastel half-body game character. Create a NEW sprite of the SAME person with only this facial expression change: soft eyes and slightly wider relaxed smile. Change only eyes, brows, mouth and very light blush as needed. Preserve all hair, clothes, colors, pose, body silhouette, head size, exact framing, tiny subtle nose, thin colored line weight and clean flat rendering. Real transparent alpha background. No checkerboard, no green screen, text or objects.",
+      "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-5a141e82-8355-4890-926f-62cb96e90110.png"
+    },
+    {
+      "id": "linh-very-happy",
+      "characterId": "linh",
+      "expression": "very-happy",
+      "prompt": "Use case: identity-preserve. Image 1 is the approved minimalist pastel half-body game character. Create a NEW sprite of the SAME person with only this facial expression change: joyful curved upward eyes, wider delighted smile, subtle brighter blush. Change only eyes, brows, mouth and very light blush as needed. Preserve all hair, clothes, colors, pose, body silhouette, head size, exact framing, tiny subtle nose, thin colored line weight and clean flat rendering. Real transparent alpha background. No checkerboard, no green screen, text or objects.",
+      "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-e35aad25-adab-44f0-ac09-d669ab75ae2b.png"
+    },
+    {
+      "id": "linh-sad",
+      "characterId": "linh",
+      "expression": "sad",
+      "prompt": "Use case: identity-preserve. Image 1 is the approved minimalist pastel half-body game character. Create a NEW sprite of the SAME person with only this facial expression change: eyes droop subtly, small downturned mouth, gentle disappointment. Change only eyes, brows, mouth and very light blush as needed. Preserve all hair, clothes, colors, pose, body silhouette, head size, exact framing, tiny subtle nose, thin colored line weight and clean flat rendering. Real transparent alpha background. No checkerboard, no green screen, text or objects.",
+      "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-210334f3-6059-4313-b14c-0ea3db1361ff.png"
+    },
+    {
+      "id": "linh-angry",
+      "characterId": "linh",
+      "expression": "angry",
+      "prompt": "Use case: identity-preserve. Image 1 is the approved minimalist pastel half-body game character. Create a NEW sprite of the SAME person with only this facial expression change: lowered eyebrows and short flat mouth, quietly displeased, never shouting. Change only eyes, brows, mouth and very light blush as needed. Preserve all hair, clothes, colors, pose, body silhouette, head size, exact framing, tiny subtle nose, thin colored line weight and clean flat rendering. Real transparent alpha background. No checkerboard, no green screen, text or objects.",
+      "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-5a91925c-cb9e-4e61-80db-eedc0f1ec7a1.png"
+    },
+    {
+      "id": "linh-thinking",
+      "characterId": "linh",
+      "expression": "thinking",
+      "prompt": "Use case: identity-preserve. Image 1 is the approved minimalist pastel half-body game character. Create a NEW sprite of the SAME person with only this facial expression change: one brow slightly raised, small thoughtful mouth, pensive. Change only eyes, brows, mouth and very light blush as needed. Preserve all hair, clothes, colors, pose, body silhouette, head size, exact framing, tiny subtle nose, thin colored line weight and clean flat rendering. Real transparent alpha background. No checkerboard, no green screen, text or objects.",
+      "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-de3f2f7f-720f-4816-90dd-109fe826789e.png"
+    },
+    {
+      "id": "ken-happy",
+      "characterId": "ken",
+      "expression": "happy",
+      "prompt": "Use case: identity-preserve. Image 1 is the approved minimalist pastel half-body game character. Create a NEW sprite of the SAME person with only this facial expression change: soft eyes and slightly wider relaxed smile. Change only eyes, brows, mouth and very light blush as needed. Preserve all hair, clothes, colors, pose, body silhouette, head size, exact framing, tiny subtle nose, thin colored line weight and clean flat rendering. Real transparent alpha background. No checkerboard, no green screen, text or objects.",
+      "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-e72c2845-bc2f-4b56-85a9-4474d45a2b7c.png"
+    },
+    {
+      "id": "ken-very-happy",
+      "characterId": "ken",
+      "expression": "very-happy",
+      "prompt": "Use case: identity-preserve. Image 1 is the approved minimalist pastel half-body game character. Create a NEW sprite of the SAME person with only this facial expression change: joyful curved upward eyes, wider delighted smile, subtle brighter blush. Change only eyes, brows, mouth and very light blush as needed. Preserve all hair, clothes, colors, pose, body silhouette, head size, exact framing, tiny subtle nose, thin colored line weight and clean flat rendering. Real transparent alpha background. No checkerboard, no green screen, text or objects.",
+      "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-f26e69a5-da90-457d-afdb-881b60aaf02f.png"
+    },
+    {
+      "id": "ken-sad",
+      "characterId": "ken",
+      "expression": "sad",
+      "prompt": "Use case: identity-preserve. Image 1 is the approved minimalist pastel half-body game character. Create a NEW sprite of the SAME person with only this facial expression change: eyes droop subtly, small downturned mouth, gentle disappointment. Change only eyes, brows, mouth and very light blush as needed. Preserve all hair, clothes, colors, pose, body silhouette, head size, exact framing, tiny subtle nose, thin colored line weight and clean flat rendering. Real transparent alpha background. No checkerboard, no green screen, text or objects.",
+      "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-47cf3479-3f12-4864-a392-14031ccf7f9d.png"
+    },
+    {
+      "id": "ken-angry",
+      "characterId": "ken",
+      "expression": "angry",
+      "prompt": "Use case: identity-preserve. Image 1 is the approved minimalist pastel half-body game character. Create a NEW sprite of the SAME person with only this facial expression change: lowered eyebrows and short flat mouth, quietly displeased, never shouting. Change only eyes, brows, mouth and very light blush as needed. Preserve all hair, clothes, colors, pose, body silhouette, head size, exact framing, tiny subtle nose, thin colored line weight and clean flat rendering. Real transparent alpha background. No checkerboard, no green screen, text or objects.",
+      "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-9a5ac8a8-7197-4020-8c28-ef0a83a4516c.png"
+    },
+    {
+      "id": "ken-thinking",
+      "characterId": "ken",
+      "expression": "thinking",
+      "prompt": "Use case: identity-preserve. Image 1 is the approved minimalist pastel half-body game character. Create a NEW sprite of the SAME person with only this facial expression change: one brow slightly raised, small thoughtful mouth, pensive. Change only eyes, brows, mouth and very light blush as needed. Preserve all hair, clothes, colors, pose, body silhouette, head size, exact framing, tiny subtle nose, thin colored line weight and clean flat rendering. Real transparent alpha background. No checkerboard, no green screen, text or objects.",
+      "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-4fd84d45-b80a-4447-aa8a-dfdfc4966c38.png"
+    },
+    {
+      "id": "vip-happy",
+      "characterId": "vip",
+      "expression": "happy",
+      "prompt": "Use case: identity-preserve. Image 1 is the approved minimalist pastel half-body game character. Create a NEW sprite of the SAME person with only this facial expression change: soft eyes and slightly wider relaxed smile. Change only eyes, brows, mouth and very light blush as needed. Preserve all hair, clothes, colors, pose, body silhouette, head size, exact framing, tiny subtle nose, thin colored line weight and clean flat rendering. Real transparent alpha background. No checkerboard, no green screen, text or objects.",
+      "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-e2111314-fca8-488a-9752-48fea5f6db3e.png"
+    },
+    {
+      "id": "vip-very-happy",
+      "characterId": "vip",
+      "expression": "very-happy",
+      "prompt": "Use case: identity-preserve. Image 1 is the approved minimalist pastel half-body game character. Create a NEW sprite of the SAME person with only this facial expression change: joyful curved upward eyes, wider delighted smile, subtle brighter blush. Change only eyes, brows, mouth and very light blush as needed. Preserve all hair, clothes, colors, pose, body silhouette, head size, exact framing, tiny subtle nose, thin colored line weight and clean flat rendering. Real transparent alpha background. No checkerboard, no green screen, text or objects.",
+      "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-12527766-87ff-4f8f-b723-2d70cd505596.png"
+    },
+    {
+      "id": "vip-sad",
+      "characterId": "vip",
+      "expression": "sad",
+      "prompt": "Use case: identity-preserve. Image 1 is the approved minimalist pastel half-body game character. Create a NEW sprite of the SAME person with only this facial expression change: eyes droop subtly, small downturned mouth, gentle disappointment. Change only eyes, brows, mouth and very light blush as needed. Preserve all hair, clothes, colors, pose, body silhouette, head size, exact framing, tiny subtle nose, thin colored line weight and clean flat rendering. Real transparent alpha background. No checkerboard, no green screen, text or objects.",
+      "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-7a58f62f-1b8e-4760-9744-0f6787c0ba1d.png"
+    },
+    {
+      "id": "vip-angry",
+      "characterId": "vip",
+      "expression": "angry",
+      "prompt": "Use case: identity-preserve. Image 1 is the approved minimalist pastel half-body game character. Create a NEW sprite of the SAME person with only this facial expression change: lowered eyebrows and short flat mouth, quietly displeased, never shouting. Change only eyes, brows, mouth and very light blush as needed. Preserve all hair, clothes, colors, pose, body silhouette, head size, exact framing, tiny subtle nose, thin colored line weight and clean flat rendering. Real transparent alpha background. No checkerboard, no green screen, text or objects.",
+      "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-769571e5-b51c-4a7e-ade2-079b74fdc244.png"
+    },
+    {
+      "id": "vip-thinking",
+      "characterId": "vip",
+      "expression": "thinking",
+      "prompt": "Use case: identity-preserve. Image 1 is the approved minimalist pastel half-body game character. Create a NEW sprite of the SAME person with only this facial expression change: one brow slightly raised, small thoughtful mouth, pensive. Change only eyes, brows, mouth and very light blush as needed. Preserve all hair, clothes, colors, pose, body silhouette, head size, exact framing, tiny subtle nose, thin colored line weight and clean flat rendering. Real transparent alpha background. No checkerboard, no green screen, text or objects.",
+      "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-fc9a632d-52ea-4462-9477-61a47f92951e.png"
+    },
+    {
+      "id": "thu-happy",
+      "characterId": "thu",
+      "expression": "happy",
+      "prompt": "Use case: identity-preserve. Image 1 is an approved minimalist pastel half-body udon-shop staff sprite. Keep SAME person, uniform, hair, colors, body, pose, image framing, facial proportions, tiny nose and thin colored line. Edit ONLY eyes, brows and mouth to show soft eyes and slightly wider relaxed smile. Real transparent alpha background. No green screen, checkerboard, text, props, or new outfit.",
+      "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-85eeb43b-89d4-4938-a443-a5502d146bc4.png"
+    },
+    {
+      "id": "thu-sad",
+      "characterId": "thu",
+      "expression": "sad",
+      "prompt": "Use case: identity-preserve. Image 1 is an approved minimalist pastel half-body udon-shop staff sprite. Keep SAME person, uniform, hair, colors, body, pose, image framing, facial proportions, tiny nose and thin colored line. Edit ONLY eyes, brows and mouth to show eyes droop subtly, small downturned mouth, gentle disappointment. Real transparent alpha background. No green screen, checkerboard, text, props, or new outfit.",
+      "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-e0a430c6-d758-4b34-adc3-5e5ed2c12ed4.png"
+    },
+    {
+      "id": "thu-thinking",
+      "characterId": "thu",
+      "expression": "thinking",
+      "prompt": "Use case: identity-preserve. Image 1 is an approved minimalist pastel half-body udon-shop staff sprite. Keep SAME person, uniform, hair, colors, body, pose, image framing, facial proportions, tiny nose and thin colored line. Edit ONLY eyes, brows and mouth to show one brow slightly raised, small thoughtful mouth, pensive. Real transparent alpha background. No green screen, checkerboard, text, props, or new outfit.",
+      "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-980818bd-1b20-4eac-abe4-6d17ce330fb5.png"
+    },
+    {
+      "id": "binh-happy",
+      "characterId": "binh",
+      "expression": "happy",
+      "prompt": "Use case: identity-preserve. Image 1 is an approved minimalist pastel half-body udon-shop staff sprite. Keep SAME person, uniform, hair, colors, body, pose, image framing, facial proportions, tiny nose and thin colored line. Edit ONLY eyes, brows and mouth to show soft eyes and slightly wider relaxed smile. Real transparent alpha background. No green screen, checkerboard, text, props, or new outfit.",
+      "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-2cfe8d93-29bb-4f09-9a93-198bd24c4cbd.png"
+    },
+    {
+      "id": "binh-sad",
+      "characterId": "binh",
+      "expression": "sad",
+      "prompt": "Use case: identity-preserve. Image 1 is an approved minimalist pastel half-body udon-shop staff sprite. Keep SAME person, uniform, hair, colors, body, pose, image framing, facial proportions, tiny nose and thin colored line. Edit ONLY eyes, brows and mouth to show eyes droop subtly, small downturned mouth, gentle disappointment. Real transparent alpha background. No green screen, checkerboard, text, props, or new outfit.",
+      "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-28499ff6-f332-44d1-b58d-82830326c098.png"
+    },
+    {
+      "id": "binh-thinking",
+      "characterId": "binh",
+      "expression": "thinking",
+      "prompt": "Use case: identity-preserve. Image 1 is an approved minimalist pastel half-body udon-shop staff sprite. Keep SAME person, uniform, hair, colors, body, pose, image framing, facial proportions, tiny nose and thin colored line. Edit ONLY eyes, brows and mouth to show one brow slightly raised, small thoughtful mouth, pensive. Real transparent alpha background. No green screen, checkerboard, text, props, or new outfit.",
+      "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-98a87b73-b8ff-4035-b702-68d2df3284b0.png"
+    },
+    {
+      "id": "yui-happy",
+      "characterId": "yui",
+      "expression": "happy",
+      "prompt": "Use case: identity-preserve. Image 1 is an approved minimalist pastel half-body udon-shop staff sprite. Keep SAME person, uniform, hair, colors, body, pose, image framing, facial proportions, tiny nose and thin colored line. Edit ONLY eyes, brows and mouth to show soft eyes and slightly wider relaxed smile. Real transparent alpha background. No green screen, checkerboard, text, props, or new outfit.",
+      "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-3be726ec-43c4-4bc9-818f-ca027fbc5857.png"
+    },
+    {
+      "id": "yui-sad",
+      "characterId": "yui",
+      "expression": "sad",
+      "prompt": "Use case: identity-preserve. Image 1 is an approved minimalist pastel half-body udon-shop staff sprite. Keep SAME person, uniform, hair, colors, body, pose, image framing, facial proportions, tiny nose and thin colored line. Edit ONLY eyes, brows and mouth to show eyes droop subtly, small downturned mouth, gentle disappointment. Real transparent alpha background. No green screen, checkerboard, text, props, or new outfit.",
+      "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-529c492f-5376-45f8-813b-1bbe53b441b7.png"
+    },
+    {
+      "id": "yui-thinking",
+      "characterId": "yui",
+      "expression": "thinking",
+      "prompt": "Use case: identity-preserve. Image 1 is an approved minimalist pastel half-body udon-shop staff sprite. Keep SAME person, uniform, hair, colors, body, pose, image framing, facial proportions, tiny nose and thin colored line. Edit ONLY eyes, brows and mouth to show one brow slightly raised, small thoughtful mouth, pensive. Real transparent alpha background. No green screen, checkerboard, text, props, or new outfit.",
+      "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-c94e4ac2-2299-4044-b308-c266b6e6d5e6.png"
+    },
+    {
+      "id": "owner-happy",
+      "characterId": "owner",
+      "expression": "happy",
+      "prompt": "Use case: identity-preserve. Image 1 is the full-body female udon-shop owner in a cream tiny-floral dress and cream apron. Preserve SAME person, two braids, cream floral dress and its tiny pastel rose/lavender/yellow/green flowers, cream apron, pose, shoes, full-body proportions and image framing. Edit ONLY the dot eyes, eyebrows and mouth to express soft eyes and slightly wider relaxed smile, retain the tiny nose. Clean flat pastel illustration, thin colored lines. Real transparent alpha background. No checkerboard, green backdrop, new clothing, text or extra objects.",
+      "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-d077659c-7feb-41fb-adba-c553d2ce28d9.png"
+    },
+    {
+      "id": "owner-sad",
+      "characterId": "owner",
+      "expression": "sad",
+      "prompt": "Use case: identity-preserve. Image 1 is the full-body female udon-shop owner in a cream tiny-floral dress and cream apron. Preserve SAME person, two braids, cream floral dress and its tiny pastel rose/lavender/yellow/green flowers, cream apron, pose, shoes, full-body proportions and image framing. Edit ONLY the dot eyes, eyebrows and mouth to express eyes droop subtly, small downturned mouth, gentle disappointment, retain the tiny nose. Clean flat pastel illustration, thin colored lines. Real transparent alpha background. No checkerboard, green backdrop, new clothing, text or extra objects.",
+      "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-8efeb732-7ad6-4433-b58a-5b285b0c9116.png"
+    }
+  ]
+}

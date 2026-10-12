@@ -1,0 +1,59 @@
+{
+  "mode": "built-in-imagegen",
+  "useCase": "precise-object-edit",
+  "basePrompt": "Transparent 2D game sprite for Tiệm mì Udon. Preserve the reference object's front-facing perspective, silhouette, thin warm olive-brown outline, soft shadow and cozy gouache texture. Genuine transparent background, clean alpha edges, no text, backdrop or extra objects.",
+  "edits": [
+    {
+      "id": "v3-noodle-pot-empty",
+      "reference": "assets/sprites/v2-noodle-pot.webp",
+      "change": "Remove all water and steam; show a visibly empty dry cream ceramic interior."
+    },
+    {
+      "id": "v3-noodle-pot-water",
+      "reference": "assets/sprites/v2-noodle-pot.webp",
+      "change": "Keep cool still water but remove all steam and bubbles."
+    },
+    {
+      "id": "v3-noodle-pot-boiling",
+      "reference": "assets/sprites/v3-noodle-pot-water.webp",
+      "change": "Show vigorous boiling water and steam, with no noodles."
+    },
+    {
+      "id": "v3-coffee-milk",
+      "reference": "assets/sprites/v2-glass.webp",
+      "change": "Replace the iced glass with a hot ceramic coffee milk cup and milk heart; second imagegen pass removed black background for true alpha."
+    },
+    {
+      "id": "v3-handmade-flour",
+      "reference": "assets/sprites/v2-board.webp",
+      "change": "Remove onions, chopped pieces and knife; leave a flour-dusted empty wooden board."
+    },
+    {
+      "id": "v3-handmade-wet",
+      "reference": "v3-handmade-flour",
+      "change": "Add a mound of flour with a small pool of water in its center."
+    },
+    {
+      "id": "v3-handmade-dry",
+      "reference": "v3-handmade-flour",
+      "change": "Add a small heaped mound of dry white wheat flour with no water."
+    },
+    {
+      "id": "v3-handmade-dough",
+      "reference": "v3-handmade-flour",
+      "change": "Add one smooth ivory kneaded dough ball."
+    },
+    {
+      "id": "v3-handmade-sheet",
+      "reference": "v3-handmade-flour",
+      "change": "Add one broad thin rolled sheet of ivory udon dough."
+    },
+    {
+      "id": "v3-handmade-cut",
+      "reference": "v3-handmade-flour",
+      "change": "Add a neat pile of thick freshly cut ivory udon strands."
+    }
+  ],
+  "output": "assets/sprites/v3-*.webp",
+  "processing": "Sharp resized to 512 px wide, WebP quality 86, original alpha preserved"
+}

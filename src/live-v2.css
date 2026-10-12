@@ -1,0 +1,314 @@
+/* Shared stage proportions: HUD / wall / worktop / green fascia / tray. */
+.game.live-v2 {
+  background: #f1ddd3;
+}
+.live-v2:after {
+  display: none;
+}
+.live-v2 .stage {
+  position: absolute;
+  inset: 0 0 84px;
+  min-height: 0;
+  height: auto;
+  flex: none;
+  overflow: hidden;
+}
+.live-v2 > .hud {
+  position: absolute;
+  inset: 0 0 auto;
+  height: 8%;
+  min-height: 54px;
+  padding: 5px 12px;
+  z-index: 35;
+  background: #fff6e4eb;
+}
+.live-v2 > .scene-heading {
+  position: absolute;
+  top: 9%;
+  left: 14%;
+  right: 14%;
+  padding: 4px 8px;
+  min-height: 0;
+  z-index: 26;
+  border-radius: 10px;
+  background: #fff6e4c9;
+  gap: 2px;
+  pointer-events: none;
+}
+.live-v2 .scene-heading .eyebrow {
+  display: none;
+}
+.live-v2 .scene-heading h1 {
+  font-size: 18px;
+}
+.live-v2 .scene-heading .season-note {
+  font-size: 10px;
+  max-width: 105px;
+}
+.live-v2 > .scene-pagination {
+  position: absolute;
+  bottom: 59px;
+  left: 0;
+  right: 0;
+  height: 44px;
+  min-height: 44px;
+  margin: 0;
+  padding: 0;
+  background: #f1ddd3;
+  z-index: 35;
+}
+.live-v2 > .scene-pagination button {
+  height: 44px;
+  min-height: 44px;
+  min-width: 44px;
+}
+.live-v2 > .bottom-tools {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 59px;
+  padding: 3px 8px max(3px, env(safe-area-inset-bottom));
+  background: #f1ddd3;
+  z-index: 35;
+}
+.live-v2 > .bottom-tools button {
+  font-size: 12px;
+  min-height: 44px;
+}
+.live-v2 > .wooden-tray {
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  bottom: 105px;
+  height: 120px;
+  padding: 7px 0;
+  background: none;
+  border: 0;
+  box-shadow: none;
+  z-index: 24;
+}
+.live-v2 .tray-slots {
+  height: 80px;
+  background-image: var(--tray-art);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.live-v2 .tray-label small {
+  display: none;
+}
+.live-v2 .tray-slot {
+  background: transparent;
+  border: 0;
+}
+.live-v2 .tray-slot.selected {
+  background: #d4dbad55;
+}
+.live-v2 > .scene-actions {
+  position: absolute;
+  top: 56%;
+  left: 12%;
+  right: 12%;
+  padding: 4px;
+  z-index: 24;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+}
+.live-v2 .scene-actions button {
+  min-height: 44px;
+  font-size: 11px;
+  padding: 4px 8px;
+  background: #fff6e4ed;
+  color: #3f5b45;
+}
+.live-v2 > .kitchen-actions {
+  display: flex;
+}
+.live-v2 > .kitchen-actions button {
+  flex: 0 1 180px;
+}
+.live-v2 > .tutorial {
+  position: absolute;
+  top: auto;
+  bottom: 237px;
+  left: 15%;
+  right: 15%;
+  height: auto;
+  min-height: 0;
+  display: block;
+  padding: 4px 6px;
+  z-index: 24;
+  font-size: 10px;
+  border: 0;
+  border-radius: 8px;
+  text-align: center;
+}
+.live-v2:has(.stage.front) > .scene-heading {
+  top: 63%;
+}
+.live-v2 > .tutorial svg {
+  display: none;
+}
+.live-v2 > .scene-caption {
+  position: absolute;
+  bottom: 140px;
+  left: 17%;
+  right: 17%;
+  z-index: 24;
+  padding: 8px 4px;
+  font-size: 12px;
+  background: #fff6e4cf;
+  border-radius: 12px;
+}
+.scene-foreground {
+  position: absolute;
+  inset: 0;
+  z-index: 23;
+  pointer-events: none;
+}
+.scene-foreground > .sprite {
+  object-fit: fill;
+  pointer-events: none;
+}
+.live-v2 .scene-arrow {
+  top: 65%;
+  width: 44px;
+  height: 44px;
+  min-height: 44px;
+  z-index: 25;
+}
+.live-v2 .customer-place {
+  height: 34%;
+}
+.live-v2 .customer {
+  position: absolute;
+  inset: 0 0 auto;
+  height: 65%;
+  width: 100%;
+  background: none;
+  border: 0;
+  padding: 0;
+}
+.live-v2 .customer > .sprite {
+  object-position: center bottom;
+}
+.live-v2 .patience {
+  position: absolute;
+  top: 66%;
+  left: 10%;
+  width: 80%;
+  height: 4px;
+}
+.live-v2 .customer-call {
+  left: auto;
+  right: 0;
+  top: 0;
+  bottom: auto;
+  transform: none;
+  width: 28px;
+  height: 28px;
+  max-width: 28px;
+  padding: 2px;
+  border-radius: 50%;
+  font-size: 17px;
+  overflow: hidden;
+}
+.live-v2 .reaction {
+  left: auto;
+  right: 0;
+  top: 0;
+  bottom: auto;
+  transform: none;
+  width: 28px;
+  height: 28px;
+  padding: 2px;
+  border-radius: 50%;
+  font-size: 16px;
+}
+.live-v2 .order-ticket {
+  position: absolute;
+  top: 76%;
+  left: 4%;
+  width: 92%;
+  min-height: 44px;
+  font-size: 10px;
+  padding: 3px;
+  background: #fff6e4;
+}
+.live-v2 .order-ticket small {
+  font-size: 9px;
+}
+.live-v2 .empty-seat {
+  position: absolute;
+  top: 76%;
+  left: 10%;
+  right: 10%;
+  font-size: 11px;
+}
+.live-v2 .table-bowl {
+  top: 76%;
+  left: 12%;
+  width: 76%;
+  height: 22%;
+}
+.live-v2 .kitchen-tickets {
+  top: 15%;
+  left: 14%;
+  right: 14%;
+  z-index: 25;
+}
+.live-v2 .shop-sign {
+  font-size: clamp(15px, 4.4vw, 22px);
+}
+.live-v2 .noren-letters {
+  font-size: 25px;
+}
+.live-v2 .prepared-drink {
+  top: 45%;
+  left: 48%;
+  height: 12%;
+  z-index: 3;
+}
+.live-v2 .noodle-basket > span,
+.live-v2 .pot-label {
+  opacity: 0;
+  pointer-events: none;
+}
+.live-v2 .noodle-basket:is(:focus-visible, :active, .selected) > span,
+.live-v2 .pot-hit:is(:focus-visible, :active, .ready) .pot-label {
+  opacity: 1;
+}
+@media (max-height: 650px) {
+  .live-v2 > .wooden-tray {
+    bottom: 105px;
+    height: 90px;
+  }
+  .live-v2 .tray-slots {
+    height: 57px;
+  }
+  .live-v2 > .scene-actions {
+    top: 52%;
+  }
+  .live-v2 .scene-actions button {
+    font-size: 9px;
+  }
+  .live-v2 > .tutorial {
+    top: auto;
+    bottom: 198px;
+    font-size: 9px;
+  }
+  .live-v2 > .scene-caption {
+    bottom: 105px;
+  }
+  .live-v2 .scene-heading h1 {
+    font-size: 15px;
+  }
+  .live-v2 .scene-heading .season-note {
+    font-size: 9px;
+  }
+  .live-v2 > .scene-heading {
+    top: 11%;
+  }
+}

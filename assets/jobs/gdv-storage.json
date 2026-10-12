@@ -1,0 +1,10 @@
+{
+  "tool": "image_gen (built-in)",
+  "prompt": "Use case: style-transfer. Asset type: portrait 9:16 Japanese udon-game PANTRY background, 1080x1920 target. Reference front and seating are style anchors. Same art style, line weight, palette and level of detail as the reference; only change the subject as described. Front view. Preserve this source-coordinate architecture precisely: warm cream wall from y0 to y42%; three empty honey wooden shelf boards spanning x5–90% at y8%, y19%, y28.8%, small supports and subtle thickness; a honey wood work counter across full width beginning EXACTLY y42%, its top band down to y59%; narrow deep sage/green front fascia y59–70%; simple warm light wood/cream floor from y70% to bottom. All horizontal band edges reach both image edges. Slight depth, same straight front view as reference. At far left x0–10% a small built-in empty cubby/support, at far right x90–100% cream doorway pier, warm small cellar arch motif; keep center clear. Pantry must feel inhabited through architecture and shelving without painting interaction objects: NO jars, no bags, no crates, no fridge, no food, no tools, no plants, no people. These are separate sprites. Minimal woodgrain, nearly flat clean gouache shapes, no watercolor stains, ONE muted shadow tone, thin warm colored lines about2px/1080 width, gentle upper-left light. Wall #F5EBDD/#F8E4C6, honey #E0A85A, fascia #3F5B45, floor #EBC17A. No photographic detail, no heavy texture, no foliage, no text, no watermark or border. Keep the lower foreground light and clear for supplies and the game's tray, not a large empty dark wood table.",
+  "referenceImages": [
+    "assets/style_reference/front.webp",
+    "assets/style_reference/seating.webp"
+  ],
+  "generatedSource": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ff00-5b98-7621-9551-c7ac662c37cf\\exec-efda0eda-1bf5-46d0-ba1f-74fd842e7480.png",
+  "source": "assets/incoming/gdv/storage.png"
+}

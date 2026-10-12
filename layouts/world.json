@@ -1,0 +1,30 @@
+{
+  "id": "world",
+  "units": "viewport",
+  "order": ["front", "guests", "drinks", "kitchen", "storage", "garden"],
+  "roomWidth": 1,
+  "guestPages": "upgrades.seats + 1",
+  "visual": {
+    "wallPalette": "anchorWall",
+    "counterPalette": "anchorHoney",
+    "fasciaPalette": "anchorGreen",
+    "bakedBands": [0, 59, 68, 74, 100],
+    "edgeBlendPercent": 4
+  },
+  "composition": {
+    "coreAspect": 1.7777777778,
+    "rooms": ["front", "guests", "drinks", "kitchen", "storage"],
+    "source": [0, 42, 59, 70, 100],
+    "sourceByRoom": {
+      "front": [0, 46.4, 59, 70, 100],
+      "drinks": [0, 40.2, 59, 70, 100],
+      "kitchen": [0, 40.8, 59, 70, 100]
+    },
+    "target": [0, 63, 71, 76, 100],
+    "targetByRoom":{"drinks":[0,58,66,71,100]},
+    "shortTarget": [0, 58, 67, 73, 100],
+    "shortHeight": 650,
+    "shortWallInset": 43,
+    "shortWallRooms": ["drinks", "kitchen"]
+  }
+}

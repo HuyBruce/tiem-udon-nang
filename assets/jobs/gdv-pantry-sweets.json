@@ -1,0 +1,10 @@
+{
+  "tool": "image_gen (built-in)",
+  "prompt": "Use case: style-transfer. ONE standalone transparent mobile game pantry packaging sprite: a round transparent pale glass confectionery jar showing a few large cream sugar cubes, small honey wooden lid and terracotta ribbon. Input images are style references only. Same art style, line weight, palette and level of detail as the reference; only change the subject as described. Front view, fully visible, centered occupying 78 percent square canvas. Thin olive-brown colored line art, mostly flat cream/honey/sage/terracotta fills, ONE shadow tone, no realistic detail, mottled watercolor or thick black border. Readable at 50px wide. TRUE transparent background, clean antialiased alpha, no printed checkerboard, no external ground shadow or halo. No text/logo/watermark, no other objects, no scene.",
+  "referenceImages": [
+    "assets/style_reference/front.webp",
+    "assets/style_reference/seating.webp"
+  ],
+  "generatedSource": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ff00-5b98-7621-9551-c7ac662c37cf\\exec-98c4f28a-532e-4ade-870d-403fa7697e64.png",
+  "source": "assets/incoming/gdv/pantry-sweets.png"
+}

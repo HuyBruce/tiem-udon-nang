@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-02",
+  "mode": "built-in-imagegen",
+  "purpose": "Add distinct drink and stocked ingredient art for four drinks named in the v3 prompt.",
+  "reference": [
+    "assets/sprites/v3-coffee-milk.webp",
+    "assets/sprites/v3-ingredient-tea.webp",
+    "assets/sprites/v3-drink-sakura-tea.webp",
+    "assets/sprites/v3-drink-hojicha-latte.webp"
+  ],
+  "coreSheet": {
+    "source": "assets/sprites/sources/v3-drinks-core-sheet.png",
+    "outputs": [
+      "assets/sprites/v3-drink-sencha.webp",
+      "assets/sprites/v3-drink-matcha-latte.webp",
+      "assets/sprites/v3-drink-yuzu-soda.webp",
+      "assets/sprites/v3-drink-hojicha-tea.webp"
+    ],
+    "prompt": "Four distinct transparent Japanese cafe drinks in one row matching the new gouache sprite style: sencha tea, matcha milk latte, yuzu soda, roasted hojicha tea. Wide gutters, no text or scenery."
+  },
+  "drinkSheet": {
+    "source": "assets/sprites/sources/v3-drinks-expansion-sheet.png",
+    "outputs": [
+      "assets/sprites/v3-drink-hojicha-latte.webp",
+      "assets/sprites/v3-drink-sakura-tea.webp",
+      "assets/sprites/v3-drink-melon-soda.webp",
+      "assets/sprites/v3-drink-strawberry-milk.webp"
+    ],
+    "prompt": "Four separate transparent Japanese cafe drinks in one row, matching existing warm gouache latte art: Hojicha Latte, Sakura Tea, Melon Soda, Strawberry Milk. Wide gutters, no text or scenery."
+  },
+  "ingredientSheet": {
+    "source": "assets/sprites/sources/v3-drinks-ingredients-sheet.png",
+    "outputs": [
+      "assets/sprites/v3-ingredient-sakura.webp",
+      "assets/sprites/v3-ingredient-melon.webp",
+      "assets/sprites/v3-ingredient-strawberry.webp"
+    ],
+    "prompt": "Three separate transparent ingredient icons in the existing hand-painted style: packet of edible sakura petals, bottle of melon syrup, crate of strawberries. Wide gutters, no text or scenery."
+  },
+  "processing": "scripts/prepare-drinks-expansion-art.mjs slices at verified transparent gutters and exports centered WebP sprites."
+}

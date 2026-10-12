@@ -1,0 +1,8 @@
+{
+  "tool": "image_gen",
+  "prompt": "Production sprite sheet for a cozy udon shop mobile game. Reference is STYLE ONLY: transparent clear glass, warm brown fine outline, soft flat watercolor, amber/sage/melon palette. REAL transparent alpha background, no checkerboard or halos. Exactly 4 columns by 3 rows in an evenly spaced uniform grid, each cell same square dimensions, no labels or borders. EACH CELL contains the SAME medium short drinking glass, identical exterior outline, position, camera angle, scale and bottom pivot, isolated with ample padding, no straw, no steam, no saucer. Twelve fluid stages, left to right top to bottom: [0] empty clear glass; [1] half amber tea; [2] full amber tea with four clear ice cubes; [3] half green matcha; [4] full pale green milky matcha with ice and a gentle milk swirl; [5] half dark iced coffee without ice yet; [6] full light brown milky iced coffee with ice; [7] full golden yuzu soda with ice, little bubbles and a small citrus slice inside; [8] full melon green soda with ice; [9] full soft pink strawberry milk with ice; [10] half white milk; [11] full clear soda with ice. This is one aligned sprite sheet asset, not a scene. One glass per cell, exact identical exterior across all cells.",
+  "reference": "assets/sprites/v3-drink-sencha-cold.webp",
+  "alpha": true,
+  "source": "assets/sprites/sources/gdw-glass-stages.png",
+  "technicalExport": "uniform 4x3 cells, alpha trim, contain 256x256"
+}

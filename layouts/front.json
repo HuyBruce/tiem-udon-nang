@@ -1,0 +1,114 @@
+{
+  "id": "front",
+  "status": "v4-entrance-integration",
+  "zones": {
+    "hud": [0, 8],
+    "wall": [8, 42],
+    "counter": [42, 59],
+    "fascia": [59, 70],
+    "tray": [70, 100]
+  },
+  "background": "gdv-world-front",
+  "layers": [
+    {
+      "id": "lantern-left",
+      "asset": "front-lantern",
+      "className": "hanging-lantern",
+      "x": 8.5,
+      "y": 5.5,
+      "width": 11,
+      "height": 15,
+      "anchor": [0.5, 0],
+      "z": 3
+    },
+    {
+      "id": "lantern-right",
+      "asset": "front-lantern",
+      "className": "hanging-lantern lantern-right",
+      "x": 91.5,
+      "y": 5.5,
+      "width": 11,
+      "height": 15,
+      "anchor": [0.5, 0],
+      "z": 3
+    },
+    {
+      "id": "owner",
+      "asset": "v3-owner",
+      "className": "front-owner",
+      "x": 50,
+      "y": 46,
+      "width": 74,
+      "height": 32,
+      "anchor": [0.5, 1],
+      "z": 2
+    },
+    {
+      "id": "flowers-left",
+      "asset": "flowers",
+      "x": 12,
+      "y": 57,
+      "width": 18,
+      "height": 14,
+      "anchor": [0.5, 1],
+      "z": 2
+    },
+    {
+      "id": "flowers-right",
+      "asset": "flowers",
+      "x": 87,
+      "y": 57,
+      "width": 18,
+      "height": 14,
+      "anchor": [0.5, 1],
+      "z": 2
+    }
+  ],
+  "hotspots": [
+    {
+      "x": 30,
+      "y": 28,
+      "width": 40,
+      "height": 31,
+      "action": "enter-shop",
+      "label": "Bước vào tiệm"
+    }
+  ],
+  "sign": {
+    "x": 25,
+    "y": 9,
+    "width": 50,
+    "height": 3.8
+  },
+  "noren": {
+    "x": 19,
+    "y": 14.8,
+    "width": 64,
+    "height": 11.3,
+    "asset": "front-noren"
+  },
+  "artVersion": 4,
+  "pet": {
+    "x": 19,
+    "y": 90,
+    "width": 28,
+    "height": 12,
+    "anchor": [0.5, 1],
+    "z": 25
+  },
+  "seasonDecor": {
+    "x": 50,
+    "y": 49,
+    "width": 50,
+    "height": 13,
+    "anchor": [0.5, 0],
+    "z": 1
+  },
+  "foreground": "gdv-fg-front",
+  "doorSign": {
+    "x": 66,
+    "y": 34,
+    "width": 29,
+    "height": 7
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "tool": "image_gen (built-in)",
+  "prompt": "Use case: precise background style edit. FIRST image is the own-game front entrance layout to preserve. Second image is cleaner own-game seating illustration style. Same art style, line weight, palette and level of detail as the reference; only change the subject as described. Preserve all normalized geometry: sage tile eave upper5%, empty wooden sign x25-75%, y9-15%; noren pole at17% with EMPTY SPACE underneath (noren is a separate sprite), wooden shoji double doors occupy x15-86% y19-46%, countertop begins EXACTLY46.4%, tabletop ends55%, fascia bottom70%. Cozy udon shop front view portrait9:16. Remove ALL ivy, flowers, foliage, tiny surrounding roof details and all leaf shadows. Replace the highly realistic mottled stones below70% with simple flat large cream paving slabs in a honey muted walkway; no grass, plants or pots. Cream side walls and honey door beams. Thin olive-brown colored outlines, almost flat #F8E4C6 cream, honey #EFAB58 wood, deep green #435037 narrow counter fascia, only ONE soft shadow tone, minimal grain, remove strong diagonal sunlight and realistic wood texture. NO text, characters, UI, utensils, lanterns or interactive objects. All blank sign and noren hanging space retained for separate sprites. Full opaque portrait canvas. Quiet clean healing illustration, not photographic.",
+  "referenceImages": [
+    "D:\\GameZui\\assets\\backgrounds\\v5-front-motion.webp",
+    "D:\\GameZui\\assets\\incoming\\gdv\\guests-plate.png"
+  ],
+  "generatedSource": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ff00-5b98-7621-9551-c7ac662c37cf\\exec-58c72676-be0f-46da-bc4a-85c630e2f838.png",
+  "source": "assets/incoming/gdv/front-plate.png"
+}

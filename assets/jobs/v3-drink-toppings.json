@@ -1,0 +1,58 @@
+{
+  "id": "v3-drink-toppings",
+  "generationMethod": "built-in imagegen, five separate calls with genuine transparent alpha",
+  "styleReference": "sprites/v3-drink-matcha-latte-cold.webp",
+  "postprocess": "scripts/prepare-drink-topping-art.mjs",
+  "derivedAssets": [
+    {
+      "id": "ingredient-iceCream",
+      "source": "sprites/sources/v3-drink-topping-ice-cream.png",
+      "output": "sprites/v3-ingredient-iceCream.webp",
+      "size": [256, 256]
+    }
+  ],
+  "entries": [
+    {
+      "id": "iceCream",
+      "assetId": "drink-topping-ice-cream",
+      "subject": "ONE rounded scoop of pale vanilla ice cream, cream colored with very subtle scoop ridges, low rounded mound, without cone, cup, dish, spoon or garnish",
+      "ingredient": "iceCream",
+      "source": "sprites/sources/v3-drink-topping-ice-cream.png",
+      "output": "sprites/v3-drink-topping-ice-cream.webp",
+      "prompt": "Use case: stylized-concept. Asset type: independent transparent 2D sprite for an existing cozy Japanese udon game. Reference image is STYLE ONLY: match its warm hand-painted gouache, gentle paper texture, warm cream/sage palette, soft thin olive-brown outline and top-left lighting. Subject: ONE rounded scoop of pale vanilla ice cream, cream colored with very subtle scoop ridges, low rounded mound, without cone, cup, dish, spoon or garnish. Center the single object, entire silhouette inside the image with 12 percent transparent margin. Slightly above/front view matching the reference drink surface. This will be composited above a drink at 16-50 pixels wide; keep the outline and silhouette simple and readable. Genuine transparent alpha outside the single object, no background, countertop, glass, liquid, shadow rectangle, letters or watermark. Do not recreate the reference glass."
+    },
+    {
+      "id": "whippedCream",
+      "assetId": "drink-topping-whipped-cream",
+      "subject": "ONE low dollop of whipped cream in a soft three-layer piped swirl, pale warm ivory with gentle cream shadows, without container, plate, fruit, cherry or utensil",
+      "source": "sprites/sources/v3-drink-topping-whipped-cream.png",
+      "output": "sprites/v3-drink-topping-whipped-cream.webp",
+      "prompt": "Use case: stylized-concept. Asset type: independent transparent 2D sprite for an existing cozy Japanese udon game. Reference image is STYLE ONLY: match its warm hand-painted gouache, gentle paper texture, warm cream/sage palette, soft thin olive-brown outline and top-left lighting. Subject: ONE low dollop of whipped cream in a soft three-layer piped swirl, pale warm ivory with gentle cream shadows, without container, plate, fruit, cherry or utensil. Center the single object, entire silhouette inside the image with 12 percent transparent margin. Slightly above/front view matching the reference drink surface. This will be composited above a drink at 16-50 pixels wide; keep the outline and silhouette simple and readable. Genuine transparent alpha outside the single object, no background, countertop, glass, liquid, shadow rectangle, letters or watermark. Do not recreate the reference glass."
+    },
+    {
+      "id": "sakura",
+      "assetId": "drink-topping-sakura",
+      "subject": "ONE small pale pink edible sakura blossom, five petals and muted rose center, viewed gently from above at a shallow angle, without stem, branches, leaves, cup or plate",
+      "source": "sprites/sources/v3-drink-topping-sakura.png",
+      "output": "sprites/v3-drink-topping-sakura.webp",
+      "prompt": "Use case: stylized-concept. Asset type: independent transparent 2D sprite for an existing cozy Japanese udon game. Reference image is STYLE ONLY: match its warm hand-painted gouache, gentle paper texture, warm cream/sage palette, soft thin olive-brown outline and top-left lighting. Subject: ONE small pale pink edible sakura blossom, five petals and muted rose center, viewed gently from above at a shallow angle, without stem, branches, leaves, cup or plate. Center the single object, entire silhouette inside the image with 12 percent transparent margin. Slightly above/front view matching the reference drink surface. This will be composited above a drink at 16-50 pixels wide; keep the outline and silhouette simple and readable. Genuine transparent alpha outside the single object, no background, countertop, glass, liquid, shadow rectangle, letters or watermark. Do not recreate the reference glass."
+    },
+    {
+      "id": "yuzu",
+      "assetId": "drink-topping-yuzu",
+      "subject": "ONE half-moon slice of yuzu citrus, pale lemon yellow pulp and a thin muted golden rind, slightly tilted as a garnish, without leaves, drink, cup or plate",
+      "source": "sprites/sources/v3-drink-topping-yuzu.png",
+      "output": "sprites/v3-drink-topping-yuzu.webp",
+      "prompt": "Use case: stylized-concept. Asset type: independent transparent 2D sprite for an existing cozy Japanese udon game. Reference image is STYLE ONLY: match its warm hand-painted gouache, gentle paper texture, warm cream/sage palette, soft thin olive-brown outline and top-left lighting. Subject: ONE half-moon slice of yuzu citrus, pale lemon yellow pulp and a thin muted golden rind, slightly tilted as a garnish, without leaves, drink, cup or plate. Center the single object, entire silhouette inside the image with 12 percent transparent margin. Slightly above/front view matching the reference drink surface. This will be composited above a drink at 16-50 pixels wide; keep the outline and silhouette simple and readable. Genuine transparent alpha outside the single object, no background, countertop, glass, liquid, shadow rectangle, letters or watermark. Do not recreate the reference glass."
+    },
+    {
+      "id": "cream",
+      "assetId": "ingredient-cream",
+      "subject": "ONE small open cream-colored dairy tub containing pale ivory whipping cream with a subtly folded surface, warm sage green rim, no printed label, text or utensils",
+      "ingredient": "cream",
+      "source": "sprites/sources/v3-ingredient-cream.png",
+      "output": "sprites/v3-ingredient-cream.webp",
+      "prompt": "Use case: stylized-concept. Asset type: independent transparent 2D sprite for an existing cozy Japanese udon game. Reference image is STYLE ONLY: match its warm hand-painted gouache, gentle paper texture, warm cream/sage palette, soft thin olive-brown outline and top-left lighting. Subject: ONE small open cream-colored dairy tub containing pale ivory whipping cream with a subtly folded surface, warm sage green rim, no printed label, text or utensils. Center the single object, entire silhouette inside the image with 12 percent transparent margin. Slightly above/front view matching the reference drink surface. This will be composited above a drink at 16-50 pixels wide; keep the outline and silhouette simple and readable. Genuine transparent alpha outside the single object, no background, countertop, glass, liquid, shadow rectangle, letters or watermark. Do not recreate the reference glass."
+    }
+  ]
+}

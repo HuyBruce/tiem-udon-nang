@@ -1,0 +1,813 @@
+/* Mobile readability and physical stations, layered over the original palette. */
+button,
+input,
+select {
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+button {
+  min-height: 44px;
+  line-height: 1.45;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+.hud {
+  min-height: 67px;
+  padding-top: max(8px, env(safe-area-inset-top));
+}
+.analog-clock {
+  position: relative;
+  display: inline-block;
+  width: 43px;
+  height: 43px;
+  flex-shrink: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.analog-clock .clock-hour,
+.analog-clock .clock-minute,
+.analog-clock .clock-pivot {
+  position: absolute;
+  display: block;
+  border-radius: 8px;
+}
+.analog-clock .clock-hour {
+  width: 3px;
+  height: 10px;
+  left: calc(50% - 1.5px);
+  top: calc(50% - 10px);
+  background: #574b3d;
+  transform-origin: 50% 100%;
+}
+.analog-clock .clock-minute {
+  width: 2px;
+  height: 15px;
+  left: calc(50% - 1px);
+  top: calc(50% - 15px);
+  background: #ad6750;
+  transform-origin: 50% 100%;
+}
+.analog-clock .clock-pivot {
+  width: 4px;
+  height: 4px;
+  left: calc(50% - 2px);
+  top: calc(50% - 2px);
+  background: #574b3d;
+}
+.day-weather {
+  gap: 7px;
+}
+.day-weather strong {
+  font-size: 13px;
+}
+.day-weather small {
+  font-size: 11px;
+}
+.wallet strong {
+  font-size: 17px;
+}
+.wallet small {
+  font-size: 10px;
+}
+.scene-heading {
+  padding: 8px 20px 10px;
+}
+.scene-heading h1 {
+  font-size: 25px;
+  line-height: 1.4;
+  margin: 0;
+}
+.scene-heading .eyebrow {
+  font-size: 10px;
+}
+.season-note {
+  font-size: 11px;
+}
+.scene-pagination {
+  height: 44px;
+  min-height: 44px;
+  gap: 0;
+  padding: 0 8px;
+  justify-content: center;
+}
+.scene-pagination button {
+  min-width: 44px;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+}
+.scene-pagination:has(button:nth-child(8)) {
+  justify-content: flex-start;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.scene-pagination:has(button:nth-child(8)) button {
+  min-width: 44px;
+  width: 44px;
+  flex-shrink: 0;
+}
+.scene-arrow {
+  min-width: 44px;
+  min-height: 44px;
+  opacity: 0.78;
+}
+.bottom-tools {
+  padding-bottom: max(9px, env(safe-area-inset-bottom));
+}
+.bottom-tools button {
+  font-size: 12px;
+}
+.sheet {
+  max-height: calc(100dvh - var(--safe-top) - 12px);
+  padding-top: 0;
+  overflow: hidden;
+}
+.sheet-grip {
+  display: none;
+}
+.sheet-title {
+  min-height: 58px;
+  display: flex;
+  align-items: center;
+  padding: 12px 65px 12px 22px;
+  border-bottom: 1px solid #d5c9ac;
+  background: #f6efda;
+  flex-shrink: 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+.close-sheet {
+  top: 6px;
+  right: 10px;
+  min-width: 44px;
+  min-height: 44px;
+}
+.sheet-content {
+  padding: 18px 20px 26px;
+  font-size: 15px;
+  line-height: 1.7;
+  overflow-x: hidden;
+  overflow-wrap: anywhere;
+}
+.sheet-content p,
+.sheet-content blockquote {
+  font-size: 14px;
+  line-height: 1.75;
+}
+.sheet-content small,
+.sheet-content .fine {
+  font-size: 12px;
+  line-height: 1.65;
+}
+.sheet-content button {
+  font-size: 13px;
+  min-height: 46px;
+  padding: 10px 12px;
+}
+.sheet-content > button {
+  margin: 7px 0;
+  width: 100%;
+}
+.sheet-content h3,
+.shop-card h3,
+.menu-row h3,
+.stock-row strong {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+}
+.panel-heading {
+  margin-bottom: 18px;
+  padding-right: 0;
+}
+.panel-heading h2 {
+  font-size: 27px;
+  line-height: 1.45;
+  margin-top: 0;
+}
+.panel-heading p {
+  margin-top: 8px;
+}
+.stock-row {
+  gap: 10px;
+  padding: 14px 0;
+}
+.stock-row small {
+  display: block;
+}
+.stock-row > div {
+  min-width: 0;
+  flex: 1;
+}
+.stock-row .buy {
+  flex-shrink: 0;
+  min-width: 74px;
+}
+.ingredients {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+}
+.ingredients button {
+  font-size: 12px;
+  min-height: 94px;
+  padding: 8px 5px;
+}
+.ingredients button small {
+  display: block;
+  font-size: 11px;
+}
+.ingredients.tops button svg {
+  width: 43px;
+  height: 43px;
+}
+.cook-bowl {
+  height: auto;
+  min-height: 150px;
+  margin: 8px auto 18px;
+}
+.cook-bowl .bowl-art {
+  width: 220px;
+  max-width: 90%;
+  height: auto;
+}
+.cook-bowl > span {
+  font-size: 13px;
+  position: static;
+  display: block;
+}
+.button-pair {
+  flex-wrap: wrap;
+}
+.button-pair > button {
+  flex: 1;
+  min-width: 110px;
+}
+.broth-tag {
+  left: 3%;
+  top: 36%;
+  max-width: 47%;
+}
+.handmade-tag {
+  right: 3%;
+  top: 36%;
+  max-width: 43%;
+}
+.station-tag {
+  font-size: 12px;
+  min-height: 44px;
+  line-height: 1.5;
+  padding: 7px 10px;
+}
+.noodle-basket {
+  min-height: 50px;
+}
+.pot-label {
+  font-size: 12px;
+  white-space: normal;
+}
+.pot-hit .pot-label {
+  padding: 6px;
+  line-height: 1.4;
+}
+.broth-illustration {
+  width: 180px;
+  min-height: 145px;
+  margin: 12px auto 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.broth-illustration .broth-pot-art {
+  width: 150px;
+  height: 112px;
+  object-fit: contain;
+}
+.broth-illustration.cooking .broth-pot-art {
+  animation: pot-breathe 2s ease-in-out infinite;
+}
+.broth-illustration strong {
+  font-size: 14px;
+}
+.ingredients button .broth-ingredient-art {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+  flex: none;
+}
+@keyframes pot-breathe {
+  50% {
+    transform: translateY(-3px);
+  }
+}
+.pot-preview {
+  width: 160px;
+  height: 130px;
+  margin: 0 auto;
+}
+.pot-preview > .sprite {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.handmade-board {
+  min-height: 185px;
+  max-width: 350px;
+  margin: 12px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  touch-action: none;
+}
+.handmade-board > .sprite {
+  width: 100%;
+  height: 160px;
+  object-fit: contain;
+}
+.handmade-board span {
+  display: block;
+  font-size: 14px;
+  margin-top: 4px;
+}
+.drink-gesture {
+  width: 180px;
+  height: 195px;
+  margin: 15px auto;
+  touch-action: none;
+  text-align: center;
+}
+.drink-gesture > .sprite {
+  width: 170px;
+  height: 165px;
+  margin: 0 auto;
+  object-fit: contain;
+}
+.drink-gesture small {
+  display: block;
+  font-size: 12px;
+}
+.brew-progress > button {
+  width: 100%;
+  margin: 7px 0;
+}
+.brew-progress details {
+  text-align: left;
+  margin: 14px 0;
+}
+.brew-progress summary {
+  padding: 12px;
+  cursor: pointer;
+}
+.drink-menu {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+.drink-menu > button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+.drink-menu strong {
+  font-size: 13px;
+}
+.drink-menu small {
+  font-size: 11px;
+}
+.drink-illustration.yuzuSoda {
+  background: linear-gradient(#f4e4ab90 10%, #d2aa5290 85%);
+}
+.drink-illustration.coffee,
+.drink-illustration.hojicha {
+  background: linear-gradient(#e9d7b0 12%, #946244 18%, #71543b);
+}
+.room-preview {
+  height: 290px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+  border: 1px solid #c5b08d;
+}
+.room-preview > svg {
+  width: 100%;
+  height: 100%;
+}
+.preview-food {
+  position: absolute;
+  left: 18%;
+  bottom: 10%;
+  width: 65%;
+}
+.room-preview > .drink-illustration {
+  position: absolute;
+  left: 45%;
+  bottom: 25%;
+  border-color: #709795;
+  background-color: #d9c896;
+}
+.discovery-card {
+  background: #f4eccb;
+  border: 2px solid #bfad64;
+  border-radius: 16px;
+  padding: 18px;
+  animation: discovery-glow 1.2s ease-out;
+}
+.discovery-card > svg {
+  width: 200px;
+  display: block;
+  margin: auto;
+}
+.discovery-card input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 12px;
+  font-size: 16px;
+}
+.secret-recipe {
+  opacity: 0.7;
+}
+.silhouette {
+  filter: brightness(0.15);
+  opacity: 0.22;
+}
+.silhouette svg {
+  width: 110px;
+  height: 80px;
+}
+.recipe-top h3 {
+  font-size: 16px;
+}
+.recipe > small {
+  display: block;
+}
+.recipe > button {
+  width: 100%;
+  margin-top: 12px;
+}
+.volume input[type="range"] {
+  width: 125px;
+  accent-color: #748563;
+  min-height: 44px;
+}
+.customer-call {
+  max-width: 180px;
+  min-width: 115px;
+  white-space: normal;
+  font-size: 12px;
+  line-height: 1.6;
+  padding: 8px 10px;
+  max-height: 96px;
+  overflow: auto;
+  box-shadow: 2px 4px 8px #72593b20;
+}
+.order-ticket {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 12px;
+}
+.order-ticket small {
+  font-size: 10px;
+}
+.customer.eating > .sprite {
+  animation: eating-body 3s ease-in-out infinite;
+}
+.customer.waiting:not(.just-arrived) > .sprite {
+  animation: eating-body 5s ease-in-out infinite;
+}
+.customer.sad > .sprite {
+  filter: saturate(0.75);
+}
+.reaction {
+  font-size: 12px;
+}
+.table-bowl .bowl-art {
+  filter: none;
+}
+.customer.departing > .sprite {
+  animation: customer-departure 0.7s ease-in forwards;
+}
+.customer.departing .reaction {
+  font-size: 12px;
+}
+.table-bowl .table-drink {
+  display: block;
+  position: absolute;
+  right: -3px;
+  bottom: 8px;
+  transform: scale(0.6);
+  transform-origin: bottom;
+  pointer-events: none;
+}
+.table-bowl.dirty-dishes .table-drink {
+  opacity: 0.7;
+}
+.ingredient-inspect {
+  min-width: 44px;
+  width: 44px;
+  padding: 5px !important;
+  flex-shrink: 0;
+}
+.ingredient-inspect .ingredient-dot {
+  margin: auto;
+  width: 25px;
+  height: 34px;
+  border-radius: 5px 5px 10px 10px;
+  border-top: 5px solid #94734e;
+  box-shadow: inset -5px -3px 6px #63462430;
+}
+.ingredient-inspect .food-icon {
+  width: 34px;
+  height: 34px;
+  object-fit: contain;
+  display: block;
+  margin: auto;
+}
+.stock-detail-art {
+  text-align: center;
+}
+.stock-detail-art > .food-icon {
+  width: 180px;
+  height: 130px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+.stock-lot {
+  background: #eae0c3;
+  padding: 12px 16px;
+  border-radius: 12px;
+  margin: 10px 0;
+}
+.butterfly {
+  animation: butterfly-float 5s ease-in-out infinite;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+.opening-sign {
+  position: absolute;
+  inset: 0;
+  background: #f4e8ceec;
+  z-index: 20;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  pointer-events: none;
+  animation: opening-reveal 1.4s forwards;
+  font-family: "Playfair Display", serif;
+  font-size: 28px;
+}
+.opening-sign small {
+  font:
+    14px "Be Vietnam Pro",
+    sans-serif;
+  margin-top: 12px;
+}
+@keyframes opening-reveal {
+  0%,
+  45% {
+    opacity: 1;
+    transform: none;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+}
+@keyframes butterfly-float {
+  50% {
+    translate: 12px -10px;
+    rotate: 8deg;
+  }
+}
+@keyframes customer-departure {
+  to {
+    opacity: 0;
+    transform: translateY(10px) scale(0.96);
+  }
+}
+.scene-staff {
+  position: absolute;
+  pointer-events: none;
+}
+.scene-staff > .sprite {
+  object-position: center bottom;
+  filter: none;
+  animation: staff-work 3s ease-in-out infinite;
+}
+.room-bouquet {
+  position: absolute;
+  right: 11%;
+  top: 41%;
+  width: 35px;
+  height: 60px;
+  pointer-events: none;
+}
+.room-bouquet b {
+  position: absolute;
+  bottom: 0;
+  left: 5px;
+  width: 28px;
+  height: 30px;
+  background: linear-gradient(90deg, #688f83, #c2d2b3);
+  border-radius: 4px 4px 12px 12px;
+}
+.room-bouquet i {
+  position: absolute;
+  top: 0;
+  left: 8px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #ddb56b;
+  box-shadow: 0 10px 0 #7e955a;
+}
+.room-bouquet i:nth-child(2) {
+  left: 0;
+  top: 12px;
+  background: #c78473;
+}
+.room-bouquet i:nth-child(3) {
+  left: 21px;
+  top: 10px;
+}
+.plant-card-art {
+  height: 80px;
+  width: 95px;
+  margin: 12px auto;
+}
+.plant-card button {
+  margin: 5px;
+  min-width: 100px;
+}
+.stage.evening > svg {
+  filter: brightness(0.8) saturate(0.88);
+}
+.stage.evening::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 50% 35%, #ffd48c24, transparent 60%);
+  pointer-events: none;
+}
+.large-font .sheet-content p,
+.large-font .sheet-content button {
+  font-size: 16px;
+}
+.large-font .sheet-content small {
+  font-size: 13px;
+}
+@keyframes eating-body {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0);
+  }
+  50% {
+    transform: translateY(2px) rotate(1deg);
+  }
+}
+@keyframes staff-work {
+  50% {
+    transform: translateX(5px) rotate(2deg);
+  }
+}
+@keyframes discovery-glow {
+  from {
+    box-shadow: 0 0 30px #e5ce68;
+  }
+  to {
+    box-shadow: 0 0 0 transparent;
+  }
+}
+@media (max-height: 750px) {
+  .scene-heading {
+    padding: 3px 20px 5px;
+  }
+  .scene-heading .eyebrow {
+    display: none;
+  }
+  .scene-heading h1 {
+    font-size: 22px;
+  }
+  .hud {
+    min-height: 59px;
+  }
+  .scene-pagination {
+    min-height: 44px;
+  }
+  .wooden-tray {
+    padding-top: 5px;
+    padding-bottom: 6px;
+  }
+  .bottom-tools {
+    padding-top: 2px;
+  }
+  .stage {
+    min-height: 220px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .customer > .sprite,
+  .scene-staff > .sprite,
+  .discovery-card {
+    animation: none !important;
+  }
+}
+.no-motion .customer > .sprite,
+.no-motion .scene-staff > .sprite,
+.low-performance .customer > .sprite,
+.low-performance .scene-staff > .sprite {
+  animation: none !important;
+}
+
+.panel-notice {
+  display: none;
+  flex-shrink: 0;
+  padding: 10px 20px;
+  background: #e6e8cc;
+  color: #566744;
+  font-size: 12px;
+  line-height: 1.6;
+  max-height: 85px;
+  overflow: auto;
+}
+.panel-notice.show {
+  display: block;
+}
+.drink-illustration {
+  box-shadow:
+    inset 5px 0 6px #fff5d640,
+    inset -5px -3px 8px #526c3e30,
+    3px 5px 7px #6b513921;
+}
+.drink-illustration.matcha,
+.drink-illustration.coffee {
+  width: 52px;
+  height: 48px;
+  border-radius: 5px 5px 20px 20px;
+  background: linear-gradient(105deg, #d9c797, #f3e3bc 38%, #c7b687);
+  border-color: #93845d;
+}
+.drink-illustration.matcha:before,
+.drink-illustration.coffee:before {
+  content: "";
+  position: absolute;
+  left: -2px;
+  top: -7px;
+  width: 50px;
+  height: 16px;
+  border-radius: 50%;
+  background: radial-gradient(
+    ellipse at 45% 50%,
+    #f0e4bd 0 10%,
+    #829764 12% 25%,
+    #f2e8c7 27% 32%,
+    #829764 34% 50%,
+    #f6eacf 53%
+  );
+  border: 2px solid #93845d;
+}
+.drink-illustration.coffee:before {
+  background: radial-gradient(
+    ellipse at 45% 50%,
+    #f6e7c4 0 18%,
+    #af8156 21% 35%,
+    #f2e1bc 38% 44%,
+    #926343 46% 54%,
+    #f6eacf 58%
+  );
+}
+.drink-illustration.matcha:after,
+.drink-illustration.coffee:after {
+  top: 9px;
+  left: 47px;
+  right: auto;
+  width: 12px;
+  height: 20px;
+  background: transparent;
+  border: 4px solid #b7a779;
+  border-left: 0;
+  border-radius: 0 14px 14px 0;
+}
+.drink-illustration.yuzuSoda:before {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 8px;
+  width: 11px;
+  height: 10px;
+  border: 1px solid #f6f2cf;
+  background: #f9f5d48a;
+  box-shadow:
+    14px 14px 0 #f9f5d45a,
+    3px 26px 0 #f9f5d45a;
+  transform: rotate(-12deg);
+}
+.drink-illustration.yuzuSoda:after {
+  width: 20px;
+  height: 20px;
+  left: 23px;
+  top: -8px;
+  right: auto;
+  border-radius: 50%;
+  background: #d9ca67;
+  border: 3px solid #b0b865;
+}

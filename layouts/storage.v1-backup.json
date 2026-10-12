@@ -1,0 +1,148 @@
+{
+  "id": "storage",
+  "status": "raster-art",
+  "zones": {
+    "wall": [
+      0,
+      35
+    ],
+    "counter": [
+      35,
+      65
+    ],
+    "floor": [
+      65,
+      100
+    ]
+  },
+  "background": "storage",
+  "layers": [
+    {
+      "id": "fridge",
+      "asset": "fridge",
+      "x": 81,
+      "y": 89,
+      "width": 36,
+      "height": 53,
+      "anchor": [
+        0.5,
+        1
+      ],
+      "z": 2,
+      "touch": {
+        "action": "panel",
+        "arg": "inventory",
+        "label": "Kiểm tra tủ lạnh"
+      }
+    },
+    {
+      "id": "jar",
+      "asset": "jar",
+      "x": 13,
+      "y": 13.5,
+      "width": 10,
+      "height": 11,
+      "anchor": [
+        0.5,
+        1
+      ],
+      "z": 2,
+      "touch": {
+        "action": "panel",
+        "arg": "inventory",
+        "label": "Kiểm tra gia vị"
+      }
+    },
+    {
+      "id": "jar",
+      "asset": "jar",
+      "x": 29,
+      "y": 13.5,
+      "width": 10,
+      "height": 11,
+      "anchor": [
+        0.5,
+        1
+      ],
+      "z": 2,
+      "touch": {
+        "action": "panel",
+        "arg": "inventory",
+        "label": "Kiểm tra gia vị"
+      }
+    },
+    {
+      "id": "jar",
+      "asset": "jar",
+      "x": 45,
+      "y": 13.5,
+      "width": 10,
+      "height": 11,
+      "anchor": [
+        0.5,
+        1
+      ],
+      "z": 2,
+      "touch": {
+        "action": "panel",
+        "arg": "inventory",
+        "label": "Kiểm tra gia vị"
+      }
+    },
+    {
+      "id": "jar",
+      "asset": "jar",
+      "x": 13,
+      "y": 23.5,
+      "width": 10,
+      "height": 11,
+      "anchor": [
+        0.5,
+        1
+      ],
+      "z": 2,
+      "touch": {
+        "action": "panel",
+        "arg": "inventory",
+        "label": "Kiểm tra gia vị"
+      }
+    },
+    {
+      "id": "jar",
+      "asset": "jar",
+      "x": 29,
+      "y": 23.5,
+      "width": 10,
+      "height": 11,
+      "anchor": [
+        0.5,
+        1
+      ],
+      "z": 2,
+      "touch": {
+        "action": "panel",
+        "arg": "inventory",
+        "label": "Kiểm tra gia vị"
+      }
+    },
+    {
+      "id": "crate",
+      "asset": "crate",
+      "x": 32,
+      "y": 43,
+      "width": 43,
+      "height": 25,
+      "anchor": [
+        0.5,
+        1
+      ],
+      "z": 2,
+      "touch": {
+        "action": "panel",
+        "arg": "inventory",
+        "label": "Kiểm tra và nhập nguyên liệu"
+      }
+    }
+  ],
+  "hotspots": []
+}

@@ -1,0 +1,10 @@
+{
+  "id": "v3-storage-floor-supplies",
+  "kind": "sprite",
+  "source": "sprites/sources/v3-storage-floor-supplies.png",
+  "output": "sprites/v3-storage-floor-supplies.webp",
+  "styleReference": "backgrounds/v3-storage-pantry.webp",
+  "generationMethod": "built-in imagegen, transparent background",
+  "prompt": "A single transparent hand-painted sprite for the udon pantry floor: two low honey-brown wooden crates with tied cream rice sacks, daikon and green onions, plus a woven bamboo basket of rice. Broad, low group with contact shadow; warm sunlight and muted sage matching the pantry background. No room, floor, text, people or border.",
+  "postprocess": "scripts/prepare-storage-floor-art.mjs"
+}

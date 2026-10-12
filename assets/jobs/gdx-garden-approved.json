@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-11",
+  "method": "built-in-imagegen",
+  "skill": "imagegen",
+  "approvedReference": "reference/garden-approved.png",
+  "referenceProvenance": "Exact repo source of the user's attached old Udon garden screenshot: review/parity/current-390x844-garden.png, checkpoint cf696c4. Copied without editing; attachment has cropped HUD and a letterbox border.",
+  "editTarget": "assets/backgrounds/v4-garden-field.webp",
+  "invariants": "Same sky, fence, cream wall, white vine, brown soil rows, stepping stones, lighting and layout. No built-in crop plants, pet, watering can or text.",
+  "basin": {
+    "toolFile": "exec-2ad94ca7-00c7-4d6b-b5f9-ecaa30e45103.png",
+    "source": "assets/sprites/sources/gdx-garden-basin.png",
+    "runtime": "assets/sprites/gdx-garden-basin.webp",
+    "transparentBackground": true,
+    "prompt": "Use case: background-extraction. Edit target: the supplied existing painted garden image. Produce ONE separate transparent game sprite: isolate ONLY the small circular pale stone water basin at the lower right edge of the reference (around x 92%, y 73%). Preserve its exact original painterly cream/gold stone texture, green water, shape, sunlight, and viewing angle. Keep its right edge cropped as in the source, do not invent a new basin. Remove all surrounding soil, plants, flowers, stepping stones, sky, and UI. The basin alone centered on a truly transparent canvas with clean alpha edges, no checkerboard, no halo, no shadow background. Do not redesign or add any objects or text.",
+    "processing": "Trim transparent padding with Sharp threshold8; resize to128px width (50–60px displayed); WebP quality90; preserve generated alpha. Source PNG preserved.",
+    "inspection": "Opened original and flattened light-green alpha preview; the black viewer background is transparency. No checkerboard in runtime; source opaque region alpha is254, not an RGB black plate. New sprite visually checked in actual game at360/390/430px, Chromium and WebKit."
+  },
+  "background": {
+    "toolFile": "exec-75391487-1c15-48fd-86ec-a11776b929d8.png",
+    "source": "assets/backgrounds/sources/gdx-garden-approved.png",
+    "runtime": "assets/backgrounds/gdx-garden-approved.webp",
+    "transparentBackground": false,
+    "prompt": "Use case: precise-object-edit. Edit target is the supplied existing garden painting. Change only the tiny stone basin at the lower-right edge around x 86–100%, y 66–78%: remove the basin and fill its place with the same surrounding low green leaves and earth, continuing the existing edges. Keep ALL the rest of the image identical, same portrait composition, same sky and clouds, exact bamboo fence and roof, cream wall shadows, white flowering vine at upper left, same brown tilled soil rows, exact bottom stepping stones, all other foliage and painted brush detail. There are no crop plants, cat or watering can on this background; do not add them. No UI, no text. This is a minimal cleanup to permit the existing basin to be composited as a separate transparent sprite in precisely its original spot, not a new garden design. Output portrait with the exact same whole-image framing as input, without zooming or moving anything.",
+    "processing": "941x1672 input/output, no resize, WebP quality90. Source PNG preserved; original v4-garden-field remains unchanged.",
+    "inspection": "Same measured composition; local painterly texture varies slightly from generated edit. Approved original retained for comparison; not a claim of byte-identical background."
+  },
+  "reused": [
+    "v4-garden-bed",
+    "v4-garden-onion-*",
+    "v4-garden-flowers-*",
+    "v4-garden-yuzu-*",
+    "v3-garden-sakura-*",
+    "v3-garden-sunflower-*",
+    "v2-watering-can",
+    "v3-pet-cat-*"
+  ],
+  "stillBaked": [
+    "fixed upper-left white-flowering vine",
+    "fixed stepping-stone path",
+    "fence/wall/distant foliage"
+  ],
+  "notImplemented": "No new tail/blink sheet, no garden care/economy/save changes, no Stage5 or remaining GDW, no deployment."
+}

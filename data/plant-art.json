@@ -1,0 +1,32 @@
+{
+  "onion": {
+    "sprout": "v4-garden-onion-sprout",
+    "growing": "v4-garden-onion-growing",
+    "ripe": "v4-garden-onion-ripe",
+    "wilted": "v4-garden-onion-wilted"
+  },
+  "flowers": {
+    "sprout": "v4-garden-flowers-sprout",
+    "growing": "v4-garden-flowers-growing",
+    "ripe": "v4-garden-flowers-ripe",
+    "wilted": "v4-garden-flowers-wilted"
+  },
+  "yuzu": {
+    "sprout": "v4-garden-yuzu-sprout",
+    "growing": "v4-garden-yuzu-growing",
+    "ripe": "v4-garden-yuzu-ripe",
+    "wilted": "v4-garden-yuzu-wilted"
+  },
+  "sakura": {
+    "sprout": "v3-garden-sakura-sprout",
+    "growing": "v3-garden-sakura-growing",
+    "ripe": "v3-garden-sakura-ripe",
+    "wilted": "v3-garden-sakura-wilted"
+  },
+  "sunflower": {
+    "sprout": "v3-garden-sunflower-sprout",
+    "growing": "v3-garden-sunflower-growing",
+    "ripe": "v3-garden-sunflower-ripe",
+    "wilted": "v3-garden-sunflower-wilted"
+  }
+}

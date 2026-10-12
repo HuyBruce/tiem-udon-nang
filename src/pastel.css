@@ -1,0 +1,483 @@
+/* Default UI accents follow the selected pastel character palette. Scene art stays file-backed. */
+:root {
+  --pastel-green: #c7d8b1;
+  --pastel-rose: #e9b8b5;
+  --pastel-red: #dfa3a3;
+  --pastel-purple: #cbbde4;
+  --pastel-yellow: #f5dfa2;
+  --pastel-blue: #bed8e6;
+  --pastel-cream: #fff3e8;
+}
+.game.live-v2 {
+  background: var(--pastel-cream);
+}
+.live-v2 > .hud {
+  background: #fff3e8ed;
+}
+.live-v2 > .scene-pagination,
+.live-v2 > .bottom-tools {
+  background: var(--pastel-cream);
+}
+.live-v2 > .scene-heading {
+  background: #fff3e8df;
+}
+.live-v2:has(.stage.front) > .scene-heading {
+  background: #f8d5d1e8;
+}
+.live-v2:has(.stage.guests0) > .scene-heading {
+  background: #e8dff4e8;
+}
+.live-v2:has(.stage.drinks) > .scene-heading {
+  background: #dcebf2e8;
+}
+.live-v2:has(.stage.kitchen) > .scene-heading {
+  background: #f9e9bfe8;
+}
+.live-v2:has(.stage.storage) > .scene-heading {
+  background: #e3eed3e8;
+}
+.live-v2:has(.stage.garden) > .scene-heading {
+  background: #f8dcdae8;
+}
+.live-v2 .order-ticket {
+  background: #fff3e8;
+  color: #594a3e;
+}
+.live-v2 .seat-0 .order-ticket {
+  transform: rotate(-2deg);
+}
+.live-v2 .seat-1 .order-ticket {
+  transform: rotate(2deg);
+}
+.live-v2 > .scene-caption {
+  background: #fff3e8dc;
+}
+.live-v2 .scene-actions button {
+  background: #fff3e8f2;
+}
+.live-v2 .room-bouquet {
+  top: 41%;
+  right: 9%;
+  width: 64px;
+  height: 70px;
+}
+.live-v2 .room-bouquet > .sprite {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.sprite.drink-art {
+  display: block;
+  width: 50px;
+  height: 64px;
+  object-fit: contain;
+  margin: 6px auto;
+}
+.sprite.drink-art.large {
+  width: 90px;
+  height: 104px;
+  margin: 10px auto 18px;
+}
+.prepared-drink > .sprite.drink-art {
+  margin: 0 auto;
+}
+.table-bowl .sprite.drink-art.table-drink {
+  width: 42px;
+  height: 55px;
+  margin: 0;
+}
+.drink-menu .sprite.drink-art {
+  margin: 0 auto 6px;
+}
+.tiny-drink > .sprite.drink-art {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+/* Guests rise into view behind the counter, like a conversation at the shop. */
+.customer.just-arrived > .sprite {
+  animation: guest-pop-up 340ms cubic-bezier(0.2, 0.75, 0.25, 1) both;
+}
+.live-v2 .customer .guest-feedback {
+  position: absolute;
+  left: 2%;
+  top: -22%;
+  z-index: 2;
+  width: 96%;
+  padding: 5px 6px;
+  border: 1px solid #9cab83;
+  border-radius: 11px 11px 11px 2px;
+  background: #fff8e9f2;
+  box-shadow: 0 3px 8px #4b54301c;
+  color: #586548;
+  font-size: 10px;
+  line-height: 1.3;
+  white-space: normal;
+  text-align: center;
+  pointer-events: none;
+  animation: guest-feedback-in 280ms ease-out both;
+}
+.live-v2 .customer.sad .guest-feedback {
+  border-color: #cdab9c;
+  color: #986453;
+}
+.live-v2 .table-bowl.eating {
+  animation: meal-placed 300ms ease-out both;
+}
+@keyframes guest-feedback-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+@keyframes meal-placed {
+  from {
+    opacity: 0;
+    transform: translateY(12px) scale(0.92);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+@keyframes guest-pop-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+.no-motion .customer.just-arrived > .sprite,
+.low-performance .customer.just-arrived > .sprite {
+  animation: none;
+}
+.no-motion .guest-feedback,
+.no-motion .table-bowl.eating,
+.low-performance .guest-feedback,
+.low-performance .table-bowl.eating {
+  animation: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  .customer.just-arrived > .sprite,
+  .guest-feedback,
+  .table-bowl.eating {
+    animation: none;
+  }
+}
+
+/* The order is a paper card in the middle of the ongoing shop scene. */
+.modal-backdrop.order-backdrop {
+  align-items: center;
+  padding: 14px;
+  background: #3e382e55;
+}
+.order-backdrop .sheet[data-panel="order"] {
+  width: min(100%, 380px);
+  max-height: min(640px, calc(100dvh - var(--safe-top) - var(--safe-bottom) - 28px));
+  border: 4px double #67846e;
+  border-radius: 19px;
+  box-shadow: 0 18px 42px #352d2655;
+  padding-bottom: 0;
+  animation: order-pop 230ms ease-out;
+}
+@keyframes order-pop {
+  from {
+    opacity: 0;
+    transform: translateY(10px) scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+.order-backdrop .sheet-title {
+  min-height: 48px;
+  padding: 10px 56px 10px 18px;
+  background: #e8edda;
+  color: #3f604b;
+  font-size: 12px;
+  letter-spacing: 0.12em;
+}
+.order-backdrop .order-header-price {
+  margin-left: auto;
+  font-size: 14px;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+.order-backdrop .sheet-content {
+  padding: 14px 17px 18px;
+}
+.order-backdrop .portrait-art {
+  width: 58px;
+  height: 68px;
+}
+.order-backdrop .dialogue-person h2 {
+  font-size: 24px;
+  margin-top: 2px;
+}
+.order-backdrop .story {
+  margin: 7px 0;
+}
+.order-backdrop .dialogue {
+  padding: 12px;
+  margin: 9px 0;
+}
+.order-backdrop .button-pair {
+  position: sticky;
+  bottom: -18px;
+  z-index: 2;
+  padding: 10px 0 12px;
+  background: linear-gradient(#f4ddd5e8, #f4ddd5);
+}
+.combo-part-list {
+  display: grid;
+  gap: 7px;
+  margin: 10px 0;
+}
+.combo-part {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 1px 8px;
+  padding: 8px 10px;
+  border: 1px solid #d9cba9;
+  border-radius: 10px;
+  background: #fff4e4;
+}
+.combo-part strong,
+.combo-part small {
+  grid-column: 1;
+}
+.combo-part strong {
+  font-size: 12px;
+}
+.combo-part small {
+  font-size: 11px;
+}
+.combo-price {
+  white-space: nowrap;
+  font-weight: 600;
+}
+.recipe-filters button {
+  flex-direction: column;
+  gap: 1px;
+  padding: 6px 2px;
+  line-height: 1.25;
+  font-size: 11px;
+}
+.recipe-filters button small {
+  font-size: 10px;
+  line-height: 1.2;
+}
+.combo-part > span {
+  grid-column: 2;
+  grid-row: 1 / 3;
+  align-self: center;
+  color: #52725c;
+  font-size: 11px;
+  font-weight: 600;
+}
+.live-v2 .combo-served-visual {
+  position: absolute;
+  top: 55%;
+  left: 27%;
+  width: 46%;
+  height: 20%;
+  z-index: 6;
+  pointer-events: none;
+}
+.combo-served-part {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.live-v2 .table-bowl > .combo-served-part {
+  display: inline-block;
+  padding: 0;
+  background: transparent;
+  border-radius: 0;
+}
+.combo-served-part .food-layers {
+  width: 100%;
+  height: 100%;
+}
+.combo-served-part .sprite.combo-drink,
+.combo-served-part .combo-side .sprite.side-food {
+  position: absolute;
+  right: -3px;
+  bottom: 0;
+  width: 23px;
+  height: 31px;
+  object-fit: contain;
+  pointer-events: none;
+}
+.combo-served-part .combo-side .sprite.side-food {
+  right: auto;
+  left: -4px;
+  bottom: -1px;
+  width: 26px;
+  height: 22px;
+}
+.side-options {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  margin: 8px 0 16px;
+}
+.side-options .side-option {
+  min-width: 0;
+  min-height: 58px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  text-align: left;
+  padding: 6px;
+}
+.side-option.requested {
+  border-color: #799761;
+  background: #e5eedb;
+}
+.side-option .side-option-art {
+  width: 39px;
+  height: 39px;
+  flex: 0 0 39px;
+  object-fit: contain;
+}
+.side-option span {
+  min-width: 0;
+  font-size: 11px;
+  line-height: 1.3;
+}
+.side-option small {
+  display: block;
+  margin-top: 2px;
+  font-size: 9px;
+  white-space: normal;
+}
+.tiny-side {
+  position: absolute;
+  left: 0;
+  top: 29px;
+  width: 25px;
+  height: 23px;
+  pointer-events: none;
+}
+.tiny-side > .sprite.side-plate,
+.table-side-art > .sprite.side-plate {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 55%;
+}
+.combo-served-part .combo-side .sprite.side-plate {
+  position: absolute;
+  left: -4px;
+  bottom: -1px;
+  width: 26px;
+  height: 12px;
+}
+.tiny-side > .sprite.side-food {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.live-v2 .table-bowl > .table-side-art {
+  position: absolute;
+  left: -5px;
+  bottom: 6px;
+  width: 28px;
+  height: 23px;
+  padding: 0;
+  background: transparent;
+  pointer-events: none;
+}
+.table-side-art > .sprite.side-food {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.topped-drink {
+  position: relative;
+  isolation: isolate;
+}
+.topped-drink > .drink-base {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.topped-drink > .drink-topping {
+  position: absolute;
+  left: 33%;
+  top: 9%;
+  width: 40%;
+  height: 34%;
+  object-fit: contain;
+  pointer-events: none;
+}
+.topped-drink > .drink-topping.sakura {
+  left: 46%;
+  top: 9%;
+  width: 35%;
+  height: 30%;
+}
+.topped-drink > .drink-topping.yuzu {
+  left: 53%;
+  top: 2%;
+  width: 42%;
+  height: 34%;
+}
+.drink-topping-options {
+  width: 100%;
+  margin: 16px 0;
+}
+.drink-topping-options h4 {
+  margin: 0 0 6px;
+}
+.drink-topping-options > div {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+.drink-topping-options button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 44px;
+  min-width: 0;
+  padding: 8px;
+  font-size: 13px;
+  overflow-wrap: anywhere;
+}
+.drink-topping-options .drink-topping-choice {
+  width: 42px;
+  height: 36px;
+  object-fit: contain;
+}
+.drink-topping-options small {
+  font-size: 11px;
+}
+.live-v2 .combo-table-bowl {
+  display: flex;
+  align-items: center;
+}
+.live-v2 .combo-table-bowl .combo-served-part {
+  width: 50%;
+  height: 100%;
+}
+@media (prefers-reduced-motion: reduce) {
+  .order-backdrop .sheet[data-panel="order"] {
+    animation: none;
+  }
+}

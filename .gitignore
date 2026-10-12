@@ -1,0 +1,12 @@
+node_modules/
+dist/
+test-results/
+review/
+release/
+.continue/
+.wrangler/
+.env
+.env.*
+*.log
+*.pem
+*.key

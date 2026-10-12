@@ -1,0 +1,16 @@
+{
+  "species": {
+    "cat": {
+      "name": "Mèo tam thể",
+      "defaultName": "Mugi",
+      "description": "Thích nằm sưởi nắng bên hiên và đuổi theo cuộn len.",
+      "assetPrefix": "pet-cat"
+    },
+    "shiba": {
+      "name": "Chó Shiba",
+      "defaultName": "Mochi",
+      "description": "Một bạn nhỏ thích chơi bóng và đợi bạn ở sân sau.",
+      "assetPrefix": "pet-shiba"
+    }
+  }
+}

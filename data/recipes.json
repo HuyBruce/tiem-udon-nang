@@ -1,0 +1,264 @@
+{
+  "kake": {
+    "name": "Udon thanh vị",
+    "jp": "Kake udon",
+    "broth": ["dashi", "soy", "mirin"],
+    "tops": ["onion"],
+    "desc": "Dashi trong, sợi mì mềm và một chút hành xanh."
+  },
+  "beef": {
+    "name": "Udon bò",
+    "jp": "Niku udon",
+    "broth": ["dashi", "soy", "mirin"],
+    "tops": ["beef", "onion"],
+    "desc": "Thịt bò ngọt mềm ôm lấy nước dùng đậm đà."
+  },
+  "kitsune": {
+    "name": "Udon đậu phụ",
+    "jp": "Kitsune udon",
+    "broth": ["dashi", "soy", "mirin"],
+    "tops": ["tofu", "onion"],
+    "desc": "Miếng đậu phụ vàng, món yêu thích của một chú cáo."
+  },
+  "tempura": {
+    "name": "Udon tôm tempura",
+    "jp": "Tempura udon",
+    "broth": ["dashi", "soy", "mirin"],
+    "tops": ["tempura", "onion"],
+    "desc": "Tôm chiên vàng giòn trên tô udon nóng hổi."
+  },
+  "miso": {
+    "name": "Udon miso",
+    "jp": "Miso udon",
+    "broth": ["dashi", "miso", "mirin"],
+    "tops": ["beef", "seaweed"],
+    "desc": "Miso dịu béo dành cho những ngày trời trở lạnh."
+  },
+  "yuzu": {
+    "name": "Udon nắng đầu mùa",
+    "jp": "Yuzu udon",
+    "broth": ["dashi", "soy", "yuzu"],
+    "tops": ["tofu", "seaweed"],
+    "hidden": true,
+    "desc": "Hương yuzu trong veo, một khám phá của riêng bạn."
+  },
+  "cold": {
+    "name": "Udon lạnh",
+    "jp": "Zaru udon",
+    "kind": "cold",
+    "broth": ["dashi", "soy", "mirin"],
+    "tops": ["seaweed", "onion"],
+    "desc": "Mì vớt rồi làm mát, nước dùng thanh và rong biển. Hợp ngày hè."
+  },
+  "curry": {
+    "name": "Udon cà ri",
+    "jp": "Curry udon",
+    "kind": "hot",
+    "broth": ["dashi", "soy", "curry"],
+    "tops": ["beef", "onion"],
+    "desc": "Nước cà ri đậm đà ôm lấy sợi mì và lát bò mềm."
+  },
+  "yaki": {
+    "name": "Udon xào",
+    "jp": "Yaki udon",
+    "kind": "stirfry",
+    "broth": ["dashi", "soy", "mirin"],
+    "tops": ["beef", "onion"],
+    "desc": "Mì vớt, rót sốt, thêm topping rồi đảo trên chảo dầu trước khi đưa lên mâm."
+  },
+  "autumn": {
+    "name": "Udon chiều thu",
+    "jp": "Aki udon",
+    "kind": "hot",
+    "season": "Thu",
+    "broth": ["dashi", "miso", "mirin"],
+    "tops": ["tofu", "seaweed", "onion"],
+    "hidden": true,
+    "desc": "Vị miso ấm, đậu phụ và hương rong biển của buổi chiều se lạnh."
+  },
+  "tamago": {
+    "name": "Udon trứng lòng đào",
+    "jp": "Tamago udon",
+    "broth": ["dashi", "soy", "mirin"],
+    "tops": ["egg", "onion"],
+    "desc": "Lòng đỏ sóng sánh, nước dùng dịu và hành xanh tươi."
+  },
+  "wakame": {
+    "name": "Udon rong biển",
+    "jp": "Wakame udon",
+    "broth": ["dashi", "soy", "mirin"],
+    "tops": ["seaweed", "onion"],
+    "desc": "Rong biển mềm và vị biển nhẹ trong tô mì thanh."
+  },
+  "beefEgg": {
+    "name": "Udon bò trứng",
+    "jp": "Niku tamago udon",
+    "broth": ["dashi", "soy", "mirin"],
+    "tops": ["beef", "egg", "onion"],
+    "desc": "Bò mềm, trứng lòng đào và nước dùng thơm ngọt."
+  },
+  "misoTofu": {
+    "name": "Udon miso đậu phụ",
+    "jp": "Miso tofu udon",
+    "broth": ["dashi", "miso", "mirin"],
+    "tops": ["tofu", "onion"],
+    "desc": "Miso ấm với đậu phụ vàng và hành xanh."
+  },
+  "curryTofu": {
+    "name": "Udon cà ri đậu phụ",
+    "jp": "Curry tofu udon",
+    "broth": ["dashi", "soy", "curry"],
+    "tops": ["tofu", "onion"],
+    "desc": "Cà ri thơm nồng và đậu phụ mềm cho bữa trưa no lòng."
+  },
+  "coldYuzu": {
+    "name": "Udon yuzu lạnh",
+    "jp": "Hiyashi yuzu udon",
+    "kind": "cold",
+    "broth": ["dashi", "soy", "yuzu"],
+    "tops": ["seaweed", "onion"],
+    "desc": "Mì mát, hương yuzu sáng và rong biển thanh dịu."
+  },
+  "shiitake": {
+    "name": "Udon nấm shiitake",
+    "jp": "Kinoko udon",
+    "broth": ["dashi", "soy", "mirin"],
+    "tops": ["shiitake", "onion"],
+    "desc": "Nấm thơm vị gỗ quyện nước dashi trong và hành lá."
+  },
+  "kinokoMiso": {
+    "name": "Udon nấm miso",
+    "jp": "Kinoko miso udon",
+    "broth": ["dashi", "miso", "mirin"],
+    "tops": ["shiitake", "tofu"],
+    "desc": "Nấm và đậu phụ làm nồi miso thêm ấm, đậm vị umami."
+  },
+  "kinokoCurry": {
+    "name": "Udon cà ri nấm bò",
+    "jp": "Kinoko curry udon",
+    "broth": ["dashi", "soy", "curry"],
+    "tops": ["shiitake", "beef", "onion"],
+    "desc": "Cà ri sánh, bò mềm và nấm thơm cho ngày cần thật no."
+  },
+  "kinokoYaki": {
+    "name": "Udon xào bò nấm",
+    "jp": "Niku kinoko yaki udon",
+    "kind": "stirfry",
+    "broth": ["dashi", "soy", "mirin"],
+    "tops": ["shiitake", "beef", "onion"],
+    "desc": "Mì đảo chảo với bò và nấm, thơm từ miếng đầu tiên."
+  },
+  "daikon": {
+    "name": "Udon củ cải ngâm",
+    "jp": "Daikon udon",
+    "broth": ["dashi", "soy", "mirin"],
+    "tops": ["daikon", "seaweed"],
+    "desc": "Một chút củ cải giòn chua làm tô mì thanh vị hơn."
+  },
+  "oroshiCold": {
+    "name": "Udon lạnh củ cải",
+    "jp": "Hiyashi daikon udon",
+    "kind": "cold",
+    "broth": ["dashi", "soy", "mirin"],
+    "tops": ["daikon", "onion"],
+    "desc": "Mì mát với củ cải ngâm giòn và chút hành tươi."
+  },
+  "yuzuDaikon": {
+    "name": "Udon yuzu củ cải",
+    "jp": "Yuzu daikon udon",
+    "broth": ["dashi", "soy", "yuzu"],
+    "tops": ["daikon", "tofu"],
+    "desc": "Yuzu sáng vị, đậu phụ dịu và củ cải giòn."
+  },
+  "beefDaikon": {
+    "name": "Udon bò củ cải",
+    "jp": "Niku daikon udon",
+    "broth": ["dashi", "soy", "mirin"],
+    "tops": ["beef", "daikon", "onion"],
+    "desc": "Bò ngọt mềm được cân bằng bằng lát củ cải ngâm."
+  },
+  "misoShiitakeEgg": {
+    "name": "Udon miso nấm trứng",
+    "jp": "Kinoko tamago miso udon",
+    "broth": ["dashi", "miso", "mirin"],
+    "tops": ["shiitake", "egg", "onion"],
+    "desc": "Nấm, trứng lòng đào và miso cho một tô tròn vị."
+  },
+  "coldShiitake": {
+    "name": "Udon lạnh nấm rong biển",
+    "jp": "Hiyashi kinoko udon",
+    "kind": "cold",
+    "broth": ["dashi", "soy", "mirin"],
+    "tops": ["shiitake", "seaweed"],
+    "desc": "Nấm và rong biển trong phần mì mát cho buổi trưa hè."
+  },
+  "tempuraDaikon": {
+    "name": "Udon tempura củ cải",
+    "jp": "Tempura daikon udon",
+    "broth": ["dashi", "soy", "mirin"],
+    "tops": ["tempura", "daikon", "onion"],
+    "desc": "Tôm giòn gặp củ cải chua nhẹ, bớt ngấy mà vẫn đậm đà."
+  },
+  "tofuShiitake": {
+    "name": "Udon đậu phụ nấm",
+    "jp": "Kitsune kinoko udon",
+    "broth": ["dashi", "soy", "mirin"],
+    "tops": ["tofu", "shiitake", "onion"],
+    "desc": "Đậu phụ vàng và nấm nâu trong nước dùng trong veo."
+  },
+  "yakiTofuShiitake": {
+    "name": "Udon xào đậu nấm",
+    "jp": "Tofu kinoko yaki udon",
+    "kind": "stirfry",
+    "broth": ["dashi", "soy", "mirin"],
+    "tops": ["tofu", "shiitake", "onion"],
+    "desc": "Đảo chảo đậu phụ và nấm cho món mì xào không thịt."
+  },
+  "misoEgg": {
+    "name": "Udon miso trứng",
+    "jp": "Miso tamago udon",
+    "broth": ["dashi", "miso", "mirin"],
+    "tops": ["egg", "onion"],
+    "desc": "Trứng lòng đào làm mềm vị miso ấm và hành xanh."
+  },
+  "butterCorn": {
+    "name": "Udon bơ bắp",
+    "jp": "Hương vị của tiệm",
+    "broth": ["dashi", "soy", "mirin"],
+    "tops": ["corn", "butter", "onion"],
+    "kind": "hot",
+    "desc": "Bắp ngọt và bơ tan trong nước dùng nhẹ, ấm như một buổi chiều mùa đông."
+  },
+  "butterBeef": {
+    "name": "Udon bò bơ bắp",
+    "jp": "Hương vị của tiệm",
+    "broth": ["dashi", "soy", "mirin"],
+    "tops": ["beef", "corn", "butter"],
+    "kind": "hot",
+    "desc": "Thịt bò mềm bên bắp vàng, bơ làm tròn vị nước dùng."
+  },
+  "misoCorn": {
+    "name": "Udon miso bắp",
+    "jp": "Hương vị của tiệm",
+    "broth": ["dashi", "miso", "mirin"],
+    "tops": ["corn", "butter", "onion"],
+    "kind": "hot",
+    "desc": "Bắp ngọt gặp miso đậm đà, điểm chút bơ thơm."
+  },
+  "curryCorn": {
+    "name": "Udon cà ri bắp",
+    "jp": "Hương vị của tiệm",
+    "broth": ["dashi", "soy", "curry"],
+    "tops": ["corn", "tofu", "onion"],
+    "kind": "hot",
+    "desc": "Bắp và đậu phụ trong cà ri vàng, dùng nóng khi trời se lạnh."
+  },
+  "yakiCorn": {
+    "name": "Udon xào bắp nấm",
+    "jp": "Hương vị của tiệm",
+    "broth": ["dashi", "soy", "mirin"],
+    "tops": ["corn", "shiitake", "onion"],
+    "kind": "stirfry",
+    "desc": "Đảo mì cùng nấm và bắp, vừa thơm vừa nhẹ bụng."
+  }
+}

@@ -1,0 +1,887 @@
+{
+  "clock": {
+    "morningMinute": 510,
+    "openingMinute": 600,
+    "minutesPerSecond": 1,
+    "tickMilliseconds": 250,
+    "resumeMaxSeconds": 2,
+    "perfGapMilliseconds": 1000,
+    "perfFrameWindow": 300,
+    "perfReportMilliseconds": 1000,
+    "eveningMinute": 1080
+  },
+  "billing": {
+    "utilitiesEvery": 7,
+    "utilitiesPerDay": 135,
+    "wagesEvery": 30
+  },
+  "prices": {
+    "ingredients": {
+      "noodles": {
+        "cost": 60,
+        "life": 5
+      },
+      "dashi": {
+        "cost": 20,
+        "life": 12
+      },
+      "soy": {
+        "cost": 15,
+        "life": 20
+      },
+      "mirin": {
+        "cost": 15,
+        "life": 20
+      },
+      "beef": {
+        "cost": 110,
+        "life": 3
+      },
+      "tofu": {
+        "cost": 50,
+        "life": 4
+      },
+      "onion": {
+        "cost": 15,
+        "life": 3
+      },
+      "seaweed": {
+        "cost": 20,
+        "life": 12
+      },
+      "egg": {
+        "cost": 35,
+        "life": 5
+      },
+      "shrimp": {
+        "cost": 75,
+        "life": 3
+      },
+      "flour": {
+        "cost": 15,
+        "life": 15
+      },
+      "oil": {
+        "cost": 15,
+        "life": 15
+      },
+      "tea": {
+        "cost": 20,
+        "life": 15
+      },
+      "matcha": {
+        "cost": 40,
+        "life": 15
+      },
+      "milk": {
+        "cost": 35,
+        "life": 3
+      },
+      "ramune": {
+        "cost": 75,
+        "life": 20
+      },
+      "yuzu": {
+        "cost": 40,
+        "life": 6
+      },
+      "miso": {
+        "cost": 35,
+        "life": 12
+      },
+      "soda": {
+        "cost": 30,
+        "life": 20
+      },
+      "coffee": {
+        "cost": 40,
+        "life": 20
+      },
+      "hojicha": {
+        "cost": 30,
+        "life": 20
+      },
+      "curry": {
+        "cost": 35,
+        "life": 16
+      },
+      "sakura": {
+        "cost": 35,
+        "life": 12
+      },
+      "melon": {
+        "cost": 45,
+        "life": 12
+      },
+      "strawberry": {
+        "cost": 50,
+        "life": 3
+      },
+      "shiitake": {
+        "cost": 52,
+        "life": 4
+      },
+      "daikon": {
+        "cost": 32,
+        "life": 9
+      },
+      "iceCream": {
+        "cost": 50,
+        "life": 4
+      },
+      "cream": {
+        "cost": 30,
+        "life": 3
+      },
+      "chicken": {
+        "cost": 80,
+        "life": 3
+      },
+      "kimchi": {
+        "cost": 45,
+        "life": 7
+      },
+      "corn": {
+        "cost": 30,
+        "life": 5
+      },
+      "butter": {
+        "cost": 40,
+        "life": 8
+      }
+    },
+    "recipes": {
+      "kake": {
+        "price": 600,
+        "unlock": 0
+      },
+      "beef": {
+        "price": 870,
+        "unlock": 0
+      },
+      "kitsune": {
+        "price": 730,
+        "unlock": 0
+      },
+      "tempura": {
+        "price": 1040,
+        "unlock": 3005
+      },
+      "miso": {
+        "price": 990,
+        "unlock": 4010
+      },
+      "yuzu": {
+        "price": 1070
+      },
+      "cold": {
+        "price": 720,
+        "unlock": 2670
+      },
+      "curry": {
+        "price": 1090,
+        "unlock": 4340
+      },
+      "yaki": {
+        "price": 1020,
+        "unlock": 3675
+      },
+      "autumn": {
+        "price": 970
+      },
+      "tamago": {
+        "price": 800,
+        "unlock": 2700
+      },
+      "wakame": {
+        "price": 750,
+        "unlock": 2400
+      },
+      "beefEgg": {
+        "price": 1040,
+        "unlock": 4200
+      },
+      "misoTofu": {
+        "price": 950,
+        "unlock": 3700
+      },
+      "curryTofu": {
+        "price": 1050,
+        "unlock": 4100
+      },
+      "coldYuzu": {
+        "price": 910,
+        "unlock": 3400
+      },
+      "shiitake": {
+        "price": 830,
+        "unlock": 2850
+      },
+      "kinokoMiso": {
+        "price": 1010,
+        "unlock": 4050
+      },
+      "kinokoCurry": {
+        "price": 1150,
+        "unlock": 4720
+      },
+      "kinokoYaki": {
+        "price": 1100,
+        "unlock": 4450
+      },
+      "daikon": {
+        "price": 760,
+        "unlock": 2500
+      },
+      "oroshiCold": {
+        "price": 790,
+        "unlock": 2900
+      },
+      "yuzuDaikon": {
+        "price": 930,
+        "unlock": 3650
+      },
+      "beefDaikon": {
+        "price": 980,
+        "unlock": 3950
+      },
+      "misoShiitakeEgg": {
+        "price": 1100,
+        "unlock": 4550
+      },
+      "coldShiitake": {
+        "price": 830,
+        "unlock": 3150
+      },
+      "tempuraDaikon": {
+        "price": 1130,
+        "unlock": 4650
+      },
+      "tofuShiitake": {
+        "price": 930,
+        "unlock": 3500
+      },
+      "yakiTofuShiitake": {
+        "price": 1060,
+        "unlock": 4300
+      },
+      "misoEgg": {
+        "price": 870,
+        "unlock": 3250
+      },
+      "butterCorn": {
+        "price": 890,
+        "unlock": 3200
+      },
+      "butterBeef": {
+        "price": 1120,
+        "unlock": 4600
+      },
+      "misoCorn": {
+        "price": 990,
+        "unlock": 3800
+      },
+      "curryCorn": {
+        "price": 1030,
+        "unlock": 4050
+      },
+      "yakiCorn": {
+        "price": 980,
+        "unlock": 3650
+      }
+    },
+    "sides": {
+      "tempura": {
+        "price": 250
+      },
+      "egg": {
+        "price": 160
+      },
+      "seaweed": {
+        "price": 130
+      },
+      "daikon": {
+        "price": 150
+      },
+      "karaage": {
+        "price": 280
+      },
+      "gyoza": {
+        "price": 260
+      },
+      "tamagoyaki": {
+        "price": 210
+      },
+      "kimchi": {
+        "price": 150
+      }
+    },
+    "drinks": {
+      "ramune": {
+        "price": 235
+      },
+      "tea": {
+        "price": 185
+      },
+      "matcha": {
+        "price": 315
+      },
+      "yuzuSoda": {
+        "price": 300
+      },
+      "coffee": {
+        "price": 300
+      },
+      "hojicha": {
+        "price": 235
+      },
+      "hojichaLatte": {
+        "price": 315,
+        "availableFromDay": 6
+      },
+      "sakuraTea": {
+        "price": 270,
+        "availableFromDay": 8
+      },
+      "melonSoda": {
+        "price": 315,
+        "availableFromDay": 9
+      },
+      "strawberryMilk": {
+        "price": 320,
+        "availableFromDay": 10
+      }
+    },
+    "drinkToppings": {
+      "iceCream": {
+        "price": 90
+      },
+      "whippedCream": {
+        "price": 60
+      },
+      "sakura": {
+        "price": 40
+      },
+      "yuzu": {
+        "price": 40
+      }
+    },
+    "customers": {
+      "mai": {
+        "patience": 180,
+        "tip": 1
+      },
+      "an": {
+        "patience": 145,
+        "tip": 1.1
+      },
+      "ha": {
+        "patience": 240,
+        "tip": 1.2
+      },
+      "son": {
+        "patience": 180,
+        "tip": 1.3
+      },
+      "linh": {
+        "patience": 210,
+        "tip": 1.1
+      },
+      "ken": {
+        "patience": 195,
+        "tip": 1.4
+      },
+      "vip": {
+        "patience": 190,
+        "tip": 3
+      }
+    },
+    "decor": {
+      "bowl": {
+        "cost": 1335,
+        "bonus": 0.01
+      },
+      "wall": {
+        "cost": 2505,
+        "bonus": 0.02
+      },
+      "table": {
+        "cost": 2005,
+        "bonus": 0.01
+      },
+      "flowers": {
+        "cost": 1085,
+        "bonus": 0.01
+      },
+      "cup": {
+        "cost": 1170,
+        "bonus": 0.01
+      },
+      "mat": {
+        "cost": 920,
+        "bonus": 0.01
+      },
+      "chopsticks": {
+        "cost": 750,
+        "bonus": 0.01
+      },
+      "spoon": {
+        "cost": 750,
+        "bonus": 0.01
+      },
+      "saucer": {
+        "cost": 1000,
+        "bonus": 0.01
+      },
+      "coaster": {
+        "cost": 670,
+        "bonus": 0.01
+      },
+      "season-spring": {
+        "cost": 1500,
+        "bonus": 0.015
+      },
+      "season-summer": {
+        "cost": 1600,
+        "bonus": 0.015
+      },
+      "season-autumn": {
+        "cost": 1700,
+        "bonus": 0.015
+      },
+      "season-winter": {
+        "cost": 1800,
+        "bonus": 0.015
+      }
+    },
+    "staff": {
+      "thu": {
+        "cost": 5010,
+        "wage": 300
+      },
+      "binh": {
+        "cost": 6345,
+        "wage": 365
+      },
+      "mika": {
+        "cost": 5500,
+        "wage": 330
+      },
+      "yui": {
+        "cost": 10020,
+        "wage": 535
+      }
+    },
+    "plants": {
+      "onion": {
+        "cost": 60,
+        "days": 1,
+        "yield": 5,
+        "level": 0
+      },
+      "flowers": {
+        "cost": 100,
+        "days": 2,
+        "yield": 1,
+        "level": 1
+      },
+      "yuzu": {
+        "cost": 165,
+        "days": 3,
+        "yield": 5,
+        "level": 2
+      },
+      "sakura": {
+        "cost": 150,
+        "days": 3,
+        "yield": 1,
+        "level": 1
+      },
+      "sunflower": {
+        "cost": 130,
+        "days": 2,
+        "yield": 1,
+        "level": 2
+      }
+    },
+    "upgrades": {
+      "seats": {
+        "base": 5845,
+        "max": 3
+      },
+      "stove": {
+        "base": 3005,
+        "max": 2
+      },
+      "storage": {
+        "base": 2340,
+        "max": 3
+      },
+      "fridge": {
+        "base": 2840,
+        "max": 3
+      },
+      "fryer": {
+        "base": 2005,
+        "max": 2
+      },
+      "drinks": {
+        "base": 2170,
+        "max": 2
+      },
+      "garden": {
+        "base": 1835,
+        "max": 3
+      },
+      "broth": {
+        "base": 3600,
+        "max": 2
+      },
+      "service": {
+        "base": 4200,
+        "max": 3
+      },
+      "sign": {
+        "base": 2800,
+        "max": 2
+      },
+      "furniture": {
+        "base": 3200,
+        "max": 2
+      },
+      "music": {
+        "base": 2200,
+        "max": 2
+      }
+    }
+  },
+  "drinkToppings": {
+    "orderEveryGuests": 5,
+    "orderOffset": 2
+  },
+  "staff": {
+    "learningSeconds": 45,
+    "recipeFeeRatio": 0.15,
+    "actionSeconds": [11, 8, 5],
+    "learningMaxLevel": 3,
+    "minimumLearningFee": 100,
+    "defaultRecipeValue": 1000,
+    "wagePerLevel": 0.2,
+    "upgradeCostRatio": 0.5,
+    "restockBundle": 5
+  },
+  "ingredients": {},
+  "upgrades": {},
+  "plants": {},
+  "customers": {
+    "extraPatienceSeconds": 90,
+    "leaveAbovePriceRatio": 1.75,
+    "askPatienceSecondsAfterSecondHint": 4,
+    "comboUnlockDay": 6,
+    "comboEveryGuests": 7,
+    "comboFirstGuestOffset": 5,
+    "comboPatienceBonus": 120,
+    "largeComboUnlockDay": 18,
+    "largeComboParts": 3,
+    "largeComboEvery": 2,
+    "advancedOrderDay": 20,
+    "reviewDemandPerStar": 0.06,
+    "eatSeconds": 8,
+    "checkoutSeconds": 8,
+    "arrivalMinSeconds": 12,
+    "arrivalBaseSeconds": 38,
+    "arrivalDayReduction": 0.5,
+    "arrivalReputationReduction": 0.08,
+    "baseSeats": 2,
+    "seatsPerLevel": 2,
+    "sinkCapacity": 4,
+    "familiarTasteChance": 0.7,
+    "handmadeOrderDay": 5,
+    "handmadeOrderReputation": 35,
+    "handmadeOrderEvery": 4,
+    "handmadeOrderOffset": 1,
+    "premiumOrderEvery": 5,
+    "premiumOrderOffset": 2,
+    "vipDay": 8,
+    "vipReputation": 35,
+    "vipEvery": 17,
+    "initialTrickyEvery": 4,
+    "advancedTrickyEvery": 5,
+    "advancedTrickyCount": 2,
+    "freestyleDay": 3,
+    "freestyleEvery": 11,
+    "freestyleOffset": 5
+  },
+  "cooking": {
+    "brothMinPortions": 4,
+    "brothMaxPortionsPerIngredient": 3,
+    "noodleSeconds": 9,
+    "stoveReduction": 2,
+    "powerNoodleSeconds": 16,
+    "liftWindowSeconds": 5,
+    "waterSeconds": 5,
+    "brothSeconds": 7,
+    "brothServings": 5,
+    "fryMinSeconds": 5,
+    "fryMaxSeconds": 12,
+    "stirfrySeconds": 6
+  },
+  "pendingDecisions": {
+    "eggPreparation": "morning-only",
+    "tastePerVisit": "seeded-70-30-trial"
+  },
+  "handmade": {
+    "levelThresholds": [0, 20, 60],
+    "batchPortions": 5,
+    "xpPerAccuracy": 2,
+    "baseQuality": 0.35,
+    "qualityPerLevel": 0.12,
+    "techniqueQuality": 0.29,
+    "surcharge": 80,
+    "premiumSurcharge": 40,
+    "premiumOrderDay": 4
+  },
+  "sidePreparation": {
+    "cookSeconds": {
+      "karaage": 8,
+      "gyoza": 7,
+      "tamagoyaki": 5
+    },
+    "burnGraceSeconds": 7,
+    "portions": 3
+  },
+  "progression": {
+    "reputation": 80,
+    "served": 180,
+    "excellent": 120,
+    "recipes": 12,
+    "minimumDay": 20
+  },
+  "economy": {
+    "goodMealReputation": 0.45,
+    "ordinaryMealReputation": 0.15,
+    "handmadeReputationBonus": 0.08,
+    "wrongMealReputation": -1.2,
+    "extraEggPrice": 100,
+    "priceMinRatio": 0.6,
+    "priceMaxRatio": 2,
+    "wrongPaymentRatio": 0.45,
+    "baseTipRatio": 0.15,
+    "trickyTipMultiplier": 1.2,
+    "wrongTipMultiplier": 0.1,
+    "decorMaxBonus": 0.12,
+    "flowerBonus": 0.01,
+    "priceReviewRatio": 1.4,
+    "slowReviewWaitRatio": 0.35,
+    "lostGuestReputation": 0.7,
+    "minimumPriceDemandRatio": 0.65
+  },
+  "upgradeEffects": {
+    "brothServingsPerLevel": 2,
+    "serviceSpeedPerLevel": 0.1,
+    "signDemandPerLevel": 0.04,
+    "furniturePatiencePerLevel": 15,
+    "musicTipPerLevel": 0.01
+  },
+  "pets": {
+    "starterSnacks": 5,
+    "snackBundle": 5,
+    "snackPrice": 100,
+    "hungerPerDay": 18,
+    "thirstPerDay": 22,
+    "happinessPerDay": 12,
+    "bondThresholds": [0, 20, 45, 75, 120],
+    "overnightSleepEnergy": 45,
+    "overnightAwakeEnergy": 20,
+    "sleepEnergyPerSecond": 4,
+    "initial": {
+      "hunger": 65,
+      "thirst": 65,
+      "happiness": 70,
+      "energy": 80
+    },
+    "care": {
+      "feed": {
+        "hunger": 30,
+        "happiness": 5,
+        "bond": 4
+      },
+      "water": {
+        "thirst": 35,
+        "bond": 2
+      },
+      "play": {
+        "energy": 15,
+        "happiness": 18,
+        "bond": 5
+      },
+      "stroke": {
+        "happiness": 4,
+        "bond": 3
+      },
+      "sleep": {
+        "bond": 2
+      }
+    }
+  },
+  "initial": {
+    "money": 4000,
+    "reputation": 20,
+    "daySeconds": 360,
+    "stock": {
+      "noodles": 14,
+      "dashi": 16,
+      "soy": 16,
+      "mirin": 16,
+      "beef": 8,
+      "tofu": 8,
+      "onion": 14,
+      "seaweed": 6,
+      "egg": 6,
+      "shrimp": 5,
+      "flour": 5,
+      "oil": 5,
+      "tea": 5,
+      "matcha": 4,
+      "milk": 4,
+      "ramune": 5,
+      "yuzu": 3,
+      "miso": 3
+    }
+  },
+  "garden": {
+    "fertilizerCost": 40,
+    "outOfSeasonGrowth": 0.5,
+    "fertilizedGrowth": 1.5,
+    "deathDryDays": 3,
+    "bouquetDays": 4
+  },
+  "inventory": {
+    "slots": 18,
+    "slotsPerLevel": 6,
+    "fridgeExtraDays": 2
+  },
+  "market": {
+    "scarcityMultiplier": 2,
+    "badWeatherMeatMultiplier": 1.15,
+    "harvestMultiplier": 0.75,
+    "saleEveryDays": 5,
+    "saleMultiplier": 0.8,
+    "premiumMultiplier": 1.7
+  },
+  "recovery": {
+    "threshold": 420,
+    "money": 750,
+    "stock": 3
+  },
+  "events": {
+    "powerStartSeconds": 120,
+    "powerEndSeconds": 150,
+    "seasonDays": 10,
+    "cycleDays": 40,
+    "calendar": {
+      "4": "blossom",
+      "12": "tanabata",
+      "15": "festival",
+      "18": "obon",
+      "24": "harvest",
+      "29": "halloween",
+      "36": "christmas",
+      "40": "newyear"
+    },
+    "scarcityEvery": 13,
+    "powerEvery": 17,
+    "quietEvery": 7,
+    "badWeatherDemand": 0.75,
+    "snowSkipEveryDays": 3,
+    "rainEveryDays": 4
+  },
+  "quality": {
+    "correctBase": 78,
+    "wrongBase": 25,
+    "wait": 15,
+    "ingredients": 7,
+    "chop": 3,
+    "taste": 4,
+    "handmade": 5,
+    "hardPenalty": 25,
+    "softPenalty": 18,
+    "pricePenalty": 35,
+    "hintPenalty": 2,
+    "minimum": 5,
+    "goodThreshold": 80,
+    "excellentThreshold": 85
+  },
+  "shopFeedback": {
+    "openingMilliseconds": 2000,
+    "lanternFadeMilliseconds": 420
+  },
+  "traffic": {
+    "closingHour": 18,
+    "bands": [
+      {
+        "hour": 21,
+        "demand": 0.12
+      },
+      {
+        "hour": 18,
+        "demand": 1.2
+      },
+      {
+        "hour": 14,
+        "demand": 0.65
+      },
+      {
+        "hour": 11,
+        "demand": 1.35
+      }
+    ],
+    "morningDemand": 0.8
+  },
+  "discovery": {
+    "minimumDashi": 2,
+    "minParts": 4,
+    "maxParts": 7,
+    "softTechnique": -20,
+    "hardTechnique": -25,
+    "perfectTechnique": 8,
+    "goodBase": 50,
+    "badBase": 10,
+    "toppingMaxBonus": 20,
+    "toppingBonus": 5,
+    "tasteBonus": 22,
+    "qualityBonus": 8,
+    "threshold": 83,
+    "maxToppings": 4,
+    "customPrice": 940,
+    "maxCustomRecipes": 30
+  },
+  "audio": {
+    "maxVoices": 24,
+    "masterGain": 0.78,
+    "limiterCeiling": 0.85,
+    "pitchVariation": 0.04,
+    "volumeVariationDb": 2,
+    "duckGain": 0.5,
+    "duckSeconds": 0.45,
+    "panelCutoffHz": 1600,
+    "openCutoffHz": 16000,
+    "eatingCadenceSeconds": 2.6,
+    "musicGain": 0.4,
+    "environmentGain": 0.1,
+    "boilGain": 0.12,
+    "boilHeatingGain": 0.06,
+    "fryGain": 0.12,
+    "whiskGain": 0.08,
+    "eatingGain": 0.2,
+    "serveGain": 0.35,
+    "reactionGain": 0.3,
+    "pan": 0.12
+  },
+  "washing": {
+    "batchSize": 3,
+    "manualSeconds": 1.8,
+    "staffSeconds": [6, 4, 3],
+    "feedbackMilliseconds": 650
+  }
+}

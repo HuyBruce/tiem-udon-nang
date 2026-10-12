@@ -1,0 +1,52 @@
+{
+  "id": "garden",
+  "status": "raster-art",
+  "zones": {
+    "wall": [
+      0,
+      35
+    ],
+    "counter": [
+      35,
+      65
+    ],
+    "floor": [
+      65,
+      100
+    ]
+  },
+  "background": "garden",
+  "layers": [
+    {
+      "id": "watering-can",
+      "asset": "watering-can",
+      "x": 83,
+      "y": 46,
+      "width": 26,
+      "height": 23,
+      "anchor": [
+        0.5,
+        1
+      ],
+      "z": 2,
+      "touch": {
+        "action": "panel",
+        "arg": "garden",
+        "label": "Tưới và chăm sóc vườn"
+      }
+    }
+  ],
+  "hotspots": [],
+  "plots": {
+    "x": 15,
+    "y": 46,
+    "width": 58,
+    "height": 23,
+    "span": 56,
+    "anchor": [
+      0.5,
+      1
+    ],
+    "z": 3
+  }
+}

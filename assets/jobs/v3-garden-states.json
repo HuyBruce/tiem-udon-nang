@@ -1,0 +1,56 @@
+{
+  "mode": "built-in-imagegen",
+  "useCase": "precise-object-edit",
+  "basePrompt": "Transparent 2D game sprite for Tiệm mì Udon garden. Preserve the reference planter or pot's front-facing perspective, outline, warm color and overall dimensions. Match the existing cozy hand-painted gouache and thin olive-brown outlines. Genuine transparent background, clean alpha edges, no text, backdrop or extra objects.",
+  "edits": [
+    {
+      "id": "plant-onion-sprout",
+      "reference": "assets/sprites/planter-empty.webp",
+      "change": "Add three or four tiny fresh green seedlings emerging from the soil."
+    },
+    {
+      "id": "plant-onion-wilted",
+      "reference": "assets/sprites/planter.webp",
+      "change": "Make onion leaves droop and fade yellow-green, with a few brown tips; recoverable wilt."
+    },
+    {
+      "id": "plant-flowers-sprout",
+      "reference": "assets/sprites/flowers.webp",
+      "change": "Replace blooms with a very small young daisy seedling and no open flowers."
+    },
+    {
+      "id": "plant-flowers-growing",
+      "reference": "Project art style description; final selected generation had no image file input",
+      "change": "Intermediate flower plant with green leaves and closed cream buds, no open daisies.",
+      "prompt": "Create a single isolated 2D game sprite for Tiệm mì Udon: a terracotta flower pot holding a healthy intermediate-stage daisy plant, lush green leaves and six small CLOSED cream buds, zero open petals. Cozy hand-painted gouache texture, thin warm olive-brown outlines, front view, soft shadow, muted cream/sage/terracotta palette. Canvas must be genuine RGBA with transparent alpha outside the object; absolutely no checkerboard, no white background, no scenery, no text. Centered full object with breathing room. This is a growing stage, smaller and less bloomed than a mature daisy pot."
+    },
+    {
+      "id": "plant-flowers-wilted",
+      "reference": "assets/sprites/flowers.webp",
+      "change": "Make stems, leaves and flowers droop and fade; recoverable wilt."
+    },
+    {
+      "id": "plant-yuzu-sprout",
+      "reference": "assets/sprites/planter-empty.webp",
+      "change": "Add a small young yuzu sapling with a few leaves and no fruit."
+    },
+    {
+      "id": "plant-yuzu-ripe",
+      "reference": "assets/sprites/planter-empty.webp",
+      "change": "Add a compact healthy yuzu shrub with four small round yellow fruits."
+    },
+    {
+      "id": "plant-yuzu-growing",
+      "reference": "Project art style description; final selected generation had no image file input",
+      "change": "Intermediate yuzu shrub with green unripe fruit, no yellow fruit.",
+      "prompt": "Create a single isolated 2D game sprite for Tiệm mì Udon: a rectangular golden wooden planter box holding a healthy intermediate-stage yuzu shrub, lively green leaves and three tiny GREEN unripe fruit buds, zero yellow ripe fruit. Cozy hand-painted gouache texture, thin warm olive-brown outlines, front view, soft shadow, muted wood/sage palette. Canvas must be genuine RGBA with transparent alpha outside the object; absolutely no checkerboard, no white background, no scenery, no text. Centered full object with breathing room. This is a growing stage, smaller and less mature than a fruiting yuzu planter."
+    },
+    {
+      "id": "plant-yuzu-wilted",
+      "reference": "assets/sprites/planter-empty.webp",
+      "change": "Add a recoverably wilted yuzu shrub with drooping curled leaves and hanging fruit."
+    }
+  ],
+  "output": "assets/sprites/plant-*.webp",
+  "processing": "Sharp resized to 512 px wide, WebP quality 86, original alpha preserved"
+}

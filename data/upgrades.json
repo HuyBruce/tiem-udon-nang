@@ -1,0 +1,50 @@
+{
+  "seats": {
+    "name": "Góc quầy bên cửa sổ",
+    "desc": "Thêm một khu khách riêng với 2 ghế."
+  },
+  "stove": {
+    "name": "Bếp thêm lửa",
+    "desc": "Thêm nồi và luộc nhanh hơn."
+  },
+  "storage": {
+    "name": "Kệ gỗ rộng rãi",
+    "desc": "Thêm 6 ô nguyên liệu. Mỗi loại chiếm một ô, bất kể số phần."
+  },
+  "fridge": {
+    "name": "Tủ lạnh tốt hơn",
+    "desc": "Nguyên liệu lạnh giữ thêm 2 ngày."
+  },
+  "fryer": {
+    "name": "Nồi chiên rộng",
+    "desc": "Chiên thêm một phần tôm mỗi mẻ."
+  },
+  "drinks": {
+    "name": "Ấm trà mới",
+    "desc": "Thao tác pha chế nhận thêm điểm chất lượng."
+  },
+  "garden": {
+    "name": "Luống vườn mới",
+    "desc": "Thêm một ô cây và mở giống mới."
+  },
+  "broth": {
+    "name": "Nồi nước dùng lớn",
+    "desc": "Thêm 2 tô cho mỗi mẻ nước dùng, giữ nguyên định lượng."
+  },
+  "service": {
+    "name": "Lối phục vụ gọn gàng",
+    "desc": "Nhân viên hoàn thành tác vụ nhanh thêm 10% mỗi cấp."
+  },
+  "sign": {
+    "name": "Biển hiệu sáng ấm",
+    "desc": "Thêm 4% lượng khách mỗi cấp; tiệm dễ tìm hơn."
+  },
+  "furniture": {
+    "name": "Ghế ngồi êm",
+    "desc": "Khách thoải mái chờ thêm 15 giây mỗi cấp."
+  },
+  "music": {
+    "name": "Góc nhạc trong tiệm",
+    "desc": "Bản nhạc thêm hòa âm êm dịu, tiền tip tăng 1% mỗi cấp."
+  }
+}

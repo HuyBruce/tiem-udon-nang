@@ -1,0 +1,23 @@
+{
+  "onion": {
+    "name": "Hành xanh"
+  },
+  "flowers": {
+    "name": "Cúc vàng",
+    "seasons": ["Xuân", "Hạ", "Thu"]
+  },
+  "yuzu": {
+    "name": "Yuzu",
+    "seasons": ["Thu", "Đông"]
+  },
+  "sakura": {
+    "name": "Anh đào nhỏ",
+    "seasons": ["Xuân"],
+    "flower": true
+  },
+  "sunflower": {
+    "name": "Hướng dương",
+    "seasons": ["Hạ"],
+    "flower": true
+  }
+}

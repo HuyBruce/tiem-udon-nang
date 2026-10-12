@@ -1,0 +1,38 @@
+{
+  "iceCream": {
+    "name": "Kem vani",
+    "ingredient": "iceCream",
+    "asset": "drink-topping-ice-cream",
+    "drinks": [
+      "matcha",
+      "coffee",
+      "hojichaLatte",
+      "yuzuSoda",
+      "melonSoda",
+      "strawberryMilk"
+    ],
+    "temperature": "cold",
+    "availableFromDay": 10
+  },
+  "whippedCream": {
+    "name": "Kem đánh bông",
+    "ingredient": "cream",
+    "asset": "drink-topping-whipped-cream",
+    "drinks": ["matcha", "coffee", "hojichaLatte", "strawberryMilk"],
+    "availableFromDay": 10
+  },
+  "sakura": {
+    "name": "Hoa sakura",
+    "ingredient": "sakura",
+    "asset": "drink-topping-sakura",
+    "drinks": ["tea", "hojicha", "sakuraTea"],
+    "availableFromDay": 10
+  },
+  "yuzu": {
+    "name": "Lát yuzu",
+    "ingredient": "yuzu",
+    "asset": "drink-topping-yuzu",
+    "drinks": ["tea", "hojicha", "yuzuSoda", "melonSoda"],
+    "availableFromDay": 10
+  }
+}

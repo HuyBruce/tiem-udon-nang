@@ -1,0 +1,167 @@
+{
+  "noodles": {
+    "name": "Mì udon",
+    "kind": "cold",
+    "color": "#f3db9e"
+  },
+  "dashi": {
+    "name": "Dashi",
+    "kind": "dry",
+    "color": "#bda073"
+  },
+  "soy": {
+    "name": "Nước tương",
+    "kind": "dry",
+    "color": "#855d43"
+  },
+  "mirin": {
+    "name": "Mirin",
+    "kind": "dry",
+    "color": "#dca863"
+  },
+  "beef": {
+    "name": "Thịt bò",
+    "kind": "cold",
+    "color": "#bf7770"
+  },
+  "tofu": {
+    "name": "Đậu phụ chiên",
+    "kind": "cold",
+    "color": "#e9b65d"
+  },
+  "onion": {
+    "name": "Hành lá",
+    "kind": "cold",
+    "color": "#80915e"
+  },
+  "seaweed": {
+    "name": "Rong biển",
+    "kind": "dry",
+    "color": "#52674a"
+  },
+  "egg": {
+    "name": "Trứng tươi",
+    "kind": "cold",
+    "color": "#ead7ad"
+  },
+  "shrimp": {
+    "name": "Tôm",
+    "kind": "cold",
+    "color": "#db8c70"
+  },
+  "flour": {
+    "name": "Bột tempura",
+    "kind": "dry",
+    "color": "#eee1ba"
+  },
+  "oil": {
+    "name": "Dầu chiên",
+    "kind": "dry",
+    "color": "#d2ab4e"
+  },
+  "tea": {
+    "name": "Lá trà",
+    "kind": "dry",
+    "color": "#82945b"
+  },
+  "matcha": {
+    "name": "Matcha",
+    "kind": "dry",
+    "color": "#7d9655"
+  },
+  "milk": {
+    "name": "Sữa",
+    "kind": "cold",
+    "color": "#fff6db"
+  },
+  "ramune": {
+    "name": "Ramune",
+    "kind": "cold",
+    "color": "#98baba"
+  },
+  "yuzu": {
+    "name": "Yuzu",
+    "kind": "cold",
+    "color": "#e2be58"
+  },
+  "miso": {
+    "name": "Miso",
+    "kind": "cold",
+    "color": "#b87d43"
+  },
+  "soda": {
+    "name": "Soda",
+    "kind": "dry",
+    "color": "#afd2ce"
+  },
+  "coffee": {
+    "name": "Cà phê",
+    "kind": "dry",
+    "color": "#715142"
+  },
+  "hojicha": {
+    "name": "Trà rang hojicha",
+    "kind": "dry",
+    "color": "#957155"
+  },
+  "curry": {
+    "name": "Gia vị cà ri",
+    "kind": "dry",
+    "color": "#b78940"
+  },
+  "sakura": {
+    "name": "Hoa anh đào khô",
+    "kind": "dry",
+    "color": "#dfa0a5"
+  },
+  "melon": {
+    "name": "Siro dưa lưới",
+    "kind": "dry",
+    "color": "#a0bf67"
+  },
+  "strawberry": {
+    "name": "Dâu tây",
+    "kind": "cold",
+    "color": "#cf6565"
+  },
+  "shiitake": {
+    "name": "Nấm shiitake",
+    "kind": "cold",
+    "color": "#9a6d4d"
+  },
+  "daikon": {
+    "name": "Củ cải ngâm",
+    "kind": "cold",
+    "color": "#e7d18a"
+  },
+  "iceCream": {
+    "name": "Kem vani",
+    "kind": "cold",
+    "color": "#f2dfb9"
+  },
+  "cream": {
+    "name": "Kem đánh bông",
+    "kind": "cold",
+    "color": "#f5e8cd"
+  },
+  "chicken": {
+    "name": "Thịt gà",
+    "kind": "cold",
+    "color": "#dcab98"
+  },
+  "kimchi": {
+    "name": "Kim chi",
+    "kind": "cold",
+    "color": "#c57c54"
+  },
+  "corn": {
+    "name": "Bắp ngọt",
+    "kind": "cold",
+    "color": "#e2be58"
+  },
+  "butter": {
+    "name": "Bơ",
+    "kind": "cold",
+    "color": "#f2dfb9"
+  }
+}

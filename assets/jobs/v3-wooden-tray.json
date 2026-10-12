@@ -1,0 +1,10 @@
+{
+  "id": "v3-wooden-tray",
+  "kind": "sprite",
+  "source": "sprites/sources/v3-wooden-tray.png",
+  "output": "sprites/v3-wooden-tray.webp",
+  "styleReference": "backgrounds/v3-drinks-alcove.webp",
+  "generationMethod": "built-in imagegen, transparent background",
+  "prompt": "One wide, straight-on, slightly top-down honey-wood serving tray with exactly five evenly spaced empty shallow oval bowl rests. Warm hand-painted gouache and delicate paper grain matching the existing restaurant background. Transparent cutout. No food, bowls, drinks, utensils, text, floor, extra compartments or separate objects.",
+  "postprocess": "scripts/prepare-wooden-tray-art.mjs"
+}

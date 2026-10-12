@@ -1,0 +1,956 @@
+{
+  "style": "Cozy hand-drawn illustration for a mobile game, thin colored line art (dark olive-brown lines, about 2px, slightly wobbly), soft flat gouache colors with subtle paper grain, warm palette of cream, honey-yellow wood, deep green, sage leaves and terracotta, light from top-left, front view, lush green leaves and vines framing the edges, Japanese udon shop in a small alley, gentle healing mood, no text, no watermark.",
+  "mode": "built-in-imagegen",
+  "approval": "v2-approved-user-ok-tiep-tuc",
+  "sampleIds": ["sample_seating", "sample_kake", "sample_kettle"],
+  "assets": [
+    {
+      "id": "sample_seating",
+      "file": "backgrounds/sample-seating.png",
+      "width": 1024,
+      "height": 1536,
+      "transparent": false,
+      "status": "sample",
+      "description": "Empty seating background with cream wall, window, wood counter at 35–65 percent and wooden floor. No customers, dishes, stools or text."
+    },
+    {
+      "id": "sample_kake",
+      "file": "sprites/sample-kake.png",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "sample",
+      "description": "Terracotta bowl of Kake udon, amber broth, thick ivory noodles and sliced scallions, matching background reference style."
+    },
+    {
+      "id": "sample_kettle",
+      "file": "sprites/sample-kettle.png",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "sample",
+      "description": "Squat sage tea kettle, warm wood handle, slight top view, matching background reference style."
+    },
+    {
+      "id": "v3-character-a",
+      "file": "style_reference/candidates/character-a.png",
+      "width": 1024,
+      "height": 1024,
+      "transparent": true,
+      "status": "sample-not-selected",
+      "description": "V3 character style candidate A"
+    },
+    {
+      "id": "v3-character-b",
+      "file": "style_reference/candidates/character-b.png",
+      "width": 1024,
+      "height": 1024,
+      "transparent": true,
+      "status": "sample-not-selected",
+      "description": "V3 character style candidate B"
+    },
+    {
+      "id": "v3-character-c",
+      "file": "style_reference/candidates/character-c.png",
+      "width": 1024,
+      "height": 1024,
+      "transparent": true,
+      "status": "selected-reference",
+      "description": "V3 character style candidate C"
+    },
+    {
+      "id": "v3-an",
+      "file": "characters/v3-an.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Half-body character sprite with matching selected-C pastel style"
+    },
+    {
+      "id": "v3-mai",
+      "file": "characters/v3-mai.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Half-body character sprite with matching selected-C pastel style"
+    },
+    {
+      "id": "v3-owner",
+      "file": "characters/v3-owner.webp",
+      "width": 512,
+      "height": 768,
+      "transparent": true,
+      "status": "ready",
+      "description": "Female shop owner in cream tiny-floral dress, thin pastel selected-C style"
+    },
+    {
+      "id": "v3-ha",
+      "file": "characters/v3-ha.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Half-body character sprite with matching selected-C pastel style"
+    },
+    {
+      "id": "v3-son",
+      "file": "characters/v3-son.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Half-body character sprite with matching selected-C pastel style"
+    },
+    {
+      "id": "v3-linh",
+      "file": "characters/v3-linh.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Half-body character sprite with matching selected-C pastel style"
+    },
+    {
+      "id": "v3-ken",
+      "file": "characters/v3-ken.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Half-body character sprite with matching selected-C pastel style"
+    },
+    {
+      "id": "v3-vip",
+      "file": "characters/v3-vip.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Half-body character sprite with matching selected-C pastel style"
+    },
+    {
+      "id": "v3-thu",
+      "file": "characters/v3-thu.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Half-body character sprite with matching selected-C pastel style"
+    },
+    {
+      "id": "v3-binh",
+      "file": "characters/v3-binh.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Half-body character sprite with matching selected-C pastel style"
+    },
+    {
+      "id": "v3-yui",
+      "file": "characters/v3-yui.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Half-body character sprite with matching selected-C pastel style"
+    },
+    {
+      "id": "v3-an-happy",
+      "file": "characters/v3-an-happy.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Half-body character sprite with matching selected-C pastel style"
+    },
+    {
+      "id": "v3-an-very-happy",
+      "file": "characters/v3-an-very-happy.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Half-body character sprite with matching selected-C pastel style"
+    },
+    {
+      "id": "v3-an-sad",
+      "file": "characters/v3-an-sad.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Half-body character sprite with matching selected-C pastel style"
+    },
+    {
+      "id": "v3-an-angry",
+      "file": "characters/v3-an-angry.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Half-body character sprite with matching selected-C pastel style"
+    },
+    {
+      "id": "v3-an-thinking",
+      "file": "characters/v3-an-thinking.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Half-body character sprite with matching selected-C pastel style"
+    },
+    {
+      "id": "v3-mai-happy",
+      "file": "characters/v3-mai-happy.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Half-body character sprite with matching selected-C pastel style"
+    },
+    {
+      "id": "v3-mai-very-happy",
+      "file": "characters/v3-mai-very-happy.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Half-body character sprite with matching selected-C pastel style"
+    },
+    {
+      "id": "v3-mai-sad",
+      "file": "characters/v3-mai-sad.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Half-body character sprite with matching selected-C pastel style"
+    },
+    {
+      "id": "v3-mai-angry",
+      "file": "characters/v3-mai-angry.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Half-body character sprite with matching selected-C pastel style"
+    },
+    {
+      "id": "v3-mai-thinking",
+      "file": "characters/v3-mai-thinking.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Half-body character sprite with matching selected-C pastel style"
+    },
+    {
+      "id": "v3-flour-bag",
+      "file": "sprites/v3-flour-bag.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Cream flour bag for handmade noodles"
+    },
+    {
+      "id": "v3-ha-happy",
+      "file": "characters/v3-ha-happy.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Half-body character sprite with matching selected-C pastel style"
+    },
+    {
+      "id": "v3-ha-very-happy",
+      "file": "characters/v3-ha-very-happy.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Half-body character sprite with matching selected-C pastel style"
+    },
+    {
+      "id": "v3-ha-sad",
+      "file": "characters/v3-ha-sad.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Half-body character sprite with matching selected-C pastel style"
+    },
+    {
+      "id": "v3-ha-angry",
+      "file": "characters/v3-ha-angry.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Half-body character sprite with matching selected-C pastel style"
+    },
+    {
+      "id": "v3-ha-thinking",
+      "file": "characters/v3-ha-thinking.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Half-body character sprite with matching selected-C pastel style"
+    },
+    {
+      "id": "v3-son-happy",
+      "file": "characters/v3-son-happy.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Half-body character sprite with matching selected-C pastel style"
+    },
+    {
+      "id": "v3-son-very-happy",
+      "file": "characters/v3-son-very-happy.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Half-body character sprite with matching selected-C pastel style"
+    },
+    {
+      "id": "v3-son-sad",
+      "file": "characters/v3-son-sad.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Half-body character sprite with matching selected-C pastel style"
+    },
+    {
+      "id": "v3-son-angry",
+      "file": "characters/v3-son-angry.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Half-body character sprite with matching selected-C pastel style"
+    },
+    {
+      "id": "v3-son-thinking",
+      "file": "characters/v3-son-thinking.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Half-body character sprite with matching selected-C pastel style"
+    },
+    {
+      "id": "v3-linh-happy",
+      "file": "characters/v3-linh-happy.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Half-body character sprite with matching selected-C pastel style"
+    },
+    {
+      "id": "v3-linh-very-happy",
+      "file": "characters/v3-linh-very-happy.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Half-body character sprite with matching selected-C pastel style"
+    },
+    {
+      "id": "v3-linh-sad",
+      "file": "characters/v3-linh-sad.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Half-body character sprite with matching selected-C pastel style"
+    },
+    {
+      "id": "v3-linh-angry",
+      "file": "characters/v3-linh-angry.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Half-body character sprite with matching selected-C pastel style"
+    },
+    {
+      "id": "v3-linh-thinking",
+      "file": "characters/v3-linh-thinking.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Half-body character sprite with matching selected-C pastel style"
+    },
+    {
+      "id": "v3-ken-happy",
+      "file": "characters/v3-ken-happy.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Half-body character sprite with matching selected-C pastel style"
+    },
+    {
+      "id": "v3-ken-very-happy",
+      "file": "characters/v3-ken-very-happy.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Half-body character sprite with matching selected-C pastel style"
+    },
+    {
+      "id": "v3-ken-sad",
+      "file": "characters/v3-ken-sad.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Half-body character sprite with matching selected-C pastel style"
+    },
+    {
+      "id": "v3-ken-angry",
+      "file": "characters/v3-ken-angry.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Half-body character sprite with matching selected-C pastel style"
+    },
+    {
+      "id": "v3-ken-thinking",
+      "file": "characters/v3-ken-thinking.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Half-body character sprite with matching selected-C pastel style"
+    },
+    {
+      "id": "v3-vip-happy",
+      "file": "characters/v3-vip-happy.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Half-body character sprite with matching selected-C pastel style"
+    },
+    {
+      "id": "v3-vip-very-happy",
+      "file": "characters/v3-vip-very-happy.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Half-body character sprite with matching selected-C pastel style"
+    },
+    {
+      "id": "v3-vip-sad",
+      "file": "characters/v3-vip-sad.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Half-body character sprite with matching selected-C pastel style"
+    },
+    {
+      "id": "v3-vip-angry",
+      "file": "characters/v3-vip-angry.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Half-body character sprite with matching selected-C pastel style"
+    },
+    {
+      "id": "v3-vip-thinking",
+      "file": "characters/v3-vip-thinking.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Half-body character sprite with matching selected-C pastel style"
+    },
+    {
+      "id": "v3-thu-happy",
+      "file": "characters/v3-thu-happy.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Half-body character sprite with matching selected-C pastel style"
+    },
+    {
+      "id": "v3-thu-sad",
+      "file": "characters/v3-thu-sad.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Half-body character sprite with matching selected-C pastel style"
+    },
+    {
+      "id": "v3-thu-thinking",
+      "file": "characters/v3-thu-thinking.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Half-body character sprite with matching selected-C pastel style"
+    },
+    {
+      "id": "v3-binh-happy",
+      "file": "characters/v3-binh-happy.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Half-body character sprite with matching selected-C pastel style"
+    },
+    {
+      "id": "v3-binh-sad",
+      "file": "characters/v3-binh-sad.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Half-body character sprite with matching selected-C pastel style"
+    },
+    {
+      "id": "v3-binh-thinking",
+      "file": "characters/v3-binh-thinking.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Half-body character sprite with matching selected-C pastel style"
+    },
+    {
+      "id": "v3-yui-happy",
+      "file": "characters/v3-yui-happy.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Half-body character sprite with matching selected-C pastel style"
+    },
+    {
+      "id": "v3-yui-sad",
+      "file": "characters/v3-yui-sad.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Half-body character sprite with matching selected-C pastel style"
+    },
+    {
+      "id": "v3-yui-thinking",
+      "file": "characters/v3-yui-thinking.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Half-body character sprite with matching selected-C pastel style"
+    },
+    {
+      "id": "v3-owner-happy",
+      "file": "characters/v3-owner-happy.webp",
+      "width": 512,
+      "height": 768,
+      "transparent": true,
+      "status": "ready",
+      "description": "Female shop owner in cream tiny-floral dress, thin pastel selected-C style"
+    },
+    {
+      "id": "v3-owner-sad",
+      "file": "characters/v3-owner-sad.webp",
+      "width": 512,
+      "height": 768,
+      "transparent": true,
+      "status": "ready",
+      "description": "Female shop owner in cream tiny-floral dress, thin pastel selected-C style"
+    },
+    {
+      "id": "plant-onion-sprout",
+      "file": "sprites/plant-onion-sprout.webp",
+      "width": 512,
+      "height": 222,
+      "transparent": true,
+      "status": "ready",
+      "description": "Garden growth and wilt sprite for plant-onion-sprout"
+    },
+    {
+      "id": "plant-onion-wilted",
+      "file": "sprites/plant-onion-wilted.webp",
+      "width": 512,
+      "height": 298,
+      "transparent": true,
+      "status": "ready",
+      "description": "Garden growth and wilt sprite for plant-onion-wilted"
+    },
+    {
+      "id": "plant-flowers-sprout",
+      "file": "sprites/plant-flowers-sprout.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Garden growth and wilt sprite for plant-flowers-sprout"
+    },
+    {
+      "id": "plant-flowers-wilted",
+      "file": "sprites/plant-flowers-wilted.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Garden growth and wilt sprite for plant-flowers-wilted"
+    },
+    {
+      "id": "plant-yuzu-sprout",
+      "file": "sprites/plant-yuzu-sprout.webp",
+      "width": 512,
+      "height": 222,
+      "transparent": true,
+      "status": "ready",
+      "description": "Garden growth and wilt sprite for plant-yuzu-sprout"
+    },
+    {
+      "id": "plant-yuzu-ripe",
+      "file": "sprites/plant-yuzu-ripe.webp",
+      "width": 512,
+      "height": 222,
+      "transparent": true,
+      "status": "ready",
+      "description": "Garden growth and wilt sprite for plant-yuzu-ripe"
+    },
+    {
+      "id": "plant-yuzu-wilted",
+      "file": "sprites/plant-yuzu-wilted.webp",
+      "width": 512,
+      "height": 222,
+      "transparent": true,
+      "status": "ready",
+      "description": "Garden growth and wilt sprite for plant-yuzu-wilted"
+    },
+    {
+      "id": "v3-noodle-pot-empty",
+      "file": "sprites/v3-noodle-pot-empty.webp",
+      "width": 512,
+      "height": 469,
+      "transparent": true,
+      "status": "ready",
+      "description": "V3 mini-game state art: v3-noodle-pot-empty"
+    },
+    {
+      "id": "v3-noodle-pot-water",
+      "file": "sprites/v3-noodle-pot-water.webp",
+      "width": 512,
+      "height": 469,
+      "transparent": true,
+      "status": "ready",
+      "description": "V3 mini-game state art: v3-noodle-pot-water"
+    },
+    {
+      "id": "v3-handmade-flour",
+      "file": "sprites/v3-handmade-flour.webp",
+      "width": 512,
+      "height": 231,
+      "transparent": true,
+      "status": "ready",
+      "description": "V3 mini-game state art: v3-handmade-flour"
+    },
+    {
+      "id": "v3-handmade-wet",
+      "file": "sprites/v3-handmade-wet.webp",
+      "width": 512,
+      "height": 231,
+      "transparent": true,
+      "status": "ready",
+      "description": "V3 mini-game state art: v3-handmade-wet"
+    },
+    {
+      "id": "v3-handmade-dough",
+      "file": "sprites/v3-handmade-dough.webp",
+      "width": 512,
+      "height": 231,
+      "transparent": true,
+      "status": "ready",
+      "description": "V3 mini-game state art: v3-handmade-dough"
+    },
+    {
+      "id": "v3-handmade-sheet",
+      "file": "sprites/v3-handmade-sheet.webp",
+      "width": 512,
+      "height": 231,
+      "transparent": true,
+      "status": "ready",
+      "description": "V3 mini-game state art: v3-handmade-sheet"
+    },
+    {
+      "id": "v3-handmade-cut",
+      "file": "sprites/v3-handmade-cut.webp",
+      "width": 512,
+      "height": 231,
+      "transparent": true,
+      "status": "ready",
+      "description": "V3 mini-game state art: v3-handmade-cut"
+    },
+    {
+      "id": "v3-handmade-dry",
+      "file": "sprites/v3-handmade-dry.webp",
+      "width": 512,
+      "height": 231,
+      "transparent": true,
+      "status": "ready",
+      "description": "Dry flour mound on handmade udon board"
+    },
+    {
+      "id": "v3-noodle-pot-boiling",
+      "file": "sprites/v3-noodle-pot-boiling.webp",
+      "width": 512,
+      "height": 469,
+      "transparent": true,
+      "status": "ready",
+      "description": "Boiling water in noodle pot without noodles"
+    },
+    {
+      "id": "v3-coffee-milk",
+      "file": "sprites/v3-coffee-milk.webp",
+      "width": 512,
+      "height": 565,
+      "transparent": true,
+      "status": "ready",
+      "description": "Hot coffee milk in ceramic cup"
+    },
+    {
+      "id": "plant-flowers-growing",
+      "file": "sprites/plant-flowers-growing.webp",
+      "width": 512,
+      "height": 537,
+      "transparent": true,
+      "status": "ready",
+      "description": "Flower plant with closed buds before bloom"
+    },
+    {
+      "id": "plant-yuzu-growing",
+      "file": "sprites/plant-yuzu-growing.webp",
+      "width": 512,
+      "height": 468,
+      "transparent": true,
+      "status": "ready",
+      "description": "Yuzu plant with small green unripe fruit"
+    },
+    {
+      "id": "v3-wooden-tray",
+      "file": "sprites/v3-wooden-tray.webp",
+      "width": 1200,
+      "height": 240,
+      "transparent": true,
+      "status": "ready",
+      "description": "Wide honey wood serving tray with exactly five recessed bowl rests, transparent cutout generated against the existing drinks room style reference"
+    },
+    {
+      "id": "v3-storage-floor-supplies",
+      "file": "sprites/v3-storage-floor-supplies.webp",
+      "width": 1100,
+      "height": 405,
+      "transparent": true,
+      "status": "ready",
+      "description": "Low rice sacks, daikon crate and woven basket on the storage floor, transparent cutout generated against the pantry room reference"
+    },
+    {
+      "id": "v3-drink-matcha-latte-cold",
+      "file": "sprites/v3-drink-matcha-latte-cold.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Iced matcha drink in a rounded transparent glass with four ice cubes; hot/cold sprite selected from actual saved drink temperature"
+    },
+    {
+      "id": "v3-drink-sencha-cold",
+      "file": "sprites/v3-drink-sencha-cold.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Iced tea drink in a rounded transparent glass with four ice cubes; hot/cold sprite selected from actual saved drink temperature"
+    },
+    {
+      "id": "v3-drink-coffee-milk-cold",
+      "file": "sprites/v3-drink-coffee-milk-cold.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Iced coffee drink in a rounded transparent glass with four ice cubes; hot/cold sprite selected from actual saved drink temperature"
+    },
+    {
+      "id": "v3-drink-hojicha-tea-cold",
+      "file": "sprites/v3-drink-hojicha-tea-cold.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Iced hojicha drink in a rounded transparent glass with four ice cubes; hot/cold sprite selected from actual saved drink temperature"
+    },
+    {
+      "id": "v3-drink-hojicha-latte-cold",
+      "file": "sprites/v3-drink-hojicha-latte-cold.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Iced hojichaLatte drink in a rounded transparent glass with four ice cubes; hot/cold sprite selected from actual saved drink temperature"
+    },
+    {
+      "id": "v3-drink-sakura-tea-cold",
+      "file": "sprites/v3-drink-sakura-tea-cold.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Iced sakuraTea drink in a rounded transparent glass with four ice cubes; hot/cold sprite selected from actual saved drink temperature"
+    },
+    {
+      "id": "drink-topping-ice-cream",
+      "file": "sprites/v3-drink-topping-ice-cream.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Independent drink topping or stocked cream ingredient, transparent gouache sprite"
+    },
+    {
+      "id": "ingredient-iceCream",
+      "file": "sprites/v3-ingredient-iceCream.webp",
+      "width": 256,
+      "height": 256,
+      "transparent": true,
+      "status": "ready",
+      "description": "Independent drink topping or stocked cream ingredient, transparent gouache sprite"
+    },
+    {
+      "id": "drink-topping-whipped-cream",
+      "file": "sprites/v3-drink-topping-whipped-cream.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Independent drink topping or stocked cream ingredient, transparent gouache sprite"
+    },
+    {
+      "id": "drink-topping-sakura",
+      "file": "sprites/v3-drink-topping-sakura.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Independent drink topping or stocked cream ingredient, transparent gouache sprite"
+    },
+    {
+      "id": "drink-topping-yuzu",
+      "file": "sprites/v3-drink-topping-yuzu.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "status": "ready",
+      "description": "Independent drink topping or stocked cream ingredient, transparent gouache sprite"
+    },
+    {
+      "id": "ingredient-cream",
+      "file": "sprites/v3-ingredient-cream.webp",
+      "width": 256,
+      "height": 256,
+      "transparent": true,
+      "status": "ready",
+      "description": "Independent drink topping or stocked cream ingredient, transparent gouache sprite"
+    }
+  ],
+  "remainingAfterApproval": {
+    "backgrounds": ["door", "drinks", "kitchen", "storage", "garden"],
+    "prioritySprites": [
+      "noodle-pot",
+      "broth-pot",
+      "fryer",
+      "board-knife",
+      "sink",
+      "stove",
+      "seasoning-jar",
+      "bowl-empty",
+      "noodles",
+      "onion",
+      "fridge",
+      "ramune",
+      "milk",
+      "matcha-bowl",
+      "chasen",
+      "glass",
+      "stool",
+      "owner"
+    ],
+    "priorityCharacters": ["student", "office-worker"],
+    "characterExpressions": [
+      "neutral",
+      "happy",
+      "delighted",
+      "sad",
+      "angry",
+      "thinking"
+    ]
+  },
+  "cost": {
+    "sampleCalls": 3,
+    "exactCharge": null,
+    "reason": "Built-in tool exposes no unit billing. v1 approved before its batch. v2 changes the art bible; new 3-image sample first.",
+    "v2SuccessfulSamples": 3,
+    "remainingPriorityEstimate": {
+      "backgrounds": 5,
+      "foreground": 5,
+      "kitchenAndDrinksObjects": 18,
+      "secondCustomerNeutral": 1,
+      "total": 29,
+      "excludes": "other expressions, UI art and remaining content; revisions may add calls",
+      "exactCharge": null
+    }
+  },
+  "v2Priority": {
+    "sample": ["v2-seating", "v2-foliage", "v2-an"],
+    "pending": [
+      "six distinct backgrounds matching v2",
+      "six foreground overlays",
+      "six customer types and expressions",
+      "thin line object restyles",
+      "UI leaf header artwork",
+      "pantry refrigerator",
+      "plant growth states"
+    ],
+    "sampleStatus": "approved"
+  },
+  "previousStyle": "Hand-painted cozy illustration for a mobile game, soft gouache texture, warm muted palette (cream, sage green, terracotta, wood brown), dark-brown outlines, rounded chubby shapes, light from top-left, front view, gentle paper grain, no text, no watermark.",
+  "characterV3": {
+    "status": "approved-user-selected-c",
+    "reference": "assets/style_reference/character_ref.png",
+    "candidates": ["v3-character-a", "v3-character-b", "v3-character-c"],
+    "requiredFrame": [1024, 1024],
+    "anchor": [0.5, 1],
+    "background": "#00FF00",
+    "pipeline": "tools/remove_bg.mjs",
+    "rules": "codex-prompt-hoan-chinh-v3-tiem-mi-udon.md#47",
+    "selectedCandidate": "v3-character-c",
+    "revision": "small nose added at user request",
+    "ownerDress": "cream tiny floral print with pastel green, rose, lavender and yellow",
+    "castStatus": "owner three expressions, seven customers six expressions each, three staff four expressions each; ready in live renderer"
+  }
+}

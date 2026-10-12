@@ -1,0 +1,3703 @@
+{
+  "version": 1,
+  "status": "v3-partial-art-integration",
+  "assets": {
+    "work-empty-cup": {
+      "file": "sprites/work-empty-cup.svg",
+      "width": 160,
+      "height": 180,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "drink-topping-ice-cream": {
+      "file": "sprites/v3-drink-topping-ice-cream.webp",
+      "source": "sprites/sources/v3-drink-topping-ice-cream.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 0.5],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "ingredient-iceCream": {
+      "file": "optimized/v3-ingredient-iceCream.webp",
+      "source": "sprites/sources/v3-drink-topping-ice-cream.png",
+      "width": 128,
+      "height": 128,
+      "anchor": [0.5, 0.5],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "optimizedFrom": "sprites/v3-ingredient-iceCream.webp"
+    },
+    "drink-topping-whipped-cream": {
+      "file": "sprites/v3-drink-topping-whipped-cream.webp",
+      "source": "sprites/sources/v3-drink-topping-whipped-cream.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 0.5],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "drink-topping-sakura": {
+      "file": "sprites/v3-drink-topping-sakura.webp",
+      "source": "sprites/sources/v3-drink-topping-sakura.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 0.5],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "drink-topping-yuzu": {
+      "file": "sprites/v3-drink-topping-yuzu.webp",
+      "source": "sprites/sources/v3-drink-topping-yuzu.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 0.5],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "ingredient-cream": {
+      "file": "optimized/v3-ingredient-cream.webp",
+      "source": "sprites/sources/v3-ingredient-cream.png",
+      "width": 128,
+      "height": 128,
+      "anchor": [0.5, 0.5],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "optimizedFrom": "sprites/v3-ingredient-cream.webp"
+    },
+    "sample_seating": {
+      "file": "backgrounds/sample-seating.webp",
+      "source": "backgrounds/sample-seating.png",
+      "width": 1024,
+      "height": 1536,
+      "anchor": [0, 0],
+      "transparent": false,
+      "status": "sample"
+    },
+    "sample_kake": {
+      "file": "sprites/sample-kake.webp",
+      "source": "sprites/sample-kake.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "sample"
+    },
+    "sample_kettle": {
+      "file": "sprites/sample-kettle.webp",
+      "source": "sprites/sample-kettle.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "sample"
+    },
+    "front": {
+      "file": "backgrounds/front.webp",
+      "width": 1024,
+      "height": 1536,
+      "transparent": false,
+      "anchor": [0, 0],
+      "status": "ready"
+    },
+    "kitchen": {
+      "file": "backgrounds/kitchen.webp",
+      "width": 1024,
+      "height": 1536,
+      "transparent": false,
+      "anchor": [0, 0],
+      "status": "ready"
+    },
+    "drinks": {
+      "file": "backgrounds/drinks.webp",
+      "width": 1024,
+      "height": 1536,
+      "transparent": false,
+      "anchor": [0, 0],
+      "status": "ready"
+    },
+    "character-mai": {
+      "file": "characters/character-mai.webp",
+      "width": 203,
+      "height": 512,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "character-mai-sad": {
+      "file": "legacy/character-mai-sad.svg",
+      "width": 120,
+      "height": 200,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "legacy-export"
+    },
+    "character-an": {
+      "file": "characters/character-an.webp",
+      "width": 191,
+      "height": 512,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "character-an-sad": {
+      "file": "legacy/character-an-sad.svg",
+      "width": 120,
+      "height": 200,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "legacy-export"
+    },
+    "character-ha": {
+      "file": "legacy/character-ha.svg",
+      "width": 120,
+      "height": 200,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "legacy-export"
+    },
+    "character-ha-sad": {
+      "file": "legacy/character-ha-sad.svg",
+      "width": 120,
+      "height": 200,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "legacy-export"
+    },
+    "character-son": {
+      "file": "legacy/character-son.svg",
+      "width": 120,
+      "height": 200,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "legacy-export"
+    },
+    "character-son-sad": {
+      "file": "legacy/character-son-sad.svg",
+      "width": 120,
+      "height": 200,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "legacy-export"
+    },
+    "character-linh": {
+      "file": "legacy/character-linh.svg",
+      "width": 120,
+      "height": 200,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "legacy-export"
+    },
+    "character-linh-sad": {
+      "file": "legacy/character-linh-sad.svg",
+      "width": 120,
+      "height": 200,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "legacy-export"
+    },
+    "character-ken": {
+      "file": "legacy/character-ken.svg",
+      "width": 120,
+      "height": 200,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "legacy-export"
+    },
+    "character-ken-sad": {
+      "file": "legacy/character-ken-sad.svg",
+      "width": 120,
+      "height": 200,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "legacy-export"
+    },
+    "character-vip": {
+      "file": "legacy/character-vip.svg",
+      "width": 120,
+      "height": 200,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "legacy-export"
+    },
+    "character-vip-sad": {
+      "file": "legacy/character-vip-sad.svg",
+      "width": 120,
+      "height": 200,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "legacy-export"
+    },
+    "character-thu": {
+      "file": "legacy/character-thu.svg",
+      "width": 120,
+      "height": 200,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "legacy-export"
+    },
+    "character-thu-sad": {
+      "file": "legacy/character-thu-sad.svg",
+      "width": 120,
+      "height": 200,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "legacy-export"
+    },
+    "character-binh": {
+      "file": "legacy/character-binh.svg",
+      "width": 120,
+      "height": 200,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "legacy-export"
+    },
+    "character-binh-sad": {
+      "file": "legacy/character-binh-sad.svg",
+      "width": 120,
+      "height": 200,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "legacy-export"
+    },
+    "character-yui": {
+      "file": "legacy/character-yui.svg",
+      "width": 120,
+      "height": 200,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "legacy-export"
+    },
+    "character-yui-sad": {
+      "file": "legacy/character-yui-sad.svg",
+      "width": 120,
+      "height": 200,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "legacy-export"
+    },
+    "ingredient-noodles": {
+      "file": "optimized/v3-ingredient-noodles.webp",
+      "source": "sprites/sources/v3-ingredient-noodles.png",
+      "width": 128,
+      "height": 128,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1377, 1142],
+      "alphaRatio": 0.5085740594479993,
+      "optimizedFrom": "sprites/v3-ingredient-noodles.webp"
+    },
+    "ingredient-dashi": {
+      "file": "optimized/v3-ingredient-dashi.webp",
+      "source": "sprites/sources/v3-ingredient-dashi.png",
+      "width": 128,
+      "height": 128,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1536, 1024],
+      "alphaRatio": 0.4757709503173828,
+      "optimizedFrom": "sprites/v3-ingredient-dashi.webp"
+    },
+    "ingredient-soy": {
+      "file": "optimized/v3-ingredient-soy.webp",
+      "source": "sprites/sources/v3-ingredient-soy.png",
+      "width": 128,
+      "height": 128,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1375, 1144],
+      "alphaRatio": 0.6143941513032423,
+      "optimizedFrom": "sprites/v3-ingredient-soy.webp"
+    },
+    "ingredient-mirin": {
+      "file": "optimized/v3-ingredient-mirin.webp",
+      "source": "sprites/sources/v3-ingredient-mirin.png",
+      "width": 128,
+      "height": 128,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1269, 1240],
+      "alphaRatio": 0.6090470017031444,
+      "optimizedFrom": "sprites/v3-ingredient-mirin.webp"
+    },
+    "ingredient-beef": {
+      "file": "optimized/v3-ingredient-beef.webp",
+      "source": "sprites/sources/v3-ingredient-beef.png",
+      "width": 128,
+      "height": 128,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1536, 1024],
+      "alphaRatio": 0.5002117156982422,
+      "optimizedFrom": "sprites/v3-ingredient-beef.webp"
+    },
+    "ingredient-tofu": {
+      "file": "optimized/v3-ingredient-tofu.webp",
+      "source": "sprites/sources/v3-ingredient-tofu.png",
+      "width": 128,
+      "height": 128,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1536, 1024],
+      "alphaRatio": 0.496615727742513,
+      "optimizedFrom": "sprites/v3-ingredient-tofu.webp"
+    },
+    "ingredient-onion": {
+      "file": "optimized/v3-ingredient-onion.webp",
+      "source": "sprites/sources/v3-ingredient-onion.png",
+      "width": 128,
+      "height": 128,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1312, 1199],
+      "alphaRatio": 0.7236912365996053,
+      "optimizedFrom": "sprites/v3-ingredient-onion.webp"
+    },
+    "ingredient-seaweed": {
+      "file": "optimized/v3-ingredient-seaweed.webp",
+      "source": "sprites/sources/v3-ingredient-seaweed.png",
+      "width": 128,
+      "height": 128,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1536, 1024],
+      "alphaRatio": 0.5340607961018881,
+      "optimizedFrom": "sprites/v3-ingredient-seaweed.webp"
+    },
+    "ingredient-egg": {
+      "file": "optimized/v3-ingredient-egg.webp",
+      "source": "sprites/sources/v3-ingredient-egg.png",
+      "width": 128,
+      "height": 128,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1536, 1024],
+      "alphaRatio": 0.5535691579182943,
+      "optimizedFrom": "sprites/v3-ingredient-egg.webp"
+    },
+    "ingredient-shrimp": {
+      "file": "optimized/v3-ingredient-shrimp.webp",
+      "source": "sprites/sources/v3-ingredient-shrimp.png",
+      "width": 128,
+      "height": 128,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1358, 1159],
+      "alphaRatio": 0.5048350553585248,
+      "optimizedFrom": "sprites/v3-ingredient-shrimp.webp"
+    },
+    "ingredient-flour": {
+      "file": "optimized/v3-ingredient-flour.webp",
+      "source": "sprites/sources/v3-ingredient-flour.png",
+      "width": 128,
+      "height": 128,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1312, 1199],
+      "alphaRatio": 0.42834857299782336,
+      "optimizedFrom": "sprites/v3-ingredient-flour.webp"
+    },
+    "ingredient-oil": {
+      "file": "optimized/v3-ingredient-oil.webp",
+      "source": "sprites/sources/v3-ingredient-oil.png",
+      "width": 128,
+      "height": 128,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1240, 1268],
+      "alphaRatio": 0.698459601099013,
+      "optimizedFrom": "sprites/v3-ingredient-oil.webp"
+    },
+    "ingredient-tea": {
+      "file": "optimized/v3-ingredient-tea.webp",
+      "source": "sprites/sources/v3-ingredient-tea.png",
+      "width": 128,
+      "height": 128,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1448, 1086],
+      "alphaRatio": 0.5879997049337118,
+      "optimizedFrom": "sprites/v3-ingredient-tea.webp"
+    },
+    "ingredient-matcha": {
+      "file": "optimized/v3-ingredient-matcha.webp",
+      "source": "sprites/sources/v3-ingredient-matcha.png",
+      "width": 128,
+      "height": 128,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1330, 1182],
+      "alphaRatio": 0.5323161965828276,
+      "optimizedFrom": "sprites/v3-ingredient-matcha.webp"
+    },
+    "ingredient-milk": {
+      "file": "optimized/v3-ingredient-milk.webp",
+      "source": "sprites/sources/v3-ingredient-milk.png",
+      "width": 128,
+      "height": 128,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1145, 1374],
+      "alphaRatio": 0.632009305695925,
+      "optimizedFrom": "sprites/v3-ingredient-milk.webp"
+    },
+    "ingredient-ramune": {
+      "file": "optimized/v3-ingredient-ramune.webp",
+      "source": "sprites/sources/v3-ingredient-ramune.png",
+      "width": 128,
+      "height": 128,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1536],
+      "alphaRatio": 0.6981678009033203,
+      "optimizedFrom": "sprites/v3-ingredient-ramune.webp"
+    },
+    "ingredient-yuzu": {
+      "file": "optimized/v3-ingredient-yuzu.webp",
+      "source": "sprites/sources/v3-ingredient-yuzu.png",
+      "width": 128,
+      "height": 128,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1536, 1024],
+      "alphaRatio": 0.5751914978027344,
+      "optimizedFrom": "sprites/v3-ingredient-yuzu.webp"
+    },
+    "ingredient-miso": {
+      "file": "optimized/v3-ingredient-miso.webp",
+      "source": "sprites/sources/v3-ingredient-miso.png",
+      "width": 128,
+      "height": 128,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1374, 1145],
+      "alphaRatio": 0.5312516288146043,
+      "optimizedFrom": "sprites/v3-ingredient-miso.webp"
+    },
+    "ingredient-soda": {
+      "file": "optimized/v3-ingredient-soda.webp",
+      "source": "sprites/sources/v3-ingredient-soda.png",
+      "width": 128,
+      "height": 128,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1536],
+      "alphaRatio": 0.5736408233642578,
+      "optimizedFrom": "sprites/v3-ingredient-soda.webp"
+    },
+    "ingredient-coffee": {
+      "file": "optimized/v3-ingredient-coffee.webp",
+      "source": "sprites/sources/v3-ingredient-coffee.png",
+      "width": 128,
+      "height": 128,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1320, 1192],
+      "alphaRatio": 0.5523235712833028,
+      "optimizedFrom": "sprites/v3-ingredient-coffee.webp"
+    },
+    "ingredient-hojicha": {
+      "file": "optimized/v3-ingredient-hojicha.webp",
+      "source": "sprites/sources/v3-ingredient-hojicha.png",
+      "width": 128,
+      "height": 128,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1536, 1024],
+      "alphaRatio": 0.5863183339436849,
+      "optimizedFrom": "sprites/v3-ingredient-hojicha.webp"
+    },
+    "ingredient-curry": {
+      "file": "optimized/v3-ingredient-curry.webp",
+      "source": "sprites/sources/v3-ingredient-curry.png",
+      "width": 128,
+      "height": 128,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1306, 1205],
+      "alphaRatio": 0.48814154905860596,
+      "optimizedFrom": "sprites/v3-ingredient-curry.webp"
+    },
+    "ingredient-tempura": {
+      "file": "optimized/v3-ingredient-tempura.webp",
+      "source": "sprites/sources/v3-ingredient-tempura.png",
+      "width": 128,
+      "height": 128,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1536, 1024],
+      "alphaRatio": 0.6615956624348959,
+      "optimizedFrom": "sprites/v3-ingredient-tempura.webp"
+    },
+    "bowl-empty": {
+      "file": "sprites/v3-bowl-empty.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "v3-food-trial"
+    },
+    "bowl-noodles": {
+      "file": "sprites/v3-bowl-noodles.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "v3-food-trial"
+    },
+    "bowl-soup": {
+      "file": "sprites/v3-bowl-soup.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "v3-food-trial"
+    },
+    "bowl-miso": {
+      "file": "sprites/v3-bowl-miso.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "v3-food-trial"
+    },
+    "bowl-curry": {
+      "file": "sprites/v3-bowl-curry.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "v3-food-trial"
+    },
+    "topping-egg": {
+      "file": "optimized/v3-topping-egg.webp",
+      "width": 128,
+      "height": 128,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "v3-food-trial",
+      "optimizedFrom": "sprites/v3-topping-egg.webp"
+    },
+    "topping-beef": {
+      "file": "optimized/v3-topping-beef.webp",
+      "width": 128,
+      "height": 128,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "v3-food-trial",
+      "optimizedFrom": "sprites/v3-topping-beef.webp"
+    },
+    "topping-tofu": {
+      "file": "optimized/v3-topping-tofu.webp",
+      "width": 128,
+      "height": 128,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "v3-food-trial",
+      "optimizedFrom": "sprites/v3-topping-tofu.webp"
+    },
+    "topping-seaweed": {
+      "file": "optimized/v3-topping-seaweed.webp",
+      "width": 128,
+      "height": 128,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "v3-food-trial",
+      "optimizedFrom": "sprites/v3-topping-seaweed.webp"
+    },
+    "topping-onion": {
+      "file": "optimized/v3-topping-onion.webp",
+      "width": 128,
+      "height": 128,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "v3-food-trial",
+      "optimizedFrom": "sprites/v3-topping-onion.webp"
+    },
+    "topping-tempura": {
+      "file": "optimized/v3-topping-tempura.webp",
+      "width": 128,
+      "height": 128,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "v3-food-trial",
+      "optimizedFrom": "sprites/v3-topping-tempura.webp"
+    },
+    "storage": {
+      "file": "backgrounds/storage.webp",
+      "width": 1024,
+      "height": 1536,
+      "transparent": false,
+      "anchor": [0, 0],
+      "status": "ready"
+    },
+    "garden": {
+      "file": "backgrounds/garden.webp",
+      "width": 1024,
+      "height": 1536,
+      "transparent": false,
+      "anchor": [0, 0],
+      "status": "ready"
+    },
+    "noodle-pot": {
+      "file": "sprites/noodle-pot.webp",
+      "width": 512,
+      "height": 505,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "broth-pot": {
+      "file": "sprites/broth-pot.webp",
+      "width": 512,
+      "height": 468,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "fryer": {
+      "file": "sprites/fryer.webp",
+      "width": 512,
+      "height": 322,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "board": {
+      "file": "sprites/board.webp",
+      "width": 512,
+      "height": 259,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "sink": {
+      "file": "sprites/sink.webp",
+      "width": 512,
+      "height": 507,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "jar": {
+      "file": "sprites/jar.webp",
+      "width": 490,
+      "height": 512,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "fridge": {
+      "file": "sprites/fridge.webp",
+      "width": 379,
+      "height": 512,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "ramune": {
+      "file": "sprites/ramune.webp",
+      "width": 185,
+      "height": 512,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "milk": {
+      "file": "sprites/milk.webp",
+      "width": 239,
+      "height": 512,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "matcha-bowl": {
+      "file": "sprites/matcha-bowl.webp",
+      "width": 512,
+      "height": 469,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "chasen": {
+      "file": "sprites/chasen.webp",
+      "width": 316,
+      "height": 512,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "glass": {
+      "file": "sprites/glass.webp",
+      "width": 302,
+      "height": 512,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "noodles": {
+      "file": "sprites/noodles.webp",
+      "width": 512,
+      "height": 416,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "crate": {
+      "file": "sprites/crate.webp",
+      "width": 512,
+      "height": 401,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "kitchen-wide": {
+      "file": "backgrounds/kitchen-wide.webp",
+      "width": 1024,
+      "height": 1536,
+      "transparent": false,
+      "anchor": [0, 0],
+      "status": "ready"
+    },
+    "v2-seating": {
+      "file": "backgrounds/v2-seating.webp",
+      "width": 941,
+      "height": 1672,
+      "transparent": false,
+      "anchor": [0, 0],
+      "status": "ready"
+    },
+    "v3-guests-dining": {
+      "file": "backgrounds/v3-guests-dining.webp",
+      "source": "backgrounds/sources/v3-guests-dining.png",
+      "width": 941,
+      "height": 1672,
+      "transparent": false,
+      "anchor": [0, 0],
+      "status": "ready"
+    },
+    "bowl-base": {
+      "file": "sprites/bowl-base.webp",
+      "width": 512,
+      "height": 390,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "flowers": {
+      "file": "sprites/flowers.webp",
+      "width": 501,
+      "height": 512,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "owner": {
+      "file": "sprites/owner.webp",
+      "width": 212,
+      "height": 512,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "planter-empty": {
+      "file": "sprites/planter-empty.webp",
+      "width": 512,
+      "height": 222,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "planter": {
+      "file": "sprites/planter.webp",
+      "width": 512,
+      "height": 298,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "stool": {
+      "file": "sprites/stool.webp",
+      "width": 512,
+      "height": 474,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "v2-foliage": {
+      "file": "foreground/v2-foliage.webp",
+      "width": 941,
+      "height": 1672,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "watering-can": {
+      "file": "sprites/watering-can.webp",
+      "width": 512,
+      "height": 401,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "v2-an": {
+      "file": "customers/v2-an.webp",
+      "width": 468,
+      "height": 512,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "bowl-empty-blue": {
+      "file": "sprites/v3-bowl-empty-blue.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "v3-food-trial"
+    },
+    "bowl-noodles-blue": {
+      "file": "sprites/v3-bowl-noodles-blue.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "v3-food-trial"
+    },
+    "bowl-soup-blue": {
+      "file": "sprites/v3-bowl-soup-blue.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "v3-food-trial"
+    },
+    "bowl-miso-blue": {
+      "file": "sprites/v3-bowl-miso-blue.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "v3-food-trial"
+    },
+    "bowl-curry-blue": {
+      "file": "sprites/v3-bowl-curry-blue.webp",
+      "width": 512,
+      "height": 512,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "v3-food-trial"
+    },
+    "v2-drinks": {
+      "file": "backgrounds/v2-drinks.webp",
+      "width": 941,
+      "height": 1672,
+      "transparent": false,
+      "anchor": [0, 0],
+      "status": "ready"
+    },
+    "v2-fg-drinks": {
+      "file": "foreground/v2-fg-drinks.webp",
+      "width": 941,
+      "height": 1672,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "v2-fg-front": {
+      "file": "foreground/v2-fg-front.webp",
+      "width": 941,
+      "height": 1672,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "v2-fg-kitchen": {
+      "file": "foreground/v2-fg-kitchen.webp",
+      "width": 941,
+      "height": 1672,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "v2-fg-storage": {
+      "file": "foreground/v2-fg-storage.webp",
+      "width": 941,
+      "height": 1672,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "v2-front": {
+      "file": "backgrounds/v2-front.webp",
+      "width": 941,
+      "height": 1672,
+      "transparent": false,
+      "anchor": [0, 0],
+      "status": "ready"
+    },
+    "v2-fryer": {
+      "file": "sprites/v2-fryer.webp",
+      "width": 512,
+      "height": 287,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "v2-garden": {
+      "file": "backgrounds/v2-garden.webp",
+      "width": 941,
+      "height": 1672,
+      "transparent": false,
+      "anchor": [0, 0],
+      "status": "ready"
+    },
+    "v3-garden-outdoor": {
+      "file": "backgrounds/v3-garden-outdoor.webp",
+      "source": "backgrounds/sources/v3-garden-outdoor.png",
+      "width": 941,
+      "height": 1672,
+      "transparent": false,
+      "anchor": [0, 0],
+      "status": "ready"
+    },
+    "v3-garden-vegetable": {
+      "file": "backgrounds/v3-garden-vegetable.webp",
+      "source": "backgrounds/sources/v3-garden-vegetable.png",
+      "width": 941,
+      "height": 1672,
+      "transparent": false,
+      "anchor": [0, 0],
+      "status": "ready"
+    },
+    "v4-front-entrance": {
+      "file": "backgrounds/v4-front-entrance.webp",
+      "source": "backgrounds/sources/v4-front-entrance.png",
+      "width": 941,
+      "height": 1672,
+      "transparent": false,
+      "anchor": [0, 0],
+      "status": "ready"
+    },
+    "v4-garden-field": {
+      "file": "backgrounds/v4-garden-field.webp",
+      "source": "backgrounds/sources/v4-garden-field.png",
+      "width": 941,
+      "height": 1672,
+      "transparent": false,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "v4-garden-bed": {
+      "file": "sprites/v4-garden-bed.webp",
+      "source": "sprites/sources/v4-garden-bed.png",
+      "width": 1024,
+      "height": 229,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "v4-garden-onion-sprout": {
+      "file": "sprites/v4-garden-onion-sprout.webp",
+      "source": "sprites/sources/v4-garden-onion-sheet.png",
+      "width": 720,
+      "height": 700,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "v4-garden-onion-growing": {
+      "file": "sprites/v4-garden-onion-growing.webp",
+      "source": "sprites/sources/v4-garden-onion-sheet.png",
+      "width": 720,
+      "height": 700,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "v4-garden-onion-ripe": {
+      "file": "sprites/v4-garden-onion-ripe.webp",
+      "source": "sprites/sources/v4-garden-onion-sheet.png",
+      "width": 720,
+      "height": 700,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "v4-garden-onion-wilted": {
+      "file": "sprites/v4-garden-onion-wilted.webp",
+      "source": "sprites/sources/v4-garden-onion-sheet.png",
+      "width": 720,
+      "height": 700,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "v4-garden-flowers-sprout": {
+      "file": "sprites/v4-garden-flowers-sprout.webp",
+      "source": "sprites/sources/v4-garden-flowers-sheet.png",
+      "width": 720,
+      "height": 700,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "v4-garden-flowers-growing": {
+      "file": "sprites/v4-garden-flowers-growing.webp",
+      "source": "sprites/sources/v4-garden-flowers-sheet.png",
+      "width": 720,
+      "height": 700,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "v4-garden-flowers-ripe": {
+      "file": "sprites/v4-garden-flowers-ripe.webp",
+      "source": "sprites/sources/v4-garden-flowers-sheet.png",
+      "width": 720,
+      "height": 700,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "v4-garden-flowers-wilted": {
+      "file": "sprites/v4-garden-flowers-wilted.webp",
+      "source": "sprites/sources/v4-garden-flowers-sheet.png",
+      "width": 720,
+      "height": 700,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "v4-garden-yuzu-sprout": {
+      "file": "sprites/v4-garden-yuzu-sprout.webp",
+      "source": "sprites/sources/v4-garden-yuzu-sheet.png",
+      "width": 720,
+      "height": 700,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "v4-garden-yuzu-growing": {
+      "file": "sprites/v4-garden-yuzu-growing.webp",
+      "source": "sprites/sources/v4-garden-yuzu-sheet.png",
+      "width": 720,
+      "height": 700,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "v4-garden-yuzu-ripe": {
+      "file": "sprites/v4-garden-yuzu-ripe.webp",
+      "source": "sprites/sources/v4-garden-yuzu-sheet.png",
+      "width": 720,
+      "height": 700,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "v4-garden-yuzu-wilted": {
+      "file": "sprites/v4-garden-yuzu-wilted.webp",
+      "source": "sprites/sources/v4-garden-yuzu-sheet.png",
+      "width": 720,
+      "height": 700,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "v2-kitchen": {
+      "file": "backgrounds/v2-kitchen.webp",
+      "width": 941,
+      "height": 1672,
+      "transparent": false,
+      "anchor": [0, 0],
+      "status": "ready"
+    },
+    "v3-kitchen-workroom": {
+      "file": "backgrounds/v3-kitchen-workroom.webp",
+      "source": "backgrounds/sources/v3-kitchen-workroom.png",
+      "width": 941,
+      "height": 1672,
+      "transparent": false,
+      "anchor": [0, 0],
+      "status": "ready"
+    },
+    "v2-noodle-pot": {
+      "file": "sprites/v2-noodle-pot.webp",
+      "width": 512,
+      "height": 469,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "v2-storage": {
+      "file": "backgrounds/v2-storage.webp",
+      "width": 941,
+      "height": 1672,
+      "transparent": false,
+      "anchor": [0, 0],
+      "status": "ready"
+    },
+    "v3-drinks-alcove": {
+      "file": "backgrounds/v3-drinks-alcove.webp",
+      "source": "backgrounds/sources/v3-drinks-alcove.png",
+      "width": 941,
+      "height": 1672,
+      "transparent": false,
+      "anchor": [0, 0],
+      "status": "ready"
+    },
+    "v3-storage-pantry": {
+      "file": "backgrounds/v3-storage-pantry.webp",
+      "source": "backgrounds/sources/v3-storage-pantry.png",
+      "width": 941,
+      "height": 1672,
+      "transparent": false,
+      "anchor": [0, 0],
+      "status": "ready"
+    },
+    "v2-board": {
+      "file": "sprites/v2-board.webp",
+      "width": 512,
+      "height": 231,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "v2-broth-pot": {
+      "file": "sprites/v2-broth-pot.webp",
+      "width": 512,
+      "height": 456,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "v2-chasen": {
+      "file": "sprites/v2-chasen.webp",
+      "width": 343,
+      "height": 512,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "v2-fg-garden": {
+      "file": "foreground/v2-fg-garden.webp",
+      "width": 941,
+      "height": 1672,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "v2-fridge": {
+      "file": "sprites/v2-fridge.webp",
+      "width": 453,
+      "height": 512,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "v2-glass": {
+      "file": "sprites/v2-glass.webp",
+      "width": 464,
+      "height": 512,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "v2-jar": {
+      "file": "sprites/v2-jar.webp",
+      "width": 512,
+      "height": 499,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "v2-kettle": {
+      "file": "sprites/v2-kettle.webp",
+      "width": 486,
+      "height": 512,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "v2-matcha-bowl": {
+      "file": "sprites/v2-matcha-bowl.webp",
+      "width": 512,
+      "height": 426,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "v2-milk": {
+      "file": "sprites/v2-milk.webp",
+      "width": 308,
+      "height": 512,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "v2-noodles": {
+      "file": "sprites/v2-noodles.webp",
+      "width": 512,
+      "height": 341,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "v2-pantry-fridge": {
+      "file": "sprites/v2-pantry-fridge.webp",
+      "width": 318,
+      "height": 512,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "v2-ramune": {
+      "file": "sprites/v2-ramune.webp",
+      "width": 199,
+      "height": 512,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "v2-crate": {
+      "file": "sprites/v2-crate.webp",
+      "width": 512,
+      "height": 339,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "v2-mai": {
+      "file": "customers/v2-mai.webp",
+      "width": 318,
+      "height": 512,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "v2-owner": {
+      "file": "sprites/v2-owner.webp",
+      "width": 194,
+      "height": 512,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "v2-sink": {
+      "file": "sprites/v2-sink.webp",
+      "width": 512,
+      "height": 478,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "v2-watering-can": {
+      "file": "sprites/v2-watering-can.webp",
+      "width": 512,
+      "height": 410,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready"
+    },
+    "v3-character-a": {
+      "file": "style_reference/candidates/character-a.webp",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "sample-awaiting-selection",
+      "artVersion": 3
+    },
+    "v3-character-b": {
+      "file": "style_reference/candidates/character-b.webp",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "sample-awaiting-selection",
+      "artVersion": 3
+    },
+    "v3-character-c": {
+      "file": "style_reference/candidates/character-c.webp",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "approved-with-nose",
+      "artVersion": 3,
+      "reference": "style_reference/character_ref.png"
+    },
+    "v3-an": {
+      "file": "characters/v3-an.webp",
+      "source": "characters/sources/v3-an-green.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1024],
+      "alphaRatio": 0.586601980520389
+    },
+    "v3-mai": {
+      "file": "characters/v3-mai.webp",
+      "source": "characters/sources/v3-mai-green.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1024],
+      "alphaRatio": 0.5961917080652915
+    },
+    "v3-owner": {
+      "file": "characters/v3-owner.webp",
+      "source": "characters/sources/v3-owner-green.png",
+      "width": 512,
+      "height": 768,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1536],
+      "alphaRatio": 0.7228113810221354
+    },
+    "v3-ha": {
+      "file": "characters/v3-ha.webp",
+      "source": "characters/sources/v3-ha-green.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1024],
+      "alphaRatio": 0.5879075316244795
+    },
+    "v3-son": {
+      "file": "characters/v3-son.webp",
+      "source": "characters/sources/v3-son-green.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1024],
+      "alphaRatio": 0.5723191369753948
+    },
+    "v3-linh": {
+      "file": "characters/v3-linh.webp",
+      "source": "characters/sources/v3-linh-green.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1024],
+      "alphaRatio": 0.5799699335332678
+    },
+    "v3-ken": {
+      "file": "characters/v3-ken.webp",
+      "source": "characters/sources/v3-ken-green.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1024],
+      "alphaRatio": 0.5876843224488654
+    },
+    "v3-vip": {
+      "file": "characters/v3-vip.webp",
+      "source": "characters/sources/v3-vip-green.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1024],
+      "alphaRatio": 0.5711878289314704
+    },
+    "v3-thu": {
+      "file": "characters/v3-thu.webp",
+      "source": "characters/sources/v3-thu-green.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1024],
+      "alphaRatio": 0.614890404930697
+    },
+    "v3-binh": {
+      "file": "characters/v3-binh.webp",
+      "source": "characters/sources/v3-binh-green.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1024],
+      "alphaRatio": 0.5881294689529392
+    },
+    "v3-yui": {
+      "file": "characters/v3-yui.webp",
+      "source": "characters/sources/v3-yui-green.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1024],
+      "alphaRatio": 0.6057738045272671
+    },
+    "v3-an-happy": {
+      "file": "characters/v3-an-happy.webp",
+      "source": "characters/sources/v3-an-happy-green.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1024],
+      "alphaRatio": 0.5801568950649787
+    },
+    "v3-an-very-happy": {
+      "file": "characters/v3-an-very-happy.webp",
+      "source": "characters/sources/v3-an-very-happy-green.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1024],
+      "alphaRatio": 0.5797162000259457
+    },
+    "v3-an-sad": {
+      "file": "characters/v3-an-sad.webp",
+      "source": "characters/sources/v3-an-sad-green.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1024],
+      "alphaRatio": 0.5798363895820456
+    },
+    "v3-an-angry": {
+      "file": "characters/v3-an-angry.webp",
+      "source": "characters/sources/v3-an-angry-green.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1024],
+      "alphaRatio": 0.579788695313752
+    },
+    "v3-an-thinking": {
+      "file": "characters/v3-an-thinking.webp",
+      "source": "characters/sources/v3-an-thinking-green.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1024],
+      "alphaRatio": 0.5797359136568404
+    },
+    "v3-mai-happy": {
+      "file": "characters/v3-mai-happy.webp",
+      "source": "characters/sources/v3-mai-happy-green.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1024],
+      "alphaRatio": 0.5902490022359073
+    },
+    "v3-mai-very-happy": {
+      "file": "characters/v3-mai-very-happy.webp",
+      "source": "characters/sources/v3-mai-very-happy-green.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1024],
+      "alphaRatio": 0.5900162542066345
+    },
+    "v3-mai-sad": {
+      "file": "characters/v3-mai-sad.webp",
+      "source": "characters/sources/v3-mai-sad-green.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1024],
+      "alphaRatio": 0.5898718995545992
+    },
+    "v3-mai-angry": {
+      "file": "characters/v3-mai-angry.webp",
+      "source": "characters/sources/v3-mai-angry-green.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1024],
+      "alphaRatio": 0.5902337400700534
+    },
+    "v3-mai-thinking": {
+      "file": "characters/v3-mai-thinking.webp",
+      "source": "characters/sources/v3-mai-thinking-green.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1024],
+      "alphaRatio": 0.589997176499317
+    },
+    "v3-flour-bag": {
+      "file": "sprites/v3-flour-bag.webp",
+      "source": "sprites/v3-flour-bag-source.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "v3-ha-happy": {
+      "file": "characters/v3-ha-happy.webp",
+      "source": "characters/sources/v3-ha-happy-green.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1024],
+      "alphaRatio": 0.5856150271284998
+    },
+    "v3-ha-very-happy": {
+      "file": "characters/v3-ha-very-happy.webp",
+      "source": "characters/sources/v3-ha-very-happy-green.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1024],
+      "alphaRatio": 0.5860690765626551
+    },
+    "v3-ha-sad": {
+      "file": "characters/v3-ha-sad.webp",
+      "source": "characters/sources/v3-ha-sad-green.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1024],
+      "alphaRatio": 0.5865135871431515
+    },
+    "v3-ha-angry": {
+      "file": "characters/v3-ha-angry.webp",
+      "source": "characters/sources/v3-ha-angry-green.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1024],
+      "alphaRatio": 0.5850535066097896
+    },
+    "v3-ha-thinking": {
+      "file": "characters/v3-ha-thinking.webp",
+      "source": "characters/sources/v3-ha-thinking-green.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1024],
+      "alphaRatio": 0.5841530388244063
+    },
+    "v3-son-happy": {
+      "file": "characters/v3-son-happy.webp",
+      "source": "characters/sources/v3-son-happy-green.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1024],
+      "alphaRatio": 0.5706708230631675
+    },
+    "v3-son-very-happy": {
+      "file": "characters/v3-son-very-happy.webp",
+      "source": "characters/sources/v3-son-very-happy-green.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1024],
+      "alphaRatio": 0.5697073988436365
+    },
+    "v3-son-sad": {
+      "file": "characters/v3-son-sad.webp",
+      "source": "characters/sources/v3-son-sad-green.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1024],
+      "alphaRatio": 0.5696832337477011
+    },
+    "v3-son-angry": {
+      "file": "characters/v3-son-angry.webp",
+      "source": "characters/sources/v3-son-angry-green.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1024],
+      "alphaRatio": 0.5697023114550186
+    },
+    "v3-son-thinking": {
+      "file": "characters/v3-son-thinking.webp",
+      "source": "characters/sources/v3-son-thinking-green.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1024],
+      "alphaRatio": 0.5701048510794167
+    },
+    "v3-linh-happy": {
+      "file": "characters/v3-linh-happy.webp",
+      "source": "characters/sources/v3-linh-happy-green.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1024],
+      "alphaRatio": 0.5772691661006947
+    },
+    "v3-linh-very-happy": {
+      "file": "characters/v3-linh-very-happy.webp",
+      "source": "characters/sources/v3-linh-very-happy-green.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1024],
+      "alphaRatio": 0.5748055981624353
+    },
+    "v3-linh-sad": {
+      "file": "characters/v3-linh-sad.webp",
+      "source": "characters/sources/v3-linh-sad-green.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1024],
+      "alphaRatio": 0.5762103533445765
+    },
+    "v3-linh-angry": {
+      "file": "characters/v3-linh-angry.webp",
+      "source": "characters/sources/v3-linh-angry-green.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1024],
+      "alphaRatio": 0.5764081255771006
+    },
+    "v3-linh-thinking": {
+      "file": "characters/v3-linh-thinking.webp",
+      "source": "characters/sources/v3-linh-thinking-green.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1024],
+      "alphaRatio": 0.5777085892925732
+    },
+    "v3-ken-happy": {
+      "file": "characters/v3-ken-happy.webp",
+      "source": "characters/sources/v3-ken-happy-green.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1024],
+      "alphaRatio": 0.5848875305561279
+    },
+    "v3-ken-very-happy": {
+      "file": "characters/v3-ken-very-happy.webp",
+      "source": "characters/sources/v3-ken-very-happy-green.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1024],
+      "alphaRatio": 0.5848824431675099
+    },
+    "v3-ken-sad": {
+      "file": "characters/v3-ken-sad.webp",
+      "source": "characters/sources/v3-ken-sad-green.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1024],
+      "alphaRatio": 0.5856665369382569
+    },
+    "v3-ken-angry": {
+      "file": "characters/v3-ken-angry.webp",
+      "source": "characters/sources/v3-ken-angry-green.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1024],
+      "alphaRatio": 0.5857810031821615
+    },
+    "v3-ken-thinking": {
+      "file": "characters/v3-ken-thinking.webp",
+      "source": "characters/sources/v3-ken-thinking-green.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1024],
+      "alphaRatio": 0.5839870627707444
+    },
+    "v3-vip-happy": {
+      "file": "characters/v3-vip-happy.webp",
+      "source": "characters/sources/v3-vip-happy-green.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1024],
+      "alphaRatio": 0.5685188576777597
+    },
+    "v3-vip-very-happy": {
+      "file": "characters/v3-vip-very-happy.webp",
+      "source": "characters/sources/v3-vip-very-happy-green.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1024],
+      "alphaRatio": 0.5677665600858751
+    },
+    "v3-vip-sad": {
+      "file": "characters/v3-vip-sad.webp",
+      "source": "characters/sources/v3-vip-sad-green.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1024],
+      "alphaRatio": 0.56773539983059
+    },
+    "v3-vip-angry": {
+      "file": "characters/v3-vip-angry.webp",
+      "source": "characters/sources/v3-vip-angry-green.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1024],
+      "alphaRatio": 0.5667948688598399
+    },
+    "v3-vip-thinking": {
+      "file": "characters/v3-vip-thinking.webp",
+      "source": "characters/sources/v3-vip-thinking-green.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1024],
+      "alphaRatio": 0.5668959807086223
+    },
+    "v3-thu-happy": {
+      "file": "characters/v3-thu-happy.webp",
+      "source": "characters/sources/v3-thu-happy-green.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1024],
+      "alphaRatio": 0.6133133144591215
+    },
+    "v3-thu-sad": {
+      "file": "characters/v3-thu-sad.webp",
+      "source": "characters/sources/v3-thu-sad-green.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1024],
+      "alphaRatio": 0.6136452665664451
+    },
+    "v3-thu-thinking": {
+      "file": "characters/v3-thu-thinking.webp",
+      "source": "characters/sources/v3-thu-thinking-green.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1024],
+      "alphaRatio": 0.6127715075713062
+    },
+    "v3-binh-happy": {
+      "file": "characters/v3-binh-happy.webp",
+      "source": "characters/sources/v3-binh-happy-green.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1024],
+      "alphaRatio": 0.5854032645772762
+    },
+    "v3-binh-sad": {
+      "file": "characters/v3-binh-sad.webp",
+      "source": "characters/sources/v3-binh-sad-green.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1024],
+      "alphaRatio": 0.5859520666244413
+    },
+    "v3-binh-thinking": {
+      "file": "characters/v3-binh-thinking.webp",
+      "source": "characters/sources/v3-binh-thinking-green.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1024],
+      "alphaRatio": 0.585718046748014
+    },
+    "v3-yui-happy": {
+      "file": "characters/v3-yui-happy.webp",
+      "source": "characters/sources/v3-yui-happy-green.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1024],
+      "alphaRatio": 0.6034151639792537
+    },
+    "v3-yui-sad": {
+      "file": "characters/v3-yui-sad.webp",
+      "source": "characters/sources/v3-yui-sad-green.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1024],
+      "alphaRatio": 0.6040790681939008
+    },
+    "v3-yui-thinking": {
+      "file": "characters/v3-yui-thinking.webp",
+      "source": "characters/sources/v3-yui-thinking-green.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1024],
+      "alphaRatio": 0.6039665097207279
+    },
+    "v3-owner-happy": {
+      "file": "characters/v3-owner-happy.webp",
+      "source": "characters/sources/v3-owner-happy-green.png",
+      "width": 512,
+      "height": 768,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1536],
+      "alphaRatio": 0.7132409413655599
+    },
+    "v3-owner-sad": {
+      "file": "characters/v3-owner-sad.webp",
+      "source": "characters/sources/v3-owner-sad-green.png",
+      "width": 512,
+      "height": 768,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1536],
+      "alphaRatio": 0.7119096120198568
+    },
+    "plant-onion-sprout": {
+      "file": "sprites/plant-onion-sprout.webp",
+      "width": 512,
+      "height": 222,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "plant-onion-wilted": {
+      "file": "sprites/plant-onion-wilted.webp",
+      "width": 512,
+      "height": 298,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "plant-flowers-sprout": {
+      "file": "sprites/plant-flowers-sprout.webp",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "plant-flowers-wilted": {
+      "file": "sprites/plant-flowers-wilted.webp",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "plant-yuzu-sprout": {
+      "file": "sprites/plant-yuzu-sprout.webp",
+      "width": 512,
+      "height": 222,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "plant-yuzu-ripe": {
+      "file": "sprites/plant-yuzu-ripe.webp",
+      "width": 512,
+      "height": 222,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "plant-yuzu-wilted": {
+      "file": "sprites/plant-yuzu-wilted.webp",
+      "width": 512,
+      "height": 222,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "v3-noodle-pot-empty": {
+      "file": "sprites/v3-noodle-pot-empty.webp",
+      "width": 512,
+      "height": 469,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "v3-noodle-pot-water": {
+      "file": "sprites/v3-noodle-pot-water.webp",
+      "width": 512,
+      "height": 469,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "v3-handmade-flour": {
+      "file": "sprites/v3-handmade-flour.webp",
+      "width": 512,
+      "height": 231,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "v3-handmade-wet": {
+      "file": "sprites/v3-handmade-wet.webp",
+      "width": 512,
+      "height": 231,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "v3-handmade-dough": {
+      "file": "sprites/v3-handmade-dough.webp",
+      "width": 512,
+      "height": 231,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "v3-handmade-sheet": {
+      "file": "sprites/v3-handmade-sheet.webp",
+      "width": 512,
+      "height": 231,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "v3-handmade-cut": {
+      "file": "sprites/v3-handmade-cut.webp",
+      "width": 512,
+      "height": 231,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "v3-handmade-dry": {
+      "file": "sprites/v3-handmade-dry.webp",
+      "width": 512,
+      "height": 231,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "v3-noodle-pot-boiling": {
+      "file": "sprites/v3-noodle-pot-boiling.webp",
+      "width": 512,
+      "height": 469,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "v3-coffee-milk": {
+      "file": "sprites/v3-coffee-milk.webp",
+      "width": 512,
+      "height": 565,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "plant-flowers-growing": {
+      "file": "sprites/plant-flowers-growing.webp",
+      "width": 512,
+      "height": 537,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "plant-yuzu-growing": {
+      "file": "sprites/plant-yuzu-growing.webp",
+      "width": 512,
+      "height": 468,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "v3-mika": {
+      "file": "characters/v3-mika.webp",
+      "source": "characters/sources/v3-mika-neutral.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1024],
+      "alphaRatio": 0.6062517166137695
+    },
+    "v3-mika-happy": {
+      "file": "characters/v3-mika-happy.webp",
+      "source": "characters/sources/v3-mika-happy-green.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1024],
+      "alphaRatio": 0.6075162351289272
+    },
+    "v3-mika-thinking": {
+      "file": "characters/v3-mika-thinking.webp",
+      "source": "characters/sources/v3-mika-thinking-green.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1024],
+      "alphaRatio": 0.60810255666715
+    },
+    "v3-mika-sad": {
+      "file": "characters/v3-mika-sad.webp",
+      "source": "characters/sources/v3-mika-sad-green.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "sourceFrame": [1024, 1024],
+      "alphaRatio": 0.6079874544996681
+    },
+    "ui-sun": {
+      "file": "ui/sun.svg",
+      "width": 24,
+      "height": 24,
+      "anchor": [0.5, 0.5],
+      "transparent": true,
+      "status": "ready"
+    },
+    "ui-gear": {
+      "file": "ui/gear.svg",
+      "width": 24,
+      "height": 24,
+      "anchor": [0.5, 0.5],
+      "transparent": true,
+      "status": "ready"
+    },
+    "ui-book": {
+      "file": "ui/book.svg",
+      "width": 24,
+      "height": 24,
+      "anchor": [0.5, 0.5],
+      "transparent": true,
+      "status": "ready"
+    },
+    "ui-leaf": {
+      "file": "ui/leaf.svg",
+      "width": 24,
+      "height": 24,
+      "anchor": [0.5, 0.5],
+      "transparent": true,
+      "status": "ready"
+    },
+    "ui-bowl": {
+      "file": "ui/bowl.svg",
+      "width": 24,
+      "height": 24,
+      "anchor": [0.5, 0.5],
+      "transparent": true,
+      "status": "ready"
+    },
+    "ui-star": {
+      "file": "ui/star.svg",
+      "width": 24,
+      "height": 24,
+      "anchor": [0.5, 0.5],
+      "transparent": true,
+      "status": "ready"
+    },
+    "ui-bag": {
+      "file": "ui/bag.svg",
+      "width": 24,
+      "height": 24,
+      "anchor": [0.5, 0.5],
+      "transparent": true,
+      "status": "ready"
+    },
+    "ui-heart": {
+      "file": "ui/heart.svg",
+      "width": 24,
+      "height": 24,
+      "anchor": [0.5, 0.5],
+      "transparent": true,
+      "status": "ready"
+    },
+    "ui-arrow": {
+      "file": "ui/arrow.svg",
+      "width": 24,
+      "height": 24,
+      "anchor": [0.5, 0.5],
+      "transparent": true,
+      "status": "ready"
+    },
+    "ui-close": {
+      "file": "ui/close.svg",
+      "width": 24,
+      "height": 24,
+      "anchor": [0.5, 0.5],
+      "transparent": true,
+      "status": "ready"
+    },
+    "ui-rain": {
+      "file": "ui/rain.svg",
+      "width": 24,
+      "height": 24,
+      "anchor": [0.5, 0.5],
+      "transparent": true,
+      "status": "ready"
+    },
+    "ui-snow": {
+      "file": "ui/snow.svg",
+      "width": 24,
+      "height": 24,
+      "anchor": [0.5, 0.5],
+      "transparent": true,
+      "status": "ready"
+    },
+    "ui-check": {
+      "file": "ui/check.svg",
+      "width": 24,
+      "height": 24,
+      "anchor": [0.5, 0.5],
+      "transparent": true,
+      "status": "ready"
+    },
+    "ui-music": {
+      "file": "ui/music.svg",
+      "width": 24,
+      "height": 24,
+      "anchor": [0.5, 0.5],
+      "transparent": true,
+      "status": "ready"
+    },
+    "ui-people": {
+      "file": "ui/people.svg",
+      "width": 24,
+      "height": 24,
+      "anchor": [0.5, 0.5],
+      "transparent": true,
+      "status": "ready"
+    },
+    "ui-clock": {
+      "file": "ui/clock.svg",
+      "width": 24,
+      "height": 24,
+      "anchor": [0.5, 0.5],
+      "transparent": true,
+      "status": "ready"
+    },
+    "ui-clock-face": {
+      "file": "ui/clock-face.svg",
+      "width": 48,
+      "height": 48,
+      "anchor": [0.5, 0.5],
+      "transparent": true,
+      "status": "ready"
+    },
+    "ui-weather-rain": {
+      "file": "ui/weather-rain.svg",
+      "width": 6,
+      "height": 24,
+      "anchor": [0.5, 0.5],
+      "transparent": true,
+      "status": "ready"
+    },
+    "ui-weather-snow": {
+      "file": "ui/weather-snow.svg",
+      "width": 16,
+      "height": 16,
+      "anchor": [0.5, 0.5],
+      "transparent": true,
+      "status": "ready"
+    },
+    "ui-weather-petal": {
+      "file": "ui/weather-petal.svg",
+      "width": 16,
+      "height": 22,
+      "anchor": [0.5, 0.5],
+      "transparent": true,
+      "status": "ready"
+    },
+    "tray-chopsticks": {
+      "file": "sprites/tray-chopsticks.svg",
+      "width": 80,
+      "height": 22,
+      "anchor": [0.5, 0.5],
+      "transparent": true,
+      "status": "ready"
+    },
+    "tray-spoon": {
+      "file": "sprites/tray-spoon.svg",
+      "width": 30,
+      "height": 78,
+      "anchor": [0.5, 0.5],
+      "transparent": true,
+      "status": "ready"
+    },
+    "tray-saucer": {
+      "file": "sprites/tray-saucer.svg",
+      "width": 64,
+      "height": 30,
+      "anchor": [0.5, 0.5],
+      "transparent": true,
+      "status": "ready"
+    },
+    "tray-coaster": {
+      "file": "sprites/tray-coaster.svg",
+      "width": 60,
+      "height": 30,
+      "anchor": [0.5, 0.5],
+      "transparent": true,
+      "status": "ready"
+    },
+    "tray-woven-mat": {
+      "file": "sprites/tray-woven-mat.svg",
+      "width": 120,
+      "height": 68,
+      "anchor": [0.5, 0.5],
+      "transparent": true,
+      "status": "ready"
+    },
+    "kitchen-steam": {
+      "file": "sprites/kitchen-steam.svg",
+      "width": 96,
+      "height": 96,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready"
+    },
+    "broth-pour-stream": {
+      "file": "sprites/broth-pour-stream.svg",
+      "width": 18,
+      "height": 120,
+      "anchor": [0.5, 0],
+      "transparent": true,
+      "status": "ready"
+    },
+    "v3-storage-floor-supplies": {
+      "file": "sprites/v3-storage-floor-supplies.webp",
+      "source": "sprites/sources/v3-storage-floor-supplies.png",
+      "width": 1100,
+      "height": 405,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "v3-drink-matcha-latte-cold": {
+      "file": "sprites/v3-drink-matcha-latte-cold.webp",
+      "source": "sprites/sources/v3-drink-matcha-latte-cold.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "v3-drink-sencha-cold": {
+      "file": "sprites/v3-drink-sencha-cold.webp",
+      "source": "sprites/sources/v3-drink-sencha-cold.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "v3-drink-coffee-milk-cold": {
+      "file": "sprites/v3-drink-coffee-milk-cold.webp",
+      "source": "sprites/sources/v3-drink-coffee-milk-cold.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "v3-drink-hojicha-tea-cold": {
+      "file": "sprites/v3-drink-hojicha-tea-cold.webp",
+      "source": "sprites/sources/v3-drink-hojicha-tea-cold.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "v3-drink-hojicha-latte-cold": {
+      "file": "sprites/v3-drink-hojicha-latte-cold.webp",
+      "source": "sprites/sources/v3-drink-hojicha-latte-cold.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "v3-drink-sakura-tea-cold": {
+      "file": "sprites/v3-drink-sakura-tea-cold.webp",
+      "source": "sprites/sources/v3-drink-sakura-tea-cold.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "v3-wooden-tray": {
+      "file": "sprites/v3-wooden-tray.webp",
+      "source": "sprites/sources/v3-wooden-tray.png",
+      "width": 1200,
+      "height": 240,
+      "anchor": [0.5, 0.5],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "v3-drink-hojicha-latte": {
+      "file": "sprites/v3-drink-hojicha-latte.webp",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "v3-drink-sakura-tea": {
+      "file": "sprites/v3-drink-sakura-tea.webp",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "v3-drink-melon-soda": {
+      "file": "sprites/v3-drink-melon-soda.webp",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "v3-drink-strawberry-milk": {
+      "file": "sprites/v3-drink-strawberry-milk.webp",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "ingredient-sakura": {
+      "file": "optimized/v3-ingredient-sakura.webp",
+      "width": 128,
+      "height": 128,
+      "anchor": [0.5, 0.5],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "optimizedFrom": "sprites/v3-ingredient-sakura.webp"
+    },
+    "ingredient-melon": {
+      "file": "optimized/v3-ingredient-melon.webp",
+      "width": 128,
+      "height": 128,
+      "anchor": [0.5, 0.5],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "optimizedFrom": "sprites/v3-ingredient-melon.webp"
+    },
+    "ingredient-strawberry": {
+      "file": "optimized/v3-ingredient-strawberry.webp",
+      "width": 128,
+      "height": 128,
+      "anchor": [0.5, 0.5],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "optimizedFrom": "sprites/v3-ingredient-strawberry.webp"
+    },
+    "v3-drink-sencha": {
+      "file": "sprites/v3-drink-sencha.webp",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "v3-drink-matcha-latte": {
+      "file": "sprites/v3-drink-matcha-latte.webp",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "v3-drink-yuzu-soda": {
+      "file": "sprites/v3-drink-yuzu-soda.webp",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "v3-drink-hojicha-tea": {
+      "file": "sprites/v3-drink-hojicha-tea.webp",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "ingredient-shiitake": {
+      "file": "optimized/v3-ingredient-shiitake.webp",
+      "source": "sprites/sources/v3-ingredient-shiitake.png",
+      "width": 128,
+      "height": 128,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "optimizedFrom": "sprites/v3-ingredient-shiitake.webp"
+    },
+    "topping-shiitake": {
+      "file": "optimized/v3-topping-shiitake.webp",
+      "source": "sprites/sources/v3-topping-shiitake.png",
+      "width": 128,
+      "height": 128,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "optimizedFrom": "sprites/v3-topping-shiitake.webp"
+    },
+    "ingredient-daikon": {
+      "file": "optimized/v3-ingredient-daikon.webp",
+      "source": "sprites/sources/v3-ingredient-daikon.png",
+      "width": 128,
+      "height": 128,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "optimizedFrom": "sprites/v3-ingredient-daikon.webp"
+    },
+    "topping-daikon": {
+      "file": "optimized/v3-topping-daikon.webp",
+      "source": "sprites/sources/v3-topping-daikon.png",
+      "width": 128,
+      "height": 128,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "optimizedFrom": "sprites/v3-topping-daikon.webp"
+    },
+    "pet-cat-idle": {
+      "file": "sprites/v3-pet-cat-idle.webp",
+      "source": "sprites/sources/v3-pet-cat-sheet.png",
+      "width": 384,
+      "height": 384,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "pet-cat-happy": {
+      "file": "sprites/v3-pet-cat-happy.webp",
+      "source": "sprites/sources/v3-pet-cat-sheet.png",
+      "width": 384,
+      "height": 384,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "pet-cat-eating": {
+      "file": "sprites/v3-pet-cat-eating.webp",
+      "source": "sprites/sources/v3-pet-cat-sheet.png",
+      "width": 384,
+      "height": 384,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "pet-cat-sleeping": {
+      "file": "sprites/v3-pet-cat-sleeping.webp",
+      "source": "sprites/sources/v3-pet-cat-sheet.png",
+      "width": 384,
+      "height": 384,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "pet-cat-playing": {
+      "file": "sprites/v3-pet-cat-playing.webp",
+      "source": "sprites/sources/v3-pet-cat-sheet.png",
+      "width": 384,
+      "height": 384,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "pet-cat-walking": {
+      "file": "sprites/v3-pet-cat-walking.webp",
+      "source": "sprites/sources/v3-pet-cat-sheet.png",
+      "width": 384,
+      "height": 384,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "pet-shiba-idle": {
+      "file": "sprites/v3-pet-shiba-idle.webp",
+      "source": "sprites/sources/v3-pet-shiba-sheet.png",
+      "width": 384,
+      "height": 384,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "pet-shiba-happy": {
+      "file": "sprites/v3-pet-shiba-happy.webp",
+      "source": "sprites/sources/v3-pet-shiba-sheet.png",
+      "width": 384,
+      "height": 384,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "pet-shiba-eating": {
+      "file": "sprites/v3-pet-shiba-eating.webp",
+      "source": "sprites/sources/v3-pet-shiba-sheet.png",
+      "width": 384,
+      "height": 384,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "pet-shiba-sleeping": {
+      "file": "sprites/v3-pet-shiba-sleeping.webp",
+      "source": "sprites/sources/v3-pet-shiba-sheet.png",
+      "width": 384,
+      "height": 384,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "pet-shiba-playing": {
+      "file": "sprites/v3-pet-shiba-playing.webp",
+      "source": "sprites/sources/v3-pet-shiba-sheet.png",
+      "width": 384,
+      "height": 384,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "pet-shiba-walking": {
+      "file": "sprites/v3-pet-shiba-walking.webp",
+      "source": "sprites/sources/v3-pet-shiba-sheet.png",
+      "width": 384,
+      "height": 384,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "v5-front-motion": {
+      "file": "backgrounds/v5-front-motion.webp",
+      "source": "backgrounds/sources/v5-front-motion.png",
+      "width": 941,
+      "height": 1672,
+      "transparent": false,
+      "anchor": [0.5, 0],
+      "status": "ready"
+    },
+    "front-noren": {
+      "file": "sprites/v3-front-noren.webp",
+      "source": "sprites/sources/v3-front-noren.png",
+      "width": 406,
+      "height": 512,
+      "transparent": true,
+      "anchor": [0.5, 0],
+      "status": "ready"
+    },
+    "front-lantern": {
+      "file": "sprites/v3-front-lantern.webp",
+      "source": "sprites/sources/v3-front-lantern.png",
+      "width": 242,
+      "height": 512,
+      "transparent": true,
+      "anchor": [0.5, 0],
+      "status": "ready"
+    },
+    "ui-moon": {
+      "file": "ui/moon.svg",
+      "width": 24,
+      "height": 24,
+      "transparent": true,
+      "status": "ready"
+    },
+    "ui-drop": {
+      "file": "ui/drop.svg",
+      "width": 24,
+      "height": 24,
+      "transparent": true,
+      "status": "ready"
+    },
+    "side-karaage": {
+      "file": "sprites/v3-side-karaage.webp",
+      "source": "sprites/sources/v3-side-food-sheet.png",
+      "width": 256,
+      "height": 256,
+      "anchor": [0.5, 0.5],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "side-gyoza": {
+      "file": "sprites/v3-side-gyoza.webp",
+      "source": "sprites/sources/v3-side-food-sheet.png",
+      "width": 256,
+      "height": 256,
+      "anchor": [0.5, 0.5],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "side-tamagoyaki": {
+      "file": "sprites/v3-side-tamagoyaki.webp",
+      "source": "sprites/sources/v3-side-food-sheet.png",
+      "width": 256,
+      "height": 256,
+      "anchor": [0.5, 0.5],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "side-kimchi": {
+      "file": "sprites/v3-side-kimchi.webp",
+      "source": "sprites/sources/v3-side-food-sheet.png",
+      "width": 256,
+      "height": 256,
+      "anchor": [0.5, 0.5],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "ingredient-chicken": {
+      "file": "optimized/v3-ingredient-chicken.webp",
+      "source": "sprites/sources/v3-side-food-sheet.png",
+      "width": 128,
+      "height": 128,
+      "anchor": [0.5, 0.5],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "optimizedFrom": "sprites/v3-ingredient-chicken.webp"
+    },
+    "ingredient-kimchi": {
+      "file": "optimized/v3-ingredient-kimchi.webp",
+      "source": "sprites/sources/v3-side-food-sheet.png",
+      "width": 128,
+      "height": 128,
+      "anchor": [0.5, 0.5],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "optimizedFrom": "sprites/v3-ingredient-kimchi.webp"
+    },
+    "season-spring": {
+      "file": "sprites/v3-season-spring.webp",
+      "source": "sprites/sources/v3-season-decor-sheet.png",
+      "width": 512,
+      "height": 322,
+      "anchor": [0.5, 0],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "season-summer": {
+      "file": "sprites/v3-season-summer.webp",
+      "source": "sprites/sources/v3-season-decor-sheet.png",
+      "width": 512,
+      "height": 335,
+      "anchor": [0.5, 0],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "season-autumn": {
+      "file": "sprites/v3-season-autumn.webp",
+      "source": "sprites/sources/v3-season-decor-sheet.png",
+      "width": 512,
+      "height": 292,
+      "anchor": [0.5, 0],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "season-winter": {
+      "file": "sprites/v3-season-winter.webp",
+      "source": "sprites/sources/v3-season-decor-sheet.png",
+      "width": 512,
+      "height": 301,
+      "anchor": [0.5, 0],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "v3-garden-sakura-sprout": {
+      "file": "sprites/v3-garden-sakura-sprout.webp",
+      "source": "sprites/sources/v3-sakura-sheet.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "v3-garden-sakura-growing": {
+      "file": "sprites/v3-garden-sakura-growing.webp",
+      "source": "sprites/sources/v3-sakura-sheet.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "v3-garden-sakura-ripe": {
+      "file": "sprites/v3-garden-sakura-ripe.webp",
+      "source": "sprites/sources/v3-sakura-sheet.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "v3-garden-sakura-wilted": {
+      "file": "sprites/v3-garden-sakura-wilted.webp",
+      "source": "sprites/sources/v3-sakura-sheet.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "v3-garden-sunflower-sprout": {
+      "file": "sprites/v3-garden-sunflower-sprout.webp",
+      "source": "sprites/sources/v3-sunflower-corrected-sheet.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "v3-garden-sunflower-growing": {
+      "file": "sprites/v3-garden-sunflower-growing.webp",
+      "source": "sprites/sources/v3-sunflower-corrected-sheet.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "v3-garden-sunflower-ripe": {
+      "file": "sprites/v3-garden-sunflower-ripe.webp",
+      "source": "sprites/sources/v3-sunflower-corrected-sheet.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "v3-garden-sunflower-wilted": {
+      "file": "sprites/v3-garden-sunflower-wilted.webp",
+      "source": "sprites/sources/v3-sunflower-corrected-sheet.png",
+      "width": 512,
+      "height": 512,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "ingredient-corn": {
+      "file": "optimized/v3-ingredient-corn.webp",
+      "source": "sprites/sources/v3-corn-butter-sheet.png",
+      "width": 128,
+      "height": 128,
+      "anchor": [0.5, 0.5],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "optimizedFrom": "sprites/v3-ingredient-corn.webp"
+    },
+    "ingredient-butter": {
+      "file": "optimized/v3-ingredient-butter.webp",
+      "source": "sprites/sources/v3-corn-butter-sheet.png",
+      "width": 128,
+      "height": 128,
+      "anchor": [0.5, 0.5],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "optimizedFrom": "sprites/v3-ingredient-butter.webp"
+    },
+    "topping-corn": {
+      "file": "optimized/v3-topping-corn.webp",
+      "source": "sprites/sources/v3-corn-butter-sheet.png",
+      "width": 128,
+      "height": 128,
+      "anchor": [0.5, 0.5],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "optimizedFrom": "sprites/v3-topping-corn.webp"
+    },
+    "topping-butter": {
+      "file": "optimized/v3-topping-butter.webp",
+      "source": "sprites/sources/v3-corn-butter-sheet.png",
+      "width": 128,
+      "height": 128,
+      "anchor": [0.5, 0.5],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3,
+      "optimizedFrom": "sprites/v3-topping-butter.webp"
+    },
+    "v4-kitchen-station": {
+      "file": "backgrounds/v4-kitchen-station.webp",
+      "source": "backgrounds/sources/v4-kitchen-station.png",
+      "width": 941,
+      "height": 1673,
+      "anchor": [0, 0],
+      "transparent": false,
+      "status": "ready",
+      "artVersion": 4
+    },
+    "v4-drinks-station": {
+      "file": "backgrounds/v4-drinks-station.webp",
+      "source": "backgrounds/sources/v4-drinks-station.png",
+      "width": 941,
+      "height": 1673,
+      "anchor": [0, 0],
+      "transparent": false,
+      "status": "ready",
+      "artVersion": 4
+    },
+    "guest-order-paper": {
+      "file": "sprites/guest-order-paper.svg",
+      "width": 64,
+      "height": 80,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "guest-menu-board": {
+      "file": "sprites/guest-menu-board.svg",
+      "width": 220,
+      "height": 140,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "guest-wall-shelf": {
+      "file": "sprites/guest-wall-shelf.svg",
+      "width": 180,
+      "height": 24,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 3
+    },
+    "guest-noren-pattern": {
+      "file": "sprites/guest-noren-pattern.svg",
+      "width": 160,
+      "height": 100,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 4
+    },
+    "motion-vine": {
+      "file": "sprites/motion-vine.svg",
+      "width": 64,
+      "height": 256,
+      "anchor": [0.5, 1],
+      "transparent": true,
+      "status": "ready",
+      "artVersion": 4
+    },
+    "owner-wave-anim": {
+      "type": "anim",
+      "file": "animations/owner-wave-anim.webp",
+      "frames": 6,
+      "fps": 8,
+      "loop": false,
+      "frameWidth": 512,
+      "frameHeight": 768,
+      "fallback": "v3-owner",
+      "transparent": true,
+      "status": "planned",
+      "maxBytes": 153600
+    },
+    "owner-work-anim": {
+      "type": "anim",
+      "file": "animations/owner-work-anim.webp",
+      "frames": 6,
+      "fps": 8,
+      "loop": true,
+      "frameWidth": 512,
+      "frameHeight": 768,
+      "fallback": "v3-owner-happy",
+      "transparent": true,
+      "status": "planned",
+      "maxBytes": 153600
+    },
+    "guest-hands-bowl-anim": {
+      "type": "anim",
+      "file": "animations/guest-hands-bowl-anim.webp",
+      "frames": 6,
+      "fps": 8,
+      "loop": true,
+      "frameWidth": 256,
+      "frameHeight": 256,
+      "fallback": "bowl-soup",
+      "transparent": true,
+      "status": "planned",
+      "maxBytes": 153600
+    },
+    "guest-hands-drink-anim": {
+      "type": "anim",
+      "file": "animations/guest-hands-drink-anim.webp",
+      "frames": 6,
+      "fps": 8,
+      "loop": true,
+      "frameWidth": 192,
+      "frameHeight": 256,
+      "fallback": "v2-glass",
+      "transparent": true,
+      "status": "planned",
+      "maxBytes": 153600
+    },
+    "steam-loop-anim": {
+      "type": "anim",
+      "file": "animations/steam-loop-anim.webp",
+      "frames": 6,
+      "fps": 8,
+      "loop": true,
+      "frameWidth": 96,
+      "frameHeight": 96,
+      "fallback": "kitchen-steam",
+      "transparent": true,
+      "status": "planned",
+      "maxBytes": 153600
+    },
+    "pet-cat-idle-anim": {
+      "type": "anim",
+      "file": "animations/pet-cat-idle-anim.webp",
+      "frames": 6,
+      "fps": 8,
+      "loop": true,
+      "frameWidth": 256,
+      "frameHeight": 256,
+      "fallback": "pet-cat-idle",
+      "transparent": true,
+      "status": "planned",
+      "maxBytes": 153600
+    },
+    "pet-cat-sleeping-anim": {
+      "type": "anim",
+      "file": "animations/pet-cat-sleeping-anim.webp",
+      "frames": 6,
+      "fps": 8,
+      "loop": true,
+      "frameWidth": 256,
+      "frameHeight": 256,
+      "fallback": "pet-cat-sleeping",
+      "transparent": true,
+      "status": "planned",
+      "maxBytes": 153600
+    },
+    "pet-cat-eating-anim": {
+      "type": "anim",
+      "file": "animations/pet-cat-eating-anim.webp",
+      "frames": 6,
+      "fps": 8,
+      "loop": true,
+      "frameWidth": 256,
+      "frameHeight": 256,
+      "fallback": "pet-cat-eating",
+      "transparent": true,
+      "status": "planned",
+      "maxBytes": 153600
+    },
+    "pet-cat-playing-anim": {
+      "type": "anim",
+      "file": "animations/pet-cat-playing-anim.webp",
+      "frames": 6,
+      "fps": 8,
+      "loop": true,
+      "frameWidth": 256,
+      "frameHeight": 256,
+      "fallback": "pet-cat-playing",
+      "transparent": true,
+      "status": "planned",
+      "maxBytes": 153600
+    },
+    "pet-shiba-idle-anim": {
+      "type": "anim",
+      "file": "animations/pet-shiba-idle-anim.webp",
+      "frames": 6,
+      "fps": 8,
+      "loop": true,
+      "frameWidth": 256,
+      "frameHeight": 256,
+      "fallback": "pet-shiba-idle",
+      "transparent": true,
+      "status": "planned",
+      "maxBytes": 153600
+    },
+    "pet-shiba-sleeping-anim": {
+      "type": "anim",
+      "file": "animations/pet-shiba-sleeping-anim.webp",
+      "frames": 6,
+      "fps": 8,
+      "loop": true,
+      "frameWidth": 256,
+      "frameHeight": 256,
+      "fallback": "pet-shiba-sleeping",
+      "transparent": true,
+      "status": "planned",
+      "maxBytes": 153600
+    },
+    "pet-shiba-eating-anim": {
+      "type": "anim",
+      "file": "animations/pet-shiba-eating-anim.webp",
+      "frames": 6,
+      "fps": 8,
+      "loop": true,
+      "frameWidth": 256,
+      "frameHeight": 256,
+      "fallback": "pet-shiba-eating",
+      "transparent": true,
+      "status": "planned",
+      "maxBytes": 153600
+    },
+    "pet-shiba-playing-anim": {
+      "type": "anim",
+      "file": "animations/pet-shiba-playing-anim.webp",
+      "frames": 6,
+      "fps": 8,
+      "loop": true,
+      "frameWidth": 256,
+      "frameHeight": 256,
+      "fallback": "pet-shiba-playing",
+      "transparent": true,
+      "status": "planned",
+      "maxBytes": 153600
+    },
+    "gdv-pantry-tea": {
+      "file": "sprites/gdv-pantry-tea.webp",
+      "width": 128,
+      "height": 128,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready",
+      "provenance": "image_gen, GD-V"
+    },
+    "gdv-garden-a": {
+      "file": "backgrounds/gdv-garden-a.webp",
+      "width": 1000,
+      "height": 1778,
+      "transparent": false,
+      "anchor": [0, 0],
+      "status": "ready",
+      "provenance": "image_gen, GD-V"
+    },
+    "gdv-garden-b": {
+      "file": "backgrounds/gdv-garden-b.webp",
+      "width": 1000,
+      "height": 1778,
+      "transparent": false,
+      "anchor": [0, 0],
+      "status": "ready",
+      "provenance": "image_gen, GD-V"
+    },
+    "gdv-pantry-noodles": {
+      "file": "sprites/gdv-pantry-noodles.webp",
+      "width": 128,
+      "height": 128,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready",
+      "provenance": "image_gen, GD-V"
+    },
+    "gdv-pantry-broth": {
+      "file": "sprites/gdv-pantry-broth.webp",
+      "width": 128,
+      "height": 128,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready",
+      "provenance": "image_gen, GD-V"
+    },
+    "gdv-pantry-spice": {
+      "file": "sprites/gdv-pantry-spice.webp",
+      "width": 128,
+      "height": 128,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready",
+      "provenance": "image_gen, GD-V"
+    },
+    "gdv-storage-plate": {
+      "file": "backgrounds/gdv-storage-plate.webp",
+      "width": 1000,
+      "height": 1778,
+      "transparent": false,
+      "anchor": [0, 0],
+      "status": "ready",
+      "provenance": "image_gen, GD-V"
+    },
+    "gdv-pantry-veg": {
+      "file": "sprites/gdv-pantry-veg.webp",
+      "width": 128,
+      "height": 128,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready",
+      "provenance": "image_gen, GD-V"
+    },
+    "gdv-pantry-meat": {
+      "file": "sprites/gdv-pantry-meat.webp",
+      "width": 128,
+      "height": 128,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready",
+      "provenance": "image_gen, GD-V"
+    },
+    "gdv-pantry-sweets": {
+      "file": "sprites/gdv-pantry-sweets.webp",
+      "width": 128,
+      "height": 128,
+      "transparent": true,
+      "anchor": [0.5, 1],
+      "status": "ready",
+      "provenance": "image_gen, GD-V"
+    },
+    "gdv-fg-front": {
+      "file": "optimized/gdv-fg-front.webp",
+      "width": 900,
+      "height": 1600,
+      "transparent": true,
+      "anchor": [0, 0],
+      "status": "ready",
+      "provenance": "image_gen, GD-V",
+      "optimizedFrom": "foreground/gdv-fg-front.webp"
+    },
+    "gdv-fg-seating": {
+      "file": "optimized/gdv-fg-seating.webp",
+      "width": 900,
+      "height": 1600,
+      "transparent": true,
+      "anchor": [0, 0],
+      "status": "ready",
+      "provenance": "image_gen, GD-V",
+      "optimizedFrom": "foreground/gdv-fg-seating.webp"
+    },
+    "gdv-fg-drinks": {
+      "file": "optimized/gdv-fg-drinks.webp",
+      "width": 900,
+      "height": 1600,
+      "transparent": true,
+      "anchor": [0, 0],
+      "status": "ready",
+      "provenance": "image_gen, GD-V",
+      "optimizedFrom": "foreground/gdv-fg-drinks.webp"
+    },
+    "gdv-fg-kitchen": {
+      "file": "optimized/gdv-fg-kitchen.webp",
+      "width": 900,
+      "height": 1600,
+      "transparent": true,
+      "anchor": [0, 0],
+      "status": "ready",
+      "provenance": "image_gen, GD-V",
+      "optimizedFrom": "foreground/gdv-fg-kitchen.webp"
+    },
+    "gdv-fg-storage": {
+      "file": "optimized/gdv-fg-storage.webp",
+      "width": 900,
+      "height": 1600,
+      "transparent": true,
+      "anchor": [0, 0],
+      "status": "ready",
+      "provenance": "image_gen, GD-V",
+      "optimizedFrom": "foreground/gdv-fg-storage.webp"
+    },
+    "gdv-fg-garden": {
+      "file": "optimized/gdv-fg-garden.webp",
+      "width": 900,
+      "height": 1600,
+      "transparent": true,
+      "anchor": [0, 0],
+      "status": "ready",
+      "provenance": "image_gen, GD-V",
+      "optimizedFrom": "foreground/gdv-fg-garden.webp"
+    },
+    "gdv-drinks-plate": {
+      "file": "backgrounds/gdv-drinks-plate.webp",
+      "width": 1000,
+      "height": 1778,
+      "transparent": false,
+      "anchor": [0, 0],
+      "status": "ready",
+      "provenance": "image_gen, GD-V"
+    },
+    "gdv-kitchen-plate": {
+      "file": "backgrounds/gdv-kitchen-plate.webp",
+      "width": 1000,
+      "height": 1778,
+      "transparent": false,
+      "anchor": [0, 0],
+      "status": "ready",
+      "provenance": "image_gen, GD-V"
+    },
+    "gdv-world-front": {
+      "file": "backgrounds/gdv-world-front.webp",
+      "width": 1000,
+      "height": 1778,
+      "transparent": false,
+      "anchor": [0, 0],
+      "status": "ready",
+      "composition": "world-baked",
+      "provenance": "GD-V, source gdv-front-plate, localized 4% seam match",
+      "sourceId": "gdv-front-plate"
+    },
+    "gdv-world-guests": {
+      "file": "backgrounds/gdv-world-guests.webp",
+      "width": 1000,
+      "height": 1778,
+      "transparent": false,
+      "anchor": [0, 0],
+      "status": "ready",
+      "composition": "world-baked",
+      "provenance": "GD-V, source gdv-guests-plate, localized 4% seam match",
+      "sourceId": "gdv-guests-plate"
+    },
+    "gdv-world-drinks": {
+      "file": "backgrounds/gdv-world-drinks.webp",
+      "width": 1000,
+      "height": 1778,
+      "transparent": false,
+      "anchor": [0, 0],
+      "status": "ready",
+      "composition": "world-baked",
+      "provenance": "GD-V, source gdv-drinks-plate, localized 4% seam match",
+      "sourceId": "gdv-drinks-plate"
+    },
+    "gdv-world-kitchen": {
+      "file": "backgrounds/gdv-world-kitchen.webp",
+      "width": 1000,
+      "height": 1778,
+      "transparent": false,
+      "anchor": [0, 0],
+      "status": "ready",
+      "composition": "world-baked",
+      "provenance": "GD-V, source gdv-kitchen-plate, localized 4% seam match",
+      "sourceId": "gdv-kitchen-plate"
+    },
+    "gdv-world-storage": {
+      "file": "backgrounds/gdv-world-storage.webp",
+      "width": 1000,
+      "height": 1778,
+      "transparent": false,
+      "anchor": [0, 0],
+      "status": "ready",
+      "composition": "world-baked",
+      "provenance": "GD-V, source gdv-storage-plate, localized 4% seam match",
+      "sourceId": "gdv-storage-plate"
+    },
+    "gdv-world-garden": {
+      "file": "backgrounds/gdv-world-garden.webp",
+      "width": 1000,
+      "height": 1778,
+      "transparent": false,
+      "anchor": [0, 0],
+      "status": "superseded",
+      "composition": "field",
+      "provenance": "GD-V, source gdv-garden-b, localized 4% seam match",
+      "sourceId": "gdv-garden-b",
+      "supersededBy": "gdx-garden-approved"
+    },
+    "gdv-guests-plate": {
+      "file": "backgrounds/gdv-guests-plate.webp",
+      "width": 1000,
+      "height": 1778,
+      "transparent": false,
+      "anchor": [0, 0],
+      "status": "ready",
+      "provenance": "image_gen, GD-V"
+    },
+    "gdv-front-plate": {
+      "file": "backgrounds/gdv-front-plate.webp",
+      "width": 1000,
+      "height": 1778,
+      "transparent": false,
+      "anchor": [0, 0],
+      "status": "ready",
+      "provenance": "image_gen, GD-V"
+    },
+    "ui-trash": {
+      "file": "sprites/ui-trash.svg",
+      "width": 32,
+      "height": 32,
+      "anchor": [0.5, 0.5],
+      "transparent": true,
+      "status": "ready"
+    },
+    "gdx-garden-approved": {
+      "file": "backgrounds/gdx-garden-approved.webp",
+      "source": "backgrounds/sources/gdx-garden-approved.png",
+      "width": 941,
+      "height": 1672,
+      "transparent": false,
+      "anchor": [0.5, 1],
+      "status": "ready",
+      "reference": "reference/garden-approved.png",
+      "method": "built-in-imagegen exact reference edit: isolate basin only; retain approved composition"
+    },
+    "gdx-garden-basin": {
+      "file": "sprites/gdx-garden-basin.webp",
+      "source": "sprites/sources/gdx-garden-basin.png",
+      "width": 128,
+      "height": 117,
+      "transparent": true,
+      "anchor": [0, 1],
+      "status": "ready",
+      "reference": "reference/garden-approved.png",
+      "method": "built-in-imagegen exact reference edit: isolate basin only; retain approved composition"
+    },
+    "gdw-wall-extension": {
+      "file": "backgrounds/gdw-wall-extension.webp",
+      "width": 1000,
+      "height": 400,
+      "transparent": false,
+      "anchor": [
+        0,
+        0
+      ],
+      "status": "ready",
+      "provenance": "GD-W A, image_gen, empty plaster wall using gdv-world-kitchen as palette/style reference"
+    },
+    "gdw-ceramic-0": {"file":"sprites/gdw-ceramic-0.webp","width":256,"height":256,"transparent":true,"anchor":[0.5,1],"status":"ready","provenance":"GD-W C image_gen, aligned ceramic fluid stage 0"},
+    "gdw-ceramic-1": {"file":"sprites/gdw-ceramic-1.webp","width":256,"height":256,"transparent":true,"anchor":[0.5,1],"status":"ready","provenance":"GD-W C image_gen, aligned ceramic fluid stage 1"},
+    "gdw-ceramic-2": {"file":"sprites/gdw-ceramic-2.webp","width":256,"height":256,"transparent":true,"anchor":[0.5,1],"status":"ready","provenance":"GD-W C image_gen, aligned ceramic fluid stage 2"},
+    "gdw-ceramic-3": {"file":"sprites/gdw-ceramic-3.webp","width":256,"height":256,"transparent":true,"anchor":[0.5,1],"status":"ready","provenance":"GD-W C image_gen, aligned ceramic fluid stage 3"},
+    "gdw-ceramic-4": {"file":"sprites/gdw-ceramic-4.webp","width":256,"height":256,"transparent":true,"anchor":[0.5,1],"status":"ready","provenance":"GD-W C image_gen, aligned ceramic fluid stage 4"},
+    "gdw-ceramic-5": {"file":"sprites/gdw-ceramic-5.webp","width":256,"height":256,"transparent":true,"anchor":[0.5,1],"status":"ready","provenance":"GD-W C image_gen, aligned ceramic fluid stage 5"},
+    "gdw-ceramic-6": {"file":"sprites/gdw-ceramic-6.webp","width":256,"height":256,"transparent":true,"anchor":[0.5,1],"status":"ready","provenance":"GD-W C image_gen, aligned ceramic fluid stage 6"},
+    "gdw-ceramic-7": {"file":"sprites/gdw-ceramic-7.webp","width":256,"height":256,"transparent":true,"anchor":[0.5,1],"status":"ready","provenance":"GD-W C image_gen, aligned ceramic fluid stage 7"},
+    "gdw-ceramic-8": {"file":"sprites/gdw-ceramic-8.webp","width":256,"height":256,"transparent":true,"anchor":[0.5,1],"status":"ready","provenance":"GD-W C image_gen, aligned ceramic fluid stage 8"},
+    "gdw-ceramic-9": {"file":"sprites/gdw-ceramic-9.webp","width":256,"height":256,"transparent":true,"anchor":[0.5,1],"status":"ready","provenance":"GD-W C image_gen, aligned ceramic fluid stage 9"},
+    "gdw-ceramic-10": {"file":"sprites/gdw-ceramic-10.webp","width":256,"height":256,"transparent":true,"anchor":[0.5,1],"status":"ready","provenance":"GD-W C image_gen, aligned ceramic fluid stage 10"},
+    "gdw-ceramic-11": {"file":"sprites/gdw-ceramic-11.webp","width":256,"height":256,"transparent":true,"anchor":[0.5,1],"status":"ready","provenance":"GD-W C image_gen, aligned ceramic fluid stage 11"},
+    "gdw-glass-0": {"file":"sprites/gdw-glass-0.webp","width":256,"height":256,"transparent":true,"anchor":[0.5,1],"status":"ready","provenance":"GD-W C image_gen, aligned glass fluid stage 0"},
+    "gdw-glass-1": {"file":"sprites/gdw-glass-1.webp","width":256,"height":256,"transparent":true,"anchor":[0.5,1],"status":"ready","provenance":"GD-W C image_gen, aligned glass fluid stage 1"},
+    "gdw-glass-2": {"file":"sprites/gdw-glass-2.webp","width":256,"height":256,"transparent":true,"anchor":[0.5,1],"status":"ready","provenance":"GD-W C image_gen, aligned glass fluid stage 2"},
+    "gdw-glass-3": {"file":"sprites/gdw-glass-3.webp","width":256,"height":256,"transparent":true,"anchor":[0.5,1],"status":"ready","provenance":"GD-W C image_gen, aligned glass fluid stage 3"},
+    "gdw-glass-4": {"file":"sprites/gdw-glass-4.webp","width":256,"height":256,"transparent":true,"anchor":[0.5,1],"status":"ready","provenance":"GD-W C image_gen, aligned glass fluid stage 4"},
+    "gdw-glass-5": {"file":"sprites/gdw-glass-5.webp","width":256,"height":256,"transparent":true,"anchor":[0.5,1],"status":"ready","provenance":"GD-W C image_gen, aligned glass fluid stage 5"},
+    "gdw-glass-6": {"file":"sprites/gdw-glass-6.webp","width":256,"height":256,"transparent":true,"anchor":[0.5,1],"status":"ready","provenance":"GD-W C image_gen, aligned glass fluid stage 6"},
+    "gdw-glass-7": {"file":"sprites/gdw-glass-7.webp","width":256,"height":256,"transparent":true,"anchor":[0.5,1],"status":"ready","provenance":"GD-W C image_gen, aligned glass fluid stage 7"},
+    "gdw-glass-8": {"file":"sprites/gdw-glass-8.webp","width":256,"height":256,"transparent":true,"anchor":[0.5,1],"status":"ready","provenance":"GD-W C image_gen, aligned glass fluid stage 8"},
+    "gdw-glass-9": {"file":"sprites/gdw-glass-9.webp","width":256,"height":256,"transparent":true,"anchor":[0.5,1],"status":"ready","provenance":"GD-W C image_gen, aligned glass fluid stage 9"},
+    "gdw-glass-10": {"file":"sprites/gdw-glass-10.webp","width":256,"height":256,"transparent":true,"anchor":[0.5,1],"status":"ready","provenance":"GD-W C image_gen, aligned glass fluid stage 10"},
+    "gdw-glass-11": {"file":"sprites/gdw-glass-11.webp","width":256,"height":256,"transparent":true,"anchor":[0.5,1],"status":"ready","provenance":"GD-W C image_gen, aligned glass fluid stage 11"},
+    "gdw-glass-extra-0": {"file":"sprites/gdw-glass-extra-0.webp","width":256,"height":256,"transparent":true,"anchor":[0.5,1],"status":"ready","provenance":"GD-W C image_gen, accurate syrup/milk/latte stage 0"},
+    "gdw-glass-extra-1": {"file":"sprites/gdw-glass-extra-1.webp","width":256,"height":256,"transparent":true,"anchor":[0.5,1],"status":"ready","provenance":"GD-W C image_gen, accurate syrup/milk/latte stage 1"},
+    "gdw-glass-extra-2": {"file":"sprites/gdw-glass-extra-2.webp","width":256,"height":256,"transparent":true,"anchor":[0.5,1],"status":"ready","provenance":"GD-W C image_gen, accurate syrup/milk/latte stage 2"},
+    "gdw-glass-extra-3": {"file":"sprites/gdw-glass-extra-3.webp","width":256,"height":256,"transparent":true,"anchor":[0.5,1],"status":"ready","provenance":"GD-W C image_gen, accurate syrup/milk/latte stage 3"},
+    "gdw-glass-extra-4": {"file":"sprites/gdw-glass-extra-4.webp","width":256,"height":256,"transparent":true,"anchor":[0.5,1],"status":"ready","provenance":"GD-W C image_gen, accurate syrup/milk/latte stage 4"},
+    "gdw-glass-extra-5": {"file":"sprites/gdw-glass-extra-5.webp","width":256,"height":256,"transparent":true,"anchor":[0.5,1],"status":"ready","provenance":"GD-W C image_gen, accurate syrup/milk/latte stage 5"},
+    "gdw-glass-extra-6": {"file":"sprites/gdw-glass-extra-6.webp","width":256,"height":256,"transparent":true,"anchor":[0.5,1],"status":"ready","provenance":"GD-W C image_gen, accurate syrup/milk/latte stage 6"},
+    "gdw-glass-extra-7": {"file":"sprites/gdw-glass-extra-7.webp","width":256,"height":256,"transparent":true,"anchor":[0.5,1],"status":"ready","provenance":"GD-W C image_gen, accurate syrup/milk/latte stage 7"},
+    "gdw-glass-extra-8": {"file":"sprites/gdw-glass-extra-8.webp","width":256,"height":256,"transparent":true,"anchor":[0.5,1],"status":"ready","provenance":"GD-W C image_gen, accurate syrup/milk/latte stage 8"},
+    "gdw-glass-extra-9": {"file":"sprites/gdw-glass-extra-9.webp","width":256,"height":256,"transparent":true,"anchor":[0.5,1],"status":"ready","provenance":"GD-W C image_gen, accurate syrup/milk/latte stage 9"},
+    "gdw-glass-extra-10": {"file":"sprites/gdw-glass-extra-10.webp","width":256,"height":256,"transparent":true,"anchor":[0.5,1],"status":"ready","provenance":"GD-W C image_gen, accurate syrup/milk/latte stage 10"},
+    "gdw-glass-extra-11": {"file":"sprites/gdw-glass-extra-11.webp","width":256,"height":256,"transparent":true,"anchor":[0.5,1],"status":"ready","provenance":"GD-W C image_gen, accurate syrup/milk/latte stage 11"},
+    "gdw-glass-extra-12": {"file":"sprites/gdw-glass-extra-12.webp","width":256,"height":256,"transparent":true,"anchor":[0.5,1],"status":"ready","provenance":"GD-W C image_gen, accurate syrup/milk/latte stage 12"},
+    "gdw-glass-extra-13": {"file":"sprites/gdw-glass-extra-13.webp","width":256,"height":256,"transparent":true,"anchor":[0.5,1],"status":"ready","provenance":"GD-W C image_gen, accurate syrup/milk/latte stage 13"},
+    "gdw-glass-extra-14": {"file":"sprites/gdw-glass-extra-14.webp","width":256,"height":256,"transparent":true,"anchor":[0.5,1],"status":"ready","provenance":"GD-W C image_gen, accurate syrup/milk/latte stage 14"},
+    "gdw-glass-extra-15": {"file":"sprites/gdw-glass-extra-15.webp","width":256,"height":256,"transparent":true,"anchor":[0.5,1],"status":"ready","provenance":"GD-W C image_gen, accurate syrup/milk/latte stage 15"},
+    "gdw-dirty-bowl": {"file":"sprites/gdw-dirty-bowl.webp","width":128,"height":128,"transparent":true,"anchor":[0.5,1],"status":"ready","provenance":"GD-W D image_gen, technical alpha crop/resize"},
+    "gdw-clean-bowl": {"file":"sprites/gdw-clean-bowl.webp","width":128,"height":128,"transparent":true,"anchor":[0.5,1],"status":"ready","provenance":"GD-W D image_gen, technical alpha crop/resize"},
+    "gdw-soap": {"file":"sprites/gdw-soap.webp","width":128,"height":128,"transparent":true,"anchor":[0.5,1],"status":"ready","provenance":"GD-W D image_gen, technical alpha crop/resize"},
+    "gdw-brush": {"file":"sprites/gdw-brush.webp","width":128,"height":128,"transparent":true,"anchor":[0.5,1],"status":"ready","provenance":"GD-W D image_gen, technical alpha crop/resize"},
+    "gdw-sink": {"file":"sprites/gdw-sink.webp","width":512,"height":172,"transparent":true,"anchor":[0.5,1],"status":"ready","provenance":"GD-W D image_gen, technical alpha crop/resize"},
+    "gdw-water": {"file":"sprites/gdw-water.webp","width":26,"height":128,"transparent":true,"anchor":[0.5,1],"status":"ready","provenance":"GD-W D image_gen water sprite"}
+  }
+}

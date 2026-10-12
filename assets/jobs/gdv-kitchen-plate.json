@@ -1,0 +1,11 @@
+{
+  "tool": "image_gen (built-in)",
+  "prompt": "Use case: style-transfer, precise background edit. FIRST image is the layout to preserve, second is own-game art style anchor, third is a 15% neighboring border to match its colors. Same art style, line weight, palette and level of detail as the reference; only change the subject as described. Preserve every shelf, countertop, wall division and floor baseline at exactly the same normalized position as first image, front view portrait 9:16, cream tile wall, three empty narrow shelves at source y14.5%,22.5%,31%, sage hood upper right; counter begins EXACTLY y40.8%, front ends y70%. Make the illustration cleaner and FLATTER: thin olive brown 1-2px colored outlines, almost flat warm cream #F8E4C6 walls, honey #EFAB58 wood, deep sage green #435037 narrow counter fascia, ONE soft shadow tone, extremely subtle grain, remove all exaggerated diagonal sunlight, mottled plaster, realistic/high contrast wood grain. REMOVE ALL leaves/vines/plants from the edges; they will be separate sprites. Empty shelves and countertop; no jars, utensils, appliances other than built-in hood/window, characters, UI, lettering, logo or watermark. Floor simple honey boards. Do not add objects or move the counter. Full opaque portrait canvas about1080x1920.",
+  "referenceImages": [
+    "D:\\GameZui\\assets\\backgrounds\\v4-kitchen-station.webp",
+    "D:\\GameZui\\assets\\style_reference\\seating.webp",
+    "D:\\GameZui\\assets\\style_reference\\edges\\storage-left.png"
+  ],
+  "generatedSource": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ff00-5b98-7621-9551-c7ac662c37cf\\exec-7e6d7283-f532-45c8-bdf9-2ace651381f0.png",
+  "source": "assets/incoming/gdv/kitchen-plate.png"
+}

@@ -1,0 +1,27 @@
+{
+  "tea": { "hot": [0, 0, 2, 3], "cold": 2 },
+  "matcha": { "hot": [0, 4, 5, 6, 7, 7], "cold": 4 },
+  "coffee": {
+    "glassHot": ["0", "extra-9", "extra-10", "extra-11", "extra-12"],
+    "cold": 6
+  },
+  "hojicha": { "hot": [0, 0, 2, 3], "cold": 2 },
+  "hojichaLatte": {
+    "glassHot": ["0", "0", "extra-13", "1", "extra-14", "extra-15"],
+    "cold": 6
+  },
+  "sakuraTea": { "hot": [0, 0, 2, 2, 3], "cold": 2 },
+  "yuzuSoda": {
+    "frames": ["0", "extra-0", "extra-1", "extra-2", "7"],
+    "cold": 7
+  },
+  "melonSoda": {
+    "frames": ["0", "extra-3", "extra-4", "extra-5", "8"],
+    "cold": 8
+  },
+  "strawberryMilk": {
+    "frames": ["0", "extra-6", "extra-7", "extra-8", "extra-8"],
+    "cold": 9
+  },
+  "ramune": { "bottle": "v2-ramune" }
+}

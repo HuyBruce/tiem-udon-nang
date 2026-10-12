@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-30",
+  "mode": "built-in-imagegen",
+  "style": "Cozy Japanese storybook gouache, warm terracotta bowl, muted olive stripe, hand-painted texture, true transparent RGBA background",
+  "selected": {
+    "bowl-empty": "exec-933d6097-49d3-46f7-b1ff-10c45b7977c9.png",
+    "bowl-noodles": "exec-99ccf374-bf0a-4c6c-9285-3883a378f2ac.png",
+    "bowl-soup": "exec-4708c97b-7245-4d05-b2cc-bd9c66c97a43.png",
+    "bowl-miso": "exec-7c5adf7d-e44c-4c7c-96a2-1c686d0e06f2.png",
+    "bowl-curry": "exec-f98c9a40-1007-4825-85cb-e0b64f2750f9.png",
+    "topping-egg": "exec-cfbaf70f-f599-4fb4-9ca0-de2684f5beaa.png",
+    "topping-beef": "exec-a66e8bfd-2092-47e1-a690-2353894aab1e.png",
+    "topping-tofu": "exec-afaa3803-e623-438a-bec5-e3efe78ce0c7.png",
+    "topping-seaweed": "exec-3ffb0d21-3ee7-460f-a0eb-7a7039376940.png",
+    "topping-onion": "exec-410dd2ea-adf8-4c0c-9fe4-9e863cfc4442.png",
+    "topping-tempura": "exec-4d32a0cc-cd42-4730-8a96-00a5d7773ada.png",
+    "bowl-empty-blue": "exec-52f4803e-89f4-40a3-8c11-024db214f8fa.png",
+    "bowl-noodles-blue": "exec-b665dc15-71ef-4a5d-93a0-9cf3a3030dbc.png",
+    "bowl-soup-blue": "exec-355171aa-a365-4c6f-8fdd-334c13205c67.png",
+    "bowl-miso-blue": "exec-3766652c-3caa-4f21-aabc-c241b9210dfd.png",
+    "bowl-curry-blue": "exec-f4f6cf09-40ce-4dfb-bb96-533f424450cf.png"
+  },
+  "output": "assets/sprites/v3-{asset-id}.webp; bowls 512px, toppings 256px, WebP quality 86",
+  "rejected": "First reference edit set had opaque black or fake checkerboard backgrounds; never imported",
+  "runtimeLimit": "Ingredient icons were later replaced by assets/jobs/v3-ingredient-art.json; some UI/FX assets remain legacy"
+}

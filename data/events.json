@@ -1,0 +1,57 @@
+{
+  "blossom": {
+    "name": "Hoa anh đào nở",
+    "desc": "Một chút hồng theo gió. Khách dạo phố đông hơn.",
+    "demand": 1.25
+  },
+  "festival": {
+    "name": "Đêm hội đèn lồng",
+    "desc": "Phố nhỏ rộn ràng. Chuẩn bị thêm vài phần mì nhé.",
+    "demand": 1.5
+  },
+  "harvest": {
+    "name": "Ngày hội mùa thu",
+    "desc": "Những người hàng xóm ghé ăn sau phiên chợ.",
+    "demand": 1.3
+  },
+  "christmas": {
+    "name": "Đêm Giáng sinh",
+    "desc": "Một tô mì nóng giữa những lời chúc ấm áp.",
+    "demand": 1.4
+  },
+  "newyear": {
+    "name": "Ngày đầu năm",
+    "desc": "Đón năm mới cùng những vị khách thân quen.",
+    "demand": 1.35
+  },
+  "quiet": {
+    "name": "Một ngày chậm rãi",
+    "desc": "Con hẻm yên tĩnh. Có thời gian chăm sóc khu vườn.",
+    "demand": 0.75
+  },
+  "scarcity": {
+    "name": "Chuyến hàng đến muộn",
+    "desc": "Tôm hôm nay khan hiếm, giá nhập gấp đôi.",
+    "demand": 1
+  },
+  "power": {
+    "name": "Sửa điện trong hẻm",
+    "desc": "Từ phút thứ hai, bếp dùng lửa nhỏ trong 30 giây.",
+    "demand": 0.9
+  },
+  "tanabata": {
+    "name": "Thất tịch Tanabata",
+    "desc": "Treo lời ước dưới khóm trúc. Khách ghé uống trà và ăn mì lạnh.",
+    "demand": 1.25
+  },
+  "obon": {
+    "name": "Đêm Obon",
+    "desc": "Những chiếc đèn dẫn người xa nhà trở về. Chuẩn bị thêm bữa tối nhé.",
+    "demand": 1.35
+  },
+  "halloween": {
+    "name": "Đêm Halloween",
+    "desc": "Một tối vui cùng bí ngô, áo choàng và những lời gọi món nghịch ngợm.",
+    "demand": 1.3
+  }
+}

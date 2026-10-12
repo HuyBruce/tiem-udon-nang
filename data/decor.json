@@ -1,0 +1,76 @@
+{
+  "bowl": {
+    "name": "Tô gốm xanh",
+    "slot": "bowl",
+    "color": "#739b99"
+  },
+  "wall": {
+    "name": "Tường màu lá trà",
+    "slot": "wall",
+    "color": "#c1c9a1"
+  },
+  "table": {
+    "name": "Quầy gỗ óc chó",
+    "slot": "table",
+    "color": "#987057"
+  },
+  "flowers": {
+    "name": "Cúc nhỏ bên hiên",
+    "slot": "flowers",
+    "color": "#e9b958"
+  },
+  "cup": {
+    "name": "Ly thủy tinh xanh",
+    "slot": "cup",
+    "color": "#94beb6"
+  },
+  "mat": {
+    "name": "Lót tô dệt tay",
+    "slot": "mat",
+    "color": "#a8a074"
+  },
+  "chopsticks": {
+    "name": "Đũa gỗ hoa anh đào",
+    "slot": "chopsticks",
+    "color": "#9b574b"
+  },
+  "spoon": {
+    "name": "Muỗng gốm trắng",
+    "slot": "spoon",
+    "color": "#f1e7d1"
+  },
+  "saucer": {
+    "name": "Đĩa gốm nâu",
+    "slot": "saucer",
+    "color": "#b68562"
+  },
+  "coaster": {
+    "name": "Lót ly hoa",
+    "slot": "coaster",
+    "color": "#c88776"
+  },
+  "season-spring": {
+    "name": "Cành hoa anh đào",
+    "slot": "season",
+    "color": "#dfa0a5",
+    "asset": "season-spring"
+  },
+  "season-summer": {
+    "name": "Lời ước mùa hạ",
+    "slot": "season",
+    "color": "#a0bf67",
+    "asset": "season-summer"
+  },
+  "season-autumn": {
+    "name": "Lá phong và bí ngô",
+    "slot": "season",
+    "color": "#c57c54",
+    "asset": "season-autumn"
+  },
+  "season-winter": {
+    "name": "Dải sao mùa đông",
+    "slot": "season",
+    "color": "#94beb6",
+    "asset": "season-winter"
+  }
+}

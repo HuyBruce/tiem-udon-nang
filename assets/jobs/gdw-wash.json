@@ -1,0 +1,7 @@
+{
+  "tool": "image_gen",
+  "prompt": "NEW isolated sprite atlas for cozy udon game, using reference sink only for thin warm brown outlines, cream/sage colors and soft painterly style. REAL transparent alpha background, no checkerboard, no halo, no text. Exactly 2 columns by 2 rows, four equally sized square cells, one separate complete object in each cell with ample padding. Top left: small shallow Japanese ceramic bowl, cream interior and warm brown exterior, visibly dirty with just a few noodle remnants and broth stains, three-quarter front view. Top right: small clean cream ceramic bowl tilted nearly upside down for a drying rack, same bowl scale. Bottom left: an irregular cluster of small pale blue-white SOAP BUBBLES, a flat low mound about 3:1 width/height, outlined delicate pale blue, no bowl or basin. Bottom right: a small dish scrub BRUSH with sage handle and cream bristles, viewed diagonally, no hand. No steam, no faucet, no environment, no shadows outside objects. Each complete object stays within its cell.",
+  "source": "assets/sprites/sources/gdw-wash.png",
+  "reference": "assets/sprites/v2-sink.webp",
+  "alpha": true
+}

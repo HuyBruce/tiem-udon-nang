@@ -1,0 +1,922 @@
+/* Opening and scene feedback. Keep illustration coordinates in the layouts. */
+/* These existing SVG assets paint directly on the new credits panel in WebKit. */
+.sheet[data-panel="audio-info"] .ui-icon {
+  width: 20px;
+  height: 20px;
+  background: none;
+  -webkit-mask: none;
+  mask: none;
+  filter: invert(1);
+}
+.sheet[data-panel="audio-info"].has-panel-back .sheet-title {
+  padding-left: 64px;
+}
+#app {
+  /* Interactive divs inherit this too; the game supplies its own touch cue. */
+  -webkit-tap-highlight-color: transparent;
+}
+.sheet-title {
+  font-size: 15px;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+.large-font .sheet-title {
+  font-size: 17px;
+}
+.has-panel-back .sheet-title {
+  padding-left: 64px;
+}
+.back-sheet {
+  position: absolute;
+  top: 6px;
+  left: 10px;
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  min-height: 44px;
+  padding: 0;
+  z-index: 2;
+}
+.back-sheet .ui-icon {
+  transform: rotate(180deg);
+}
+.cook-bowl > .cook-status {
+  display: inline-block;
+  max-width: 100%;
+  padding: 8px 12px;
+  margin: 8px 0 0;
+  border-radius: 12px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+.sheet-content .ingredients.tops button {
+  font-size: 12px;
+  line-height: 1.5;
+  min-height: 104px;
+}
+.sheet-content .ingredients.tops small {
+  font-size: 12px;
+}
+.large-font .sheet-content .ingredients.tops button {
+  font-size: 15px;
+}
+.large-font .sheet-content .ingredients.tops small {
+  font-size: 13px;
+}
+.large-font .cook-bowl > .cook-status {
+  font-size: 16px;
+}
+.cook-status[data-texture="perfect"] {
+  background: #edf5d9;
+  color: #435c2c;
+  border: 1px solid #a1b779;
+}
+.cook-status[data-texture="soft"] {
+  background: #fff0db;
+  color: #88512a;
+  border: 1px solid #d7a474;
+}
+.game.landing {
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  gap: 14px;
+  padding: calc(24px + var(--safe-top)) 20px calc(22px + var(--safe-bottom));
+  background: #fff3e8;
+}
+.landing .landing-top,
+.landing .landing-bottom {
+  position: relative;
+  inset: auto;
+  width: 100%;
+}
+.landing .landing-top > .eyebrow {
+  font-size: 11px;
+  letter-spacing: 2px;
+  color: #746548;
+}
+.landing .landing-top h1 {
+  margin-top: 4px;
+  font-size: 38px;
+  line-height: 1.3;
+  letter-spacing: -1px;
+  font-weight: 600;
+}
+.landing .landing-top h1 em {
+  font-weight: 600;
+}
+.landing .landing-top p {
+  font-size: 14px;
+  color: #74604b;
+}
+.landing .landing-art {
+  position: relative;
+  inset: auto;
+  width: 100%;
+  min-height: 0;
+  height: 100%;
+  transform: none;
+  border: 1px solid #c9b28e;
+  border-radius: 20px;
+  box-shadow: 0 6px 18px #79543724;
+  isolation: isolate;
+}
+.landing-art .shop-sign {
+  font-size: 18px;
+}
+.landing-art .noren-letters {
+  font-size: 24px;
+}
+.landing-art .scene-background {
+  object-fit: fill;
+}
+.landing .landing-bottom p {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #62513f;
+}
+.landing .landing-bottom .primary {
+  min-height: 54px;
+  margin: 12px 0 8px;
+  font-size: 16px;
+  padding: 12px 16px;
+  background: #748453;
+  box-shadow:
+    0 4px 0 #4e6038,
+    0 7px 16px #52683920;
+}
+.landing .landing-bottom > small {
+  font-size: 12px;
+  color: #75634e;
+}
+.landing-welcome {
+  position: absolute;
+  bottom: 7%;
+  left: 8%;
+  right: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 8px;
+  border: 1px solid #ecd9bf;
+  border-radius: 12px;
+  background: #fff6e8ee;
+  color: #614c36;
+  font-size: 13px;
+  font-weight: 600;
+  z-index: 24;
+}
+.landing .landing-top {
+  animation: welcome-in 500ms ease-out both;
+}
+.landing .landing-bottom {
+  animation: welcome-in 600ms 100ms ease-out both;
+}
+.landing-art::after,
+.world-room.front::after,
+.world-room.garden::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 15% 20%, #fff7c540, transparent 65%);
+  pointer-events: none;
+  z-index: 24;
+  animation: afternoon-light 7s ease-in-out infinite alternate;
+}
+.front-owner > .sprite {
+  transform-origin: 50% 28%;
+  animation: owner-breathe 4s ease-in-out infinite;
+}
+.animated-noren {
+  gap: 2px;
+}
+.animated-noren .noren-panel {
+  position: relative;
+  flex: 1;
+  height: 100%;
+  transform-origin: 50% 5%;
+  animation: noren-breeze 4.5s ease-in-out infinite;
+  animation-delay: calc(var(--panel) * -700ms);
+}
+.animated-noren .noren-panel > .sprite {
+  position: absolute;
+  inset: 0;
+  object-fit: fill;
+}
+.animated-noren .noren-panel > b {
+  position: absolute;
+  inset: 13% 0 0;
+  display: grid;
+  place-items: center;
+  font: inherit;
+}
+.hanging-lantern > .sprite {
+  object-position: center top;
+  transform-origin: 50% 0;
+  animation: lantern-swing 5s ease-in-out infinite;
+}
+.lantern-right > .sprite {
+  animation-delay: -1.7s;
+}
+.stage.evening .hanging-lantern > .sprite {
+  filter: drop-shadow(0 0 8px #f9df9270);
+}
+.garden-crop {
+  transform-origin: 50% 90%;
+  animation: garden-breeze 5s ease-in-out infinite;
+}
+.game.live-v2 > .hud {
+  min-height: 64px;
+  padding: 7px 12px;
+  gap: 8px;
+}
+.live-v2 .day-weather strong {
+  font-size: 16px;
+}
+.order-backdrop .sheet-content {
+  min-height: 0;
+}
+.order-backdrop .sheet > .order-actions {
+  position: static;
+  flex-shrink: 0;
+  margin: 0;
+  padding: 12px 17px;
+  border-top: 1px solid #d9cba9;
+  border-radius: 0 0 15px 15px;
+  background: #f4ddd5;
+}
+.live-v2 .wallet strong {
+  font-size: 20px;
+  letter-spacing: 0;
+}
+.live-v2 .day-weather small,
+.live-v2 .wallet small {
+  font-size: 12px;
+  color: #75604d;
+}
+.game.live-v2 > .scene-heading {
+  min-height: 40px;
+  padding: 6px 10px;
+  align-items: center;
+  top: max(9%, 70px);
+}
+.live-v2 .scene-heading h1 {
+  font-size: 20px;
+  line-height: 1.35;
+}
+.live-v2 .scene-heading .season-note {
+  font-size: 12px;
+  color: #75604d;
+}
+.live-v2:has(.stage.front) > .scene-heading {
+  top: 60%;
+  left: 12%;
+  right: 12%;
+  padding: 12px;
+  gap: 8px;
+  background: #fff3e8f2;
+  box-shadow: 0 4px 18px #67462924;
+  pointer-events: auto;
+}
+.front-enter {
+  grid-column: 1 / -1;
+  width: 100%;
+  min-height: 48px;
+  font-size: 15px;
+  justify-content: space-between;
+}
+.live-v2:has(.stage.front) > .scene-caption {
+  display: none;
+}
+.game.live-v2 > .scene-caption {
+  font-size: 14px;
+  left: 10%;
+  right: 10%;
+}
+.game.live-v2 > .bottom-tools button {
+  font-size: 14px;
+}
+.game.live-v2 > .tutorial {
+  font-size: 12px;
+  line-height: 1.5;
+}
+.live-v2 .pot-label {
+  font-size: 12px;
+}
+.live-v2 .pot-hit.ready .pot-label {
+  animation: ready-bounce 1.4s ease-in-out infinite;
+}
+.live-v2 .scene-arrow {
+  background: #fff3e8e8;
+  color: #6b543d;
+  box-shadow: 0 2px 8px #6d4d2920;
+}
+.touch-ripple,
+.touch-spark,
+.money-feedback {
+  position: fixed;
+  z-index: 110;
+  pointer-events: none;
+}
+.touch-ripple {
+  width: 52px;
+  height: 52px;
+  border: 3px solid #fff4c8;
+  border-radius: 50%;
+  box-shadow: 0 0 14px #ffcb6880;
+}
+.touch-spark {
+  width: 18px;
+  height: 18px;
+}
+.money-feedback {
+  padding: 4px 9px;
+  border-radius: 20px;
+  background: #fff6e9f5;
+  font-size: 15px;
+  font-weight: 600;
+  white-space: nowrap;
+  box-shadow: 0 2px 6px #73563324;
+}
+.money-feedback.gain {
+  color: #47683a;
+}
+.ingredient-flight {
+  position: fixed;
+  z-index: 110;
+  pointer-events: none;
+  width: 40px;
+  height: 40px;
+}
+.meal-heart {
+  position: fixed;
+  z-index: 110;
+  pointer-events: none;
+  width: 26px;
+  height: 26px;
+}
+.meal-heart img {
+  filter: sepia(0.4) saturate(1.5);
+}
+.live-v2 .pot-hit:has(.pot-state) .pot-label {
+  opacity: 1;
+  background: #fff3e8ee;
+  border-radius: 10px;
+  padding: 4px 7px;
+}
+.live-v2 .table-bowl.eating > .bowl-art {
+  animation: bowl-sip 2.8s ease-in-out infinite;
+}
+@keyframes bowl-sip {
+  0%,
+  60%,
+  100% {
+    translate: 0 0;
+    rotate: 0deg;
+  }
+  30% {
+    translate: 0 -6px;
+    rotate: -0.8deg;
+  }
+}
+.no-motion .table-bowl > .bowl-art,
+.low-performance .table-bowl > .bowl-art {
+  animation: none !important;
+}
+@media (prefers-reduced-motion: reduce) {
+  .table-bowl > .bowl-art {
+    animation: none !important;
+  }
+}
+.money-feedback.spend {
+  color: #8e543d;
+}
+.toast.show {
+  animation: welcome-in 220ms ease-out both;
+}
+.scene-pet {
+  position: absolute;
+  border: 0;
+  background: none;
+  padding: 0;
+  min-width: 44px;
+  min-height: 44px;
+  display: block;
+  overflow: visible;
+}
+.scene-pet .pet-body {
+  object-position: center bottom;
+}
+.scene-pet .pet-scene-label {
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 8px;
+  border-radius: 12px;
+  background: #fff3e8f0;
+  color: #624e39;
+  font-size: 12px;
+  font-weight: 600;
+  width: max-content;
+  max-width: 120px;
+  white-space: nowrap;
+}
+.pet-scene-label > span:first-child {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.scene-pet.roaming .pet-body {
+  animation: pet-stroll 12s ease-in-out infinite;
+}
+@keyframes pet-stroll {
+  0%,
+  100% {
+    translate: 0 0;
+  }
+  50% {
+    translate: 14px -1px;
+  }
+}
+.live-v2:has(.stage.garden) > .scene-caption {
+  left: 37%;
+  right: 7%;
+  bottom: 120px;
+  font-size: 13px;
+}
+.pet-choices {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+.pet-choices article {
+  padding: 10px;
+  border: 1px solid #d9caae;
+  border-radius: 16px;
+  background: #fff7ea;
+  text-align: center;
+}
+.pet-choices img {
+  height: 128px;
+}
+.pet-choices small {
+  display: block;
+  font-size: 12px;
+  line-height: 1.65;
+  margin: 6px 0 12px;
+  color: #75604d;
+}
+.pet-choices button {
+  width: 100%;
+  padding: 8px;
+  font-size: 13px;
+}
+.pet-portrait {
+  position: relative;
+  height: 185px;
+  margin: 0 auto 16px;
+  max-width: 250px;
+}
+.pet-portrait .pet-body {
+  height: 165px;
+  object-position: center bottom;
+}
+.pet-mood {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  color: #567246;
+}
+.pet-meters {
+  display: grid;
+  gap: 9px;
+  margin: 12px 0 18px;
+}
+.pet-meter {
+  display: grid;
+  grid-template-columns: 70px minmax(0, 1fr) 38px;
+  align-items: center;
+  gap: 10px;
+  font-size: 13px;
+}
+.pet-meter meter {
+  width: 100%;
+  height: 16px;
+  accent-color: #7a9563;
+}
+.pet-meter meter::-webkit-meter-bar {
+  border: 0;
+  background: #eadfc9;
+  border-radius: 8px;
+}
+.pet-meter meter::-webkit-meter-optimum-value {
+  background: #a3bc89;
+  border-radius: 8px;
+}
+.pet-meter.water meter::-webkit-meter-optimum-value {
+  background: #a5c8d6;
+}
+.pet-meter.happy meter::-webkit-meter-optimum-value {
+  background: #d9a7a7;
+}
+.pet-care-actions {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+.pet-care-actions button {
+  font-size: 14px;
+}
+.pet-care-actions button:last-child {
+  grid-column: 1 / -1;
+}
+.pet-pantry {
+  padding: 12px;
+  margin: 16px 0;
+  background: #edf0df;
+  border-radius: 12px;
+  font-size: 13px;
+}
+.pet-pantry button {
+  width: 100%;
+  margin-top: 8px;
+}
+.pet-name-input {
+  display: grid;
+  gap: 6px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.pet-name-input input {
+  width: 100%;
+  min-width: 0;
+}
+.pet-sleep-note {
+  position: absolute;
+  top: 10%;
+  right: 0;
+  font-size: 18px;
+  color: #7b8465;
+  letter-spacing: 2px;
+  animation: sleepy-notes 3s ease-in-out infinite;
+}
+.pet-body {
+  transform-origin: 50% 85%;
+  animation: pet-idle 3s ease-in-out infinite;
+}
+.play .pet-body {
+  animation: pet-play 700ms ease-in-out infinite;
+}
+.feed .pet-body {
+  animation: pet-eat 600ms ease-in-out infinite;
+}
+.sleeping .pet-body {
+  animation: pet-idle 5s ease-in-out infinite;
+}
+.large-font :is(.pet-care-actions button, .pet-name-input, .pet-mood) {
+  font-size: 16px;
+}
+.large-font :is(.pet-meter, .pet-choices small, .pet-pantry) {
+  font-size: 14px;
+}
+@keyframes pet-idle {
+  0%,
+  100% {
+    scale: 1;
+  }
+  50% {
+    scale: 1.015 1.02;
+  }
+}
+@keyframes pet-play {
+  0%,
+  100% {
+    rotate: -1deg;
+    translate: 0 0;
+  }
+  50% {
+    rotate: 1deg;
+    translate: 3px -4px;
+  }
+}
+@keyframes pet-eat {
+  0%,
+  100% {
+    rotate: -0.5deg;
+  }
+  50% {
+    rotate: 0.5deg;
+    translate: 0 2px;
+  }
+}
+@keyframes sleepy-notes {
+  0%,
+  100% {
+    translate: 0 0;
+    opacity: 0.45;
+  }
+  50% {
+    translate: 0 -5px;
+    opacity: 1;
+  }
+}
+.large-font .live-v2 .day-weather strong {
+  font-size: 18px;
+}
+.large-font .live-v2 .wallet strong {
+  font-size: 22px;
+}
+.large-font .live-v2 .scene-heading h1 {
+  font-size: 23px;
+}
+.large-font .live-v2 .day-weather small,
+.large-font .live-v2 .wallet small,
+.large-font .live-v2 .season-note,
+.large-font .live-v2 .tutorial {
+  font-size: 13px;
+}
+.large-font .live-v2 .bottom-tools button,
+.large-font .front-enter {
+  font-size: 16px;
+}
+@keyframes welcome-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes owner-breathe {
+  0%,
+  100% {
+    transform: translateY(0) rotate(-0.35deg);
+  }
+  50% {
+    transform: translateY(2px) rotate(0.35deg);
+  }
+}
+@keyframes garden-breeze {
+  0%,
+  100% {
+    rotate: -0.6deg;
+  }
+  50% {
+    rotate: 0.6deg;
+  }
+}
+@keyframes afternoon-light {
+  from {
+    opacity: 0.35;
+  }
+  to {
+    opacity: 0.9;
+  }
+}
+@keyframes ready-bounce {
+  0%,
+  100% {
+    translate: 0 0;
+  }
+  50% {
+    translate: 0 -3px;
+  }
+}
+@keyframes noren-breeze {
+  0%,
+  100% {
+    rotate: -0.7deg;
+  }
+  50% {
+    rotate: 0.7deg;
+  }
+}
+@keyframes lantern-swing {
+  0%,
+  100% {
+    rotate: -1.7deg;
+  }
+  50% {
+    rotate: 1.7deg;
+  }
+}
+@media (max-height: 650px) {
+  .game.landing {
+    padding: calc(14px + var(--safe-top)) 16px calc(16px + var(--safe-bottom));
+    gap: 9px;
+  }
+  .landing .landing-top h1 {
+    font-size: 32px;
+  }
+  .landing .landing-top p {
+    font-size: 13px;
+  }
+  .landing .landing-bottom p {
+    font-size: 13px;
+  }
+  .landing .landing-bottom .primary {
+    margin-top: 8px;
+    min-height: 50px;
+    font-size: 14px;
+  }
+  .landing-art .shop-sign {
+    font-size: 14px;
+  }
+  .landing-art .noren-letters {
+    font-size: 18px;
+  }
+  .landing-welcome {
+    padding: 7px;
+    font-size: 12px;
+    bottom: 4%;
+  }
+  .live-v2:has(.stage.front) > .scene-heading {
+    top: 52%;
+  }
+  .live-v2 .wallet strong {
+    font-size: 18px;
+  }
+}
+/* The player and operating system can both opt out of decorative movement. */
+.no-motion
+  :is(
+    .landing-top,
+    .landing-bottom,
+    .front-owner > .sprite,
+    .garden-crop,
+    .pot-label,
+    .toast
+  ),
+.low-performance
+  :is(
+    .landing-top,
+    .landing-bottom,
+    .front-owner > .sprite,
+    .garden-crop,
+    .pot-label,
+    .toast
+  ),
+.no-motion :is(.landing-art, .world-room.front, .world-room.garden)::after,
+.low-performance
+  :is(.landing-art, .world-room.front, .world-room.garden)::after {
+  animation: none !important;
+}
+.no-motion
+  :is(.pet-body, .pet-sleep-note, .noren-panel, .hanging-lantern > .sprite),
+.low-performance
+  :is(.pet-body, .pet-sleep-note, .noren-panel, .hanging-lantern > .sprite) {
+  animation: none !important;
+}
+@media (prefers-reduced-motion: reduce) {
+  :is(
+    .landing-top,
+    .landing-bottom,
+    .front-owner > .sprite,
+    .garden-crop,
+    .pot-label,
+    .toast
+  ),
+  :is(.landing-art, .world-room.front, .world-room.garden)::after {
+    animation: none !important;
+  }
+  :is(.pet-body, .pet-sleep-note, .noren-panel, .hanging-lantern > .sprite) {
+    animation: none !important;
+  }
+}
+:root {
+  --v3-card-border: #d8c4a9;
+}
+.side-prep-recipes {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+.side-prep-recipes article,
+.side-prep-current {
+  padding: 14px;
+  border: 1px solid var(--v3-card-border);
+  border-radius: 16px;
+  background: #fff8eb;
+  text-align: center;
+}
+.side-prep-recipes img {
+  width: 100%;
+  height: 100px;
+  object-fit: contain;
+}
+.side-prep-recipes p {
+  font-size: 13px;
+}
+.side-prep-recipes button {
+  width: 100%;
+  margin-top: 10px;
+}
+.side-prep-current {
+  margin-bottom: 16px;
+}
+.side-prep-current img {
+  width: 160px;
+  height: 140px;
+  object-fit: contain;
+}
+.side-prep-current.cooking img {
+  animation: whisk-wobble 0.5s ease-in-out infinite alternate;
+}
+.large-font .side-prep-recipes {
+  grid-template-columns: 1fr;
+}
+.no-motion .side-prep-current img,
+.low-performance .side-prep-current img {
+  animation: none;
+}
+.staff-recipe {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 6px 12px;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--v3-card-border);
+}
+.staff-recipe h3 {
+  margin: 0;
+  font-size: 16px;
+}
+.staff-recipe small {
+  grid-column: 1;
+}
+.staff-recipe button {
+  grid-column: 2;
+  grid-row: 1 / 3;
+  max-width: 130px;
+}
+.neighbourhood-goal article {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 10px;
+  padding: 15px 0;
+}
+.neighbourhood-goal progress {
+  grid-column: 1 / -1;
+  width: 100%;
+  accent-color: #819565;
+}
+.seasonal-decoration {
+  pointer-events: none;
+}
+.seasonal-decoration img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transform-origin: 50% 0;
+  animation: lantern-swing 6s ease-in-out infinite alternate;
+}
+.table-bowl.eating .table-drink,
+.table-bowl.eating .combo-drink {
+  animation: customer-sip 4s ease-in-out infinite;
+}
+.customer.eating > .sprite {
+  animation: customer-nod 4s ease-in-out infinite;
+}
+@keyframes customer-sip {
+  0%,
+  20%,
+  75%,
+  100% {
+    translate: 0 0;
+    rotate: 0deg;
+  }
+  40%,
+  55% {
+    translate: -8px -22px;
+    rotate: -9deg;
+  }
+}
+@keyframes customer-nod {
+  0%,
+  70%,
+  100% {
+    translate: 0 0;
+  }
+  40%,
+  55% {
+    translate: 0 3px;
+  }
+}
+.no-motion .seasonal-decoration img,
+.low-performance .seasonal-decoration img,
+.no-motion .table-bowl.eating .table-drink,
+.low-performance .table-bowl.eating .table-drink,
+.no-motion .table-bowl.eating .combo-drink,
+.low-performance .table-bowl.eating .combo-drink,
+.no-motion .customer.eating > .sprite,
+.low-performance .customer.eating > .sprite {
+  animation: none;
+}
+/* Sound review page is deliberately scrollable inside the locked game viewport. */
+.sound-lab{height:100dvh;overflow:auto;padding:calc(env(safe-area-inset-top) + 20px) max(16px,env(safe-area-inset-right)) calc(env(safe-area-inset-bottom) + 24px) max(16px,env(safe-area-inset-left));background:#fff5e5;color:#574630;font-size:16px;touch-action:pan-y}
+.sound-lab h1{font-size:24px}.sound-lab h2{font-size:20px}.sound-lab header,.sound-lab section,.sound-lab footer{max-width:800px;margin:0 auto 24px}.sound-actions{display:flex;flex-wrap:wrap;gap:8px}.sound-actions button,.sound-actions a,.sound-row button{min-height:44px;padding:10px 16px}.sound-row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;padding:16px 0;border-bottom:1px solid #cab79a}.sound-label small{display:block;font-size:12px}.sound-checks,.sound-note{grid-column:1/-1}.sound-checks{display:flex;flex-wrap:wrap;gap:8px}.sound-checks label{min-height:44px;display:flex;align-items:center;gap:6px}.sound-note input{width:100%;min-height:44px;font-size:16px;user-select:text;touch-action:manipulation}.sound-lab input[type=checkbox]{width:22px;height:22px}.sound-lab a{color:#375a42}

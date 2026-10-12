@@ -1,0 +1,10 @@
+{
+  "tool": "image_gen (built-in)",
+  "prompt": "Use case: style-transfer. Create ONE transparent foliage foreground overlay for a portrait 9:16 mobile cozy game, NOT a scene or background. Input images are style references. Same art style, line weight, palette and level of detail as the reference; only change the subject as described. Subject: fresh green climbing leaves and sparse pale pink sakura blossoms. Thin olive-brown lines, large SIMPLE FLAT gouache leaf shapes, ONE soft shadow tone, no realism or heavy texture. Delicate foliage only in the extreme upper-left, upper-right, lower-left, lower-right corners and very narrow side edges. Keep the entire middle 86 percent width FULLY TRANSPARENT from top to bottom, especially x=7% through93%, to leave characters, controls and food untouched. Small leaf clusters occupy at most 7% width from each side and 12% height at corners. No pots, shelves, walls, floor, hanging architecture, text, watermark, checkerboard or ground shadow. TRUE transparent alpha for ALL empty space, clean edges no halo. Canvas 1080x1920 portrait.",
+  "referenceImages": [
+    "assets/style_reference/front.webp",
+    "assets/style_reference/seating.webp"
+  ],
+  "generatedSource": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ff00-5b98-7621-9551-c7ac662c37cf\\exec-d4002798-cd52-4cd5-b836-9fc5d540002f.png",
+  "source": "assets/incoming/gdv/fg-garden.png"
+}

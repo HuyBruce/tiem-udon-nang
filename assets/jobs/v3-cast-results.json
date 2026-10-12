@@ -1,0 +1,46 @@
+{
+  "mode": "builtin-imagegen",
+  "reference": "assets/style_reference/character_ref_green.png",
+  "jobs": [
+    {
+      "id": "ha",
+      "prompt": "Use case: style-transfer. Image 1 is the approved style reference: same minimalist flat pastel illustration, thin delicate colored line weight, few solid hair shapes, small dot eyes, tiny soft curved nose, short smile, light blush, same waist-up front-facing frame as reference (top of head at ~5%, eyes ~28%, waist at bottom), clean cream skin. One isolated character, opaque uniform bright #00FF00 chroma-green background, no checkerboard, text, watermark, shadows, gradients, texture, realistic detail or thick outline. Clothing colors gently pastel with red/rose, purple/lavender, yellow and green across the cast. Elderly kind female neighbor Hà, silver-gray hair gathered into a simple soft bun, modest pastel lavender cardigan over cream blouse, very few facial lines, calm warm smile. No glasses.",
+      "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-d27f8ae2-a696-42eb-8ed8-6b510024654e.png"
+    },
+    {
+      "id": "son",
+      "prompt": "Use case: style-transfer. Image 1 is the approved style reference: same minimalist flat pastel illustration, thin delicate colored line weight, few solid hair shapes, small dot eyes, tiny soft curved nose, short smile, light blush, same waist-up front-facing frame as reference (top of head at ~5%, eyes ~28%, waist at bottom), clean cream skin. One isolated character, opaque uniform bright #00FF00 chroma-green background, no checkerboard, text, watermark, shadows, gradients, texture, realistic detail or thick outline. Clothing colors gently pastel with red/rose, purple/lavender, yellow and green across the cast. Young adult male food lover Sơn, short dark chestnut hair as broad shapes, butter-yellow light overshirt over cream t-shirt, friendly curious expression. No glasses.",
+      "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-83fe4888-bb54-4af8-9ac4-667956c5124e.png"
+    },
+    {
+      "id": "linh",
+      "prompt": "Use case: style-transfer. Image 1 is the approved style reference: same minimalist flat pastel illustration, thin delicate colored line weight, few solid hair shapes, small dot eyes, tiny soft curved nose, short smile, light blush, same waist-up front-facing frame as reference (top of head at ~5%, eyes ~28%, waist at bottom), clean cream skin. One isolated character, opaque uniform bright #00FF00 chroma-green background, no checkerboard, text, watermark, shadows, gradients, texture, realistic detail or thick outline. Clothing colors gently pastel with red/rose, purple/lavender, yellow and green across the cast. Young adult female florist Linh, warm brown medium-length hair loosely tied with small sage ribbon, pastel blush pink and leaf-green simple blouse, gentle bright smile. No flower props.",
+      "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-d09d8e06-983c-40b1-aa0a-2d3448d0727f.png"
+    },
+    {
+      "id": "ken",
+      "prompt": "Use case: style-transfer. Image 1 is the approved style reference: same minimalist flat pastel illustration, thin delicate colored line weight, few solid hair shapes, small dot eyes, tiny soft curved nose, short smile, light blush, same waist-up front-facing frame as reference (top of head at ~5%, eyes ~28%, waist at bottom), clean cream skin. One isolated character, opaque uniform bright #00FF00 chroma-green background, no checkerboard, text, watermark, shadows, gradients, texture, realistic detail or thick outline. Clothing colors gently pastel with red/rose, purple/lavender, yellow and green across the cast. Young male traveler Ken, short sandy blond hair, light powder-blue jacket over cream shirt, simple calm smile. No hat.",
+      "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-53c04a70-c190-4dc8-bf54-c46f79a34faa.png"
+    },
+    {
+      "id": "vip",
+      "prompt": "Use case: style-transfer. Image 1 is the approved style reference: same minimalist flat pastel illustration, thin delicate colored line weight, few solid hair shapes, small dot eyes, tiny soft curved nose, short smile, light blush, same waist-up front-facing frame as reference (top of head at ~5%, eyes ~28%, waist at bottom), clean cream skin. One isolated character, opaque uniform bright #00FF00 chroma-green background, no checkerboard, text, watermark, shadows, gradients, texture, realistic detail or thick outline. Clothing colors gently pastel with red/rose, purple/lavender, yellow and green across the cast. Female food writer Minh in her 30s, sleek short dark-brown bob, muted pastel mauve purple blazer over cream blouse, poised neutral expression, no glasses.",
+      "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-f7391f87-132c-42de-bde5-9d3a940ce8e7.png"
+    },
+    {
+      "id": "thu",
+      "prompt": "Use case: style-transfer. Image 1 is the approved style reference: same minimalist flat pastel illustration, thin delicate colored line weight, few solid hair shapes, small dot eyes, tiny soft curved nose, short smile, light blush, same waist-up front-facing frame as reference (top of head at ~5%, eyes ~28%, waist at bottom), clean cream skin. One isolated character, opaque uniform bright #00FF00 chroma-green background, no checkerboard, text, watermark, shadows, gradients, texture, realistic detail or thick outline. Clothing colors gently pastel with red/rose, purple/lavender, yellow and green across the cast. Young adult female server Thu, dark brown hair tied back, sage green simple short-sleeve blouse with light cream apron, open friendly smile; staff uniform minimal.",
+      "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-99e016e3-64e6-46a0-ab9e-5b4699ce5aa2.png"
+    },
+    {
+      "id": "binh",
+      "prompt": "Use case: style-transfer. Image 1 is the approved style reference: same minimalist flat pastel illustration, thin delicate colored line weight, few solid hair shapes, small dot eyes, tiny soft curved nose, short smile, light blush, same waist-up front-facing frame as reference (top of head at ~5%, eyes ~28%, waist at bottom), clean cream skin. One isolated character, opaque uniform bright #00FF00 chroma-green background, no checkerboard, text, watermark, shadows, gradients, texture, realistic detail or thick outline. Clothing colors gently pastel with red/rose, purple/lavender, yellow and green across the cast. Young adult male kitchen helper Bình, short dark hair, muted pale yellow shirt with cream apron, gentle focused expression; staff uniform minimal.",
+      "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-abe8dd6f-02a7-4ec7-9cc3-6ece32dea76b.png"
+    },
+    {
+      "id": "yui",
+      "prompt": "Use case: style-transfer. Image 1 is the approved style reference: same minimalist flat pastel illustration, thin delicate colored line weight, few solid hair shapes, small dot eyes, tiny soft curved nose, short smile, light blush, same waist-up front-facing frame as reference (top of head at ~5%, eyes ~28%, waist at bottom), clean cream skin. One isolated character, opaque uniform bright #00FF00 chroma-green background, no checkerboard, text, watermark, shadows, gradients, texture, realistic detail or thick outline. Clothing colors gently pastel with red/rose, purple/lavender, yellow and green across the cast. Young adult female chef Yui, dark chestnut hair in simple low bun, light powder blue cook shirt with cream apron, calm confident smile; no chef hat.",
+      "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-6b4a84fc-25d7-4be9-9d77-95bc3544b0c1.png"
+    }
+  ]
+}

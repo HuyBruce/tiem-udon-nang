@@ -1,0 +1,107 @@
+[
+  {
+    "id": "mai",
+    "name": "Mai",
+    "job": "Cô học trò",
+    "color": "#bf7860",
+    "hair": "#544237",
+    "story": [
+      "Em ghé tiệm trên đường về. Thơm quá nên chẳng đi tiếp được!",
+      "Hôm nay em làm bài tốt lắm. Một tô mì để tự thưởng!",
+      "Em đã rủ bạn cùng lớp tới đây. Đây là quán ruột của em rồi.",
+      "Em thi xong rồi. Bây giờ em có thể ngồi nghe mưa ở đây.",
+      "Em để dành tiền ăn mì trước khi mua truyện đấy.",
+      "Nắng ơi, ngày nào em lớn lên mở tiệm bánh, chị nhớ ghé nhé."
+    ]
+  },
+  {
+    "id": "an",
+    "name": "Anh An",
+    "job": "Người làm văn phòng",
+    "color": "#788e88",
+    "hair": "#41463e",
+    "story": [
+      "Giờ nghỉ trưa của tôi chỉ cần một tô mì nóng.",
+      "Dự án xong rồi. Hôm nay tôi có thể ăn chậm một chút.",
+      "Tôi chuyển chỗ làm, nhưng vẫn sẽ đi đường vòng để ghé tiệm.",
+      "Hôm nay tôi đưa phần còn lại về cho người ở nhà.",
+      "Một ngày bận mấy cũng cần một bữa ăn tử tế.",
+      "Mấy đồng nghiệp mới đã hỏi đường tới tiệm rồi."
+    ]
+  },
+  {
+    "id": "ha",
+    "name": "Bà Hà",
+    "job": "Người hàng xóm",
+    "color": "#ae8ca0",
+    "hair": "#b8b3a1",
+    "story": [
+      "Bà ở ngay đầu hẻm. Tiệm cháu ấm cúng quá.",
+      "Cây ngoài sân nhà bà ra hoa rồi. Mai bà mang tặng cháu.",
+      "Tô mì này làm bà nhớ những ngày còn trẻ. Cảm ơn cháu nhé.",
+      "Bà mang hạt giống tới. Nhớ tưới những ngày trời hanh nhé.",
+      "Ngày trước con hẻm này cũng có một tiệm thơm thế này.",
+      "Thấy cháu có bạn cùng chăm tiệm, bà yên tâm rồi."
+    ]
+  },
+  {
+    "id": "son",
+    "name": "Sơn",
+    "job": "Người mê ẩm thực",
+    "color": "#b69b54",
+    "hair": "#534638",
+    "story": [
+      "Tôi đang tìm một quán có vị nước dùng thật riêng.",
+      "Tôi viết vài dòng về tiệm. Mọi người có vẻ thích lắm.",
+      "Với tôi, đây là tô udon ngon nhất khu phố.",
+      "Tôi thử rất nhiều quán, nhưng vẫn quay lại vì cách Nắng nấu.",
+      "Mì lạnh hôm trời nóng làm tôi nhớ mùa hè hồi nhỏ.",
+      "Tôi vừa giới thiệu tiệm trong buổi gặp những người thích nấu ăn."
+    ]
+  },
+  {
+    "id": "linh",
+    "name": "Linh",
+    "job": "Cô thợ hoa",
+    "color": "#819565",
+    "hair": "#825647",
+    "story": [
+      "Đứng cắm hoa cả sáng, giờ mới thấy đói.",
+      "Hoa cúc trước cửa hợp với màu rèm của tiệm đấy.",
+      "Hôm nào rảnh, qua tiệm hoa của mình chơi nhé.",
+      "Hoa theo mùa thay màu, tiệm cũng lớn lên từng chút.",
+      "Mình thích lúc đèn bên hiên vừa sáng.",
+      "Mình sẽ để dành một bó hoa đẹp cho ngày tiệm tròn một mùa."
+    ]
+  },
+  {
+    "id": "ken",
+    "name": "Ken",
+    "job": "Khách lữ hành",
+    "color": "#7595ac",
+    "hair": "#aa8155",
+    "story": [
+      "Tôi tình cờ rẽ vào con hẻm này. May thật.",
+      "Tôi đã chụp tiệm vào cuốn nhật ký hành trình.",
+      "Có những nơi khiến người ta muốn quay lại. Như nơi này.",
+      "Chuyến tàu ngày mai đưa tôi đi tiếp. Hôm nay ăn chậm thôi.",
+      "Tôi có quay lại thật này. Mùi nước dùng vẫn như trong nhật ký.",
+      "Tôi mang vài tấm bưu thiếp về cho mọi người trong tiệm."
+    ]
+  },
+  {
+    "id": "vip",
+    "name": "Cô Minh",
+    "job": "Người viết ẩm thực",
+    "color": "#a96756",
+    "hair": "#383831",
+    "story": [
+      "Tôi nghe kể về một tiệm nhỏ chăm chút từng tô mì.",
+      "Vị nước dùng lần trước khiến tôi nhớ mãi.",
+      "Bài viết về tiệm đã lên trang nhất. Hãy luôn giữ sự ấm áp này nhé.",
+      "Đông khách hơn rồi mà từng tô vẫn được chăm như ngày đầu.",
+      "Một quán tốt là nơi người ta muốn dẫn người thân tới.",
+      "Tiệm đã thành một địa chỉ đáng nhớ của khu phố."
+    ]
+  }
+]

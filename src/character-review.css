@@ -1,0 +1,67 @@
+.game.character-review {
+  display: block;
+  height: 100dvh;
+  overflow-y: auto;
+  padding: 20px 16px;
+  background: #f1ddd3;
+  color: #3f5b45;
+}
+.character-review header {
+  padding: 4px 0 12px;
+}
+.character-review h1 {
+  font-size: 24px;
+  line-height: 1.4;
+}
+.character-review p {
+  font-size: 12px;
+  line-height: 1.7;
+  margin: 10px 0;
+}
+.character-review nav {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+}
+.character-review nav button {
+  min-height: 44px;
+  min-width: 0;
+  padding: 4px;
+  background: #f5ebdd;
+  border: 2px solid transparent;
+  border-radius: 12px;
+}
+.character-review nav button[aria-pressed="true"] {
+  border-color: #3f5b45;
+}
+.character-review nav img {
+  width: 100%;
+  aspect-ratio: 1;
+  display: block;
+}
+.character-review figure {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 16px 0 8px;
+  overflow: hidden;
+  border-radius: 12px;
+}
+.character-review figure img {
+  width: 100%;
+  display: block;
+}
+.character-review .character-light {
+  background: #f5ebdd;
+}
+.character-review .character-dark {
+  background: #263b31;
+}
+.character-review figcaption {
+  grid-column: 1/-1;
+  font-size: 13px;
+  padding: 12px 8px;
+  background: #f5ebdd;
+}
+.character-review > .primary {
+  margin-bottom: 16px;
+}

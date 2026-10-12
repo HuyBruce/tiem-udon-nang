@@ -1,0 +1,46 @@
+{
+  "thu": {
+    "name": "Thu",
+    "role": "Phục vụ",
+    "color": "#a3ab79",
+    "desc": "Tự nhận món và dọn bàn khi bồn còn chỗ.",
+    "lines": [
+      "Mình thích nghe những câu chuyện của khách.",
+      "Mình bắt đầu nhớ món quen của từng người rồi.",
+      "Tiệm giống như ngôi nhà thứ hai của mình."
+    ]
+  },
+  "binh": {
+    "name": "Bình",
+    "role": "Phụ bếp",
+    "color": "#b99a73",
+    "desc": "Rửa chén; có thể cho phép nhập hàng và sơ chế.",
+    "lines": [
+      "Cứ để chén bát cho mình nhé.",
+      "Bếp gọn thì nấu món gì cũng vui.",
+      "Mình trồng ít hành ngoài sân cho tiệm đấy."
+    ]
+  },
+  "mika": {
+    "name": "Mika",
+    "role": "Thu ngân",
+    "color": "#b793a9",
+    "desc": "Tự thu tiền ngay khi khách ăn xong. Khi chưa có Mika, bạn có thể chạm vào khách để thu hoặc chờ tự thu sau 8 giây.",
+    "lines": [
+      "Mình sẽ trông quầy thanh toán cho nhé.",
+      "Khách vừa ăn xong là mình ghi sổ ngay.",
+      "Mỗi lời cảm ơn của khách đều đáng nhớ."
+    ]
+  },
+  "yui": {
+    "name": "Yui",
+    "role": "Đầu bếp",
+    "color": "#7a9d9c",
+    "desc": "Cấp 1 trông mì; cấp 2 học nước dùng/món lạnh; cấp 3 hoàn thành cả tô và món xào. Xem Sổ bếp của Yui để tập công thức đã mở.",
+    "lines": [
+      "Mình sẽ canh nồi mì để bạn rảnh tay hơn.",
+      "Đã thuộc lòng vị nước dùng của tiệm rồi.",
+      "Hôm nay mình lại nấu cùng nhau nhé."
+    ]
+  }
+}

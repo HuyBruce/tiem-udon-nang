@@ -1,0 +1,70 @@
+{
+  "id": "art-preview-v2",
+  "status": "v2-sample-awaiting-approval",
+  "aspectRatio": [9, 16],
+  "zones": {
+    "hud": [0, 8],
+    "wall": [8, 45],
+    "counter": [45, 62],
+    "fascia": [62, 70],
+    "tray": [70, 100]
+  },
+  "layers": [
+    {
+      "id": "background",
+      "asset": "v2-seating",
+      "x": 0,
+      "y": 0,
+      "width": 100,
+      "height": 100,
+      "anchor": [0, 0],
+      "z": 0
+    },
+    {
+      "id": "guest",
+      "asset": "v2-an",
+      "x": 26,
+      "y": 24,
+      "width": 37,
+      "height": 20,
+      "anchor": [0, 0],
+      "z": 5,
+      "touch": { "action": "inspect-art", "arg": "v2-an" }
+    },
+    {
+      "id": "foreground",
+      "asset": "v2-foliage",
+      "x": 0,
+      "y": 0,
+      "width": 100,
+      "height": 100,
+      "anchor": [0, 0],
+      "z": 20,
+      "pointerEvents": "none"
+    }
+  ],
+  "order": {
+    "x": 60,
+    "y": 46,
+    "width": 28,
+    "height": 7,
+    "anchor": [0, 0],
+    "z": 12
+  },
+  "tray": {
+    "x": 18,
+    "y": 77,
+    "width": 64,
+    "height": 9,
+    "anchor": [0, 0],
+    "z": 10
+  },
+  "note": {
+    "x": 17,
+    "y": 70,
+    "width": 66,
+    "height": 6,
+    "anchor": [0, 0],
+    "z": 21
+  }
+}

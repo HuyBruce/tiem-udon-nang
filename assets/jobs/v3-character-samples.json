@@ -1,0 +1,22 @@
+{
+  "status": "approved-c-after-small-nose-revision",
+  "mode": "builtin-imagegen",
+  "count": 3,
+  "approvalRequired": false,
+  "selected": "c",
+  "finalReference": "assets/style_reference/character_ref.png",
+  "prompts": [
+    {
+      "id": "a",
+      "prompt": "Use case: stylized-concept. Asset: character style approval candidate for a Vietnamese cozy udon mobile game. Create ONE waist-up young man facing forward, short chestnut brown hair as 3 solid shapes, simple sage-green crewneck sweater, cream skin, gentle neutral smile. No glasses or accessories. Square 1024x1024 composition, top of head at 10%, chin at 40%, eye line at 28%, waist cut at 96%, centered, torso slightly tall and slender. Minimalist flat illustration, extremely thin 1px colored line accents only slightly darker than each fill; no continuous heavy dark contour. Two TINY ROUND DOT eyes, ONE very short curved mouth, no nose, barely pink cheeks. Large solid hair masses, no individual strands. Almost zero shading, clean solid colors, NO watercolor, NO paper grain, NO noise, NO gradients, NO realistic details. Palette cream #F5EBDD, sage #A9C282, green #7C9A5B, brown #B98358. Background MUST be uniform opaque bright chroma green #00FF00 edge to edge, no checkerboard, no transparency, no background shadows. Isolated character, no props, no lettering, no watermark.\nDesign treatment A: softly rounded oval head, gently sloping narrow shoulders, smooth rounded hair silhouette, subtle thin colored contours. Quiet gentle expression."
+    },
+    {
+      "id": "b",
+      "prompt": "Use case: stylized-concept. Asset: character style approval candidate for a Vietnamese cozy udon mobile game. Create ONE waist-up young man facing forward, short chestnut brown hair as 3 solid shapes, simple sage-green crewneck sweater, cream skin, gentle neutral smile. No glasses or accessories. Square 1024x1024 composition, top of head at 10%, chin at 40%, eye line at 28%, waist cut at 96%, centered, torso slightly tall and slender. Minimalist flat illustration, extremely thin 1px colored line accents only slightly darker than each fill; no continuous heavy dark contour. Two TINY ROUND DOT eyes, ONE very short curved mouth, no nose, barely pink cheeks. Large solid hair masses, no individual strands. Almost zero shading, clean solid colors, NO watercolor, NO paper grain, NO noise, NO gradients, NO realistic details. Palette cream #F5EBDD, sage #A9C282, green #7C9A5B, brown #B98358. Background MUST be uniform opaque bright chroma green #00FF00 edge to edge, no checkerboard, no transparency, no background shadows. Isolated character, no props, no lettering, no watermark.\nDesign treatment B: elongated softly rectangular head, straight slender torso, simple side-parted hair silhouette, very sparse short contour accents. Understated calm expression."
+    },
+    {
+      "id": "c",
+      "prompt": "Use case: stylized-concept. Asset: character style approval candidate for a Vietnamese cozy udon mobile game. Create ONE waist-up young man facing forward, short chestnut brown hair as 3 solid shapes, simple sage-green crewneck sweater, cream skin, gentle neutral smile. No glasses or accessories. Square 1024x1024 composition, top of head at 10%, chin at 40%, eye line at 28%, waist cut at 96%, centered, torso slightly tall and slender. Minimalist flat illustration, extremely thin 1px colored line accents only slightly darker than each fill; no continuous heavy dark contour. Two TINY ROUND DOT eyes, ONE very short curved mouth, no nose, barely pink cheeks. Large solid hair masses, no individual strands. Almost zero shading, clean solid colors, NO watercolor, NO paper grain, NO noise, NO gradients, NO realistic details. Palette cream #F5EBDD, sage #A9C282, green #7C9A5B, brown #B98358. Background MUST be uniform opaque bright chroma green #00FF00 edge to edge, no checkerboard, no transparency, no background shadows. Isolated character, no props, no lettering, no watermark.\nDesign treatment C: softly tapered oval face, slightly rounded sweater shoulders, three broad asymmetrical hair masses, delicate hand-drawn colored edge accents, tiny curved eyebrows. Friendly relaxed expression."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "v3-pets",
+  "generationMethod": "built-in imagegen; two transparent 3x2 pose sheets",
+  "styleReference": "style_reference/character_ref.png",
+  "postprocess": "scripts/prepare-pet-art.mjs",
+  "poses": [
+    "idle",
+    "happy",
+    "eating",
+    "sleeping",
+    "playing",
+    "walking"
+  ],
+  "entries": [
+    {
+      "id": "cat",
+      "source": "sprites/sources/v3-pet-cat-sheet.png",
+      "prompt": "Use case: stylized-concept. Create ONE production sprite sheet for a cozy Japanese udon game, genuine transparent alpha, a precise 3 columns by 2 rows grid, all cells equal, no grid lines, no labels. Landscape canvas 1536x1024 preferred. Each cell is one whole pose of the SAME small chubby calico kitten Mugi with cream fur, muted orange and sage-brown patches, tiny dot eyes, small pink nose, thin warm brown outline, sage green bandana. Reference is STYLE ONLY: minimalist flat pastel illustration, gentle soft gouache texture, little shadow, sweet clear silhouette readable at 80px. Top row left to right: sitting upright looking forward with curled tail; delighted sitting eyes closed and tail raised; eating with head lowered into a small cream ceramic food bowl. Bottom row left to right: curled up asleep; crouched playful reaching one paw toward a dusty pink yarn ball; taking a gentle step to the right with all paws visible. Same identity, colors and scale across cells. Each pose entirely contained within its cell, centered horizontally, paws at 86% of cell height, generous 12% transparent margin. No backgrounds, floor, people, text, white rectangles or watermark. No photorealism or 3D."
+    },
+    {
+      "id": "shiba",
+      "source": "sprites/sources/v3-pet-shiba-sheet.png",
+      "prompt": "Use case: stylized-concept. Create ONE production sprite sheet for a cozy Japanese udon game, genuine transparent alpha, precise 3 columns by 2 rows grid, all cells equal, no grid lines, no labels. Landscape canvas 1536x1024 preferred. Each cell is one whole pose of the SAME small chubby Shiba Inu dog Mochi with muted honey orange fur, cream cheeks and paws, tiny dot eyes, small brown nose, thin warm brown outline, dusty pink bandana. Reference is STYLE ONLY: minimalist flat pastel illustration, gentle soft gouache texture, little shadow, sweet clear silhouette readable at 80px. Top row left to right: sitting upright looking forward with curled tail; delighted sitting eyes closed and tail raised; eating with head lowered into a small cream ceramic food bowl. Bottom row left to right: curled up asleep; crouched playful reaching one paw toward a sage green ball; taking a gentle step to the right with all paws visible. Same identity, colors and scale across cells. Each pose entirely contained within its cell, centered horizontally, paws at 86% of cell height, generous 12% transparent margin. No backgrounds, floor, people, text, white rectangles or watermark. No photorealism or 3D."
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "tool": "image_gen",
+  "prompt": "A single isolated small WATER STREAM sprite for a cozy Japanese udon shop kitchen sink. Thin gentle pale-blue outline, translucent blue-white water, soft simple flat watercolor. A narrow vertical stream flowing straight down with 3 tiny separate droplets alongside and a small splash at bottom. Ratio about 1 wide to 4 tall. No tap, no sink, no bowl, no text. Real transparent alpha background, no checkerboard or halo. Complete object fully inside image, ample clear margin. Match cream/sage cozy game palette. This image is a clean sprite, no scene.",
+  "source": "assets/sprites/sources/gdw-water.png",
+  "alpha": true
+}

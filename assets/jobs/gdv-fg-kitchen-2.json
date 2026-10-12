@@ -1,0 +1,11 @@
+{
+  "tool": "image_gen (built-in)",
+  "attempt": 2,
+  "prompt": "Use case: precise transparent foreground edit. Edit the FIRST image (own game's foliage overlay), second image is the style anchor. Keep transparent 9:16 portrait canvas. Same art style, line weight, palette and level of detail as the reference; only change the subject as described. The current corner foliage is TOO WIDE. REMOVE all inward-reaching leaves. Every visible leaf or blossom must be COMPLETELY inside the outermost 10 percent width on each side (x0%-10% OR x90%-100%). The center80% width x10%-90% must be entirely EMPTY TRANSPARENT through full height. Replace corner clusters with only 3-5 small round/oval leaves close to the side margin, NEVER a long inward-reaching branch. Keep each leaf natural proportions and broad flat shapes, thin olive outline. Little foliage at top15% and bottom15%, a sparse narrow vine hugging side x0-3%. Do not scale or squeeze leaves into skinny shapes. No wall/floor/scene/shadow/words/checkerboard. TRUE clean transparent alpha. Minimal paper grain, no heavy texture. This must leave all game controls uncovered when drawn at full viewport size.",
+  "referenceImages": [
+    "D:\\GameZui\\assets\\incoming\\gdv\\fg-kitchen.png",
+    "D:\\GameZui\\assets\\style_reference\\seating.webp"
+  ],
+  "generatedSource": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ff00-5b98-7621-9551-c7ac662c37cf\\exec-21187366-e8be-4f99-86e4-fdb042c9c1e8.png",
+  "source": "assets/incoming/gdv/fg-kitchen-2.png"
+}

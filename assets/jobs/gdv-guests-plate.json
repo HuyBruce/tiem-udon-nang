@@ -1,0 +1,10 @@
+{
+  "tool": "image_gen (built-in)",
+  "prompt": "Use case: precise background style edit. FIRST image is the own-game seating background layout, second is the adjacent drinks background style. Same art style, line weight, palette and level of detail as the reference; only change the subject as described. Cozy flat hand-drawn udon shop interior, portrait9:16. Preserve counter begins y42%, countertop ends59%, narrow dark green fascia ends70%, honey wooden floor from70%down. Preserve TWO shelves on right at9.3% and20.5%, but terminate shelves by x90% leaving 10% empty cream border. Move/resize the upper left shoji window so it occupies x10%-36%, y2%-29%, never touches the left border. BOTH outside10% vertical borders must be simple uninterrupted cream wall above42%, honey countertop42-59%, dark sage green fascia59-70%, honey board floor70-100%; this background will repeat horizontally. Remove ellipse placeholders on floor, foliage, realistic wood grain, plaster texture and strong diagonal sunlight. Thin olive brown colored lines, mostly flat warm cream walls #F8E4C6, honey #EFAB58, green #435037, one soft shadow tone only. Very subtle paper grain. No characters, objects on shelves, UI, lettering or watermark. All shelves/window fully inside room, architecture is quiet and simple; same clean flat style as second image. Full opaque canvas.",
+  "referenceImages": [
+    "D:\\GameZui\\assets\\style_reference\\seating.webp",
+    "D:\\GameZui\\assets\\incoming\\gdv\\drinks-plate.png"
+  ],
+  "generatedSource": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ff00-5b98-7621-9551-c7ac662c37cf\\exec-cfd27c73-c6fd-4fb2-973e-2cb73314cb0e.png",
+  "source": "assets/incoming/gdv/guests-plate.png"
+}

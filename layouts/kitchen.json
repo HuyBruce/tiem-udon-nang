@@ -1,0 +1,192 @@
+{
+  "id": "kitchen",
+  "status": "reference-composition-correction",
+  "zones": {
+    "hud": [
+      0,
+      8
+    ],
+    "wall": [
+      8,
+      42
+    ],
+    "counter": [
+      42,
+      59
+    ],
+    "fascia": [
+      59,
+      70
+    ],
+    "tray": [
+      70,
+      100
+    ]
+  },
+  "background": "gdv-world-kitchen",
+  "layers": [
+    {
+      "id": "broth-pot",
+      "asset": "v2-broth-pot",
+      "x": 62,
+      "y": 36.5,
+      "width": 25,
+      "height": 4.9,
+      "anchor": [
+        0.5,
+        1
+      ],
+      "z": 2,
+      "touch": {
+        "action": "panel",
+        "arg": "broth",
+        "label": "Nấu nước dùng"
+      }
+    },
+    {
+      "id": "fryer",
+      "asset": "v2-fryer",
+      "x": 87,
+      "y": 36.5,
+      "width": 23,
+      "height": 4.9,
+      "anchor": [
+        0.5,
+        1
+      ],
+      "z": 2,
+      "touch": {
+        "action": "panel",
+        "arg": "fryer",
+        "label": "Chiên tempura"
+      }
+    },
+    {
+      "id": "board",
+      "asset": "v2-board",
+      "x": 49,
+      "y": 45.9,
+      "width": 20,
+      "height": 4,
+      "anchor": [
+        0.5,
+        1
+      ],
+      "z": 2,
+      "touch": {
+        "action": "chop-open",
+        "label": "Thái hành"
+      }
+    },
+    {
+      "id": "sink",
+      "asset": "gdw-sink",
+      "x": 80,
+      "y": 45.9,
+      "width": 40,
+      "height": 7.5,
+      "anchor": [
+        0.5,
+        1
+      ],
+      "z": 2,
+      "touch": {
+        "action": "wash",
+        "label": "Rửa chén",
+        "wash": true
+      }
+    }
+  ],
+  "hotspots": [],
+  "noodles": {
+    "x": 74,
+    "y": 14.4,
+    "width": 24,
+    "height": 8.2
+  },
+  "pots": {
+    "x": 5,
+    "y": 32,
+    "width": 44,
+    "height": 8.8
+  },
+  "multiplePots": {
+    "x": 5,
+    "y": 32,
+    "width": 44,
+    "height": 13
+  },
+  "staff": {
+    "binh": {
+      "x": 15,
+      "y": 42,
+      "width": 28,
+      "height": 26,
+      "anchor": [
+        0.5,
+        1
+      ],
+      "z": 1,
+      "counterY": 42
+    },
+    "yui": {
+      "x": 45,
+      "y": 42,
+      "width": 28,
+      "height": 26,
+      "anchor": [
+        0.5,
+        1
+      ],
+      "z": 1,
+      "counterY": 42
+    }
+  },
+  "artVersion": 3,
+  "seasonDecor": {
+    "x": 50,
+    "y": 0,
+    "width": 38,
+    "height": 7,
+    "anchor": [
+      0.5,
+      0
+    ],
+    "z": 1
+  },
+  "rack": {
+    "x": 2,
+    "width": 96,
+    "height": 8.2,
+    "rows": [
+      {
+        "y": 14.4,
+        "items": [
+          "dashi",
+          "soy",
+          "mirin",
+          "curry"
+        ]
+      },
+      {
+        "y": 22.6,
+        "items": [
+          "miso",
+          "yuzu",
+          "flour",
+          "noodles"
+        ]
+      },
+      {
+        "y": 30.7,
+        "items": [
+          "onion",
+          "beef",
+          "tofu",
+          "shrimp"
+        ]
+      }
+    ]
+  },
+  "foreground": "gdv-fg-kitchen"
+}

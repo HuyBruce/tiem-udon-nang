@@ -1,0 +1,2583 @@
+/* Art and hit areas share the full viewport; compact chrome floats above it. */
+.game.live-v2 {
+  --hud-height: 44px;
+}
+.game.live-v2 > .stage {
+  top: 0;
+  bottom: 0;
+}
+.scene-world {
+  position: absolute;
+  inset: 0;
+}
+.world-strip {
+  position: absolute;
+  inset: 0;
+}
+.world-canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  display: none;
+}
+.world-canvas[data-renderer-ready="true"] {
+  display: block;
+}
+img[data-canvas-image="true"] {
+  opacity: 0 !important;
+  animation: none !important;
+}
+[data-renderer-measuring="true"]
+  :is(
+    [data-motion-actor],
+    [data-motion-env],
+    .customer,
+    .customer > .sprite,
+    .noren-panel,
+    .guest-meal-part > .food-layers,
+    .guest-drink
+  ) {
+  transform: none !important;
+  translate: none !important;
+  rotate: none !important;
+  scale: none !important;
+  animation: none !important;
+}
+.game.live-v2 > .stage.world-camera {
+  overflow: clip;
+}
+.world-room {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: clip;
+  contain: layout paint;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.world-room .scene-world {
+  top: var(--safe-top);
+  bottom: var(--safe-bottom);
+}
+/* Canvas already paints room art. Retain the native filler only in safe areas;
+   an opaque full-room background would cover every canvas actor. */
+.world-camera[data-renderer="canvas"] .world-room {
+  background-size: 0 0;
+}
+.world-camera[data-renderer="canvas"] .world-room::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: inherit;
+  background-size: 100% 100%;
+  pointer-events: none;
+  mask-image: linear-gradient(
+    to bottom,
+    #000 0 var(--safe-top),
+    transparent var(--safe-top) calc(100% - var(--safe-bottom)),
+    #000 calc(100% - var(--safe-bottom)) 100%
+  );
+}
+.scene-pagination {
+  touch-action: none;
+}
+.game.live-v2 .hud .icon-button {
+  min-width: 44px;
+  min-height: 44px;
+  flex-shrink: 0;
+}
+.game.live-v2 .scene-pagination button:active,
+.game.live-v2 .hud .icon-button:active {
+  scale: 1;
+}
+.world-room:is(.kitchen, .drinks) .scene-world {
+  min-height: 540px;
+}
+.world-room.front,
+.landing-art {
+  container-type: inline-size;
+}
+.game.live-v2 .shop-sign,
+.landing .landing-art .shop-sign {
+  font-size: clamp(12px, 4.3cqw, 21px);
+  line-height: 1;
+  white-space: nowrap;
+  text-align: center;
+  text-shadow: 0 1px #efd3a355;
+}
+.game.live-v2 > .scene-heading {
+  top: calc(var(--hud-height) + 2px);
+  left: 8px;
+  right: auto;
+  max-width: calc(100% - 16px);
+  min-height: 0;
+  display: flex;
+  gap: 8px;
+  padding: 2px 7px;
+  pointer-events: none;
+}
+.game.live-v2:has(.stage.front) > .scene-heading {
+  top: 64%;
+  left: 18%;
+  right: 18%;
+  display: grid;
+  padding: 12px;
+  pointer-events: auto;
+}
+.game.live-v2 > .scene-heading h1 {
+  font-size: 13px;
+  line-height: 18px;
+}
+.game.live-v2 > .scene-heading .season-note {
+  font-size: 11px;
+}
+.large-font .game.live-v2 > .scene-heading h1 {
+  font-size: 15px;
+  line-height: 18px;
+}
+.ingredient-rack {
+  position: absolute;
+  pointer-events: none;
+  display: grid;
+  grid-template-columns: repeat(var(--rack-columns), minmax(0, 1fr));
+  z-index: 24;
+}
+.ingredient-rack .rack-item {
+  position: relative;
+  pointer-events: auto;
+  height: 100%;
+  min-height: 44px;
+  min-width: 44px;
+  padding: 0;
+  border: 0;
+  border-radius: 5px;
+  background: transparent;
+  overflow: visible;
+  display: block;
+}
+.rack-item .rack-art,
+.game.live-v2 .noodle-basket > .rack-art {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  container-type: size;
+  opacity: 1;
+  padding: 0;
+  background: transparent;
+  border-radius: 0;
+  width: 100%;
+  /* Use the whole shelf bay, including on tall phones. */
+  top: 14px;
+  height: calc(100% - 16px);
+  bottom: 2px;
+}
+.rack-art .rack-cutout {
+  position: relative;
+  display: block;
+  overflow: clip;
+  width: min(100cqw, calc(100cqh * var(--shelf-ratio)));
+  height: min(100cqh, calc(100cqw / var(--shelf-ratio)));
+  pointer-events: none;
+}
+.rack-art .rack-cutout > .sprite {
+  position: absolute;
+  max-width: none;
+  max-height: none;
+  object-fit: fill;
+}
+.rack-art > .sprite {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center bottom;
+}
+.rack-item .rack-name {
+  z-index: 26;
+  border-radius: 4px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: block;
+  width: calc(100% - 4px);
+  max-width: 100%;
+  white-space: nowrap;
+  font-size: 11px;
+  line-height: 14px;
+  padding: 0;
+  background: #fff4df;
+  text-align: center;
+  color: #5e4a35;
+  pointer-events: none;
+}
+.rack-count {
+  position: absolute;
+  bottom: 3px;
+  left: auto;
+  right: 2px;
+  transform: none;
+  width: auto;
+  min-width: 18px;
+  padding: 0 3px;
+  border-radius: 4px;
+  background: #fff4df;
+  z-index: 26;
+  font-size: 11px;
+  line-height: 14px;
+  text-align: center;
+  color: #687746;
+  pointer-events: none;
+}
+.rack-item:is(:focus-visible, :active) {
+  background: #fff6d438;
+}
+.large-font .rack-item .rack-name {
+  font-size: 12px;
+}
+.game.live-v2 .noodle-basket {
+  border: 0;
+  border-radius: 5px;
+  background: transparent;
+  padding: 0;
+  z-index: 6;
+  min-height: 44px;
+}
+.game.live-v2 .noodle-basket > .food-icon {
+  position: absolute;
+  top: 18px;
+  bottom: 9px;
+  left: 0;
+  height: calc(100% - 27px);
+  width: 100%;
+  object-position: center bottom;
+}
+.game.live-v2 .noodle-basket > .rack-name {
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  bottom: auto;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - 4px);
+  max-width: 100%;
+  padding: 0 3px;
+  font-size: 11px;
+  line-height: 14px;
+  background: #fff4df;
+  border-radius: 3px;
+}
+.game.live-v2 .noodle-basket small {
+  font-size: 10px;
+}
+.game.live-v2 .kitchen-tickets {
+  top: 34.5%;
+  left: 5%;
+  right: 51%;
+  display: flex;
+  gap: 4px;
+  overflow-x: auto;
+}
+
+/* Guests share the existing room coordinates. Poses are derived by guest-motion.js. */
+/* Pose diagnostics stay on the body without invalidating every descendant. */
+@property --guest-x {
+  syntax: "<number>";
+  inherits: false;
+  initial-value: 0;
+}
+@property --guest-opacity {
+  syntax: "<number>";
+  inherits: false;
+  initial-value: 1;
+}
+@property --guest-turn {
+  syntax: "<number>";
+  inherits: false;
+  initial-value: 1;
+}
+@property --guest-scale {
+  syntax: "<number>";
+  inherits: false;
+  initial-value: 1;
+}
+@property --guest-bob {
+  syntax: "<length>";
+  inherits: false;
+  initial-value: 0px;
+}
+@property --guest-shift {
+  syntax: "<length>";
+  inherits: false;
+  initial-value: 0px;
+}
+@property --guest-lean {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 0deg;
+}
+.game.live-v2 .world-room[class*="guests"] .customer {
+  transform: translateX(
+    calc(var(--guest-x, 0) * var(--guest-room-width, 360px))
+  );
+  opacity: var(--guest-opacity, 1);
+  transition: none;
+  scale: 1;
+  overflow: visible;
+  z-index: 3;
+}
+.game.live-v2 .world-room[class*="guests"] .customer > .sprite {
+  position: absolute;
+  width: 160%;
+  height: 160%;
+  left: -30%;
+  top: -60%;
+  object-position: center bottom;
+  animation: none !important;
+  translate: none;
+  rotate: none;
+  transform-origin: 50% 85%;
+  transform: translate(var(--guest-shift, 0px), var(--guest-bob, 0px))
+    rotate(var(--guest-lean, 0deg))
+    scale(var(--guest-turn, 1), var(--guest-scale, 1));
+}
+.game.live-v2 .world-room[class*="guests"] .customer::before {
+  /* The enlarged portrait's head can rise above the original seat button.
+     Extend its touch area around the painted half-body, not the padded image. */
+  content: "";
+  position: absolute;
+  left: 2%;
+  bottom: 0;
+  width: 96%;
+  aspect-ratio: 0.64;
+}
+.game.live-v2 .world-room[class*="guests"] .customer.dirty {
+  visibility: hidden;
+  pointer-events: none;
+}
+.game.live-v2 .world-room[class*="guests"] .guest-feedback {
+  animation: none;
+  top: -6%;
+  width: 86%;
+  left: 7%;
+  font-size: 11px;
+}
+.game.live-v2 .world-room[class*="guests"] :is(.customer-call, .reaction) {
+  top: -10%;
+}
+.world-room[class*="guests"] .reaction[data-mood="disappointed"] {
+  color: #a56451;
+  background: #f4ddc9;
+}
+.world-room[class*="guests"] .reaction[data-mood="happy"] {
+  color: #a96373;
+  background: #ffecd8;
+}
+.game.live-v2 .world-room[class*="guests"] .order-ticket {
+  top: 76%;
+  min-height: 48px;
+  z-index: 6;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  font-size: 11px;
+  scale: 1;
+  transform: rotate(-2deg);
+  box-shadow: 1px 3px 3px #66492a26;
+}
+.world-room[class*="guests"] .order-ticket .guest-paper {
+  width: 26px;
+  height: 34px;
+  flex-shrink: 0;
+}
+.world-room[class*="guests"] .order-ticket span {
+  min-width: 0;
+}
+.world-room[class*="guests"] .order-ticket small {
+  display: block;
+  font-size: 10px;
+}
+.game.live-v2 .world-room[class*="guests"] .patience {
+  top: 70%;
+  height: 5px;
+  z-index: 5;
+}
+.world-room[class*="guests"] .patience[data-urgency="warning"] i {
+  background: #c99940;
+}
+.world-room[class*="guests"] .patience[data-urgency="low"] i {
+  background: #b86553;
+}
+.game.live-v2 .world-room[class*="guests"] .table-bowl,
+.game.live-v2 .world-room[class*="guests"] .combo-served-visual {
+  top: 72%;
+  left: 6%;
+  width: 88%;
+  height: 33%;
+  min-height: 64px;
+  display: grid;
+  grid-template-columns: repeat(var(--parts, 1), minmax(0, 1fr));
+  gap: 3px;
+  overflow: visible;
+  padding: 0;
+  z-index: 6;
+  animation: none;
+  scale: 1;
+}
+.game.live-v2 .world-room[class*="guests"] .combo-served-visual {
+  top: 105%;
+}
+.game.live-v2 .world-room[class*="guests"] .guest-meal-part {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: none;
+  padding: 0;
+  overflow: visible;
+}
+.world-room[class*="guests"] .guest-meal-part > .food-layers {
+  position: absolute;
+  left: 14%;
+  bottom: 0;
+  width: 65%;
+  height: 78%;
+  animation: none !important;
+  transform: translateY(var(--meal-lift, 0px)) rotate(var(--meal-tilt, 0deg));
+}
+.world-room[class*="guests"] .guest-drink {
+  position: absolute;
+  width: 28%;
+  height: 55%;
+  right: -4%;
+  bottom: 0;
+  transform: translateY(var(--drink-lift, 0px));
+}
+.world-room[class*="guests"] .guest-drink > .drink-art {
+  width: 100%;
+  height: 100%;
+  position: static;
+  margin: 0;
+  animation: none;
+}
+.world-room[class*="guests"] .combo-side {
+  position: absolute;
+  left: -5%;
+  bottom: 0;
+  width: 33%;
+  height: 36%;
+}
+.world-room[class*="guests"] .combo-side > .sprite.side-plate,
+.world-room[class*="guests"] .combo-side > .sprite.side-food {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+.world-room[class*="guests"] .guest-meal-steam,
+.world-room[class*="guests"] .guest-drink-steam {
+  position: absolute;
+  top: -30%;
+  left: 20%;
+  width: 60%;
+  height: 70%;
+  opacity: 0.6;
+  transform: translateY(var(--meal-lift, 0px));
+}
+.world-room[class*="guests"] .guest-drink-steam {
+  transform: none;
+}
+.game.live-v2 .world-room[class*="guests"] .guest-table-label {
+  position: absolute;
+  bottom: -18px;
+  left: 0;
+  right: 0;
+  padding: 1px 3px;
+  font-size: 11px;
+  line-height: 16px;
+  background: #fff4dfed;
+}
+.world-room[class*="guests"] .guest-empty {
+  position: absolute;
+  top: 80%;
+  left: 18%;
+  width: 64%;
+  text-align: center;
+  color: #987755;
+}
+.guest-empty-shadow {
+  display: block;
+  height: 9px;
+  border-radius: 50%;
+  background: #79553620;
+}
+.guest-empty-number {
+  font-size: 11px;
+  opacity: 0.55;
+}
+.world-room[class*="guests"] .counter-pet {
+  scale: 1;
+}
+.world-room[class*="guests"] .counter-pet .pet-scene-label {
+  display: none;
+}
+.guest-counter-flowers {
+  position: absolute;
+  left: 1%;
+  top: 46%;
+  width: 11%;
+  height: 14%;
+  pointer-events: none;
+  z-index: 7;
+}
+.game.live-v2 .world-room[class*="guests"] .room-bouquet {
+  top: 49%;
+  right: 1%;
+  width: 11%;
+  height: 14%;
+  pointer-events: none;
+}
+.stage[data-guest-motion="off"] .customer,
+.stage[data-guest-motion="off"] .scene-staff > .sprite,
+.stage[data-guest-motion="off"] .counter-pet .pet-body {
+  animation: none !important;
+}
+.stage[data-guest-motion="off"] .guest-meal-part > .food-layers,
+.stage[data-guest-motion="off"] .guest-drink {
+  transform: none;
+  animation: none !important;
+}
+
+[data-motion-actor],
+[data-motion-env],
+.scene-pet.roaming .pet-body {
+  animation: none !important;
+  translate: none;
+  rotate: none;
+  scale: 1;
+}
+[data-motion-paused="true"]
+  :is(.stage, .landing-art, .direct-workbench, .wooden-tray)
+  *,
+[data-motion-paused="true"] :is(.stage, .landing-art)::after {
+  animation-play-state: paused !important;
+}
+.motion-vine {
+  position: absolute;
+  left: 0;
+  top: 20%;
+  width: 7%;
+  height: 44%;
+  z-index: 2;
+  pointer-events: none;
+}
+.sheet :is(.fryer-art, .broth-illustration, .brew-progress, .cook-bowl) {
+  position: relative;
+}
+.panel-steam {
+  position: absolute;
+  top: -5px;
+  left: 30%;
+  width: 40%;
+  height: 60px;
+  pointer-events: none;
+}
+.motion-vine > .sprite {
+  width: 100%;
+  height: 100%;
+}
+.sheet-viewport {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+.sheet-viewport > .sheet-strip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  max-width: none;
+  object-fit: fill;
+}
+.tray-steam {
+  position: absolute;
+  width: 38%;
+  height: 48%;
+  left: 30%;
+  top: -12%;
+  pointer-events: none;
+}
+
+.game.live-v2:has(.stage[class*="guests"], .direct-workbench) > .toast {
+  top: calc(122px + var(--safe-top));
+  bottom: auto;
+  left: 7%;
+  right: 7%;
+  padding: 6px 12px;
+  font-size: 12px;
+  line-height: 16px;
+  max-height: 44px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  pointer-events: none;
+}
+.game.live-v2:has(.direct-workbench) > .toast {
+  top: calc(78px + var(--safe-top));
+}
+@media (max-height: 650px) {
+  .game.live-v2:has(.stage[class*="guests"]) > .toast {
+    top: calc(86px + var(--safe-top));
+  }
+}
+
+/* Direct work stays on the foreground table; reference sheets remain optional. */
+.world-room.kitchen[data-work-focus="pot"] .scene-sprite > .sprite {
+  opacity: 0.72;
+}
+.world-room.kitchen[data-work-focus="bowl"] :is(.scene-sprite, .pots) > .sprite,
+.world-room.kitchen[data-work-focus="broth"] .pot-sprite,
+.world-room.kitchen[data-work-focus="fryer"] .pot-sprite {
+  opacity: 0.72;
+}
+.direct-workbench[data-work-focus="pot"] .work-vessel > .bowl-art {
+  opacity: 1;
+}
+.kitchen-workbench .work-vessel[data-drop="worktop"] {
+  pointer-events: none;
+  visibility: hidden;
+}
+.food-trash {
+  position: absolute;
+  right: 6px;
+  bottom: calc(174px + var(--safe-bottom));
+  width: 44px;
+  height: 44px;
+  padding: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  font-size: 11px;
+  line-height: 14px;
+  border: 1px solid #937c5b;
+  border-radius: 10px;
+  background: #fff4df;
+  color: #594b36;
+  z-index: 19;
+  touch-action: none;
+  visibility: hidden;
+}
+.game:is([data-holding-food="true"], [data-drag-food="true"]) .food-trash {
+  visibility: visible;
+}
+.work-hint {
+  display: block;
+  font-size: 11px;
+  line-height: 14px;
+  color: #566d4b;
+  text-align: center;
+  pointer-events: none;
+}
+.direct-workbench {
+  transform: translate3d(0, 0, 0);
+  position: absolute;
+  left: 5%;
+  right: 5%;
+  bottom: calc(136px + var(--safe-bottom));
+  height: 184px;
+  z-index: 16;
+  pointer-events: none;
+}
+.direct-workbench :is(button, select) {
+  pointer-events: auto;
+}
+.game.live-v2 .direct-workbench .work-vessel {
+  position: relative;
+  top: auto;
+  left: 0;
+  width: 38%;
+  height: 100%;
+  min-width: 44px;
+  min-height: 44px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  display: block;
+  overflow: visible;
+}
+.work-vessel > .sprite:not(.direct-steam),
+.work-vessel > .bowl-art,
+.work-cup-layers {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 85%;
+  object-fit: contain;
+}
+.game.live-v2 .direct-workbench.drink-workbench {
+  height: 236px;
+  top: calc(var(--safe-top) + var(--cup-ground) - 126px);
+  bottom: auto;
+}
+.game.live-v2 .drink-workbench .work-vessel {
+  left: 56%;
+  width: 28%;
+  height: 126px;
+  top: 0;
+}
+.work-drink-visual {
+  position: absolute;
+  inset: 0 0 auto;
+  width: 100%;
+  height: 108px;
+}
+.work-drink-visual > .drink-base {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center bottom;
+  filter: drop-shadow(0 3px 2px #62432630);
+}
+.work-drink-topping {
+  position: absolute;
+  width: 34%;
+  height: 30%;
+  top: 12%;
+  left: 33%;
+  object-fit: contain;
+}
+.game.live-v2 .drink-workbench .work-controls {
+  top: 132px;
+  left: 0;
+  right: 50px;
+  gap: 5px;
+}
+.work-drink-toolbar {
+  display: grid;
+  grid-template-columns: minmax(100px, 1.6fr) repeat(3, minmax(44px, 1fr));
+  gap: 4px;
+}
+.game.live-v2 .drink-workbench .work-tools {
+  grid-template-columns: repeat(auto-fit, minmax(44px, 1fr));
+  gap: 4px;
+}
+.work-picker {
+  min-width: 0;
+}
+.work-picker-toggle {
+  width: 100%;
+  min-height: 44px;
+  padding: 4px;
+  font-size: 11px;
+  font-weight: 600;
+}
+.game.live-v2 .drink-workbench .work-source {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: 12px 24px;
+  justify-items: center;
+  align-content: center;
+  gap: 0;
+  padding: 2px;
+  min-height: 44px;
+  height: 44px;
+}
+.drink-workbench .work-source .sprite {
+  width: 24px;
+  height: 24px;
+}
+.drink-workbench .work-source > span {
+  font-size: 10px;
+}
+.game.live-v2 .drink-workbench .work-cancel {
+  position: static;
+  max-width: none;
+}
+.work-picker-popup {
+  position: fixed;
+  left: calc(12px + var(--safe-left));
+  right: calc(12px + var(--safe-right));
+  bottom: calc(284px + var(--safe-bottom));
+  max-height: 50dvh;
+  overflow: auto;
+  background: #fff5df;
+  border: 2px solid #7a8761;
+  border-radius: 14px;
+  padding: 8px;
+  pointer-events: auto;
+  box-shadow: 0 8px 20px #40352233;
+  z-index: 45;
+}
+.work-picker-popup > header {
+  position: sticky;
+  top: -8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  background: #fff5df;
+  padding: 4px;
+  z-index: 1;
+}
+.work-picker-popup [role="listbox"] {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(44px, 1fr));
+  gap: 6px;
+}
+.work-picker-popup [role="option"] {
+  font-weight: 600;
+  font-size: 12px;
+  min-height: 54px;
+  padding: 6px;
+}
+.work-picker-popup [role="option"] .sprite {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+.work-picker-popup [aria-selected="true"] {
+  background: #e3e7c2;
+  border-color: #6b8158;
+}
+@media (max-height: 740px) {
+  .game.live-v2 .drink-workbench .work-controls {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(44px, 1fr));
+    gap: 3px;
+    right: 0;
+  }
+  .game.live-v2 .drink-workbench :is(.work-drink-toolbar, .work-tools, .work-picker) {
+    display: contents;
+  }
+  .game.live-v2 .drink-workbench {
+    left: 3%;
+    right: 3%;
+  }
+  .drink-workbench .work-picker-toggle {
+    font-size: 10px;
+    padding: 2px;
+  }
+  .game.live-v2 .drink-workbench .work-controls button {
+    height: 44px;
+    min-height: 44px;
+    font-size: 10px;
+    line-height: 12px;
+    padding: 2px;
+  }
+  .game.live-v2 .direct-workbench.drink-workbench {
+    top: min(calc(var(--safe-top) + var(--cup-ground) - 126px), calc(100% - var(--safe-bottom) - 342px));
+  }
+  .food-trash {
+    bottom: calc(230px + var(--safe-bottom));
+  }
+}
+.work-cup-layers > .sprite,
+.work-drink-fill,
+.work-drink-fill > .drink-art {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.work-drink-fill {
+  clip-path: inset(calc((1 - var(--drink-fill)) * 100%) 0 0);
+}
+.work-vessel-label {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-size: 11px;
+  line-height: 15px;
+  background: #fff4d9e6;
+  border-radius: 5px;
+  padding: 1px 3px;
+  white-space: normal;
+  overflow: visible;
+  text-overflow: clip;
+}
+.work-tools {
+  position: static;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(44px, 1fr));
+  gap: 3px;
+}
+.work-controls {
+  position: absolute;
+  top: 0;
+  left: 41%;
+  right: 0;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 3px;
+}
+.direct-workbench > .work-cancel {
+  position: absolute;
+  left: 27%;
+  bottom: 0;
+  min-width: 44px;
+  min-height: 44px;
+  font-size: 11px;
+  padding: 3px;
+  max-width: 60px;
+}
+.direct-workbench.is-ready {
+  height: 184px;
+}
+.work-tools button,
+.work-tools select,
+.work-drink-choice select,
+.work-supplies button {
+  min-width: 44px;
+  min-height: 44px;
+  font-size: 11px;
+  line-height: 1.25;
+  padding: 4px;
+  border: 1px solid #657d5c;
+  border-radius: 6px;
+  color: #5e4a35;
+  background: #fff7e6ef;
+}
+.work-held {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  clip-path: inset(50%);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 11px;
+  line-height: 16px;
+  color: #584b35;
+  pointer-events: none;
+}
+.game:has(.direct-workbench) > .tutorial {
+  display: none;
+}
+.game:has(.direct-workbench) > .stage .scene-arrow {
+  display: grid;
+}
+/* Keep the hit region at its full size; feedback animates the artwork instead. */
+.game:has(.direct-workbench)
+  :is(
+    .rack-item,
+    .sprite-touch,
+    .pot-hit,
+    .noodle-basket,
+    .work-source,
+    .work-scroll,
+    .work-vessel,
+    .work-tools button
+  ):active {
+  transform: none;
+  scale: 1;
+}
+.game.live-v2 .pot-hit.lifted .pot-label {
+  display: none;
+}
+.work-supplies {
+  position: relative;
+  display: flex;
+  width: 100%;
+  min-width: 0;
+  gap: 4px;
+  height: 74px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  z-index: 8;
+  touch-action: pan-x;
+  scrollbar-width: thin;
+}
+.work-supplies .work-source {
+  flex: 0 0 calc((100% - 8px) / 3);
+  position: relative;
+  padding: 0 3px;
+  display: grid;
+  grid-template-rows: 14px 44px 12px;
+  justify-items: center;
+}
+.work-supplies .work-scroll {
+  position: relative;
+  flex: 0 0 44px;
+  z-index: 2;
+  font-size: 24px;
+  background: #e9e8c3;
+}
+.work-supplies:has(.work-supply-items) {
+  overflow: visible;
+}
+.work-supply-items {
+  display: flex;
+  gap: 4px;
+  min-width: 0;
+  width: 0;
+  flex: 1 1 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: none;
+}
+.work-supply-items .work-source {
+  flex: 0 0 calc((100% - 4px) / 2);
+}
+.work-source > .sprite {
+  width: 48px;
+  height: 44px;
+  object-fit: contain;
+  display: block;
+  margin: auto;
+}
+.work-source > span {
+  display: block;
+  overflow: visible;
+  white-space: nowrap;
+  text-overflow: clip;
+  font-size: 11px;
+  line-height: 14px;
+}
+.work-source > b {
+  font-size: 11px;
+  line-height: 12px;
+  color: #657d5c;
+}
+.work-selected {
+  outline: 2px solid #7b9956;
+  outline-offset: -2px;
+}
+.world-room.kitchen .sprite-touch > .sr-only {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: auto;
+  bottom: 0;
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding: 1px 2px;
+  clip: auto;
+  clip-path: none;
+  overflow: visible;
+  white-space: normal;
+  font-size: 11px;
+  line-height: 13px;
+  color: #594b36;
+  border-radius: 4px;
+  background: #fff4dfd9;
+  pointer-events: none;
+}
+.world-room.kitchen
+  .scene-sprite:has(.work-object-label:not([hidden]))
+  .sprite-touch
+  > .sr-only {
+  visibility: hidden;
+}
+.work-object-label {
+  position: absolute;
+  top: 36%;
+  padding: 2px 3px;
+  font-size: 11px;
+  line-height: 15px;
+  border-radius: 4px;
+  background: #fff5dde6;
+  text-align: center;
+  pointer-events: none;
+  z-index: 7;
+}
+.broth-label {
+  left: 0;
+  right: 0;
+  width: auto;
+  top: auto;
+  bottom: 0;
+}
+.fryer-label {
+  left: 0;
+  right: 0;
+  width: auto;
+  top: auto;
+  bottom: 0;
+}
+.work-object-label[data-texture="perfect"] {
+  color: #385a21;
+  background: #e2f1c2;
+}
+[data-drag],
+[data-direct-craft],
+[data-direct-chop] {
+  touch-action: none;
+}
+.work-drink-choice {
+  position: static;
+  width: 100%;
+  z-index: 7;
+}
+.work-drink-choice select {
+  width: 100%;
+}
+.work-timer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: grid;
+  place-items: center;
+  min-width: 46px;
+  height: 46px;
+  padding: 3px;
+  border: 3px solid #c18c49;
+  border-radius: 50%;
+  font-size: 11px;
+  background: conic-gradient(
+    #d3b66b calc(var(--cook-progress, 0) * 1turn),
+    #fff6df 0
+  );
+  color: #5b432c;
+  z-index: 9;
+  pointer-events: none;
+}
+.work-timer[hidden] {
+  display: none;
+}
+.work-timer[data-texture="perfect"] {
+  border-color: #6c963d;
+  background: #e2f1c2;
+  color: #385a21;
+}
+.work-timer[data-texture="soft"] {
+  border-color: #ae6254;
+  background: #f4d2c3;
+}
+.direct-steam {
+  position: absolute;
+  top: -20%;
+  left: 20%;
+  width: 60%;
+  height: 65%;
+  object-fit: contain;
+  opacity: 0.65;
+  pointer-events: none;
+  animation: direct-steam-rise 2.5s ease-in-out infinite;
+}
+@keyframes direct-steam-rise {
+  50% {
+    transform: translateY(-6px);
+    opacity: 0.35;
+  }
+}
+.no-motion .direct-steam,
+.low-performance .direct-steam {
+  animation: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  .direct-steam {
+    animation: none;
+  }
+}
+@media (max-height: 650px) {
+  .world-room:is(.kitchen, .drinks) .scene-painting {
+    background: linear-gradient(to bottom, #f8e4c6 43px, transparent 43px);
+  }
+  .world-room.front .front-owner {
+    height: 27.5% !important;
+  }
+  .rack-item .rack-art,
+  .game.live-v2 .noodle-basket > .rack-art {
+    top: 12px;
+    height: calc(100% - 14px);
+    bottom: 2px;
+  }
+  .rack-item .rack-name {
+    line-height: 12px;
+  }
+  .rack-count {
+    line-height: 12px;
+    bottom: 3px;
+  }
+  .game.live-v2 .noodle-basket > .food-icon {
+    top: 15px;
+    height: calc(100% - 24px);
+  }
+  .game.live-v2 .noodle-basket > .rack-name {
+    line-height: 12px;
+  }
+  .direct-workbench {
+    bottom: calc(118px + var(--safe-bottom));
+    height: 156px;
+  }
+  .direct-workbench.is-ready {
+    height: 156px;
+  }
+  .work-hint {
+    display: none;
+  }
+  .work-vessel-label {
+    font-size: 11px;
+    line-height: 12px;
+  }
+  .work-tools {
+    display: grid;
+  }
+  .work-tools > * {
+    min-width: 44px;
+  }
+  .work-tools [data-work-detail] {
+    position: static;
+  }
+  .work-supplies {
+    height: 62px;
+  }
+  .work-supplies .work-source {
+    grid-template-rows: 14px 32px 12px;
+  }
+  .work-source > .sprite {
+    height: 32px;
+    width: 40px;
+  }
+  .game.live-v2 .world-room.kitchen .sprite-touch > .sr-only {
+    bottom: 10px;
+  }
+}
+.game.live-v2 .kitchen-tickets button {
+  flex: 0 0 auto;
+  font-size: 11px;
+  padding: 3px 8px;
+  min-height: 44px;
+}
+.game.live-v2 .pots.multiple {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+  gap: 3px 6px;
+}
+.game.live-v2 .pots.multiple .pot-hit {
+  min-width: 44px;
+  min-height: 44px;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+.game.live-v2 .pots.multiple .pot-hit:nth-child(n) {
+  transform: none;
+  margin: 0;
+}
+.game.live-v2 .pot-hit .pot-sprite {
+  width: 100%;
+  height: 100%;
+}
+.game.live-v2 .pots .pot-label {
+  opacity: 1;
+  top: auto;
+  bottom: 0;
+  min-height: 14px;
+  max-width: 100%;
+  width: 100%;
+  padding: 0 2px;
+  line-height: 14px;
+  font-size: 11px;
+}
+.game.live-v2 .prepared-drink {
+  top: 46%;
+  left: 49%;
+  width: 18%;
+  height: 12%;
+}
+.game.live-v2 > .wooden-tray {
+  left: 8%;
+  right: 8%;
+}
+.game.live-v2 > .stage .scene-arrow {
+  top: auto;
+  bottom: var(--safe-bottom);
+  width: 48px;
+  height: 48px;
+  min-height: 48px;
+  min-width: 48px;
+  padding: 0;
+  border: 1px solid #b79c70;
+  background: #fff5e8f2;
+  border-radius: 10px;
+  opacity: 1;
+  transform: none;
+  touch-action: manipulation;
+  z-index: 31;
+}
+.game.live-v2 > .stage .scene-arrow.left {
+  left: 54px;
+  right: auto;
+}
+.game.live-v2 > .stage .scene-arrow.right {
+  right: 54px;
+  left: auto;
+}
+.game.live-v2 > .stage .scene-arrow:active {
+  transform: none;
+  scale: 1;
+  background: #e7e9cb;
+}
+.world-room .guest-shelf-surface {
+  height: auto !important;
+  aspect-ratio: 180 / 24;
+}
+.world-room .guest-shelf-planter {
+  height: auto !important;
+  aspect-ratio: 512 / 298;
+}
+.world-room .guest-shelf-bowl {
+  height: auto !important;
+  aspect-ratio: 1;
+}
+
+/* The sign is a two-sided UI button; artwork and characters remain assets. */
+.game.live-v2 .door-sign {
+  position: absolute;
+  min-height: 54px;
+  min-width: 100px;
+  padding: 0;
+  display: block;
+  border: 0;
+  background: transparent;
+  overflow: visible;
+  z-index: 15;
+  perspective: 500px;
+  touch-action: manipulation;
+}
+.door-sign::before,
+.door-sign::after {
+  content: "";
+  position: absolute;
+  top: -19px;
+  height: 21px;
+  width: 2px;
+  background: #71563a;
+  pointer-events: none;
+}
+.door-sign::before {
+  left: 18%;
+}
+.door-sign::after {
+  right: 18%;
+}
+.door-sign-faces {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 44px;
+  transform-style: preserve-3d;
+  transition: transform 260ms ease-out;
+}
+.door-sign.is-closed .door-sign-faces {
+  transform: rotateY(180deg);
+}
+.door-sign-face {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  border: 2px solid #865a35;
+  border-radius: 5px;
+  background: linear-gradient(#ebbf7c, #d79d5c);
+  box-shadow: 0 3px 0 #80583c;
+  color: #294d39;
+  font-weight: 800;
+  font-size: 16px;
+  letter-spacing: 0.3px;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+.door-sign-back {
+  transform: rotateY(180deg);
+  color: #71412c;
+  visibility: hidden;
+}
+/* Camera transforms can flatten 3D faces in WebKit. Select the painted face
+   explicitly so the reverse lettering never shows through the open sign. */
+.door-sign.is-closed .door-sign-front {
+  visibility: hidden;
+}
+.door-sign.is-closed .door-sign-back {
+  visibility: visible;
+}
+.door-sign small {
+  display: block;
+  margin-top: 5px;
+  padding: 2px 3px;
+  border-radius: 4px;
+  font-size: 11px;
+  line-height: 15px;
+  font-weight: 600;
+  background: #fff5e8eb;
+  color: #5e4a35;
+}
+.hanging-lantern {
+  opacity: 1;
+  transition: opacity var(--shop-lantern-fade) ease-out;
+}
+.hanging-lantern[data-shop-open="false"] {
+  opacity: 0.54;
+}
+.shop-announcement,
+.shop-hours-reminder {
+  position: absolute;
+  top: calc(var(--safe-top, 0px) + 104px);
+  z-index: 35;
+  background: #fff5e8f5;
+  border: 2px solid #799269;
+  border-radius: 14px;
+  padding: 12px 16px;
+  color: #345941;
+  box-shadow: 0 4px 0 #53704738;
+}
+.shop-announcement {
+  left: 50%;
+  transform: translateX(-50%);
+  width: max-content;
+  max-width: calc(100% - 32px);
+  text-align: center;
+  pointer-events: none;
+}
+.shop-announcement strong,
+.shop-announcement small {
+  display: block;
+}
+.shop-announcement strong {
+  font-size: 22px;
+}
+.shop-announcement small {
+  margin-top: 4px;
+  font-size: 12px;
+}
+.shop-hours-reminder {
+  left: 12px;
+  right: 12px;
+  font-size: 14px;
+}
+.shop-hours-reminder > div {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+}
+.shop-hours-reminder button {
+  flex: 1;
+  min-height: 44px;
+  background: #e2e8cc;
+  color: #345941;
+  border: 1px solid #799269;
+  font-weight: 700;
+}
+.shop-hours-reminder button:first-child {
+  background: #efd3b4;
+}
+.shop-finish-help {
+  margin: 10px 0;
+  font-size: 13px;
+}
+.no-motion .hanging-lantern,
+.low-performance .hanging-lantern {
+  transition: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  .hanging-lantern {
+    transition: none;
+  }
+}
+.game.live-v2 .pantry-supply {
+  position: absolute;
+  top: 66%;
+  left: 30%;
+  width: 40%;
+  min-height: 48px;
+  z-index: 15;
+  background: #fff4dc;
+  border: 2px solid #9a7547;
+  border-radius: 8px;
+  box-shadow: 0 3px 0 #9a7547;
+  font-weight: 800;
+  font-size: 16px;
+  gap: 7px;
+}
+.game.live-v2 .hud-forecast {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  margin-left: 3px;
+  font-size: 11px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.game.live-v2 .day-weather {
+  min-width: 0;
+  flex-shrink: 0;
+}
+.game.live-v2 .wallet {
+  min-width: 0;
+}
+.game.live-v2 .wallet small {
+  white-space: nowrap;
+}
+.sheet[data-panel="inventory"] .panel-heading p {
+  font-weight: 600;
+}
+.stock-ledger {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 12px;
+  margin: 0 0 12px;
+  background: #e5e8c9;
+  border: 1px solid #8e9c6d;
+  border-radius: 8px;
+  font-size: 15px;
+}
+.stock-catalog .stock-row {
+  display: grid;
+  grid-template-columns: 66px minmax(0, 1fr) 82px;
+  align-items: center;
+  gap: 10px;
+  margin: 9px 0;
+  padding: 12px 8px;
+  border: 1px solid #c5ae7f;
+  border-radius: 10px;
+  background: #fff9e9;
+  box-shadow: 0 2px 0 #c5ae7f55;
+}
+.stock-catalog .ingredient-inspect {
+  width: 66px;
+  height: 66px;
+  padding: 0;
+  background: #f3e6c7;
+  border-radius: 9px;
+  border: 1px solid #dbc391;
+}
+.stock-catalog .ingredient-inspect .food-icon {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.stock-catalog .stock-row strong {
+  font-size: 16px;
+  font-weight: 800;
+}
+.stock-catalog .stock-row small {
+  font-size: 12px;
+  line-height: 1.5;
+}
+.stock-catalog .stock-count {
+  font-size: 13px;
+  line-height: 1.5;
+  font-weight: 600;
+}
+.stock-catalog .stock-description {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  line-height: 1.4;
+}
+.stock-catalog .stock-row .buy {
+  display: flex;
+  flex-direction: column;
+  width: 82px;
+  min-height: 74px;
+  padding: 6px 4px;
+  gap: 3px;
+  border: 2px solid #7b8b5a;
+  border-radius: 8px;
+  background: #e6ebca;
+  box-shadow: 0 3px 0 #7b8b5a;
+  font-size: 15px;
+}
+.stock-catalog .stock-row .buy strong {
+  font-size: 14px;
+}
+.sheet :is(input, textarea) {
+  font-size: 16px;
+  font-weight: 600;
+}
+.no-motion .door-sign-faces,
+.low-performance .door-sign-faces {
+  transition: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  .door-sign-faces {
+    transition: none;
+  }
+}
+@media (max-width: 370px) {
+  .stock-catalog .stock-row {
+    grid-template-columns: 54px minmax(0, 1fr) 74px;
+    gap: 6px;
+  }
+  .stock-catalog .ingredient-inspect {
+    width: 54px;
+    height: 58px;
+  }
+  .stock-catalog .stock-row .buy {
+    width: 74px;
+  }
+  .game.live-v2 .hud-forecast {
+    margin-left: 0;
+    font-size: 10px;
+  }
+}
+
+/* A workbench stays in the room; management and conversations remain modal. */
+.game.live-v2 > .station-backdrop {
+  position: absolute;
+  inset: 0;
+  z-index: 32;
+  background: transparent;
+  backdrop-filter: none;
+  pointer-events: none;
+  animation: none;
+}
+.station-backdrop .station-panel {
+  position: absolute;
+  top: 32%;
+  bottom: calc(235px + var(--safe-bottom));
+  left: 3%;
+  width: 94%;
+  max-height: none;
+  border: 1px solid #c39b68;
+  border-radius: 16px;
+  background: #fff7e7f5;
+  box-shadow:
+    0 4px 0 #b5895455,
+    0 10px 30px #714c2822;
+  pointer-events: auto;
+  animation: none;
+}
+.station-panel .sheet-grip {
+  display: none;
+}
+.station-panel .sheet-title {
+  min-height: 50px;
+  height: 50px;
+  padding: 9px 52px;
+  font-size: 15px;
+}
+.station-panel .close-sheet,
+.station-panel .back-sheet {
+  top: 3px;
+}
+.station-panel .sheet-content {
+  padding: 8px 12px 14px;
+}
+.station-panel .panel-heading {
+  display: none;
+}
+.station-panel .sheet-content > p {
+  font-size: 12px;
+  line-height: 1.5;
+  margin: 5px 0;
+}
+.station-panel .sheet-content > .fine {
+  font-size: 11px;
+}
+.station-panel .sheet-content button {
+  font-size: 12px;
+  padding: 6px 8px;
+}
+.station-panel .cook-bowl {
+  width: 155px;
+  height: 112px;
+  margin: 3px auto 22px;
+}
+.station-panel .cook-status {
+  font-size: 12px;
+}
+.station-panel .pot-preview {
+  height: 64px;
+  margin: 3px auto;
+}
+.station-panel .broth-illustration {
+  height: 105px;
+  min-height: 105px;
+  margin: 4px auto;
+}
+.station-panel .broth-illustration .broth-pot-art {
+  width: 120px;
+  height: 80px;
+}
+.station-panel .ingredients {
+  gap: 5px;
+}
+.station-panel .ingredients > button {
+  min-height: 72px;
+  font-size: 12px;
+}
+.station-panel .ingredients > button .sprite {
+  width: 34px;
+  height: 32px;
+}
+.station-panel .ingredients > button small {
+  font-size: 11px;
+}
+.station-panel .ingredients.tops {
+  display: flex;
+  overflow-x: auto;
+  padding: 4px 0 8px;
+}
+.station-panel .ingredients.tops > button {
+  flex: 0 0 82px;
+  min-width: 82px;
+  min-height: 82px;
+}
+.large-font .station-panel .ingredients.tops > button {
+  font-size: 15px;
+}
+.station-panel .brew-progress > .drink-art.large {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+.station-panel .brew-progress p {
+  font-size: 12px;
+  line-height: 1.5;
+}
+.station-panel .brew-progress h3 {
+  font-size: 15px;
+}
+.station-panel .handmade-board {
+  height: 150px;
+}
+.station-panel .drink-gesture {
+  height: 150px;
+}
+.station-panel .panel-notice {
+  font-size: 12px;
+  margin: 0 8px;
+}
+@media (max-height: 650px) {
+  .world-room.kitchen .scene-world {
+    top: var(--safe-top);
+  }
+  .world-room.drinks .scene-world {
+    top: var(--safe-top);
+  }
+  .game.live-v2 > .scene-heading:not(:has(.front-enter)) {
+    padding: 1px 7px;
+  }
+  .game.live-v2 > .scene-heading h1 {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .game.live-v2 > .wooden-tray {
+    height: 77px;
+    bottom: 105px;
+  }
+  .game.live-v2 .tray-slots {
+    height: 52px;
+  }
+  .game.live-v2 .tray-label {
+    width: max-content;
+    padding: 1px 5px;
+    background: #fff5dfeb;
+    border-radius: 4px;
+    font-size: 11px;
+  }
+  .game.live-v2 > .tutorial {
+    bottom: 201px;
+    left: 10%;
+    right: 10%;
+    font-size: 11px;
+  }
+  .station-backdrop .station-panel {
+    top: 27%;
+    bottom: calc(199px + var(--safe-bottom));
+  }
+  .game.live-v2 > .stage:is(.kitchen, .drinks) .scene-arrow {
+    display: grid;
+  }
+  .game.live-v2 .day-weather small {
+    font-size: 10px;
+    white-space: nowrap;
+  }
+  .game.live-v2 .wallet small {
+    font-size: 10px;
+    white-space: nowrap;
+  }
+  .game.live-v2 > .hud {
+    gap: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .game.live-v2 .analog-clock {
+    width: 36px;
+    height: 36px;
+    flex-shrink: 0;
+  }
+  .game.live-v2 .day-weather {
+    gap: 5px;
+  }
+}
+@media (max-height: 600px) {
+  .game.live-v2 .world-room.kitchen .scene-staff {
+    display: none;
+  }
+  .game.live-v2 .world-room.kitchen .scene-sprite:has(.sprite-touch) {
+    top: calc(58% - 84px) !important;
+    width: 23% !important;
+    height: 44px !important;
+    transform: translateX(-50%) !important;
+  }
+  .game.live-v2 .world-room.kitchen [data-motion-key^="object:broth-pot:"] {
+    left: 13% !important;
+  }
+  .game.live-v2 .world-room.kitchen [data-motion-key^="object:fryer:"] {
+    left: 38% !important;
+  }
+  .game.live-v2 .world-room.kitchen [data-motion-key^="object:board:"] {
+    left: 63% !important;
+  }
+  .game.live-v2 .world-room.kitchen [data-motion-key^="object:sink:"] {
+    left: 88% !important;
+  }
+  .game.live-v2 .world-room.kitchen .pots {
+    top: calc(58% - 12px) !important;
+    height: 44px !important;
+  }
+  .game.live-v2 .direct-workbench.kitchen-workbench .work-controls {
+    left: 48%;
+  }
+  .game.live-v2 .direct-workbench.kitchen-workbench .work-vessel {
+    top: 24px;
+    height: calc(100% - 24px);
+  }
+  .game.live-v2 .direct-workbench.kitchen-workbench .work-vessel {
+    top: 68px;
+    height: calc(100% - 68px);
+  }
+  .game.live-v2 .world-room.kitchen .pots.multiple {
+    left: 4% !important;
+    grid-template-columns: repeat(3, minmax(44px, 1fr));
+    grid-template-rows: 52px;
+    gap: 3px;
+  }
+}
+
+/* GD-V: common counter baseline and floating chrome. */
+.scene-band {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  overflow: clip;
+}
+.scene-band > .scene-background {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  object-fit: fill;
+  pointer-events: none;
+}
+.scene-wall-extension {
+  position: absolute;
+  inset: 0 0 auto;
+  overflow: clip;
+  pointer-events: none;
+}
+.scene-wall-extension > .scene-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Washing stays on the keyed sink; the shared frame clock moves its brush. */
+.sink-contents {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+.sink-dirty,
+.sink-clean {
+  position: absolute;
+  object-fit: contain;
+}
+.sink-dirty {
+  width: 30%;
+  height: 50%;
+  left: calc(12% + var(--stack) * 4%);
+  bottom: calc(12% + var(--stack) * 7%);
+}
+.sink-clean {
+  width: 18%;
+  height: 42%;
+  left: calc(68% + var(--stack) * 5%);
+  bottom: 15%;
+}
+.sink-wash-fx {
+  position: absolute;
+  inset: 0;
+  display: none;
+}
+[data-washing="true"] .sink-wash-fx {
+  display: block;
+}
+.sink-water {
+  position: absolute;
+  width: 10%;
+  height: 38%;
+  top: 22%;
+  left: 21%;
+  object-fit: contain;
+}
+.sink-soap {
+  position: absolute;
+  left: 6%;
+  bottom: 15%;
+  width: 53%;
+  height: 35%;
+  object-fit: contain;
+}
+.sink-brush {
+  position: absolute;
+  left: 26%;
+  bottom: 21%;
+  width: 24%;
+  height: 45%;
+  object-fit: contain;
+}
+.sink-status {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -6px;
+  background: #fff4dfed;
+  color: #594b36;
+  font-size: 10px;
+  line-height: 12px;
+  border-radius: 4px;
+  text-align: center;
+  pointer-events: none;
+}
+.game.live-v2 .world-room.kitchen .scene-sprite:has([data-wash]) {
+  min-height: 56px;
+}
+.game.live-v2 .world-room.kitchen .scene-sprite:has([data-chop]) {
+  min-height: 44px;
+}
+.game.live-v2
+  .world-room.kitchen
+  .scene-sprite:has([data-wash])
+  .sprite-touch
+  > .sr-only {
+  visibility: hidden;
+}
+.game.live-v2 .world-room.kitchen .pots:not(.multiple) {
+  width: 34% !important;
+  min-height: 80px;
+}
+.game.live-v2
+  .world-room.kitchen
+  .pot-hit.lifted
+  > :is(.pot-sprite, .direct-steam) {
+  visibility: hidden;
+}
+.game.live-v2 .direct-workbench.kitchen-workbench {
+  bottom: calc(176px + var(--safe-bottom));
+  height: 48px;
+  left: 3%;
+  right: 3%;
+}
+.game.live-v2 .kitchen-workbench .work-vessel {
+  position: absolute;
+  top: -108px;
+  left: 0;
+  width: 35%;
+  height: 100px;
+}
+.game.live-v2 .kitchen-workbench .work-controls {
+  top: 0;
+  left: 0;
+  right: 0;
+  display: grid;
+  grid-template-columns: minmax(104px, 1.7fr) repeat(4, minmax(44px, 1fr));
+  gap: 3px;
+}
+.game.live-v2 .kitchen-workbench .work-tools {
+  display: contents;
+}
+.game.live-v2 .kitchen-workbench .work-hint {
+  display: none;
+}
+.game.live-v2 .kitchen-workbench .work-supplies {
+  height: 48px;
+  gap: 3px;
+}
+.game.live-v2 .kitchen-workbench .work-supply-items {
+  gap: 3px;
+}
+.game.live-v2 .kitchen-workbench .work-source {
+  grid-template-rows: 12px 24px 10px;
+  min-height: 44px;
+  padding: 0;
+}
+.game.live-v2 .kitchen-workbench .work-source > .sprite {
+  width: 26px;
+  height: 24px;
+}
+.game.live-v2 .kitchen-workbench .work-source > span {
+  font-size: 9px;
+  line-height: 12px;
+}
+.game.live-v2 .kitchen-workbench .work-source > b {
+  font-size: 9px;
+  line-height: 10px;
+}
+.game.live-v2 .kitchen-workbench .work-scroll {
+  flex-basis: 44px;
+}
+.game.live-v2 .kitchen-workbench :is(.work-tools button, .work-tools select) {
+  font-size: 10px;
+  padding: 2px;
+  height: 48px;
+}
+.game.live-v2 .kitchen-workbench .work-cancel {
+  left: auto;
+  right: 0;
+  bottom: 56px;
+}
+.game.live-v2 .dirty-dishes .guest-table-label.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  clip-path: inset(50%);
+}
+.guest-dirty-bowl {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+@media (max-height: 740px) {
+  .game.live-v2 .direct-workbench.kitchen-workbench {
+    bottom: calc(168px + var(--safe-bottom));
+  }
+  .game.live-v2 .kitchen-workbench .work-vessel {
+    top: -94px;
+    height: 90px;
+  }
+}
+.game.live-v2 > .hud {
+  position: absolute;
+  top: var(--safe-top);
+  left: calc(6px + var(--safe-left));
+  right: calc(6px + var(--safe-right));
+  height: 32px;
+  min-height: 32px;
+  padding: 0;
+  gap: 4px;
+  border: 0;
+  background: transparent;
+  z-index: 30;
+  pointer-events: none;
+}
+.game.live-v2 .day-weather,
+.game.live-v2 .wallet {
+  height: 32px;
+  padding: 1px 6px;
+  border-radius: 8px;
+  background: #fff5e8e8;
+  gap: 4px;
+  pointer-events: auto;
+}
+.game.live-v2 .analog-clock {
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+}
+.clock-pause {
+  position: absolute;
+  top: 35px;
+  padding: 1px 5px;
+  border-radius: 4px;
+  background: #fff5e8;
+  font-size: 10px;
+  line-height: 14px;
+  color: #685238;
+}
+.clock-pause[hidden] {
+  display: none;
+}
+.panel-clock-pause {
+  position: absolute;
+  top: 4px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: inline-block;
+  margin: 0;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 2px 5px;
+  background: #fff6e6;
+  color: #385840;
+  border-radius: 4px;
+  vertical-align: middle;
+}
+.panel-clock-pause[hidden] {
+  display: none;
+}
+.sheet:has(.panel-clock-pause:not([hidden])) .sheet-title {
+  padding-top: 23px;
+}
+.clock-diagnostics {
+  position: fixed;
+  top: calc(var(--safe-top) + 96px);
+  left: 8px;
+  z-index: 100;
+  pointer-events: none;
+  white-space: pre;
+  padding: 6px;
+  border-radius: 6px;
+  background: #fff6dfef;
+  color: #374a32;
+  font: 11px/1.5 monospace;
+}
+.game.live-v2 .day-weather strong {
+  font-size: 12px;
+  line-height: 15px;
+}
+.game.live-v2 .day-weather small,
+.game.live-v2 .wallet small {
+  font-size: 12px;
+  line-height: 14px;
+}
+.game.live-v2 .wallet strong {
+  font-size: 14px;
+  line-height: 17px;
+}
+.game.live-v2 .hud .icon-button {
+  padding: 0;
+  margin: 0;
+  border: 1px solid #627656;
+  border-radius: 50%;
+  background: #fff5e8e8;
+  pointer-events: auto;
+  width: 44px;
+  height: 44px;
+  align-self: flex-start;
+}
+.game.live-v2 > .scene-heading {
+  top: calc(48px + var(--safe-top));
+  z-index: 12;
+}
+.game.live-v2:has(.stage.front) > .scene-heading {
+  top: auto;
+  bottom: calc(85px + var(--safe-bottom));
+  left: auto;
+  right: 8%;
+  padding: 0;
+  background: transparent;
+  box-shadow: none;
+  display: block;
+}
+.game.live-v2:has(.stage.front)
+  > .scene-heading
+  :is(h1, .season-note, .eyebrow) {
+  display: none;
+}
+.game.live-v2 .front-enter {
+  width: auto;
+  min-height: 44px;
+  font-size: 13px;
+  padding: 8px 14px;
+  gap: 8px;
+}
+.game.live-v2 > .scene-caption {
+  display: none;
+}
+.game.live-v2 > .bottom-tools {
+  position: absolute;
+  left: 6px;
+  right: 6px;
+  bottom: var(--safe-bottom);
+  height: 44px;
+  padding: 0;
+  justify-content: space-between;
+  background: transparent;
+  border: 0;
+  z-index: 30;
+  pointer-events: none;
+}
+.game.live-v2 > .bottom-tools button {
+  flex: 0 0 44px;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  min-height: 44px;
+  border: 1px solid #627656;
+  border-radius: 12px;
+  background: #fff5e8f0;
+  pointer-events: auto;
+}
+.game.live-v2 > .bottom-tools .ui-icon {
+  width: 30px !important;
+  height: 30px !important;
+  background: var(--ui-icon) center / contain no-repeat;
+  -webkit-mask: none;
+  mask: none;
+  opacity: 0.7;
+}
+.tool-label {
+  position: absolute;
+  bottom: 48px;
+  width: max-content;
+  max-width: 180px;
+  padding: 4px 6px;
+  background: #fff5e8;
+  border: 1px solid #627656;
+  border-radius: 5px;
+  font-size: 11px;
+  opacity: 0;
+  pointer-events: none;
+}
+.bottom-tools button:first-child .tool-label {
+  left: 0;
+}
+.bottom-tools button:last-child .tool-label {
+  right: 0;
+}
+.bottom-tools button:is(:active, :focus-visible, :hover) .tool-label {
+  opacity: 1;
+}
+.game.live-v2 > .scene-pagination {
+  position: absolute;
+  left: 110px;
+  right: 110px;
+  bottom: var(--safe-bottom);
+  height: 44px;
+  min-height: 44px;
+  padding: 0;
+  z-index: 30;
+  justify-content: flex-start;
+  gap: 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  background: #fff5e8bd;
+  border-radius: 12px;
+  scrollbar-width: none;
+}
+.game.live-v2 > .scene-pagination button {
+  min-width: 44px;
+  width: 44px;
+  min-height: 44px;
+  height: 44px;
+  flex: 1 0 44px;
+}
+.game.live-v2 > .wooden-tray {
+  bottom: calc(50px + var(--safe-bottom));
+  height: 120px;
+  padding: 0;
+  left: 3%;
+  right: 3%;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  z-index: 18;
+}
+.game.live-v2 .tray-label {
+  margin: 0;
+  height: 16px;
+  line-height: 14px;
+  width: max-content;
+  padding: 0 4px;
+  border-radius: 4px;
+  background: #fff4dfcf;
+  gap: 5px;
+  pointer-events: none;
+}
+.game.live-v2 .tray-label :is(span, b) {
+  font-size: 11px;
+  letter-spacing: 0;
+}
+.game.live-v2 .tray-label {
+  position: absolute;
+  right: 9px;
+  bottom: 0;
+  height: 14px;
+  z-index: 3;
+}
+.game.live-v2 .tray-label > span {
+  display: none;
+}
+.game.live-v2 .tray-label small {
+  display: none;
+}
+.game.live-v2 .tray-slots {
+  height: 120px;
+  padding: 9px 9px 12px;
+  gap: 3px;
+  position: relative;
+}
+.game.live-v2 .tray-slots:before {
+  content: "";
+  position: absolute;
+  left: 4%;
+  right: 4%;
+  bottom: 0;
+  height: 9px;
+  background: #5c422724;
+  border-radius: 50%;
+  z-index: -1;
+}
+.game.live-v2 .tray-slot {
+  height: 96px;
+  min-height: 44px;
+  overflow: visible;
+}
+.game.live-v2 .tray-slot .food-layers {
+  height: 64px;
+  min-height: 20px;
+}
+.game.live-v2 .tray-slot .dish-name {
+  font-size: 11px;
+  line-height: 12px;
+  white-space: normal;
+  overflow: visible;
+  text-overflow: clip;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0;
+  background: transparent;
+  z-index: 4;
+}
+.game.live-v2 .tray-slot > .tray-steam { top:14px; left:36%; width:28%; height:30%; z-index:2; }
+.game.live-v2 .tray-slot .food-layers {
+  position: absolute;
+  top: 14px;
+  left: 4%;
+  width: 92%;
+  height: 64px;
+  filter: drop-shadow(0 3px 2px #62432640);
+}
+.game.live-v2 .tray-slot > small {
+  position: absolute;
+  top: 79px;
+  left: 0;
+  right: 0;
+  padding: 0;
+  text-align: center;
+}
+.game.live-v2 .tray-slot .tiny-drink {
+  top: auto;
+  bottom: 12px;
+  height: 35px;
+  width: 24px;
+  right: 0;
+}
+.game.live-v2 .tray-slot .tiny-side {
+  top: auto;
+  bottom: 12px;
+  height: 18px;
+  width: 22px;
+}
+.game.live-v2 .tray-slot small {
+  font-size: 11px;
+  line-height: 12px;
+}
+.game.live-v2 > .tutorial {
+  bottom: calc(184px + var(--safe-bottom));
+  pointer-events: none;
+  padding: 3px 6px;
+  font-size: 11px;
+  line-height: 14px;
+}
+.game.live-v2:has(.stage:is(.front, .storage, .garden)) > .tutorial {
+  display: none;
+}
+.game.live-v2:has(.stage.garden) > .tutorial {
+  display: flex;
+  top: auto;
+  bottom: calc(
+    84px + var(--safe-bottom) +
+      (100% - 84px - var(--safe-bottom) - var(--safe-top)) * 0.215
+  );
+  left: 10%;
+  right: 30%;
+  padding: 5px 8px;
+  border: 0;
+  border-radius: 8px;
+  background: #edf1d9f5;
+  text-align: center;
+  font-size: 12px;
+  line-height: 17px;
+  z-index: 26;
+}
+.game.live-v2:has(.stage.garden) > .scene-caption {
+  display: flex;
+  position: absolute;
+  top: auto;
+  bottom: calc(92px + var(--safe-bottom));
+  left: 37%;
+  right: 7%;
+  padding: 7px 10px;
+  border-radius: 12px;
+  background: #fff3e8ed;
+  font:
+    13px/19px "Be Vietnam Pro",
+    sans-serif;
+  text-align: center;
+  z-index: 26;
+  pointer-events: none;
+}
+.game.live-v2:has(.stage.garden) > .scene-caption .caption-line {
+  flex: 0 0 14px;
+}
+.garden-content {
+  position: absolute;
+  inset: 0 0 84px;
+}
+.world-room.garden::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 0;
+  height: calc(84px + var(--safe-bottom));
+  background: #fff5e8;
+  pointer-events: none;
+  animation: none;
+  opacity: 1;
+}
+.game.live-v2 .world-room.kitchen .pots.multiple {
+  grid-template-columns: repeat(3, minmax(44px, 1fr));
+  grid-template-rows: 1fr;
+  gap: 3px;
+}
+.game.live-v2 .world-room[class*="guests"] .order-ticket {
+  left: 12%;
+  width: 76%;
+  max-width: 124px;
+  min-height: 44px;
+  padding: 3px 5px;
+  gap: 3px;
+  flex-direction: row;
+  border: 1px solid #627656;
+}
+.game.live-v2 .world-room[class*="guests"] .customer {
+  height: var(--guest-height, 74%);
+}
+.game.live-v2 .world-room[class*="guests"] .order-ticket .guest-paper {
+  width: 18px;
+  height: 24px;
+}
+.game.live-v2 .world-room[class*="guests"] .order-ticket small {
+  font-size: 11px;
+  line-height: 13px;
+}
+.game.live-v2 .guest-counter-flowers {
+  top: 63%;
+  height: 9%;
+}
+.game.live-v2 .world-room[class*="guests"] .room-bouquet {
+  top: 63%;
+  height: 9%;
+}
+.modal-backdrop:not(.station-backdrop) {
+  backdrop-filter: none;
+  background: #464e3c55;
+}
+.modal-backdrop:not(.station-backdrop) .sheet {
+  background: #fff5e4;
+  border: 1px solid #536c50;
+  border-radius: 12px;
+  box-shadow:
+    0 0 0 3px #fff5e4,
+    0 0 0 4px #536c50,
+    0 5px 14px #34452d26;
+}
+.modal-backdrop:not(.station-backdrop) .sheet-title {
+  background: #3e5d47;
+  color: #fff5e4;
+  font-size: 16px;
+  padding: 14px 50px 14px 18px;
+}
+.modal-backdrop:not(.station-backdrop) :is(.close-sheet, .back-sheet) {
+  color: #fff5e4;
+}
+.modal-backdrop:not(.station-backdrop) .panel-heading {
+  background: transparent;
+  color: #5e4a35;
+  padding: 0 0 12px;
+  border-radius: 0;
+}
+.modal-backdrop:not(.station-backdrop) .panel-heading h2 {
+  display: none;
+}
+.modal-backdrop:not(.station-backdrop) .panel-heading p {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #67533d;
+  margin: 0;
+}
+.modal-backdrop:not(.station-backdrop) .sheet-content {
+  background: #fff5e4;
+}
+.order-backdrop .sheet {
+  overflow: visible;
+}
+.order-backdrop .sheet-title {
+  padding-left: 92px !important;
+}
+.order-backdrop .sheet > .panel-portrait {
+  position: absolute;
+  top: -30px;
+  left: 14px;
+  width: 72px;
+  height: 82px;
+  pointer-events: none;
+  z-index: 2;
+}
+.order-backdrop .panel-portrait .portrait-art {
+  width: 100%;
+  height: 100%;
+}
+.order-backdrop .dialogue-person > .portrait-art {
+  display: none;
+}
+.order-backdrop .dialogue-person {
+  min-height: 0;
+  padding: 0;
+  margin-bottom: 8px;
+}
+.order-backdrop .dialogue-person h2 {
+  font-size: 22px;
+}
+.order-backdrop .sheet > .order-actions {
+  background: #fff5e4;
+  padding: 10px 16px;
+}
+.order-backdrop .sheet-content {
+  overflow: auto;
+  border-radius: 0;
+}
+.order-backdrop .story {
+  font-size: 12px;
+  line-height: 18px;
+}
+.order-backdrop .dialogue {
+  background: #f1e7c9;
+  border-color: #bbc4a5;
+  font-size: 15px;
+  line-height: 24px;
+}
+@media (max-height: 650px) {
+  .game.live-v2 .day-weather small,
+  .game.live-v2 .wallet small {
+    font-size: 11px;
+    line-height: 13px;
+  }
+}
+@media (max-height: 740px) {
+  .game.live-v2 > .wooden-tray,
+  .game.live-v2 .tray-slots { height: 110px; }
+  .game.live-v2 .tray-slot { height: 86px; }
+}

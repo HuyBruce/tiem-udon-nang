@@ -1,0 +1,33 @@
+{
+  "name": "tiem-udon-nang",
+  "version": "3.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build && node scripts/build-sw.mjs",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "node --test tests/*.test.js",
+    "test:browser": "node tests/browser.mjs",
+    "test:layout": "node tests/layout.mjs",
+    "test:taps": "node tools/audit-mobile-taps.mjs",
+    "test:offline": "node tests/offline.mjs",
+    "test:extended": "node tests/extended-ui.mjs",
+    "test:management": "node tests/management.mjs",
+    "test:v3": "node tools/run-v3-checks.mjs",
+    "test:v3:offline": "node tools/run-v3-checks.mjs --offline",
+    "format": "prettier --write src tests scripts index.html package.json README.md"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "prettier": "^3.9.9",
+    "sharp": "^0.35.4",
+    "vite": "^7.1.0",
+    "wrangler": "^4.143.0"
+  },
+  "dependencies": {
+    "@fontsource/be-vietnam-pro": "^5.3.0",
+    "@fontsource/playfair-display": "^5.3.0",
+    "pixi.js": "^8.22.0"
+  }
+}

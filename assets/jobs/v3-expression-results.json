@@ -1,0 +1,76 @@
+{
+  "mode": "builtin-imagegen",
+  "referenceMode": "identity-preserve-original-alpha",
+  "jobs": [
+    {
+      "id": "an-happy",
+      "expression": "happy",
+      "prompt": "Use case: identity-preserve. Image 1 is a finished transparent-background half-body character sprite for the udon game. Create a new expression variant by editing ONLY the eyes, eyebrows, mouth and tiny nose if necessary. Expression: eyes soft and mouth a slightly wider gentle smile; relaxed cheerful expression. Preserve the IDENTICAL person, hair silhouette, clothing, skin tone, glasses (if present), pose, waist crop, body width, head size, eye-line position, framing, colored line weight and flat pastel style from reference. Keep a genuinely transparent alpha background, absolutely no checkerboard or green backdrop. Keep the tiny subtle nose mark visible. Do not add text or other objects.",
+      "characterId": "an",
+      "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-06a6a5d7-51b3-4ff5-91c1-57b674705fd1.png"
+    },
+    {
+      "id": "an-very-happy",
+      "expression": "very-happy",
+      "prompt": "Use case: identity-preserve. Image 1 is a finished transparent-background half-body character sprite for the udon game. Create a new expression variant by editing ONLY the eyes, eyebrows, mouth and tiny nose if necessary. Expression: eyes become simple joyful upward arcs, mouth a wider pleased smile, rosy cheeks slightly brighter; no dramatic caricature. Preserve the IDENTICAL person, hair silhouette, clothing, skin tone, glasses (if present), pose, waist crop, body width, head size, eye-line position, framing, colored line weight and flat pastel style from reference. Keep a genuinely transparent alpha background, absolutely no checkerboard or green backdrop. Keep the tiny subtle nose mark visible. Do not add text or other objects.",
+      "characterId": "an",
+      "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-b602c30c-4f14-4951-b7ac-477cc0a1238d.png"
+    },
+    {
+      "id": "an-sad",
+      "expression": "sad",
+      "prompt": "Use case: identity-preserve. Image 1 is a finished transparent-background half-body character sprite for the udon game. Create a new expression variant by editing ONLY the eyes, eyebrows, mouth and tiny nose if necessary. Expression: dot eyes tilt slightly down, short mouth curves downward; disappointed but gentle. Preserve the IDENTICAL person, hair silhouette, clothing, skin tone, glasses (if present), pose, waist crop, body width, head size, eye-line position, framing, colored line weight and flat pastel style from reference. Keep a genuinely transparent alpha background, absolutely no checkerboard or green backdrop. Keep the tiny subtle nose mark visible. Do not add text or other objects.",
+      "characterId": "an",
+      "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-9f3217a6-82fb-4497-aadb-5968ef0254c3.png"
+    },
+    {
+      "id": "an-angry",
+      "expression": "angry",
+      "prompt": "Use case: identity-preserve. Image 1 is a finished transparent-background half-body character sprite for the udon game. Create a new expression variant by editing ONLY the eyes, eyebrows, mouth and tiny nose if necessary. Expression: simple lowered eyebrows and short flat mouth, slightly displeased; no shouting. Preserve the IDENTICAL person, hair silhouette, clothing, skin tone, glasses (if present), pose, waist crop, body width, head size, eye-line position, framing, colored line weight and flat pastel style from reference. Keep a genuinely transparent alpha background, absolutely no checkerboard or green backdrop. Keep the tiny subtle nose mark visible. Do not add text or other objects.",
+      "characterId": "an",
+      "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-8ed67abc-6578-41bb-9744-d23048b1a023.png"
+    },
+    {
+      "id": "an-thinking",
+      "expression": "thinking",
+      "prompt": "Use case: identity-preserve. Image 1 is a finished transparent-background half-body character sprite for the udon game. Create a new expression variant by editing ONLY the eyes, eyebrows, mouth and tiny nose if necessary. Expression: one eyebrow slightly raised, mouth small thoughtful curve; pensive. Preserve the IDENTICAL person, hair silhouette, clothing, skin tone, glasses (if present), pose, waist crop, body width, head size, eye-line position, framing, colored line weight and flat pastel style from reference. Keep a genuinely transparent alpha background, absolutely no checkerboard or green backdrop. Keep the tiny subtle nose mark visible. Do not add text or other objects.",
+      "characterId": "an",
+      "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-b314ae8d-7cd1-454d-8f84-027d9081134e.png"
+    },
+    {
+      "id": "mai-happy",
+      "expression": "happy",
+      "prompt": "Use case: identity-preserve. Image 1 is a finished transparent-background half-body character sprite for the udon game. Create a new expression variant by editing ONLY the eyes, eyebrows, mouth and tiny nose if necessary. Expression: eyes soft and mouth a slightly wider gentle smile; relaxed cheerful expression. Preserve the IDENTICAL person, hair silhouette, clothing, skin tone, glasses (if present), pose, waist crop, body width, head size, eye-line position, framing, colored line weight and flat pastel style from reference. Keep a genuinely transparent alpha background, absolutely no checkerboard or green backdrop. Keep the tiny subtle nose mark visible. Do not add text or other objects.",
+      "characterId": "mai",
+      "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-4b1da6b5-dba8-4eb0-b7ed-d7e6da770861.png"
+    },
+    {
+      "id": "mai-very-happy",
+      "expression": "very-happy",
+      "prompt": "Use case: identity-preserve. Image 1 is a finished transparent-background half-body character sprite for the udon game. Create a new expression variant by editing ONLY the eyes, eyebrows, mouth and tiny nose if necessary. Expression: eyes become simple joyful upward arcs, mouth a wider pleased smile, rosy cheeks slightly brighter; no dramatic caricature. Preserve the IDENTICAL person, hair silhouette, clothing, skin tone, glasses (if present), pose, waist crop, body width, head size, eye-line position, framing, colored line weight and flat pastel style from reference. Keep a genuinely transparent alpha background, absolutely no checkerboard or green backdrop. Keep the tiny subtle nose mark visible. Do not add text or other objects.",
+      "characterId": "mai",
+      "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-406a9853-0328-49dd-96c2-f0d4c39e8f82.png"
+    },
+    {
+      "id": "mai-sad",
+      "expression": "sad",
+      "prompt": "Use case: identity-preserve. Image 1 is a finished transparent-background half-body character sprite for the udon game. Create a new expression variant by editing ONLY the eyes, eyebrows, mouth and tiny nose if necessary. Expression: dot eyes tilt slightly down, short mouth curves downward; disappointed but gentle. Preserve the IDENTICAL person, hair silhouette, clothing, skin tone, glasses (if present), pose, waist crop, body width, head size, eye-line position, framing, colored line weight and flat pastel style from reference. Keep a genuinely transparent alpha background, absolutely no checkerboard or green backdrop. Keep the tiny subtle nose mark visible. Do not add text or other objects.",
+      "characterId": "mai",
+      "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-6044a9fe-aad1-4fc8-96b3-dce3fe2390f6.png"
+    },
+    {
+      "id": "mai-angry",
+      "expression": "angry",
+      "prompt": "Use case: identity-preserve. Image 1 is a finished transparent-background half-body character sprite for the udon game. Create a new expression variant by editing ONLY the eyes, eyebrows, mouth and tiny nose if necessary. Expression: simple lowered eyebrows and short flat mouth, slightly displeased; no shouting. Preserve the IDENTICAL person, hair silhouette, clothing, skin tone, glasses (if present), pose, waist crop, body width, head size, eye-line position, framing, colored line weight and flat pastel style from reference. Keep a genuinely transparent alpha background, absolutely no checkerboard or green backdrop. Keep the tiny subtle nose mark visible. Do not add text or other objects.",
+      "characterId": "mai",
+      "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-a1b3a0c7-7487-4387-99ca-0057251a8cca.png"
+    },
+    {
+      "id": "mai-thinking",
+      "expression": "thinking",
+      "prompt": "Use case: identity-preserve. Image 1 is a finished transparent-background half-body character sprite for the udon game. Create a new expression variant by editing ONLY the eyes, eyebrows, mouth and tiny nose if necessary. Expression: one eyebrow slightly raised, mouth small thoughtful curve; pensive. Preserve the IDENTICAL person, hair silhouette, clothing, skin tone, glasses (if present), pose, waist crop, body width, head size, eye-line position, framing, colored line weight and flat pastel style from reference. Keep a genuinely transparent alpha background, absolutely no checkerboard or green backdrop. Keep the tiny subtle nose mark visible. Do not add text or other objects.",
+      "characterId": "mai",
+      "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-de912746-291f-45de-831b-75a017b1676f.png"
+    }
+  ]
+}

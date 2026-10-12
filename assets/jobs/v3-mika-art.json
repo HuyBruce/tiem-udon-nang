@@ -1,0 +1,10 @@
+{
+  "date": "2026-09-30",
+  "mode": "built-in-imagegen",
+  "character": "Mika, thu ngân, style C, chestnut bob, peach cardigan and lavender apron",
+  "frames": ["neutral", "happy", "thinking", "sad"],
+  "sources": "assets/characters/sources/v3-mika-*.png",
+  "output": "assets/characters/v3-mika*.webp, 512x512 true alpha",
+  "processing": "Neutral frame generated with alpha; expressions generated against green and keyed by tools/remove_bg.mjs. tools/import-v3-mika.mjs imports all four.",
+  "rejected": "First expression edit set had opaque fake checkerboard and was not imported"
+}

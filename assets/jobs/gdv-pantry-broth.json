@@ -1,0 +1,10 @@
+{
+  "tool": "image_gen (built-in)",
+  "prompt": "Use case: style-transfer. ONE standalone transparent mobile game pantry packaging sprite: a slender round-shouldered amber glass dashi bottle with a sage cork stopper and tiny plain oval blank cream label. Input images front/seating are style references. Same art style, line weight, palette and level of detail as the reference; only change the subject as described. Straight frontal slightly rounded 2D illustration, fully visible, centered occupying 78 percent square canvas. Thin colored line art, mostly flat cream/honey/sage/terracotta fills, ONE shadow tone, no realistic detail or mottled watercolor, no thick black border. Make silhouette readable at 50px wide. TRUE transparent background, antialiased clean alpha, no printed checkerboard, no external ground shadow, no halo. No text/logo/watermark, no other objects, no scene.",
+  "referenceImages": [
+    "assets/style_reference/front.webp",
+    "assets/style_reference/seating.webp"
+  ],
+  "generatedSource": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ff00-5b98-7621-9551-c7ac662c37cf\\exec-e820886a-d575-4c12-893e-1528acac1f79.png",
+  "source": "assets/incoming/gdv/pantry-broth.png"
+}

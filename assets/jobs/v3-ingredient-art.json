@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-01",
+  "mode": "built-in-imagegen",
+  "style": "Cozy Japanese storybook gouache, thin olive-brown outline, true alpha, individual ingredient objects",
+  "sourceRoot": "C:/Users/Legion/.codex/generated_images/01a0f23b-bdb0-7cc3-b560-89ea3b526cc5",
+  "sources": {
+    "noodles": "exec-2eb02f7a-dbc3-4447-9de0-ce839e4a0c7d.png",
+    "dashi": "exec-1ae70566-8f42-4d31-ae47-71a580c7930c.png",
+    "soy": "exec-c336614d-972f-4df9-80ba-6c1c9021c2da.png",
+    "mirin": "exec-b8fefc20-c813-4654-9f20-4b1dc4674f77.png",
+    "beef": "exec-545b40ec-344c-41fb-bcaa-e75b8a6381d9.png",
+    "tofu": "exec-306f215b-c778-4a77-b8e6-16327f94a291.png",
+    "onion": "exec-60874492-a432-47fe-9526-87bc286c33cd.png",
+    "seaweed": "exec-53524d78-5e8f-4f96-ab97-8ed88cb9cfe7.png",
+    "egg": "exec-f0698b27-e893-45ce-bfa6-cfbbb0ac174b.png",
+    "shrimp": "exec-5db19507-5f19-43bf-8fa7-c39ed86bfa5a.png",
+    "flour": "exec-36930872-6086-4ba5-af2f-3e095e20ce0e.png",
+    "oil": "exec-53cb071e-0b5d-4438-8ce4-670bee549725.png",
+    "tea": "exec-e8f0248d-6e3a-4713-a11f-226034d28880.png",
+    "matcha": "exec-fc84ad55-9eb2-4c97-a045-b0eb223b0beb.png",
+    "milk": "exec-2e3eba82-7072-4e8b-b5db-be559d828a2e.png",
+    "ramune": "exec-53070deb-58a9-4d80-8033-91c4af24d9a4.png",
+    "yuzu": "exec-da6cddec-b768-4340-b76d-2bc3b3192540.png",
+    "miso": "exec-8d2ae9d4-2344-417f-90dc-7cdeea2d8c78.png",
+    "soda": "exec-ab2c1c35-b572-4ae5-b624-af0e777b32b5.png",
+    "coffee": "exec-8394bb5a-1e32-408d-acae-e7f8ec96de2e.png",
+    "hojicha": "exec-cf3dcc50-8b70-49de-9694-d208f83d1c19.png",
+    "curry": "exec-f7cf709d-bf7f-48ad-a827-390fa5d695eb.png",
+    "tempura": "exec-1d014149-3af9-4b91-b8cc-9e22ce46d53e.png"
+  },
+  "rejected": "Three attempts at multi-icon atlas placed objects on a brown background; individual alpha sprites were used instead",
+  "output": "assets/sprites/v3-ingredient-{id}.webp, 256px"
+}

@@ -1,0 +1,1761 @@
+{
+  "version": 1,
+  "events": {
+    "ingredient": {
+      "label": "Chạm nguyên liệu",
+      "group": "Bếp",
+      "bus": "sfx",
+      "loop": false,
+      "variants": [
+        {
+          "file": "ingredient-0.wav",
+          "duration": 0.09,
+          "bytes": 4048,
+          "sha256": "e59559caee01383cf79aa3ff28beb9062db4c7540826b4c52691b79fcd0427d1"
+        },
+        {
+          "file": "ingredient-1.wav",
+          "duration": 0.09,
+          "bytes": 4048,
+          "sha256": "0b591c492d0e154df708e764b63ee0cee805d27245b35f399973e09d28e98e64"
+        },
+        {
+          "file": "ingredient-2.wav",
+          "duration": 0.09,
+          "bytes": 4048,
+          "sha256": "e2f9ea3e459ac351f51ca5bdbb89f52648926bfeb43bf191a91e64c51f2fe9f3"
+        }
+      ],
+      "source": "Tổng hợp gốc",
+      "family": "tap"
+    },
+    "ingredientDrop": {
+      "label": "Nguyên liệu vào nồi",
+      "group": "Bếp",
+      "bus": "sfx",
+      "loop": false,
+      "variants": [
+        {
+          "file": "ingredientDrop-0.wav",
+          "duration": 0.5,
+          "bytes": 22128,
+          "sha256": "ce6bc3ba925e13d43c640c283bfd35aca9f1a74d6e4d0d53efc0bc5779e735cb"
+        },
+        {
+          "file": "ingredientDrop-1.wav",
+          "duration": 0.5,
+          "bytes": 22128,
+          "sha256": "d8fa9987dc33f72e155f92b731c6a7eceb82f973dee77c21092bc5a561a17ba3"
+        },
+        {
+          "file": "ingredientDrop-2.wav",
+          "duration": 0.5,
+          "bytes": 22128,
+          "sha256": "6e376e11d33a6bcf57fc2b9842f0e8fa3c2a47bb682abe81a0eabf9e9a5f36ba"
+        }
+      ],
+      "source": "bretbernhoft CC0",
+      "family": "water"
+    },
+    "water": {
+      "label": "Rót nước vào nồi",
+      "group": "Bếp",
+      "bus": "sfx",
+      "loop": false,
+      "variants": [
+        {
+          "file": "water-0.wav",
+          "duration": 0.5,
+          "bytes": 22128,
+          "sha256": "ce6bc3ba925e13d43c640c283bfd35aca9f1a74d6e4d0d53efc0bc5779e735cb"
+        },
+        {
+          "file": "water-1.wav",
+          "duration": 0.5,
+          "bytes": 22128,
+          "sha256": "d8fa9987dc33f72e155f92b731c6a7eceb82f973dee77c21092bc5a561a17ba3"
+        },
+        {
+          "file": "water-2.wav",
+          "duration": 0.5,
+          "bytes": 22128,
+          "sha256": "6e376e11d33a6bcf57fc2b9842f0e8fa3c2a47bb682abe81a0eabf9e9a5f36ba"
+        }
+      ],
+      "source": "bretbernhoft CC0",
+      "family": "water"
+    },
+    "boil": {
+      "label": "Nước sôi",
+      "group": "Bếp",
+      "bus": "sfx",
+      "loop": true,
+      "variants": [
+        {
+          "file": "boil-0.wav",
+          "duration": 2,
+          "bytes": 88278,
+          "sha256": "68a84e3e89e01379cd8d0447e28bc04d2d87cf1f77a61b818f704f88b5aede37"
+        },
+        {
+          "file": "boil-1.wav",
+          "duration": 2,
+          "bytes": 88278,
+          "sha256": "ffab800e08a37d978d582f48d3c90f741e2233c0b34aea726f56f08bf5a9fc1d"
+        },
+        {
+          "file": "boil-2.wav",
+          "duration": 2,
+          "bytes": 88278,
+          "sha256": "72b8d224d65783764e85978075ff3cb48ed3994b0f26866b67155a46cb9f9608"
+        }
+      ],
+      "source": "bretbernhoft CC0",
+      "family": "water"
+    },
+    "bubble": {
+      "label": "Bong bóng",
+      "group": "Bếp",
+      "bus": "sfx",
+      "loop": false,
+      "variants": [
+        {
+          "file": "bubble-0.wav",
+          "duration": 0.5,
+          "bytes": 22128,
+          "sha256": "7b9edc0ba7109bc2bcfae1c7bda41a021928d5a1e2b88ad8477c20b5e27eeef2"
+        },
+        {
+          "file": "bubble-1.wav",
+          "duration": 0.5,
+          "bytes": 22128,
+          "sha256": "718e282d5f76c442796fa4d8f3bb7e478f3fb597c37ab43f5d774b4204ca5879"
+        },
+        {
+          "file": "bubble-2.wav",
+          "duration": 0.5,
+          "bytes": 22128,
+          "sha256": "bff09f526d1df2dfbd2f88576238efa3594c7cedb25099276ac4bd23f5881e84"
+        }
+      ],
+      "source": "bretbernhoft CC0",
+      "family": "water"
+    },
+    "noodles": {
+      "label": "Thả mì",
+      "group": "Bếp",
+      "bus": "sfx",
+      "loop": false,
+      "variants": [
+        {
+          "file": "noodles-0.wav",
+          "duration": 0.5,
+          "bytes": 22128,
+          "sha256": "ce6bc3ba925e13d43c640c283bfd35aca9f1a74d6e4d0d53efc0bc5779e735cb"
+        },
+        {
+          "file": "noodles-1.wav",
+          "duration": 0.5,
+          "bytes": 22128,
+          "sha256": "d8fa9987dc33f72e155f92b731c6a7eceb82f973dee77c21092bc5a561a17ba3"
+        },
+        {
+          "file": "noodles-2.wav",
+          "duration": 0.5,
+          "bytes": 22128,
+          "sha256": "6e376e11d33a6bcf57fc2b9842f0e8fa3c2a47bb682abe81a0eabf9e9a5f36ba"
+        }
+      ],
+      "source": "bretbernhoft CC0",
+      "family": "water"
+    },
+    "ping": {
+      "label": "Mì hoàn tất",
+      "group": "Bếp",
+      "bus": "sfx",
+      "loop": false,
+      "variants": [
+        {
+          "file": "ping-0.wav",
+          "duration": 0.65,
+          "bytes": 28744,
+          "sha256": "17c59124824a641abf6b3d6a2440d234d4e47db6a827f8b5fa3a8318ecb76f9c"
+        },
+        {
+          "file": "ping-1.wav",
+          "duration": 0.65,
+          "bytes": 28744,
+          "sha256": "3033ae867d2b6c72f6b2401e78a530e4213ae8a3b1eb041e60c546a99220cc96"
+        },
+        {
+          "file": "ping-2.wav",
+          "duration": 0.65,
+          "bytes": 28744,
+          "sha256": "498b5155e5ae3b2c86982ff6a5759cf466268d520f68d1aaa6d14ed3da594d67"
+        }
+      ],
+      "source": "Tổng hợp gốc",
+      "family": "chime"
+    },
+    "lift": {
+      "label": "Vớt mì",
+      "group": "Bếp",
+      "bus": "sfx",
+      "loop": false,
+      "variants": [
+        {
+          "file": "lift-0.wav",
+          "duration": 0.5,
+          "bytes": 22128,
+          "sha256": "ce6bc3ba925e13d43c640c283bfd35aca9f1a74d6e4d0d53efc0bc5779e735cb"
+        },
+        {
+          "file": "lift-1.wav",
+          "duration": 0.5,
+          "bytes": 22128,
+          "sha256": "d8fa9987dc33f72e155f92b731c6a7eceb82f973dee77c21092bc5a561a17ba3"
+        },
+        {
+          "file": "lift-2.wav",
+          "duration": 0.5,
+          "bytes": 22128,
+          "sha256": "6e376e11d33a6bcf57fc2b9842f0e8fa3c2a47bb682abe81a0eabf9e9a5f36ba"
+        }
+      ],
+      "source": "bretbernhoft CC0",
+      "family": "water"
+    },
+    "chop": {
+      "label": "Thái hành",
+      "group": "Bếp",
+      "bus": "sfx",
+      "loop": false,
+      "variants": [
+        {
+          "file": "chop-0.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "7b0cad13d42a7eb36be52dc0811de2ba830a4c8f572d3967f4b073c5d85e1542"
+        },
+        {
+          "file": "chop-1.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "4ec31445546e1f9f0c9d9927ed95a95667d16ce3addb1c1fcf13bab2e6bde661"
+        },
+        {
+          "file": "chop-2.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "81583197aa8346db6374ebc09775e5a4e2184f2937ead90ce107806aa6e2ac71"
+        }
+      ],
+      "source": "bretbernhoft CC0",
+      "family": "wood"
+    },
+    "batter": {
+      "label": "Nhúng bột",
+      "group": "Bếp",
+      "bus": "sfx",
+      "loop": false,
+      "variants": [
+        {
+          "file": "batter-0.wav",
+          "duration": 0.5,
+          "bytes": 22128,
+          "sha256": "ce6bc3ba925e13d43c640c283bfd35aca9f1a74d6e4d0d53efc0bc5779e735cb"
+        },
+        {
+          "file": "batter-1.wav",
+          "duration": 0.5,
+          "bytes": 22128,
+          "sha256": "d8fa9987dc33f72e155f92b731c6a7eceb82f973dee77c21092bc5a561a17ba3"
+        },
+        {
+          "file": "batter-2.wav",
+          "duration": 0.5,
+          "bytes": 22128,
+          "sha256": "6e376e11d33a6bcf57fc2b9842f0e8fa3c2a47bb682abe81a0eabf9e9a5f36ba"
+        }
+      ],
+      "source": "bretbernhoft CC0",
+      "family": "water"
+    },
+    "fry": {
+      "label": "Dầu chiên",
+      "group": "Bếp",
+      "bus": "sfx",
+      "loop": true,
+      "variants": [
+        {
+          "file": "fry-0.wav",
+          "duration": 2,
+          "bytes": 88278,
+          "sha256": "6cd54678c1462d9f8143e1520d97153eaf6a68e4f0da2d227a5035825b345338"
+        },
+        {
+          "file": "fry-1.wav",
+          "duration": 2,
+          "bytes": 88278,
+          "sha256": "529a282d5c3730c8d0a593abe03f8f5f99e73341db6f47bc26fee12415885541"
+        },
+        {
+          "file": "fry-2.wav",
+          "duration": 2,
+          "bytes": 88278,
+          "sha256": "b39a04cdb82efd624c0860d3045888fb81c3ab1beb6e0b113b4853d13e2114f6"
+        }
+      ],
+      "source": "bretbernhoft CC0",
+      "family": "noise"
+    },
+    "crisp": {
+      "label": "Tempura chín",
+      "group": "Bếp",
+      "bus": "sfx",
+      "loop": false,
+      "variants": [
+        {
+          "file": "crisp-0.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "7b0cad13d42a7eb36be52dc0811de2ba830a4c8f572d3967f4b073c5d85e1542"
+        },
+        {
+          "file": "crisp-1.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "4ec31445546e1f9f0c9d9927ed95a95667d16ce3addb1c1fcf13bab2e6bde661"
+        },
+        {
+          "file": "crisp-2.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "81583197aa8346db6374ebc09775e5a4e2184f2937ead90ce107806aa6e2ac71"
+        }
+      ],
+      "source": "bretbernhoft CC0",
+      "family": "wood"
+    },
+    "broth": {
+      "label": "Chan nước dùng",
+      "group": "Bếp",
+      "bus": "sfx",
+      "loop": false,
+      "variants": [
+        {
+          "file": "broth-0.wav",
+          "duration": 0.5,
+          "bytes": 22128,
+          "sha256": "ce6bc3ba925e13d43c640c283bfd35aca9f1a74d6e4d0d53efc0bc5779e735cb"
+        },
+        {
+          "file": "broth-1.wav",
+          "duration": 0.5,
+          "bytes": 22128,
+          "sha256": "d8fa9987dc33f72e155f92b731c6a7eceb82f973dee77c21092bc5a561a17ba3"
+        },
+        {
+          "file": "broth-2.wav",
+          "duration": 0.5,
+          "bytes": 22128,
+          "sha256": "6e376e11d33a6bcf57fc2b9842f0e8fa3c2a47bb682abe81a0eabf9e9a5f36ba"
+        }
+      ],
+      "source": "bretbernhoft CC0",
+      "family": "water"
+    },
+    "topping": {
+      "label": "Đặt topping",
+      "group": "Bếp",
+      "bus": "sfx",
+      "loop": false,
+      "variants": [
+        {
+          "file": "topping-0.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "21b0bd042d22e9cd218081269678b4153ceecf47d8a59792b06f017a85337f11"
+        },
+        {
+          "file": "topping-1.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "b8427d565fdeb898d39d33ec48219465354c58254c55a1cb1558a16d6e742a91"
+        },
+        {
+          "file": "topping-2.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "ddddde6b4433345e01e95de2b7365eb2f54773f1133a5c8948504cecb8d2c04b"
+        }
+      ],
+      "source": "bretbernhoft CC0",
+      "family": "ceramic"
+    },
+    "wood": {
+      "label": "Đặt tô lên mâm",
+      "group": "Bếp",
+      "bus": "sfx",
+      "loop": false,
+      "variants": [
+        {
+          "file": "wood-0.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "7b0cad13d42a7eb36be52dc0811de2ba830a4c8f572d3967f4b073c5d85e1542"
+        },
+        {
+          "file": "wood-1.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "4ec31445546e1f9f0c9d9927ed95a95667d16ce3addb1c1fcf13bab2e6bde661"
+        },
+        {
+          "file": "wood-2.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "81583197aa8346db6374ebc09775e5a4e2184f2937ead90ce107806aa6e2ac71"
+        }
+      ],
+      "source": "bretbernhoft CC0",
+      "family": "wood"
+    },
+    "bowl": {
+      "label": "Tô chạm quầy",
+      "group": "Bếp",
+      "bus": "sfx",
+      "loop": false,
+      "variants": [
+        {
+          "file": "bowl-0.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "21b0bd042d22e9cd218081269678b4153ceecf47d8a59792b06f017a85337f11"
+        },
+        {
+          "file": "bowl-1.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "b8427d565fdeb898d39d33ec48219465354c58254c55a1cb1558a16d6e742a91"
+        },
+        {
+          "file": "bowl-2.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "ddddde6b4433345e01e95de2b7365eb2f54773f1133a5c8948504cecb8d2c04b"
+        }
+      ],
+      "source": "bretbernhoft CC0",
+      "family": "ceramic"
+    },
+    "tray": {
+      "label": "Trượt mâm",
+      "group": "Bếp",
+      "bus": "sfx",
+      "loop": false,
+      "variants": [
+        {
+          "file": "tray-0.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "dc3f032ff6a54d055d33efe5ee83ccf7b178ed169b1f5472007945e535e387b5"
+        },
+        {
+          "file": "tray-1.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "21af5ec613570d4a85f451a24dfa1a7d13a68fab0fcf4cde662e532ad4dc26d3"
+        },
+        {
+          "file": "tray-2.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "018e0b1098dfcd2b7ddaa6e60b6662c451bed2f3cefa9d54218de39159f15b19"
+        }
+      ],
+      "source": "bretbernhoft CC0",
+      "family": "paper"
+    },
+    "wash": {
+      "label": "Rửa chén",
+      "group": "Bếp",
+      "bus": "sfx",
+      "loop": true,
+      "variants": [
+        {
+          "file": "wash-0.wav",
+          "duration": 2,
+          "bytes": 88278,
+          "sha256": "966a50090cfd7b0f21bd63dc33aa78314be255dd29f8433a07d6940ef7622468"
+        },
+        {
+          "file": "wash-1.wav",
+          "duration": 2,
+          "bytes": 88278,
+          "sha256": "9f45753e17b5595281694301463c483d9f6b1158294a2091755bc19fc0cc358e"
+        },
+        {
+          "file": "wash-2.wav",
+          "duration": 2,
+          "bytes": 88278,
+          "sha256": "19b63955f82418d7d3350f2a27890feea8fc1e3daed43dca2048b75c34f4b924"
+        }
+      ],
+      "source": "bretbernhoft CC0",
+      "family": "water"
+    },
+    "rack": {
+      "label": "Xếp tô vào giá",
+      "group": "Bếp",
+      "bus": "sfx",
+      "loop": false,
+      "variants": [
+        {
+          "file": "rack-0.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "21b0bd042d22e9cd218081269678b4153ceecf47d8a59792b06f017a85337f11"
+        },
+        {
+          "file": "rack-1.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "b8427d565fdeb898d39d33ec48219465354c58254c55a1cb1558a16d6e742a91"
+        },
+        {
+          "file": "rack-2.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "ddddde6b4433345e01e95de2b7365eb2f54773f1133a5c8948504cecb8d2c04b"
+        }
+      ],
+      "source": "bretbernhoft CC0",
+      "family": "ceramic"
+    },
+    "pour": {
+      "label": "Rót trà",
+      "group": "Quầy nước",
+      "bus": "sfx",
+      "loop": false,
+      "variants": [
+        {
+          "file": "pour-0.wav",
+          "duration": 0.5,
+          "bytes": 22128,
+          "sha256": "ce6bc3ba925e13d43c640c283bfd35aca9f1a74d6e4d0d53efc0bc5779e735cb"
+        },
+        {
+          "file": "pour-1.wav",
+          "duration": 0.5,
+          "bytes": 22128,
+          "sha256": "d8fa9987dc33f72e155f92b731c6a7eceb82f973dee77c21092bc5a561a17ba3"
+        },
+        {
+          "file": "pour-2.wav",
+          "duration": 0.5,
+          "bytes": 22128,
+          "sha256": "6e376e11d33a6bcf57fc2b9842f0e8fa3c2a47bb682abe81a0eabf9e9a5f36ba"
+        }
+      ],
+      "source": "bretbernhoft CC0",
+      "family": "water"
+    },
+    "whisk": {
+      "label": "Đánh matcha",
+      "group": "Quầy nước",
+      "bus": "sfx",
+      "loop": true,
+      "variants": [
+        {
+          "file": "whisk-0.wav",
+          "duration": 2,
+          "bytes": 88278,
+          "sha256": "ce2b8a5c4465ccf6b2ffd630e0eb62e784ddb2a1420e12d4ac0f78f51d4a7dbf"
+        },
+        {
+          "file": "whisk-1.wav",
+          "duration": 2,
+          "bytes": 88278,
+          "sha256": "6a827547db86f42a830339cd86db7720ae1f98c6729b6729298ad392f5b46c8b"
+        },
+        {
+          "file": "whisk-2.wav",
+          "duration": 2,
+          "bytes": 88278,
+          "sha256": "8ed746419707742072273db5565780a24680ca8a1cd3e2b38daf9996ccc617a4"
+        }
+      ],
+      "source": "bretbernhoft CC0",
+      "family": "paper"
+    },
+    "ice": {
+      "label": "Đá lạch cạch",
+      "group": "Quầy nước",
+      "bus": "sfx",
+      "loop": false,
+      "variants": [
+        {
+          "file": "ice-0.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "21b0bd042d22e9cd218081269678b4153ceecf47d8a59792b06f017a85337f11"
+        },
+        {
+          "file": "ice-1.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "b8427d565fdeb898d39d33ec48219465354c58254c55a1cb1558a16d6e742a91"
+        },
+        {
+          "file": "ice-2.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "ddddde6b4433345e01e95de2b7365eb2f54773f1133a5c8948504cecb8d2c04b"
+        }
+      ],
+      "source": "bretbernhoft CC0",
+      "family": "ceramic"
+    },
+    "soda": {
+      "label": "Soda xì",
+      "group": "Quầy nước",
+      "bus": "sfx",
+      "loop": false,
+      "variants": [
+        {
+          "file": "soda-0.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "519b211088dec235eabff1e2cdccbb423c741fdf3b27ccf96dd95d86e13260b0"
+        },
+        {
+          "file": "soda-1.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "bccba3e940d6667ba6342d6db1858c1473cf68a9d869fcc2d9147b604ee508d8"
+        },
+        {
+          "file": "soda-2.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "73b330038d6bb81147c542a4391dff311e55f9ffd74224c7c000c1a821b6e658"
+        }
+      ],
+      "source": "Tổng hợp gốc",
+      "family": "noise"
+    },
+    "bottle": {
+      "label": "Mở Ramune",
+      "group": "Quầy nước",
+      "bus": "sfx",
+      "loop": false,
+      "variants": [
+        {
+          "file": "bottle-0.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "21b0bd042d22e9cd218081269678b4153ceecf47d8a59792b06f017a85337f11"
+        },
+        {
+          "file": "bottle-1.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "b8427d565fdeb898d39d33ec48219465354c58254c55a1cb1558a16d6e742a91"
+        },
+        {
+          "file": "bottle-2.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "ddddde6b4433345e01e95de2b7365eb2f54773f1133a5c8948504cecb8d2c04b"
+        }
+      ],
+      "source": "bretbernhoft CC0",
+      "family": "ceramic"
+    },
+    "milk": {
+      "label": "Rót sữa",
+      "group": "Quầy nước",
+      "bus": "sfx",
+      "loop": false,
+      "variants": [
+        {
+          "file": "milk-0.wav",
+          "duration": 0.5,
+          "bytes": 22128,
+          "sha256": "ce6bc3ba925e13d43c640c283bfd35aca9f1a74d6e4d0d53efc0bc5779e735cb"
+        },
+        {
+          "file": "milk-1.wav",
+          "duration": 0.5,
+          "bytes": 22128,
+          "sha256": "d8fa9987dc33f72e155f92b731c6a7eceb82f973dee77c21092bc5a561a17ba3"
+        },
+        {
+          "file": "milk-2.wav",
+          "duration": 0.5,
+          "bytes": 22128,
+          "sha256": "6e376e11d33a6bcf57fc2b9842f0e8fa3c2a47bb682abe81a0eabf9e9a5f36ba"
+        }
+      ],
+      "source": "bretbernhoft CC0",
+      "family": "water"
+    },
+    "cup": {
+      "label": "Đặt ly",
+      "group": "Quầy nước",
+      "bus": "sfx",
+      "loop": false,
+      "variants": [
+        {
+          "file": "cup-0.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "21b0bd042d22e9cd218081269678b4153ceecf47d8a59792b06f017a85337f11"
+        },
+        {
+          "file": "cup-1.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "b8427d565fdeb898d39d33ec48219465354c58254c55a1cb1558a16d6e742a91"
+        },
+        {
+          "file": "cup-2.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "ddddde6b4433345e01e95de2b7365eb2f54773f1133a5c8948504cecb8d2c04b"
+        }
+      ],
+      "source": "bretbernhoft CC0",
+      "family": "ceramic"
+    },
+    "fridge": {
+      "label": "Mở tủ lạnh",
+      "group": "Quầy nước",
+      "bus": "sfx",
+      "loop": false,
+      "variants": [
+        {
+          "file": "fridge-0.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "7b0cad13d42a7eb36be52dc0811de2ba830a4c8f572d3967f4b073c5d85e1542"
+        },
+        {
+          "file": "fridge-1.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "4ec31445546e1f9f0c9d9927ed95a95667d16ce3addb1c1fcf13bab2e6bde661"
+        },
+        {
+          "file": "fridge-2.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "81583197aa8346db6374ebc09775e5a4e2184f2937ead90ce107806aa6e2ac71"
+        }
+      ],
+      "source": "bretbernhoft CC0",
+      "family": "wood"
+    },
+    "bell": {
+      "label": "Chuông cửa",
+      "group": "Khách",
+      "bus": "sfx",
+      "loop": false,
+      "variants": [
+        {
+          "file": "bell-0.wav",
+          "duration": 0.65,
+          "bytes": 28744,
+          "sha256": "cc054074c7c4b3edfe4c46073f90b9bffc8bc5eb56c4ce950a993a2bdde92952"
+        },
+        {
+          "file": "bell-1.wav",
+          "duration": 0.65,
+          "bytes": 28744,
+          "sha256": "bfa036d4edcc6f86c0aec001a6239837da3d710f13c711f5261a992c16980124"
+        },
+        {
+          "file": "bell-2.wav",
+          "duration": 0.65,
+          "bytes": 28744,
+          "sha256": "ed6bf865f72f327837c938493875f3c94a81c4874a143235a9079ba486c0f506"
+        }
+      ],
+      "source": "Tổng hợp gốc",
+      "family": "chime"
+    },
+    "guestEnter": {
+      "label": "Khách vào",
+      "group": "Khách",
+      "bus": "sfx",
+      "loop": false,
+      "variants": [
+        {
+          "file": "guestEnter-0.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "dc3f032ff6a54d055d33efe5ee83ccf7b178ed169b1f5472007945e535e387b5"
+        },
+        {
+          "file": "guestEnter-1.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "21af5ec613570d4a85f451a24dfa1a7d13a68fab0fcf4cde662e532ad4dc26d3"
+        },
+        {
+          "file": "guestEnter-2.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "018e0b1098dfcd2b7ddaa6e60b6662c451bed2f3cefa9d54218de39159f15b19"
+        }
+      ],
+      "source": "bretbernhoft CC0",
+      "family": "paper"
+    },
+    "order": {
+      "label": "Giấy order",
+      "group": "Khách",
+      "bus": "sfx",
+      "loop": false,
+      "variants": [
+        {
+          "file": "order-0.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "dc3f032ff6a54d055d33efe5ee83ccf7b178ed169b1f5472007945e535e387b5"
+        },
+        {
+          "file": "order-1.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "21af5ec613570d4a85f451a24dfa1a7d13a68fab0fcf4cde662e532ad4dc26d3"
+        },
+        {
+          "file": "order-2.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "018e0b1098dfcd2b7ddaa6e60b6662c451bed2f3cefa9d54218de39159f15b19"
+        }
+      ],
+      "source": "bretbernhoft CC0",
+      "family": "paper"
+    },
+    "serve": {
+      "label": "Đặt món cho khách",
+      "group": "Khách",
+      "bus": "sfx",
+      "loop": false,
+      "variants": [
+        {
+          "file": "serve-0.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "21b0bd042d22e9cd218081269678b4153ceecf47d8a59792b06f017a85337f11"
+        },
+        {
+          "file": "serve-1.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "b8427d565fdeb898d39d33ec48219465354c58254c55a1cb1558a16d6e742a91"
+        },
+        {
+          "file": "serve-2.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "ddddde6b4433345e01e95de2b7365eb2f54773f1133a5c8948504cecb8d2c04b"
+        }
+      ],
+      "source": "bretbernhoft CC0",
+      "family": "ceramic"
+    },
+    "slurp": {
+      "label": "Húp mì",
+      "group": "Khách",
+      "bus": "sfx",
+      "loop": false,
+      "variants": [
+        {
+          "file": "slurp-0.wav",
+          "duration": 0.5,
+          "bytes": 22128,
+          "sha256": "95e97ab046c62eadbd591f341aee41af817eb7614ee40d1906580b37cc02baed"
+        },
+        {
+          "file": "slurp-1.wav",
+          "duration": 0.5,
+          "bytes": 22128,
+          "sha256": "7d79a87415ec94937295e3f0c1d457b613b8ad311c538091a8a99db669208d0d"
+        },
+        {
+          "file": "slurp-2.wav",
+          "duration": 0.5,
+          "bytes": 22128,
+          "sha256": "6163e6f313f3d13fd03d3efd0934cbde492ee33ff128f6fbc514842344b0fd4d"
+        }
+      ],
+      "source": "Tổng hợp gốc",
+      "family": "water"
+    },
+    "chew": {
+      "label": "Nhai",
+      "group": "Khách",
+      "bus": "sfx",
+      "loop": false,
+      "variants": [
+        {
+          "file": "chew-0.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "3f1206fc90cc5ec3ddd43a2008288012fe0fbf63909d6aa71b083014f5f1ea95"
+        },
+        {
+          "file": "chew-1.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "6ad5311016246249361d8b0e7beae9fae884f66eca9ea338868f7ef54bccc58a"
+        },
+        {
+          "file": "chew-2.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "5f21ea1aaaf985240b5880d66f6a2c6ab4efeddf935b9cfc6d4c122a9d1929ec"
+        }
+      ],
+      "source": "Tổng hợp gốc",
+      "family": "wood"
+    },
+    "ahh": {
+      "label": "Thỏa mãn không lời",
+      "group": "Khách",
+      "bus": "sfx",
+      "loop": false,
+      "variants": [
+        {
+          "file": "ahh-0.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "e2b345facfc5de35386545ebc93775d2302c2345b56deadf993f67cacb32a707"
+        },
+        {
+          "file": "ahh-1.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "af2668f28e3ccff069e80433cce363a752e055a2c39a5a002ff75eb95de5a0b7"
+        },
+        {
+          "file": "ahh-2.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "b9896a7629722acdb2a611c2c84f62686ac5d6f810015b19d69386d35353c399"
+        }
+      ],
+      "source": "Tổng hợp gốc",
+      "family": "breath"
+    },
+    "chopsticks": {
+      "label": "Đặt đũa",
+      "group": "Khách",
+      "bus": "sfx",
+      "loop": false,
+      "variants": [
+        {
+          "file": "chopsticks-0.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "7b0cad13d42a7eb36be52dc0811de2ba830a4c8f572d3967f4b073c5d85e1542"
+        },
+        {
+          "file": "chopsticks-1.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "4ec31445546e1f9f0c9d9927ed95a95667d16ce3addb1c1fcf13bab2e6bde661"
+        },
+        {
+          "file": "chopsticks-2.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "81583197aa8346db6374ebc09775e5a4e2184f2937ead90ce107806aa6e2ac71"
+        }
+      ],
+      "source": "bretbernhoft CC0",
+      "family": "wood"
+    },
+    "coin": {
+      "label": "Thanh toán",
+      "group": "Khách",
+      "bus": "sfx",
+      "loop": false,
+      "variants": [
+        {
+          "file": "coin-0.wav",
+          "duration": 0.65,
+          "bytes": 28744,
+          "sha256": "8288fb4c57436036e5baef29282a3024aed9db79211f04026bbe5162f31b8e57"
+        },
+        {
+          "file": "coin-1.wav",
+          "duration": 0.65,
+          "bytes": 28744,
+          "sha256": "a3172b19031f125c41dfe9c6b413891890db2a14a1eb2885d57d26eb29a0b811"
+        },
+        {
+          "file": "coin-2.wav",
+          "duration": 0.65,
+          "bytes": 28744,
+          "sha256": "9023d1b4fc922dcf2f69c79f2c5ef3b85c2f5c2fa07df2f9637593e50933b9b9"
+        }
+      ],
+      "source": "Tổng hợp gốc",
+      "family": "chime"
+    },
+    "tip": {
+      "label": "Tiền tip",
+      "group": "Khách",
+      "bus": "sfx",
+      "loop": false,
+      "variants": [
+        {
+          "file": "tip-0.wav",
+          "duration": 0.65,
+          "bytes": 28744,
+          "sha256": "5dfe3cf544203934385d7ebc74068e813cb8ccbb90a6ca33fccd2c66eb8a39ab"
+        },
+        {
+          "file": "tip-1.wav",
+          "duration": 0.65,
+          "bytes": 28744,
+          "sha256": "67e6aff69d469381f200d13e37bf65020b8f7749429c19a0567cc3f5c3563fa3"
+        },
+        {
+          "file": "tip-2.wav",
+          "duration": 0.65,
+          "bytes": 28744,
+          "sha256": "c5b8e9456b8b9d427239c72b982f4057af65de2cbbcca2b6b1b3bbef69c1b68b"
+        }
+      ],
+      "source": "Tổng hợp gốc",
+      "family": "chime"
+    },
+    "happy": {
+      "label": "Khách vui",
+      "group": "Khách",
+      "bus": "sfx",
+      "loop": false,
+      "variants": [
+        {
+          "file": "happy-0.wav",
+          "duration": 0.65,
+          "bytes": 28744,
+          "sha256": "9d03da06045ed684a8d319b3b0ef21f1b7d082070eda4c993c6940e5b6887cf1"
+        },
+        {
+          "file": "happy-1.wav",
+          "duration": 0.65,
+          "bytes": 28744,
+          "sha256": "2fe053d6a5b0ecf10bb3a46b9e0eeef9d4998e1a30fe64f7ced2c8171510c091"
+        },
+        {
+          "file": "happy-2.wav",
+          "duration": 0.65,
+          "bytes": 28744,
+          "sha256": "a561967ff48604553a31fe57705929328aab4a38b5e908a95387268cf85b44dc"
+        }
+      ],
+      "source": "Tổng hợp gốc",
+      "family": "chime"
+    },
+    "sad": {
+      "label": "Khách buồn",
+      "group": "Khách",
+      "bus": "sfx",
+      "loop": false,
+      "variants": [
+        {
+          "file": "sad-0.wav",
+          "duration": 0.65,
+          "bytes": 28744,
+          "sha256": "ecbc5a048ce54eaf28a64950b2a1f15812286431105fa7604d7378b18a404900"
+        },
+        {
+          "file": "sad-1.wav",
+          "duration": 0.65,
+          "bytes": 28744,
+          "sha256": "b8bf0e764c85c06aabc98c2ec77f21fb31029f65f6486bb31a427a9d35dda842"
+        },
+        {
+          "file": "sad-2.wav",
+          "duration": 0.65,
+          "bytes": 28744,
+          "sha256": "4a55cae947490cdbc01984917d182189fc11d4a8a50f4c7014270c43a4c1c838"
+        }
+      ],
+      "source": "Tổng hợp gốc",
+      "family": "chime"
+    },
+    "angry": {
+      "label": "Khách giận",
+      "group": "Khách",
+      "bus": "sfx",
+      "loop": false,
+      "variants": [
+        {
+          "file": "angry-0.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "47cbc3b32c6df916523561fc56e261af5597c48bb20326837c7e5a19533b856c"
+        },
+        {
+          "file": "angry-1.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "0ac0a648ddc5d9a81e12368041b378125815b432c6def427f3ef570b3ced9b36"
+        },
+        {
+          "file": "angry-2.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "684d6c07f42e98c817c4553fc3515f2974e06577b3167b2608e73dd5118afefa"
+        }
+      ],
+      "source": "Tổng hợp gốc",
+      "family": "wood"
+    },
+    "pet": {
+      "label": "Mèo kêu",
+      "group": "Khách",
+      "bus": "sfx",
+      "loop": false,
+      "variants": [
+        {
+          "file": "pet-0.wav",
+          "duration": 0.55,
+          "bytes": 24334,
+          "sha256": "dea8671a8dbd2c30b43d9d49b299000a81de594a43acea3b11e426b084626536"
+        },
+        {
+          "file": "pet-1.wav",
+          "duration": 0.55,
+          "bytes": 24334,
+          "sha256": "c4e22542d082fbade30c5b172549542df79827ea199759a21020de76df6a7cd1"
+        },
+        {
+          "file": "pet-2.wav",
+          "duration": 0.55,
+          "bytes": 24334,
+          "sha256": "006e0f32d1fef74d05dca1188e9c07f89c234cd627046fe26e284cfc9f39ca85"
+        }
+      ],
+      "source": "Tổng hợp gốc",
+      "family": "voice"
+    },
+    "click": {
+      "label": "Chạm nút",
+      "group": "Giao diện",
+      "bus": "sfx",
+      "loop": false,
+      "variants": [
+        {
+          "file": "click-0.wav",
+          "duration": 0.09,
+          "bytes": 4048,
+          "sha256": "224d3a6f9da81a9390b09d238963531d699a41bc87db2e5f987e3d58af2a0148"
+        },
+        {
+          "file": "click-1.wav",
+          "duration": 0.09,
+          "bytes": 4048,
+          "sha256": "3b5ce1cce0b1f6785e2407cfe84ec28f8656bd555650de8350eede1600a676e1"
+        },
+        {
+          "file": "click-2.wav",
+          "duration": 0.09,
+          "bytes": 4048,
+          "sha256": "51dd3d93e00488cbcc9c4564af75ef990d36610b91114d50bfbb708f01951fbe"
+        }
+      ],
+      "source": "Kenney CC0",
+      "family": "tap"
+    },
+    "panelOpen": {
+      "label": "Mở panel",
+      "group": "Giao diện",
+      "bus": "sfx",
+      "loop": false,
+      "variants": [
+        {
+          "file": "panelOpen-0.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "dc3f032ff6a54d055d33efe5ee83ccf7b178ed169b1f5472007945e535e387b5"
+        },
+        {
+          "file": "panelOpen-1.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "21af5ec613570d4a85f451a24dfa1a7d13a68fab0fcf4cde662e532ad4dc26d3"
+        },
+        {
+          "file": "panelOpen-2.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "018e0b1098dfcd2b7ddaa6e60b6662c451bed2f3cefa9d54218de39159f15b19"
+        }
+      ],
+      "source": "bretbernhoft CC0",
+      "family": "paper"
+    },
+    "panelClose": {
+      "label": "Đóng panel",
+      "group": "Giao diện",
+      "bus": "sfx",
+      "loop": false,
+      "variants": [
+        {
+          "file": "panelClose-0.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "dc3f032ff6a54d055d33efe5ee83ccf7b178ed169b1f5472007945e535e387b5"
+        },
+        {
+          "file": "panelClose-1.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "21af5ec613570d4a85f451a24dfa1a7d13a68fab0fcf4cde662e532ad4dc26d3"
+        },
+        {
+          "file": "panelClose-2.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "018e0b1098dfcd2b7ddaa6e60b6662c451bed2f3cefa9d54218de39159f15b19"
+        }
+      ],
+      "source": "bretbernhoft CC0",
+      "family": "paper"
+    },
+    "swipe": {
+      "label": "Vuốt chuyển khu",
+      "group": "Giao diện",
+      "bus": "sfx",
+      "loop": false,
+      "variants": [
+        {
+          "file": "swipe-0.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "7a2928591c7f7809682d803cc58176f1aa0dfc4a3a09ff7cd4bec0881ac333a7"
+        },
+        {
+          "file": "swipe-1.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "a409989da6b160cfd2f30c2f7cd95d8ccbe03f73ca01767a24813213d11e480b"
+        },
+        {
+          "file": "swipe-2.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "94877d08b775a826be184d102b42ad306ece7b42e6573193e82faefa2ed435e8"
+        }
+      ],
+      "source": "Tổng hợp gốc",
+      "family": "breath"
+    },
+    "buy": {
+      "label": "Mua hàng",
+      "group": "Giao diện",
+      "bus": "sfx",
+      "loop": false,
+      "variants": [
+        {
+          "file": "buy-0.wav",
+          "duration": 0.65,
+          "bytes": 28744,
+          "sha256": "61567d0baf9d045b9347cc3a7e9ca27ab0cfbc3a47b6087e702bfa9db1797128"
+        },
+        {
+          "file": "buy-1.wav",
+          "duration": 0.65,
+          "bytes": 28744,
+          "sha256": "2957bbdfefc6a80d0676487859e05da7cdcc2a484c1a7f859e4a4c0a98dc2928"
+        },
+        {
+          "file": "buy-2.wav",
+          "duration": 0.65,
+          "bytes": 28744,
+          "sha256": "4deadab0cbf2a38e2d74338e9fa21ffcb6d8468540aadaca469e038c09fb3106"
+        }
+      ],
+      "source": "Tổng hợp gốc",
+      "family": "chime"
+    },
+    "upgrade": {
+      "label": "Nâng cấp",
+      "group": "Giao diện",
+      "bus": "sfx",
+      "loop": false,
+      "variants": [
+        {
+          "file": "upgrade-0.wav",
+          "duration": 0.65,
+          "bytes": 28744,
+          "sha256": "c9765b3cc0cfc1bb7f8c4d7e1b365dae565dbb7d5141602556f149ad8fe66d99"
+        },
+        {
+          "file": "upgrade-1.wav",
+          "duration": 0.65,
+          "bytes": 28744,
+          "sha256": "9047b893d34fd5d96807ea67403e1daa1578d75577d711a40214f7441a518f80"
+        },
+        {
+          "file": "upgrade-2.wav",
+          "duration": 0.65,
+          "bytes": 28744,
+          "sha256": "c25e8b90ee87acf76f9447317b344b904d1f7243e01e93c5d711c3578919ed14"
+        }
+      ],
+      "source": "Tổng hợp gốc",
+      "family": "chime"
+    },
+    "unlock": {
+      "label": "Mở khóa",
+      "group": "Giao diện",
+      "bus": "sfx",
+      "loop": false,
+      "variants": [
+        {
+          "file": "unlock-0.wav",
+          "duration": 0.65,
+          "bytes": 28744,
+          "sha256": "fee5ccf5c2d89625e264e8bf20d7cc608412147d48330381bf54bdb6d00173bd"
+        },
+        {
+          "file": "unlock-1.wav",
+          "duration": 0.65,
+          "bytes": 28744,
+          "sha256": "55f5155cffde3e5a0e1216602d289e6c108e1b8ec473694da612e1170913221c"
+        },
+        {
+          "file": "unlock-2.wav",
+          "duration": 0.65,
+          "bytes": 28744,
+          "sha256": "c20de6f388316956dcb5eb1b40e1c0ac229e5be38523f411c57ca20083508667"
+        }
+      ],
+      "source": "Tổng hợp gốc",
+      "family": "chime"
+    },
+    "error": {
+      "label": "Thao tác chưa đúng",
+      "group": "Giao diện",
+      "bus": "sfx",
+      "loop": false,
+      "variants": [
+        {
+          "file": "error-0.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "cbdec3e015326623f23c4850e025066808b731373edf4191edda9f6d374afa55"
+        },
+        {
+          "file": "error-1.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "358ee426d432eee5bc92e2f3e7f4cf4411b8357050c3e29f46792dcb61a298ee"
+        },
+        {
+          "file": "error-2.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "738fa58b001148201490c22d575317542cd5b4a00ef51f04cb6630dc77ed079d"
+        }
+      ],
+      "source": "Tổng hợp gốc",
+      "family": "wood"
+    },
+    "review": {
+      "label": "Đánh giá mới",
+      "group": "Giao diện",
+      "bus": "sfx",
+      "loop": false,
+      "variants": [
+        {
+          "file": "review-0.wav",
+          "duration": 0.65,
+          "bytes": 28744,
+          "sha256": "52ecd374a412f578c5e92d2b7dc4730929e3a94b535917d3ec3cab280662cc69"
+        },
+        {
+          "file": "review-1.wav",
+          "duration": 0.65,
+          "bytes": 28744,
+          "sha256": "837a93db52a9000986f642d0994c93bbb419208be9cfac673a59bd2308b1337d"
+        },
+        {
+          "file": "review-2.wav",
+          "duration": 0.65,
+          "bytes": 28744,
+          "sha256": "b4b2c4169c01635b6d29c2bf30cf3368d75e8b3a6cddb2aace36eff7abfc5c53"
+        }
+      ],
+      "source": "Tổng hợp gốc",
+      "family": "chime"
+    },
+    "reply": {
+      "label": "Gửi phản hồi",
+      "group": "Giao diện",
+      "bus": "sfx",
+      "loop": false,
+      "variants": [
+        {
+          "file": "reply-0.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "dc3f032ff6a54d055d33efe5ee83ccf7b178ed169b1f5472007945e535e387b5"
+        },
+        {
+          "file": "reply-1.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "21af5ec613570d4a85f451a24dfa1a7d13a68fab0fcf4cde662e532ad4dc26d3"
+        },
+        {
+          "file": "reply-2.wav",
+          "duration": 0.22,
+          "bytes": 9780,
+          "sha256": "018e0b1098dfcd2b7ddaa6e60b6662c451bed2f3cefa9d54218de39159f15b19"
+        }
+      ],
+      "source": "bretbernhoft CC0",
+      "family": "paper"
+    },
+    "discover": {
+      "label": "Khám phá công thức",
+      "group": "Giao diện",
+      "bus": "sfx",
+      "loop": false,
+      "variants": [
+        {
+          "file": "discover-0.wav",
+          "duration": 0.65,
+          "bytes": 28744,
+          "sha256": "5355c1f83e301e8ea605d12269867f1444a4dc6305c6292c0ba0b4d9e5b29ec6"
+        },
+        {
+          "file": "discover-1.wav",
+          "duration": 0.65,
+          "bytes": 28744,
+          "sha256": "103e3aa8ce7db0ebcccf639c7ddab397f70e95e912bc4e416de101d13e1b6b7b"
+        },
+        {
+          "file": "discover-2.wav",
+          "duration": 0.65,
+          "bytes": 28744,
+          "sha256": "b921737d135ef4e9048f09d8179af3b90e9684ec6c3c873ced1d55501deac307"
+        }
+      ],
+      "source": "Tổng hợp gốc",
+      "family": "chime"
+    },
+    "nextDay": {
+      "label": "Qua ngày",
+      "group": "Giao diện",
+      "bus": "sfx",
+      "loop": false,
+      "variants": [
+        {
+          "file": "nextDay-0.wav",
+          "duration": 0.65,
+          "bytes": 28744,
+          "sha256": "9c4ccf653ccff8104e7d8099a17c708eca10c36e942ec40a5b26e1d497a683b0"
+        },
+        {
+          "file": "nextDay-1.wav",
+          "duration": 0.65,
+          "bytes": 28744,
+          "sha256": "bac4455e029a9db67ddc735101119a414fbbf0411c2de7f699353dcef99edd1c"
+        },
+        {
+          "file": "nextDay-2.wav",
+          "duration": 0.65,
+          "bytes": 28744,
+          "sha256": "c0f97e649f721cfbf1f71180c16e1c673f3b6aaf52ff07e1971ec642c4e531fb"
+        }
+      ],
+      "source": "Tổng hợp gốc",
+      "family": "chime"
+    },
+    "room": {
+      "label": "Không khí quán",
+      "group": "Môi trường",
+      "bus": "ambient",
+      "loop": true,
+      "variants": [
+        {
+          "file": "room-0.wav",
+          "duration": 2,
+          "bytes": 88278,
+          "sha256": "1ed2555b452cfc5d0d01aeea31fd03109f2ccbbf6d00c3b361d6b0a7e9f7aa8b"
+        },
+        {
+          "file": "room-1.wav",
+          "duration": 2,
+          "bytes": 88278,
+          "sha256": "dfc1262ac967870d28e2f3075899a30dff25eeb5c3e49419e3bba3a61e4a0c20"
+        },
+        {
+          "file": "room-2.wav",
+          "duration": 2,
+          "bytes": 88278,
+          "sha256": "1127ad6880938d8e2c1a3d25eb7f9df6fb56d2d09cc93573a3d5f50caf4e54b4"
+        }
+      ],
+      "source": "Tổng hợp gốc",
+      "family": "noise"
+    },
+    "birds": {
+      "label": "Chim mùa xuân",
+      "group": "Môi trường",
+      "bus": "ambient",
+      "loop": true,
+      "variants": [
+        {
+          "file": "birds-0.wav",
+          "duration": 2,
+          "bytes": 88278,
+          "sha256": "2506e3b0eb922ee9a867ce21a362e951e4b70e4e0976efbc1e145b6b4d8965b7"
+        },
+        {
+          "file": "birds-1.wav",
+          "duration": 2,
+          "bytes": 88278,
+          "sha256": "4cafd29cfcd5e65d859f5ae68ff879bfa52f6c1bfd5069667275be5c730b9e02"
+        },
+        {
+          "file": "birds-2.wav",
+          "duration": 2,
+          "bytes": 88278,
+          "sha256": "7aa278e4ad6e08598375834578546781ef9389ecc6499fe34b079d34bfe0cc52"
+        }
+      ],
+      "source": "Tổng hợp gốc",
+      "family": "bird"
+    },
+    "rainLight": {
+      "label": "Mưa nhẹ",
+      "group": "Môi trường",
+      "bus": "ambient",
+      "loop": true,
+      "variants": [
+        {
+          "file": "rainLight-0.wav",
+          "duration": 2,
+          "bytes": 88278,
+          "sha256": "f687ae703397832598b81692dc1b524afdb36082064b408330fac6abf737c9b0"
+        },
+        {
+          "file": "rainLight-1.wav",
+          "duration": 2,
+          "bytes": 88278,
+          "sha256": "c42d31631f50b0e8b0b2b6a65a796868dffcb9d21515f1c4a6109e54776df9b2"
+        },
+        {
+          "file": "rainLight-2.wav",
+          "duration": 2,
+          "bytes": 88278,
+          "sha256": "d06feb21d543bbc4cdc0ed332b0f4e9842c7a9104ed86141ee02a777e33abb58"
+        }
+      ],
+      "source": "Tổng hợp gốc",
+      "family": "noise"
+    },
+    "rain": {
+      "label": "Mưa vừa",
+      "group": "Môi trường",
+      "bus": "ambient",
+      "loop": true,
+      "variants": [
+        {
+          "file": "rain-0.wav",
+          "duration": 2,
+          "bytes": 88278,
+          "sha256": "8d29edb499156c2f83052b1265195fe74315d5d29052a92cb4ffd4b29614f298"
+        },
+        {
+          "file": "rain-1.wav",
+          "duration": 2,
+          "bytes": 88278,
+          "sha256": "0313448b837cdfaca0f237ed42ef343ed8cb04ab0e36874e8ea9dda357b98e4b"
+        },
+        {
+          "file": "rain-2.wav",
+          "duration": 2,
+          "bytes": 88278,
+          "sha256": "0c559955c9072d7fd0442529dcd9ff49e9ac1b03f1fb8a2b2ed3c59a36b8bde3"
+        }
+      ],
+      "source": "Tổng hợp gốc",
+      "family": "noise"
+    },
+    "rainHeavy": {
+      "label": "Mưa lớn",
+      "group": "Môi trường",
+      "bus": "ambient",
+      "loop": true,
+      "variants": [
+        {
+          "file": "rainHeavy-0.wav",
+          "duration": 2,
+          "bytes": 88278,
+          "sha256": "92146d30c5c5b06467fbcfdb923ccaced4205609d0eca68e4ba6a58bb75f479c"
+        },
+        {
+          "file": "rainHeavy-1.wav",
+          "duration": 2,
+          "bytes": 88278,
+          "sha256": "3a893b76722388b493711a583451c106b5b5e262fa1153ee87c87cb335b06db0"
+        },
+        {
+          "file": "rainHeavy-2.wav",
+          "duration": 2,
+          "bytes": 88278,
+          "sha256": "c474d2bb8d12f8d63d1a2bcc480842fe06e61f8022881089e6f76b2bb2c3386f"
+        }
+      ],
+      "source": "Tổng hợp gốc",
+      "family": "noise"
+    },
+    "snow": {
+      "label": "Gió tuyết",
+      "group": "Môi trường",
+      "bus": "ambient",
+      "loop": true,
+      "variants": [
+        {
+          "file": "snow-0.wav",
+          "duration": 2,
+          "bytes": 88278,
+          "sha256": "79cbcaf401bd14e6675f1a70aac8a00f5ec0826a3957c92e7c14591d888f4e0f"
+        },
+        {
+          "file": "snow-1.wav",
+          "duration": 2,
+          "bytes": 88278,
+          "sha256": "23259e9874536d5d9e624649be08578449067ab29dd96ef43ce74f786e32e04a"
+        },
+        {
+          "file": "snow-2.wav",
+          "duration": 2,
+          "bytes": 88278,
+          "sha256": "4d031badd97ea040cdc177927e1a8fa1f249171c3c8937d052028dc709a9438b"
+        }
+      ],
+      "source": "Tổng hợp gốc",
+      "family": "breath"
+    },
+    "night": {
+      "label": "Côn trùng đêm",
+      "group": "Môi trường",
+      "bus": "ambient",
+      "loop": true,
+      "variants": [
+        {
+          "file": "night-0.wav",
+          "duration": 2,
+          "bytes": 88278,
+          "sha256": "590af2d66ea9192dc900d79a32faa017fbf025237b1872c51fc48a2a444bf4dd"
+        },
+        {
+          "file": "night-1.wav",
+          "duration": 2,
+          "bytes": 88278,
+          "sha256": "e51893c43a418342f1ac5c91222d56a4ebc2a8cdf62c0a8717680fc91a10bfbf"
+        },
+        {
+          "file": "night-2.wav",
+          "duration": 2,
+          "bytes": 88278,
+          "sha256": "a7d0a669bb8200e7aa89ea7c8cd3888398482eb308f3a01571eb1d81d16f31be"
+        }
+      ],
+      "source": "Tổng hợp gốc",
+      "family": "bird"
+    },
+    "festival": {
+      "label": "Lễ hội xa xa",
+      "group": "Môi trường",
+      "bus": "ambient",
+      "loop": true,
+      "variants": [
+        {
+          "file": "festival-0.wav",
+          "duration": 2,
+          "bytes": 88278,
+          "sha256": "8c8908b6878cf98ea7a27ca23f224c16d78d0248364bd4619721a8bafa9017ee"
+        },
+        {
+          "file": "festival-1.wav",
+          "duration": 2,
+          "bytes": 88278,
+          "sha256": "a853b85dbafe7486fb389876cdb43498481883dd423fff91cab1f81e7530d1ac"
+        },
+        {
+          "file": "festival-2.wav",
+          "duration": 2,
+          "bytes": 88278,
+          "sha256": "080f1955b6d28b475be45584edc057c2c41df42beb7c369d40886ec7cb0a2f35"
+        }
+      ],
+      "source": "Tổng hợp gốc",
+      "family": "chime"
+    },
+    "morning": {
+      "label": "Nhạc buổi sáng",
+      "group": "Nhạc",
+      "bus": "music",
+      "loop": true,
+      "variants": [
+        {
+          "file": "morning-0.m4a",
+          "duration": 16,
+          "bytes": 130451,
+          "sha256": "e6d40e4772fb62ccad268fa675317eb3fbafff7ef840dcdb81c340bf075fb9eb"
+        }
+      ],
+      "source": "Tổng hợp gốc",
+      "family": "music"
+    },
+    "noon": {
+      "label": "Nhạc buổi trưa",
+      "group": "Nhạc",
+      "bus": "music",
+      "loop": true,
+      "variants": [
+        {
+          "file": "noon-0.m4a",
+          "duration": 16,
+          "bytes": 130472,
+          "sha256": "7905b3b686a9175a9e44ac79122da915064b4cd0e820f14940ac48ed2468e293"
+        }
+      ],
+      "source": "Tổng hợp gốc",
+      "family": "music"
+    },
+    "evening": {
+      "label": "Nhạc chiều tối",
+      "group": "Nhạc",
+      "bus": "music",
+      "loop": true,
+      "variants": [
+        {
+          "file": "evening-0.m4a",
+          "duration": 16,
+          "bytes": 130476,
+          "sha256": "5a8cfa965e63c6e02912a9783ce4cdc3998fed70e8da7a2ea2454d5c9d9384c4"
+        }
+      ],
+      "source": "Tổng hợp gốc",
+      "family": "music"
+    }
+  }
+}

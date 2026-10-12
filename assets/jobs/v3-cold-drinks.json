@@ -1,0 +1,54 @@
+{
+  "id": "v3-cold-drinks",
+  "generationMethod": "built-in imagegen, six separate calls with transparent backgrounds",
+  "styleReference": "sprites/v3-drink-matcha-latte.webp",
+  "variantReference": "sprites/sources/v3-drink-matcha-latte-cold.png",
+  "postprocess": "scripts/prepare-cold-drink-art.mjs",
+  "entries": [
+    {
+      "id": "matcha",
+      "assetId": "v3-drink-matcha-latte-cold",
+      "source": "sprites/sources/v3-drink-matcha-latte-cold.png",
+      "output": "sprites/v3-drink-matcha-latte-cold.webp",
+      "prompt": "Use case: stylized-concept. Asset type: transparent 2D mobile game drink sprite. Reference image is STYLE ONLY: match its warm hand-painted gouache, soft thin olive-brown outline, gentle paper texture and cozy Japanese udon shop palette. Create ONE chilled MATCHA MILK drink in a clear short rounded tumbler with a thick rounded base, viewed from slightly above and facing straight forward. The glass contains pale creamy matcha green milk with 4 clearly visible translucent ice cubes at the surface, a delicate darker green swirl, soft cream highlights and a tiny contact shadow. Entire glass centered with 8% transparent margin all around. No saucer, handle, straw, steam, flowers, additional toppings, labels, text, person, setting, countertop or background. True transparent alpha outside the glass. Keep the glass simple and readable at 30 pixels tall, avoid photorealism."
+    },
+    {
+      "id": "tea",
+      "assetId": "v3-drink-sencha-cold",
+      "source": "sprites/sources/v3-drink-sencha-cold.png",
+      "output": "sprites/v3-drink-sencha-cold.webp",
+      "prompt": "Use case: precise-object-edit. Asset type: transparent 2D mobile game drink sprite. Input image is the edit target and exact glass/style reference. Make ONE new drink variant: ICED SENCHA TEA: clear pale golden-green Japanese green tea, no milk, no garnish, 4 visible translucent ice cubes. Preserve the supplied rounded short tumbler, thick rounded base, centered position, view angle, warm hand-painted gouache and paper texture, soft thin olive-brown outlines, cream glass highlights, and 8% transparent margin. Change the drink liquid color only to the requested flavor and adjust the ice cube colors naturally; all four ice cubes remain clearly visible. No saucer, handle, straw, steam, added toppings, labels, text, person, room, surface or background. True transparent alpha outside the glass. Keep readable at 30 pixels tall and avoid photorealism.",
+      "revisionPrompt": "Precise-object-edit of this single transparent game sprite. Correct only the LIQUID: this is plain pale green-gold SENCHA TEA with ice and ZERO MILK. Completely REMOVE all creamy white swirls, streaks, marbling, and opaque milk areas inside the drink. Replace them with a uniform clear translucent tea color with gentle painterly shading, thin watery meniscus and the visible refraction of four ice cubes. White highlights belong only on the glass walls and ice edges. The main body of the liquid must look clear watery tea, never a latte. Preserve the exact glass silhouette, angle, size, position, ice cube placement, warm hand-painted gouache texture and thin brown outline of the reference. No steam, handle, saucer, extra ingredients, flowers, straw, text or background. Genuine transparent alpha outside the glass."
+    },
+    {
+      "id": "coffee",
+      "assetId": "v3-drink-coffee-milk-cold",
+      "source": "sprites/sources/v3-drink-coffee-milk-cold.png",
+      "output": "sprites/v3-drink-coffee-milk-cold.webp",
+      "prompt": "Use case: precise-object-edit. Asset type: transparent 2D mobile game drink sprite. Input image is the edit target and exact glass/style reference. Make ONE new drink variant: ICED COFFEE MILK: warm light caramel-brown coffee mixed with cream-colored milk, restrained cream swirl, 4 visible translucent ice cubes. Preserve the supplied rounded short tumbler, thick rounded base, centered position, view angle, warm hand-painted gouache and paper texture, soft thin olive-brown outlines, cream glass highlights, and 8% transparent margin. Change the drink liquid color only to the requested flavor and adjust the ice cube colors naturally; all four ice cubes remain clearly visible. No saucer, handle, straw, steam, added toppings, labels, text, person, room, surface or background. True transparent alpha outside the glass. Keep readable at 30 pixels tall and avoid photorealism."
+    },
+    {
+      "id": "hojicha",
+      "assetId": "v3-drink-hojicha-tea-cold",
+      "source": "sprites/sources/v3-drink-hojicha-tea-cold.png",
+      "output": "sprites/v3-drink-hojicha-tea-cold.webp",
+      "prompt": "Use case: precise-object-edit. Asset type: transparent 2D mobile game drink sprite. Input image is the edit target and exact glass/style reference. Make ONE new drink variant: ICED HOJICHA TEA: clear medium amber-brown roasted Japanese tea, no milk, no garnish, 4 visible translucent ice cubes. Preserve the supplied rounded short tumbler, thick rounded base, centered position, view angle, warm hand-painted gouache and paper texture, soft thin olive-brown outlines, cream glass highlights, and 8% transparent margin. Change the drink liquid color only to the requested flavor and adjust the ice cube colors naturally; all four ice cubes remain clearly visible. No saucer, handle, straw, steam, added toppings, labels, text, person, room, surface or background. True transparent alpha outside the glass. Keep readable at 30 pixels tall and avoid photorealism.",
+      "revisionPrompt": "Precise-object-edit of this single transparent game sprite. Correct only the LIQUID: this is plain translucent amber-brown roasted HOJICHA TEA with ice and ZERO MILK. Completely REMOVE all creamy white swirls, streaks, marbling, and opaque milk areas inside the drink. Replace them with a uniform clear translucent tea color with gentle painterly shading, thin watery meniscus and the visible refraction of four ice cubes. White highlights belong only on the glass walls and ice edges. The main body of the liquid must look clear watery tea, never a latte. Preserve the exact glass silhouette, angle, size, position, ice cube placement, warm hand-painted gouache texture and thin brown outline of the reference. No steam, handle, saucer, extra ingredients, flowers, straw, text or background. Genuine transparent alpha outside the glass."
+    },
+    {
+      "id": "hojichaLatte",
+      "assetId": "v3-drink-hojicha-latte-cold",
+      "source": "sprites/sources/v3-drink-hojicha-latte-cold.png",
+      "output": "sprites/v3-drink-hojicha-latte-cold.webp",
+      "prompt": "Use case: precise-object-edit. Asset type: transparent 2D mobile game drink sprite. Input image is the edit target and exact glass/style reference. Make ONE new drink variant: ICED HOJICHA LATTE: pale creamy tan roasted tea with milk, subtle cream swirl, 4 visible translucent ice cubes. Noticeably lighter and less brown than coffee milk. Preserve the supplied rounded short tumbler, thick rounded base, centered position, view angle, warm hand-painted gouache and paper texture, soft thin olive-brown outlines, cream glass highlights, and 8% transparent margin. Change the drink liquid color only to the requested flavor and adjust the ice cube colors naturally; all four ice cubes remain clearly visible. No saucer, handle, straw, steam, added toppings, labels, text, person, room, surface or background. True transparent alpha outside the glass. Keep readable at 30 pixels tall and avoid photorealism."
+    },
+    {
+      "id": "sakuraTea",
+      "assetId": "v3-drink-sakura-tea-cold",
+      "source": "sprites/sources/v3-drink-sakura-tea-cold.png",
+      "output": "sprites/v3-drink-sakura-tea-cold.webp",
+      "prompt": "Use case: precise-object-edit. Asset type: transparent 2D mobile game drink sprite. Input image is the edit target and exact glass/style reference. Make ONE new drink variant: ICED SAKURA TEA: clear delicate rose-pink Japanese tea, 4 visible translucent ice cubes. A very small pink petal tint in the liquid is fine, no garnish or floating blossoms. Preserve the supplied rounded short tumbler, thick rounded base, centered position, view angle, warm hand-painted gouache and paper texture, soft thin olive-brown outlines, cream glass highlights, and 8% transparent margin. Change the drink liquid color only to the requested flavor and adjust the ice cube colors naturally; all four ice cubes remain clearly visible. No saucer, handle, straw, steam, added toppings, labels, text, person, room, surface or background. True transparent alpha outside the glass. Keep readable at 30 pixels tall and avoid photorealism.",
+      "revisionPrompt": "Precise-object-edit of this single transparent game sprite. Correct only the LIQUID: this is plain translucent pale rose-gold SAKURA TEA with ice and ZERO MILK. Completely REMOVE all creamy white swirls, streaks, marbling, and opaque milk areas inside the drink. Replace them with a uniform clear translucent tea color with gentle painterly shading, thin watery meniscus and the visible refraction of four ice cubes. White highlights belong only on the glass walls and ice edges. The main body of the liquid must look clear watery tea, never a latte. Preserve the exact glass silhouette, angle, size, position, ice cube placement, warm hand-painted gouache texture and thin brown outline of the reference. No steam, handle, saucer, extra ingredients, flowers, straw, text or background. Genuine transparent alpha outside the glass."
+    }
+  ]
+}

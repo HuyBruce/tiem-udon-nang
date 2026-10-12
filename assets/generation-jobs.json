@@ -1,0 +1,140 @@
+[
+  {
+    "id": "front",
+    "prompt": "Use case: stylized-concept. Create a standalone portrait 1024x1536 BACKGROUND for a cozy mobile udon shop game, matching the reference hand-painted gouache art, dark brown outlines, cream plaster, honey wood, sage green, warm upper-left sunlight, gentle paper grain. The reference is STYLE ONLY. Exterior front of tiny Japanese alley udon shop: centered facade, green low eave roof at y20%, BLANK wide wooden sign at x20-80% y25-32%, dark wood doorway center x25-75% y38-78%, glass sliding windows right, cream walls, four BLANK terracotta noren panels in a straight row across x20-80% y35-47%, each plain no symbol. Lower 25% stone pavement empty for a separate owner sprite. A quiet bit of pale sky and greenery at top. NO humans, NO pots of flowers, NO loose furniture, NO text, NO lettering, NO UI or watermark. Architecture only, uncluttered polished storybook texture. Every letter will be added by code later.",
+    "kind": "backgrounds",
+    "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-3fc5737a-6056-4e57-9094-9ffba6999473.png"
+  },
+  {
+    "id": "kitchen",
+    "kind": "backgrounds",
+    "prompt": "Use case: stylized-concept. Portrait 1024x1536 standalone EMPTY BACKGROUND for cozy mobile udon shop. Match STYLE of reference: warm hand-painted gouache paper grain, soft even brown outlines, cream plaster, sage, honey wood, light upper left. Front orthographic with slight top view. Composition CRITICAL: top35% wall, middle30% counter (worktop y35-48%, fascia y48-65%), bottom35% wooden floor. NO text, NO loose objects, NO people, NO food, NO tools, NO UI. Kitchen architecture: cream square tiled backsplash in upper35%, dark sage extraction hood near top center, warm wooden counter spans width at35-65%, empty smooth worktop to place separate pots and sink sprites. Floor empty. Don't paint stove, burners, pots, jars or sink into background.",
+    "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-8722b5c3-d419-4d91-abc4-be0ae4cb5f0b.png"
+  },
+  {
+    "id": "drinks",
+    "kind": "backgrounds",
+    "prompt": "Use case: stylized-concept. Portrait 1024x1536 standalone EMPTY BACKGROUND for cozy mobile udon shop. Match STYLE of reference: warm hand-painted gouache paper grain, soft even brown outlines, cream plaster, sage, honey wood, light upper left. Front orthographic with slight top view. Composition CRITICAL: top35% wall, middle30% counter (worktop y35-48%, fascia y48-65%), bottom35% wooden floor. NO text, NO loose objects, NO people, NO food, NO tools, NO UI. Tea counter architecture in same little shop: cream plaster wall, square window in upper right with leafy sage scenery, short EMPTY wooden shelf upper left; broad empty honey wood counter precisely35-65%, floor below65%. No refrigerator, kettle, jars or glasses baked into background.",
+    "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-dd756a82-b8bb-4761-b7be-cb1ad2d8743a.png"
+  },
+  {
+    "id": "storage",
+    "kind": "backgrounds",
+    "prompt": "Portrait 1024x1536 EMPTY background of a cozy pantry in same udon shop as reference. Reference STYLE ONLY: gouache, cream warm plaster, sage wood outlines, honey wood grain, upper-left sunlight. Upper35% cream wall with two empty shelves left and small square ventilation window upper right. Middle30% broad EMPTY honey wood counter exactly y35-65 (worktop35-48, fascia48-65). Bottom35% wood plank floor. NO cupboards/fridge/food/jars/crates painted in, these will be separate sprites. No text, no characters, no loose objects, no UI. Polished hand-painted warm scene.",
+    "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-b270a2e0-95f5-4f81-a58a-50f19805a98c.png"
+  },
+  {
+    "id": "garden",
+    "kind": "backgrounds",
+    "prompt": "Portrait1024x1536 EMPTY cozy back courtyard garden background for mobile udon game. Match reference hand-painted gouache cream sage honeywood mutedcolors, dark brown outlines, upperleft light and papergrain. Upper35% cream garden wall, green treetops visible above, a little wooden gate right; middle30% low broad EMPTY wooden potting workbench top at40% down to65%, bottom35% warm paved ground with a few soft grasses at extreme edges. No pots, no plants in pots, no planters, no wateringcan, no characters or loose objects. All interactive garden planters will be separate sprites placed ON potting bench. No letters, no UI or watermark.",
+    "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-b67998ee-3f75-411f-94c5-949a237ffa26.png"
+  },
+  {
+    "id": "noodle-pot",
+    "kind": "sprites",
+    "prompt": "ONE isolated game sprite on genuine transparent alpha background: plump sage green enamel noodle cooking pot with dark brown small handles eachside, seen front with slight topview, clear hot water visible inside, two delicate wisps steam. No stove underneath, no lid, no noodles, no text. Reference STYLE ONLY match cozy handpainted gouache warm upperleftlight, brown outlines, papertexture, chubby readable shape. Full silhouette centered with small translucent contactshadow, no ground or background.",
+    "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-98cd1692-e239-4153-9f9a-1812140afdc7.png"
+  },
+  {
+    "id": "broth-pot",
+    "kind": "sprites",
+    "prompt": "Use case: stylized-concept. ONE isolated sprite for cozy mobile udon game, genuinely transparent alpha background. Reference STYLE ONLY: hand-painted gouache, cream/sage/terracotta/honeywood mutedcolors, even dark brown outline, rounded chubby proportions, upperleft warm light, delicate material texture. Front view slightly seeing top, full silhouette centered, subtle translucent contactshadow immediately beneath. No text, no watermark, no scene, no floor, no UI. Subject: a squat terracotta clay broth pot with two side handles and amber dashi soup visible inside, lid set against its right side, two delicate wisps of steam.",
+    "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-fc42e9e7-9f4b-4b40-951e-d079c8a61415.png"
+  },
+  {
+    "id": "fryer",
+    "kind": "sprites",
+    "prompt": "Use case: stylized-concept. ONE isolated sprite for cozy mobile udon game, genuinely transparent alpha background. Reference STYLE ONLY: hand-painted gouache, cream/sage/terracotta/honeywood mutedcolors, even dark brown outline, rounded chubby proportions, upperleft warm light, delicate material texture. Front view slightly seeing top, full silhouette centered, subtle translucent contactshadow immediately beneath. No text, no watermark, no scene, no floor, no UI. Subject: a wide round cast-iron frying pan with short wood handle to right and golden bubbling oil, two shrimp tempura frying inside, no stove.",
+    "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-0b3e7488-dd1c-41e1-ae05-d815f7883673.png"
+  },
+  {
+    "id": "board",
+    "kind": "sprites",
+    "prompt": "Use case: stylized-concept. ONE isolated sprite for cozy mobile udon game, genuinely transparent alpha background. Reference STYLE ONLY: hand-painted gouache, cream/sage/terracotta/honeywood mutedcolors, even dark brown outline, rounded chubby proportions, upperleft warm light, delicate material texture. Front view slightly seeing top, full silhouette centered, subtle translucent contactshadow immediately beneath. No text, no watermark, no scene, no floor, no UI. Subject: a thick honeywood chopping board, rounded corners, seen slightly from above, a small bundle green scallions and silver kitchen knife placed neatly on its right.",
+    "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-9200a0bf-f96f-4f78-847e-6db3c695847c.png"
+  },
+  {
+    "id": "sink",
+    "kind": "sprites",
+    "prompt": "Use case: stylized-concept. ONE isolated sprite for cozy mobile udon game, genuinely transparent alpha background. Reference STYLE ONLY: hand-painted gouache, cream/sage/terracotta/honeywood mutedcolors, even dark brown outline, rounded chubby proportions, upperleft warm light, delicate material texture. Front view slightly seeing top, full silhouette centered, subtle translucent contactshadow immediately beneath. No text, no watermark, no scene, no floor, no UI. Subject: a compact pale sage enamel rectangular countertop sink with curved silver faucet, softly rounded edges, inset basin with two ivory bowls and small water bubbles, standalone sink with no cabinet.",
+    "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-19019fcb-f3eb-4906-b54e-c21b0db9aeb0.png"
+  },
+  {
+    "id": "jar",
+    "kind": "sprites",
+    "prompt": "Use case: stylized-concept. ONE isolated object sprite, genuine TRANSPARENT alpha background, no ground/room/text/UI. Match reference STYLE ONLY: cozy gouache honeywood, sage green, cream, terracotta, even soft brown outlines, detailed material grain, roundedchubby shape, upperleft warm light. Front view slight topview, full silhouette with small translucent contactshadow below. Subject: a squat sage ceramic tea/seasoning jar, warm wooden lid, completely blank cream paper label.",
+    "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-6fd16e9c-1580-47dd-a5e1-df06a76f9a30.png"
+  },
+  {
+    "id": "fridge",
+    "kind": "sprites",
+    "prompt": "Use case: stylized-concept. ONE isolated object sprite, genuine TRANSPARENT alpha background, no ground/room/text/UI. Match reference STYLE ONLY: cozy gouache honeywood, sage green, cream, terracotta, even soft brown outlines, detailed material grain, roundedchubby shape, upperleft warm light. Front view slight topview, full silhouette with small translucent contactshadow below. Subject: a compact pale sage green retro countertop beverage fridge with glass door, brass handle, two visible shelves with a few small unlabeled pastel ramune and milk bottles inside, no logos.",
+    "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-0d08c613-3f18-45b9-b334-dd3b84347c74.png"
+  },
+  {
+    "id": "ramune",
+    "kind": "sprites",
+    "prompt": "Use case: stylized-concept. ONE isolated object sprite, genuine TRANSPARENT alpha background, no ground/room/text/UI. Match reference STYLE ONLY: cozy gouache honeywood, sage green, cream, terracotta, even soft brown outlines, detailed material grain, roundedchubby shape, upperleft warm light. Front view slight topview, full silhouette with small translucent contactshadow below. Subject: one pale teal Japanese ramune glass bottle with marble neck and blank cream paper wrap.",
+    "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-7a7f5f6b-d148-49aa-a6dd-1036ec68c31f.png"
+  },
+  {
+    "id": "milk",
+    "kind": "sprites",
+    "prompt": "Use case: stylized-concept. ONE isolated object sprite, genuine TRANSPARENT alpha background, no ground/room/text/UI. Match reference STYLE ONLY: cozy gouache honeywood, sage green, cream, terracotta, even soft brown outlines, detailed material grain, roundedchubby shape, upperleft warm light. Front view slight topview, full silhouette with small translucent contactshadow below. Subject: one ivory glass milk bottle with cream milk inside and a terracotta metal cap.",
+    "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-dffc5011-0c1d-4888-9239-84e76829b7c3.png"
+  },
+  {
+    "id": "matcha-bowl",
+    "kind": "sprites",
+    "prompt": "Use case: stylized-concept. ONE isolated object sprite, genuine TRANSPARENT alpha background, no ground/room/text/UI. Match reference STYLE ONLY: cozy gouache honeywood, sage green, cream, terracotta, even soft brown outlines, detailed material grain, roundedchubby shape, upperleft warm light. Front view slight topview, full silhouette with small translucent contactshadow below. Subject: one small sage ceramic chawan bowl full of frothy bright green matcha, clearly visible oval surface.",
+    "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-367e4e3c-8224-473c-851b-a2ca1f5ab0ce.png"
+  },
+  {
+    "id": "chasen",
+    "kind": "sprites",
+    "prompt": "Use case: stylized-concept. ONE isolated object sprite, genuine TRANSPARENT alpha background, no ground/room/text/UI. Match reference STYLE ONLY: cozy gouache honeywood, sage green, cream, terracotta, even soft brown outlines, detailed material grain, roundedchubby shape, upperleft warm light. Front view slight topview, full silhouette with small translucent contactshadow below. Subject: one upright bamboo matcha whisk chasen, many curved thin tines, warm honey bamboo handle.",
+    "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-a684be0b-92de-4ce9-9c73-fcc688049122.png"
+  },
+  {
+    "id": "glass",
+    "kind": "sprites",
+    "prompt": "Use case: stylized-concept. ONE isolated object sprite, genuine TRANSPARENT alpha background, no ground/room/text/UI. Match reference STYLE ONLY: cozy gouache honeywood, sage green, cream, terracotta, even soft brown outlines, detailed material grain, roundedchubby shape, upperleft warm light. Front view slight topview, full silhouette with small translucent contactshadow below. Subject: one clear tall tumbler glass filled with pale golden iced tea, two translucent ice cubes, slight condensation.",
+    "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-8b5a0d61-6669-426c-aec4-08adf2d6004b.png"
+  },
+  {
+    "id": "noodles",
+    "kind": "sprites",
+    "prompt": "Use case: stylized-concept. ONE isolated object sprite, genuine TRANSPARENT alpha background, no ground/room/text/UI. Match reference STYLE ONLY: cozy gouache honeywood, sage green, cream, terracotta, even soft brown outlines, detailed material grain, roundedchubby shape, upperleft warm light. Front view slight topview, full silhouette with small translucent contactshadow below. Subject: one small round shallow bamboo basket holding a loose coil of fresh thick ivory udon noodles, no steam.",
+    "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-bf980176-709e-4c14-9702-bf39d5bdf31a.png"
+  },
+  {
+    "id": "crate",
+    "kind": "sprites",
+    "prompt": "Use case: stylized-concept. ONE isolated object sprite, genuine TRANSPARENT alpha background, no ground/room/text/UI. Match reference STYLE ONLY: cozy gouache honeywood, sage green, cream, terracotta, even soft brown outlines, detailed material grain, roundedchubby shape, upperleft warm light. Front view slight topview, full silhouette with small translucent contactshadow below. Subject: one low honeywood pantry crate containing two cream flour sacks and a tied bundle of scallions; no labels or text.",
+    "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-987a8c89-0646-4640-b71f-59d40e83b7f2.png"
+  },
+  {
+    "id": "character-mai",
+    "kind": "characters",
+    "prompt": "Use case: stylized-concept. ONE full body seated character game sprite on genuine transparent background, no chair (chair is separate), no scene, no text, no food. Subject: a schoolgirl customer, chestnut bobbed hair, cream sailor blouse, terracotta skirt, brown shoes, warm modest smile. Sitting upright facing viewer, hands resting naturally in lap, knees bent, feet visible. Charming handpainted cozy gouache, softly rounded human proportions, warm cream sage terracotta palette, even darkbrown outlines, upperleft sunlight, delicate papertexture. Reference is STYLE ONLY. Center complete silhouette, no white border, no cut-off.",
+    "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-a34ffc3d-099a-4658-8e62-face5d622e6f.png"
+  },
+  {
+    "id": "character-an",
+    "kind": "characters",
+    "prompt": "Use case: stylized-concept. ONE full body seated character game sprite on genuine transparent background, no chair (chair is separate), no scene, no text, no food. Subject: an adult office worker customer with short dark brown hair, round glasses, sage green shirt and dark brown trousers, brown shoes, calm friendly expression. Sitting upright facing viewer, hands resting naturally in lap, knees bent, feet visible. Charming handpainted cozy gouache, softly rounded human proportions, warm cream sage terracotta palette, even darkbrown outlines, upperleft sunlight, delicate papertexture. Reference is STYLE ONLY. Center complete silhouette, no white border, no cut-off.",
+    "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-2a5f6c08-9f3d-44ac-bc60-2c30f2a9efd4.png"
+  },
+  {
+    "id": "kitchen-wide",
+    "kind": "backgrounds",
+    "prompt": "Edit this kitchen BACKGROUND ONLY. Preserve exact cozy gouache style, palette, wall hood and cream tiles, lighting, empty scene. Change camera/workbench perspective so there is a MUCH DEEPER usable horizontal countertop: the horizontal honey wood TOP SURFACE must run from y=35% to y=61% of image; then only a NARROW vertical wooden front edge from y=61% to y=65%. Wooden floor starts at65%. Right now tabletop ends at44% and fascia is huge: replace most fascia with more tabletop. It must read as looking downward onto a broad worktop that can hold two rows of separate cooking sprites. Keep background empty with no pots, no jars, no sink, no writing, no characters. Portrait1024x1536. Only change worktop geometry, preserve rest.",
+    "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-4a92c923-1367-4171-8545-756ce3858ab2.png"
+  },
+  {
+    "id": "v2-seating",
+    "kind": "backgrounds",
+    "prompt": "Use case: stylized-concept. NEW art bible style reference for mobile Japanese UDON shop. Draw a polished FLAT 2D cozy game background, tall 9:16 portrait ideally1080x1920. Very THIN 1.5-2px slightly wobbly colored lines, olive outlines on green items, brown on wood, never thick or black. Soft FLAT gouache colors and very subtle papergrain, very light texture, one gentle shadowtone and highlight, NO photorealism, NO strong gradients, NO 3D or perspective floor. Exact horizontal composition: upper0-45% cream plaster wall (#F5EBDD) with little shoji window upperleft, two EMPTY wooden shelves upperright; 45-62% broad HORIZONTAL honey-yellow wooden COUNTERTOP (#E0A85A) seen slightly from above, EMPTY;62-70% NARROW DEEP FOREST GREEN counter front (#3F5B45);70-100% is a second closeup WOODEN TRAY/TABLETOP surface edge to edge (#EBC17A) with three faint oval contactshadow marks near85% for later bowls. Absolutely NO floor planks or ground visible. Palette accents pale pinkcream #F1DDD3, sage #7C9A5B, terracotta #B8724F. Gentle top-left sunlight. No interactive items, no food, no people, no foreground leaves, no text or letters, no UI. All silhouettes pleasantly rounded, charming hand drawn picture-book game environment, clean readable on a phone.",
+    "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-fd93c70f-2579-4846-bd56-f4b6b8e3ebaa.png"
+  }
+]

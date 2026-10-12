@@ -1,0 +1,147 @@
+{
+  "id": "kitchen",
+  "status": "v1-raster-transitional",
+  "zones": {
+    "wall": [
+      0,
+      35
+    ],
+    "counter": [
+      35,
+      65
+    ],
+    "floor": [
+      65,
+      100
+    ]
+  },
+  "background": "kitchen-wide",
+  "layers": [
+    {
+      "id": "broth-pot",
+      "asset": "broth-pot",
+      "x": 15,
+      "y": 45,
+      "width": 23,
+      "height": 20,
+      "anchor": [
+        0.5,
+        1
+      ],
+      "z": 2,
+      "touch": {
+        "action": "panel",
+        "arg": "broth",
+        "label": "Nấu nước dùng"
+      }
+    },
+    {
+      "id": "dashi-jar",
+      "asset": "jar",
+      "x": 58,
+      "y": 43,
+      "width": 8,
+      "height": 12,
+      "anchor": [
+        0.5,
+        1
+      ],
+      "z": 2,
+      "touch": {
+        "action": "panel",
+        "arg": "broth",
+        "label": "Gia vị nước dùng"
+      }
+    },
+    {
+      "id": "soy-jar",
+      "asset": "jar",
+      "x": 68,
+      "y": 43,
+      "width": 8,
+      "height": 12,
+      "anchor": [
+        0.5,
+        1
+      ],
+      "z": 2,
+      "touch": {
+        "action": "panel",
+        "arg": "broth",
+        "label": "Gia vị nước dùng"
+      }
+    },
+    {
+      "id": "fryer",
+      "asset": "fryer",
+      "x": 84,
+      "y": 46,
+      "width": 27,
+      "height": 18,
+      "anchor": [
+        0.5,
+        1
+      ],
+      "z": 2,
+      "touch": {
+        "action": "panel",
+        "arg": "fryer",
+        "label": "Chiên tempura"
+      }
+    },
+    {
+      "id": "board",
+      "asset": "board",
+      "x": 66,
+      "y": 63,
+      "width": 22,
+      "height": 14,
+      "anchor": [
+        0.5,
+        1
+      ],
+      "z": 2,
+      "touch": {
+        "action": "chop-open",
+        "label": "Thái hành"
+      }
+    },
+    {
+      "id": "sink",
+      "asset": "sink",
+      "x": 88,
+      "y": 63,
+      "width": 21,
+      "height": 16,
+      "anchor": [
+        0.5,
+        1
+      ],
+      "z": 2,
+      "touch": {
+        "action": "wash",
+        "label": "Rửa chén",
+        "wash": true
+      }
+    }
+  ],
+  "hotspots": [],
+  "noodles": {
+    "x": 29,
+    "y": 32,
+    "width": 22,
+    "height": 14
+  },
+  "pots": {
+    "x": 6,
+    "y": 48,
+    "width": 27,
+    "height": 14
+  },
+  "multiplePots": {
+    "x": 3,
+    "y": 48,
+    "width": 51,
+    "height": 14
+  }
+}

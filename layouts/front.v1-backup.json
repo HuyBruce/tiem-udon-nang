@@ -1,0 +1,83 @@
+{
+  "id": "front",
+  "status": "raster-art",
+  "zones": {
+    "wall": [
+      0,
+      35
+    ],
+    "counter": [
+      35,
+      65
+    ],
+    "floor": [
+      65,
+      100
+    ]
+  },
+  "background": "front",
+  "layers": [
+    {
+      "id": "owner",
+      "asset": "owner",
+      "x": 49,
+      "y": 91,
+      "width": 40,
+      "height": 44,
+      "anchor": [
+        0.5,
+        1
+      ],
+      "z": 2
+    },
+    {
+      "id": "flowers",
+      "asset": "flowers",
+      "x": 12,
+      "y": 86,
+      "width": 18,
+      "height": 24,
+      "anchor": [
+        0.5,
+        1
+      ],
+      "z": 2
+    },
+    {
+      "id": "flowers",
+      "asset": "flowers",
+      "x": 87,
+      "y": 86,
+      "width": 18,
+      "height": 24,
+      "anchor": [
+        0.5,
+        1
+      ],
+      "z": 2
+    }
+  ],
+  "hotspots": [
+    {
+      "id": "door",
+      "x": 28,
+      "y": 46,
+      "width": 44,
+      "height": 45,
+      "action": "enter-shop",
+      "label": "Vào tiệm"
+    }
+  ],
+  "sign": {
+    "x": 20,
+    "y": 22,
+    "width": 60,
+    "height": 7
+  },
+  "noren": {
+    "x": 17,
+    "y": 34,
+    "width": 67,
+    "height": 7
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": "household",
+      "creator": "bretbernhoft",
+      "title": "General Household Sound Effects",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "page": "https://opengameart.org/content/general-household-sound-effects",
+      "files": {
+        "kitchensink": "kitchensink01.wav",
+        "fryingpan": "fryingpan01.wav",
+        "chopping": "kitchencuttingboard01.wav",
+        "glass": "clangingglass01.wav",
+        "paper": "crunchingpapertowels01.wav",
+        "boil": "boilingwater02.wav"
+      },
+      "downloadBase": "https://opengameart.org/sites/default/files/",
+      "processing": "Trích 6 giây đầu, mono PCM16 22050Hz; cắt/lọc/trộn, tạo ba biến thể, chuẩn hóa và giới hạn đỉnh."
+    },
+    {
+      "id": "kenney",
+      "creator": "Kenney",
+      "title": "Interface Sounds",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "page": "https://kenney.nl/assets/interface-sounds",
+      "download": "https://kenney.nl/media/pages/assets/interface-sounds/fa43c1dd4d-1677589452/kenney_interface-sounds.zip",
+      "usedFile": "Audio/click_001.ogg",
+      "processing": "Chuyển WAV, trộn tiếng chạm nhẹ, tạo ba biến thể. OGG chỉ là nguồn ngoại tuyến, không nằm trong runtime."
+    },
+    {
+      "id": "original",
+      "creator": "Tiệm mì Udon",
+      "title": "Âm tổng hợp và ba vòng nhạc gốc",
+      "license": "Original project material",
+      "generator": "tools/audio/build-bank.mjs",
+      "processing": "Nhiễu lọc, đường bao, cộng hưởng, giai điệu/hợp âm gốc; xuất WAV/AAC. Các âm mèo, chim, húp/nhai/ahh và nhạc là tổng hợp, chưa được người chơi duyệt bằng tai."
+    }
+  ]
+}

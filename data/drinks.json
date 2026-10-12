@@ -1,0 +1,78 @@
+{
+  "ramune": {
+    "name": "Ramune",
+    "items": ["ramune"],
+    "steps": 1,
+    "temperature": "cold",
+    "asset": "v2-ramune"
+  },
+  "tea": {
+    "name": "Trà sencha",
+    "items": ["tea"],
+    "steps": 3,
+    "temperatureOptions": ["hot", "cold"],
+    "asset": "v3-drink-sencha",
+    "coldAsset": "v3-drink-sencha-cold"
+  },
+  "matcha": {
+    "name": "Matcha sữa",
+    "items": ["matcha", "milk"],
+    "steps": 5,
+    "temperatureOptions": ["hot", "cold"],
+    "asset": "v3-drink-matcha-latte",
+    "coldAsset": "v3-drink-matcha-latte-cold"
+  },
+  "yuzuSoda": {
+    "name": "Soda yuzu",
+    "items": ["yuzu", "soda"],
+    "steps": 4,
+    "temperature": "cold",
+    "asset": "v3-drink-yuzu-soda"
+  },
+  "coffee": {
+    "name": "Cà phê sữa",
+    "items": ["coffee", "milk"],
+    "steps": 4,
+    "temperatureOptions": ["hot", "cold"],
+    "asset": "v3-coffee-milk",
+    "coldAsset": "v3-drink-coffee-milk-cold"
+  },
+  "hojicha": {
+    "name": "Trà rang hojicha",
+    "items": ["hojicha"],
+    "steps": 3,
+    "temperatureOptions": ["hot", "cold"],
+    "asset": "v3-drink-hojicha-tea",
+    "coldAsset": "v3-drink-hojicha-tea-cold"
+  },
+  "hojichaLatte": {
+    "name": "Hojicha Latte",
+    "items": ["hojicha", "milk"],
+    "steps": 5,
+    "temperatureOptions": ["hot", "cold"],
+    "asset": "v3-drink-hojicha-latte",
+    "coldAsset": "v3-drink-hojicha-latte-cold"
+  },
+  "sakuraTea": {
+    "name": "Trà hoa anh đào",
+    "items": ["tea", "sakura"],
+    "steps": 4,
+    "temperatureOptions": ["hot", "cold"],
+    "asset": "v3-drink-sakura-tea",
+    "coldAsset": "v3-drink-sakura-tea-cold"
+  },
+  "melonSoda": {
+    "name": "Soda dưa lưới",
+    "items": ["melon", "soda"],
+    "steps": 4,
+    "temperature": "cold",
+    "asset": "v3-drink-melon-soda"
+  },
+  "strawberryMilk": {
+    "name": "Sữa dâu",
+    "items": ["strawberry", "milk"],
+    "steps": 4,
+    "temperature": "cold",
+    "asset": "v3-drink-strawberry-milk"
+  }
+}

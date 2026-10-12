@@ -1,0 +1,176 @@
+{
+  "id": "storage",
+  "status": "reference-composition-correction",
+  "zones": {
+    "hud": [0, 8],
+    "wall": [8, 42],
+    "counter": [42, 59],
+    "fascia": [59, 70],
+    "tray": [70, 100]
+  },
+  "background": "gdv-world-storage",
+  "layers": [
+    {
+      "id": "fridge",
+      "asset": "v2-pantry-fridge",
+      "x": 79,
+      "y": 62,
+      "width": 27,
+      "height": 25,
+      "anchor": [0.5, 1],
+      "z": 2,
+      "touch": {
+        "action": "panel",
+        "arg": "inventory",
+        "label": "Kiểm tra tủ lạnh"
+      }
+    },
+    {
+      "id": "crate",
+      "asset": "v2-crate",
+      "x": 28,
+      "y": 56,
+      "width": 38,
+      "height": 16,
+      "anchor": [0.5, 1],
+      "z": 2,
+      "touch": {
+        "action": "panel",
+        "arg": "inventory",
+        "label": "Kiểm tra và nhập nguyên liệu"
+      }
+    },
+    {
+      "id": "floor-supplies",
+      "asset": "v3-storage-floor-supplies",
+      "className": "storage-floor-supplies",
+      "x": 39,
+      "y": 88,
+      "width": 63,
+      "height": 17,
+      "anchor": [0.5, 1],
+      "z": 3,
+      "touch": {
+        "action": "panel",
+        "arg": "inventory",
+        "label": "Kiểm tra nguyên liệu dự trữ"
+      }
+    },
+    {
+      "id": "pantry-noodles",
+      "asset": "gdv-pantry-noodles",
+      "x": 23,
+      "y": 17.2,
+      "width": 24,
+      "height": 9,
+      "anchor": [0.5, 1],
+      "z": 2,
+      "touch": {
+        "action": "panel",
+        "arg": "inventory",
+        "labelKey": "noodles"
+      }
+    },
+    {
+      "id": "pantry-broth",
+      "asset": "gdv-pantry-broth",
+      "x": 49,
+      "y": 17.2,
+      "width": 24,
+      "height": 9,
+      "anchor": [0.5, 1],
+      "z": 2,
+      "touch": {
+        "action": "panel",
+        "arg": "inventory",
+        "labelKey": "broth"
+      }
+    },
+    {
+      "id": "pantry-spice",
+      "asset": "gdv-pantry-spice",
+      "x": 75,
+      "y": 17.2,
+      "width": 24,
+      "height": 9,
+      "anchor": [0.5, 1],
+      "z": 2,
+      "touch": {
+        "action": "panel",
+        "arg": "inventory",
+        "labelKey": "spice"
+      }
+    },
+    {
+      "id": "pantry-tea",
+      "asset": "gdv-pantry-tea",
+      "x": 23,
+      "y": 27.5,
+      "width": 24,
+      "height": 12,
+      "anchor": [0.5, 1],
+      "z": 2,
+      "touch": {
+        "action": "panel",
+        "arg": "inventory",
+        "labelKey": "tea"
+      }
+    },
+    {
+      "id": "pantry-sweets",
+      "asset": "gdv-pantry-sweets",
+      "x": 49,
+      "y": 27.5,
+      "width": 24,
+      "height": 12,
+      "anchor": [0.5, 1],
+      "z": 2,
+      "touch": {
+        "action": "panel",
+        "arg": "inventory",
+        "labelKey": "sweets"
+      }
+    },
+    {
+      "id": "pantry-meat",
+      "asset": "gdv-pantry-meat",
+      "x": 75,
+      "y": 27.5,
+      "width": 24,
+      "height": 12,
+      "anchor": [0.5, 1],
+      "z": 2,
+      "touch": {
+        "action": "panel",
+        "arg": "inventory",
+        "labelKey": "meat"
+      }
+    },
+    {
+      "id": "pantry-veg",
+      "asset": "gdv-pantry-veg",
+      "x": 54,
+      "y": 54,
+      "width": 26,
+      "height": 18,
+      "anchor": [0.5, 1],
+      "z": 2,
+      "touch": {
+        "action": "panel",
+        "arg": "inventory",
+        "labelKey": "veg"
+      }
+    }
+  ],
+  "hotspots": [],
+  "artVersion": 3,
+  "seasonDecor": {
+    "x": 50,
+    "y": 0,
+    "width": 50,
+    "height": 7,
+    "anchor": [0.5, 0],
+    "z": 1
+  },
+  "foreground": "gdv-fg-storage"
+}

@@ -1,0 +1,149 @@
+{
+  "id": "drinks",
+  "status": "reference-composition-correction",
+  "zones": {
+    "hud": [
+      0,
+      8
+    ],
+    "wall": [
+      8,
+      42
+    ],
+    "counter": [
+      42,
+      59
+    ],
+    "fascia": [
+      59,
+      70
+    ],
+    "tray": [
+      70,
+      100
+    ]
+  },
+  "background": "gdv-world-drinks",
+  "layers": [
+    {
+      "id": "fridge",
+      "asset": "v2-fridge",
+      "x": 18,
+      "y": 46,
+      "width": 24,
+      "height": 21,
+      "anchor": [
+        0.5,
+        1
+      ],
+      "z": 2,
+      "touch": {
+        "action": "panel",
+        "arg": "brew",
+        "label": "Mở tủ nước"
+      }
+    },
+    {
+      "id": "sample_kettle",
+      "asset": "v2-kettle",
+      "x": 43,
+      "y": 46,
+      "width": 22,
+      "height": 12,
+      "anchor": [
+        0.5,
+        1
+      ],
+      "z": 2,
+      "touch": {
+        "action": "panel",
+        "arg": "brew",
+        "label": "Pha trà"
+      }
+    },
+    {
+      "id": "matcha-bowl",
+      "asset": "v2-matcha-bowl",
+      "x": 68,
+      "y": 46,
+      "width": 25,
+      "height": 10,
+      "anchor": [
+        0.5,
+        1
+      ],
+      "z": 2,
+      "touch": {
+        "action": "panel",
+        "arg": "brew",
+        "label": "Pha matcha"
+      }
+    },
+    {
+      "id": "chasen",
+      "asset": "v2-chasen",
+      "x": 93,
+      "y": 46,
+      "width": 12,
+      "height": 13,
+      "anchor": [
+        0.5,
+        1
+      ],
+      "z": 2,
+      "touch": {
+        "action": "panel",
+        "arg": "brew",
+        "label": "Đánh trà"
+      }
+    }
+  ],
+  "hotspots": [],
+  "artVersion": 3,
+  "seasonDecor": {
+    "x": 50,
+    "y": 0,
+    "width": 38,
+    "height": 6,
+    "anchor": [
+      0.5,
+      0
+    ],
+    "z": 1
+  },
+  "rack": {
+    "x": 2,
+    "width": 96,
+    "height": 7.6,
+    "rows": [
+      {
+        "y": 12.3,
+        "items": [
+          "tea",
+          "matcha",
+          "yuzu",
+          "coffee"
+        ]
+      },
+      {
+        "y": 20.8,
+        "items": [
+          "milk",
+          "soda",
+          "hojicha",
+          "sakura"
+        ]
+      },
+      {
+        "y": 29.4,
+        "items": [
+          "melon",
+          "strawberry",
+          "ramune",
+          "iceCream"
+        ]
+      }
+    ]
+  },
+  "foreground": "gdv-fg-drinks"
+}

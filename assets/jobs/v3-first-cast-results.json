@@ -1,0 +1,21 @@
+{
+  "mode": "builtin-imagegen",
+  "reference": "assets/style_reference/character_ref_green.png",
+  "jobs": [
+    {
+      "id": "an",
+      "prompt": "Use case: style-transfer. Image 1 is the APPROVED art-style reference for a cozy Japanese udon mobile game; match its colored hair/skin/clothes line weight, simple dot eyes, subtle small line nose, short curved mouth, light blush, flat clean colors and human proportions. Create one NEW character design only. Delicate thin colored contours; NO heavy outline, watercolor, grain, gradients, detailed fingers or individual hair strands. Keep uniformly solid bright opaque chroma-green #00FF00 background edge-to-edge, no cast shadow, no checkerboard, no text, no watermark. The background must be easy to remove with chroma key. Half-body front-facing young male office worker named An. Soft dark brown side-parted hair in broad simple shapes, muted sage button-up shirt with collar, extremely thin simple round glasses made of two minimal rings only, gentle neutral expression. Square frame, head about 30% of image height, waist cut at bottom, eyes about 28% from top, bottom-center anchor. Add a tiny subtle curved-line nose visible between eyes and mouth. Keep EXACT same facial simplicity and line thickness as Image 1; new hair and shirt for this person.",
+      "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-86728910-3f68-402a-9b5a-a7f76b805f70.png"
+    },
+    {
+      "id": "mai",
+      "prompt": "Use case: style-transfer. Image 1 is the APPROVED art-style reference for a cozy Japanese udon mobile game; match its colored hair/skin/clothes line weight, simple dot eyes, subtle small line nose, short curved mouth, light blush, flat clean colors and human proportions. Create one NEW character design only. Delicate thin colored contours; NO heavy outline, watercolor, grain, gradients, detailed fingers or individual hair strands. Keep uniformly solid bright opaque chroma-green #00FF00 background edge-to-edge, no cast shadow, no checkerboard, no text, no watermark. The background must be easy to remove with chroma key. Half-body front-facing young woman named Mai. Dark chestnut jaw-length bob in a few solid shapes, simple muted cream blouse with terracotta collar, small gentle smile, no glasses, no hair individual strands. Square frame, head about 30% of image height, waist cut at bottom, eyes about 28% from top, bottom-center anchor. Add a tiny subtle curved-line nose visible between dot eyes and mouth. Same facial simplicity and line thickness as Image 1; clearly distinct from the male reference.",
+      "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-8bc6283c-1213-47c2-abbd-cf75df5e9deb.png"
+    },
+    {
+      "id": "owner",
+      "prompt": "Edit selected C style owner to cream tiny-floral dress, cream apron, pastel rose/lavender/sage/yellow flowers; preserve two braids, face, full-body posture and solid green chroma background.",
+      "source": "C:\\Users\\Legion\\.codex\\generated_images\\01a0ecda-18d8-7e20-8933-f8408dea965c\\exec-8d7ec8a8-d357-4d67-b8f7-a55833a7ad37.png"
+    }
+  ]
+}

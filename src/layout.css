@@ -1,0 +1,599 @@
+/* A single type scale and separate space for scene actions. */
+.object-hotspot {
+  position: absolute;
+  z-index: 2;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+  border-radius: 12px;
+  min-height: 44px;
+  min-width: 44px;
+  padding: 0;
+  color: transparent;
+}
+.object-hotspot:focus-visible {
+  outline: 3px solid #5f7550;
+  outline-offset: -3px;
+  background: #fff6e433;
+}
+.object-hotspot:active {
+  background: #fff6e444;
+}
+.art-review {
+  overflow-y: auto !important;
+  display: block !important;
+  background: #fff6e4;
+}
+.art-review-heading,
+.art-review-footer {
+  padding: 16px 20px;
+}
+.art-review-heading h1 {
+  font-size: 22px;
+  margin: 6px 0;
+}
+.art-review p {
+  font-size: 12px;
+  line-height: 1.7;
+  margin: 6px 0 12px;
+}
+.art-review .eyebrow {
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+.art-preview-scene {
+  position: relative;
+  aspect-ratio: 2/3;
+  width: min(100%, 360px);
+  margin: auto;
+  overflow: hidden;
+  background: #f6edd9;
+}
+.art-layer {
+  position: absolute;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  border-radius: 0;
+  box-shadow: none;
+}
+.art-layer img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  pointer-events: none;
+}
+.art-object {
+  cursor: pointer;
+  touch-action: manipulation;
+}
+.art-object:focus-visible,
+.art-object[aria-pressed="true"] {
+  outline: 2px dashed #5f7550;
+  outline-offset: 2px;
+  border-radius: 12px;
+}
+.art-review-footer button {
+  min-height: 44px;
+}
+:root {
+  --serif: "Be Vietnam Pro", sans-serif;
+  --muted: #75654f;
+}
+body,
+button,
+input,
+select,
+textarea,
+svg text {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-synthesis: none;
+}
+h1,
+h2,
+h3,
+button,
+.paper-button,
+.station-tag,
+.front-action button,
+.scene-caption,
+.season-note,
+.handwritten,
+.empty-seat,
+.landing em,
+.opening-sign {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-style: normal;
+  letter-spacing: 0;
+}
+h1,
+h2 {
+  font-weight: 600;
+  line-height: 1.4;
+}
+button {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+small {
+  color: #78674f;
+}
+.scene-heading {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 4px 12px;
+  align-items: center;
+  padding: 10px 18px 12px;
+  min-height: 70px;
+  flex-shrink: 0;
+}
+.scene-heading .eyebrow {
+  grid-column: 1/-1;
+  font-size: 10px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  color: #887255;
+}
+.scene-heading h1 {
+  font-size: 23px;
+  line-height: 1.45;
+  min-width: 0;
+  margin: 0;
+}
+.scene-heading .season-note {
+  position: static;
+  font-size: 11px;
+  line-height: 1.5;
+  max-width: 135px;
+  text-align: right;
+  align-self: center;
+  white-space: normal;
+}
+.hud {
+  padding: 10px 16px;
+  gap: 10px;
+  min-height: 66px;
+}
+.hud .day-weather {
+  flex: 1;
+  min-width: 0;
+}
+.wallet {
+  flex-shrink: 0;
+}
+.day-weather small {
+  white-space: normal;
+  line-height: 1.6;
+}
+.wallet small {
+  font-size: 10px;
+}
+.icon-button {
+  min-width: 44px;
+  min-height: 44px;
+}
+.scene-actions {
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 16px;
+  background: #f7efdd;
+  border-top: 1px solid #ded0b5;
+  position: relative;
+  z-index: 4;
+}
+.scene-actions > button {
+  flex: 1;
+  min-height: 46px;
+  max-width: 360px;
+  font-size: 13px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 10px 12px;
+}
+.kitchen-actions {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  padding: 8px 12px;
+  gap: 6px;
+}
+.kitchen-actions > button {
+  grid-column: span 2;
+  font-size: 12px;
+  min-height: 44px;
+  padding: 7px 5px;
+  max-width: none;
+}
+.kitchen-actions > button:nth-last-child(-n + 2) {
+  grid-column: span 3;
+}
+.tutorial {
+  position: static;
+  flex: 0 0 auto;
+  transform: none;
+  margin: 0;
+  padding: 7px 16px;
+  border: 0;
+  border-top: 1px solid #d4d8bd;
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 12px;
+  line-height: 1.6;
+  background: #edf0dc;
+  z-index: 4;
+}
+.scene-caption {
+  padding: 10px 18px;
+  min-height: 40px;
+  height: auto;
+  font-size: 12px;
+  line-height: 1.6;
+  color: #78694f;
+  flex: 0 0 auto;
+}
+.caption-line {
+  max-width: 22px;
+}
+.stage {
+  min-height: 180px;
+}
+.stage > svg text {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-style: normal;
+  letter-spacing: 0;
+}
+.front-action,
+.storage-tag,
+.garden-tag,
+.brew-tag {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-style: normal;
+}
+.empty-seat {
+  top: 76%;
+  left: 0;
+  right: 0;
+  padding: 6px 4px;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 12px;
+  white-space: normal;
+  transform: none;
+}
+.empty-seat span {
+  background: #fbf4e5ee;
+  border: 1px solid #dac9a8;
+  border-radius: 20px;
+  padding: 6px 12px;
+  display: inline-block;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #76644d;
+}
+.customer-call,
+.reaction {
+  transform: translateX(-50%);
+  max-width: 100%;
+  min-width: 0;
+  width: 100%;
+  top: auto;
+  bottom: 98%;
+  font-size: 11px;
+  line-height: 1.5;
+  max-height: 74px;
+  overflow: auto;
+  padding: 7px;
+  white-space: normal;
+  text-align: center;
+}
+.order-ticket {
+  transform: none;
+  padding: 6px;
+  gap: 2px;
+  min-height: 48px;
+  border-radius: 8px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+.order-ticket small {
+  font-size: 10px;
+  line-height: 1.5;
+}
+.order-ticket:before {
+  display: none;
+}
+.kitchen-tickets {
+  top: 3%;
+  left: 12px;
+  right: 12px;
+  display: flex;
+  overflow-x: auto;
+  flex-wrap: nowrap;
+  gap: 6px;
+  max-height: 49px;
+  scrollbar-width: none;
+}
+.kitchen-tickets button {
+  font-size: 12px;
+  min-height: 44px;
+  flex-shrink: 0;
+  padding: 7px 10px;
+}
+.noodle-basket {
+  left: 40%;
+  top: 28%;
+  width: 25%;
+  height: 21%;
+  max-height: 105px;
+  min-height: 65px;
+  background: #fbefd7ed;
+}
+.noodle-basket span {
+  font-size: 11px;
+  white-space: normal;
+  line-height: 1.5;
+}
+.noodle-basket small {
+  font-size: 10px;
+}
+.noodle-basket svg {
+  height: 45%;
+  width: 80%;
+}
+.pot-label {
+  width: 108px;
+  max-width: none;
+  min-height: 36px;
+  top: 96%;
+  padding: 5px 6px;
+  font-size: 12px;
+  line-height: 1.4;
+  white-space: normal;
+  border-radius: 7px;
+  pointer-events: none;
+  animation: none !important;
+}
+.pot-label b {
+  font-weight: 600;
+}
+.pot-hit {
+  min-height: 44px;
+  min-width: 44px;
+}
+.pots.multiple {
+  left: 6%;
+  width: 60%;
+  gap: 10px;
+  top: 49%;
+  height: 21%;
+}
+.pots.multiple .pot-label {
+  width: 100%;
+  min-width: 58px;
+  font-size: 10px;
+  line-height: 1.5;
+  padding: 4px;
+  top: 100%;
+}
+.pots.multiple .pot-hit {
+  height: 65%;
+  margin-top: 0;
+}
+.wooden-tray {
+  padding: 9px 12px 10px;
+  flex-shrink: 0;
+}
+.tray-label {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  gap: 8px;
+  align-items: start;
+  margin-bottom: 7px;
+}
+.tray-label > span {
+  font-size: 10px;
+  letter-spacing: 0.8px;
+  line-height: 1.6;
+}
+.tray-label small {
+  font-size: 11px;
+  line-height: 1.5;
+  text-align: center;
+  min-width: 0;
+}
+.tray-label b {
+  font-size: 12px;
+  line-height: 1.5;
+}
+.tray-slot.empty > span {
+  font-family: inherit;
+  font-size: 13px;
+}
+.tray-slot {
+  height: 73px;
+  min-width: 0;
+}
+.tray-slot .dish-name {
+  font-size: 10px;
+  line-height: 1.45;
+  white-space: normal;
+  max-height: 30px;
+}
+.tray-slot small {
+  font-size: 9px;
+  line-height: 1.4;
+  white-space: normal;
+}
+.tray-slot.filled {
+  padding: 4px 1px;
+}
+.panel-heading h2 {
+  font-size: 24px;
+  font-family: inherit;
+  line-height: 1.5;
+}
+.panel-heading .eyebrow {
+  letter-spacing: 1px;
+  font-size: 10px;
+}
+.panel-heading p {
+  color: #766249;
+}
+.sheet-content h3 {
+  font-family: inherit;
+}
+.dialogue,
+.story,
+.review blockquote,
+.employee blockquote,
+.handwritten {
+  font-family: inherit;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.8;
+  letter-spacing: 0;
+}
+.sheet-content p,
+.sheet-content small {
+  color: #75634d;
+}
+.sheet-title {
+  font-size: 13px;
+}
+.sheet-content button {
+  font-weight: 600;
+}
+.scene-pagination {
+  flex-shrink: 0;
+}
+.bottom-tools {
+  padding: 4px 12px max(8px, env(safe-area-inset-bottom));
+  gap: 8px;
+}
+.bottom-tools button {
+  font-size: 12px;
+  min-height: 44px;
+  font-family: inherit;
+}
+.bottom-tools button svg {
+  width: 20px;
+}
+.bottom-tools button .ui-icon {
+  width: 20px !important;
+}
+.landing-top h1 {
+  font-size: 36px;
+  line-height: 1.4;
+  letter-spacing: -1px;
+}
+.landing-top h1 em {
+  font-style: normal;
+  color: #7a885c;
+}
+.landing-top p,
+.landing-bottom p {
+  font-family: inherit;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.8;
+}
+.landing-bottom button {
+  font-size: 14px;
+}
+.landing-stamp {
+  display: none;
+}
+.large-font .scene-heading h1 {
+  font-size: 25px;
+}
+.large-font .scene-actions button {
+  font-size: 14px;
+}
+.large-font .customer-call {
+  font-size: 12px;
+}
+.large-font .tray-label small {
+  font-size: 12px;
+}
+@media (max-height: 720px) {
+  .scene-heading {
+    min-height: 53px;
+    padding: 6px 14px;
+    gap: 0;
+  }
+  .scene-heading .eyebrow {
+    display: none;
+  }
+  .scene-heading h1 {
+    font-size: 21px;
+  }
+  .hud {
+    min-height: 59px;
+    padding: 6px 14px;
+  }
+  .scene-actions {
+    padding: 6px 12px;
+  }
+  .kitchen-actions {
+    padding: 5px 10px;
+    gap: 4px;
+  }
+  .scene-caption {
+    display: none;
+  }
+  .wooden-tray {
+    padding: 5px 10px;
+  }
+  .tray-slot {
+    height: 62px;
+  }
+  .tutorial {
+    font-size: 11px;
+    padding: 4px 12px;
+  }
+  .bottom-tools {
+    padding-top: 0;
+    padding-bottom: 4px;
+  }
+  .scene-pagination {
+    height: 36px;
+    min-height: 36px;
+  }
+  .scene-pagination button {
+    height: 36px;
+    min-height: 36px;
+  }
+  .stage {
+    min-height: 140px;
+  }
+}
+@media (max-width: 359px) {
+  .hud {
+    gap: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .wallet strong {
+    font-size: 15px;
+  }
+  .scene-heading .season-note {
+    max-width: 105px;
+    font-size: 10px;
+  }
+  .scene-heading h1 {
+    font-size: 21px;
+  }
+  .tray-label small {
+    font-size: 10px;
+  }
+  .customer-call {
+    font-size: 10px;
+  }
+  .kitchen-actions > button {
+    font-size: 11px;
+  }
+}

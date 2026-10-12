@@ -1,0 +1,7 @@
+{
+  "tool": "image_gen",
+  "prompt": "Generate a NEW empty kitchen sink sprite for a cozy Japanese udon game. Reference sink is style only. Thin warm brown outlines, warm cream ceramic and sage-green short faucet, soft flat painterly shading consistent with reference, three-quarter FRONT view. VERY WIDE and low, ratio about 2.6 width to 1 height. One low cream rectangular basin occupies left two thirds with short sage faucet behind; a narrow empty wooden slotted drying rack integrated at the right third. NO bowls or utensils baked in, NO countertop/background, no labels, no checkerboard. Actual transparent alpha, crisp silhouette, no halo. Complete whole appliance centered with transparent padding. Use minimalist detail legible when displayed 165px wide.",
+  "source": "assets/sprites/sources/gdw-sink.png",
+  "reference": "assets/sprites/v2-sink.webp",
+  "alpha": true
+}

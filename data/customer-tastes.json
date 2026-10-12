@@ -1,0 +1,9 @@
+{
+  "mai": ["light", "vegetable"],
+  "an": ["meat", "rich"],
+  "ha": ["light", "hot"],
+  "son": ["experimental", "umami"],
+  "linh": ["vegetable", "light"],
+  "ken": ["rich", "experimental"],
+  "vip": ["umami", "hot"]
+}

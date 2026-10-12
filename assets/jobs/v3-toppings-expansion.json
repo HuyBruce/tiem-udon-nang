@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-03",
+  "generator": "Codex built-in image_gen",
+  "useCase": "stylized-concept",
+  "style": "Warm hand-painted watercolor/gouache anime storybook sprite, crisp subtle outline, transparent background, matched to existing v3 food art.",
+  "sourceDirectory": "assets/sprites/sources/",
+  "processing": "scripts/prepare-v3-toppings-art.mjs: trim alpha, fit within 232px, center in 256px transparent canvas, export WebP quality 88",
+  "assets": [
+    {
+      "id": "ingredient-shiitake",
+      "subject": "Three whole shiitake mushrooms, three-quarter overhead"
+    },
+    {
+      "id": "topping-shiitake",
+      "subject": "Cooked shiitake caps, sliced to show gills, for bowl overlay"
+    },
+    {
+      "id": "ingredient-daikon",
+      "subject": "Pickled daikon pieces, ivory and yellow, three-quarter overhead"
+    },
+    {
+      "id": "topping-daikon",
+      "subject": "Fan of pickled daikon slices for bowl overlay"
+    }
+  ],
+  "constraints": "Single centered subject, transparent background, no plate, bowl, backdrop, text, or watermark."
+}

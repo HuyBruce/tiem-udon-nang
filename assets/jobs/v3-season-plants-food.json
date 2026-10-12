@@ -1,0 +1,30 @@
+{
+  "id": "v3-season-plants-food",
+  "method": "built-in imagegen; transparent alpha; style reference only",
+  "entries": [
+    {
+      "id": "sakura",
+      "reference": "v4-garden-flowers-ripe.webp",
+      "prompt": "Use case: stylized-concept. Transparent-alpha 2x2 production garden growth sprite sheet. Reference is art STYLE ONLY: cozy hand-painted warm gouache Japanese udon game, thin colored lines, sage foliage, cream soil light top left. SAME dwarf flowering sakura sapling planted directly in a small natural mound, no pot. Four equal cells, square 1024x1024: top-left tiny sprout with two leaves; top-right young woody sapling with leaves and closed pink buds; bottom-left full healthy compact small sakura with pale pink blossoms and sage foliage; bottom-right same mature sapling drooping brown leaves and wilted pink blooms. All plants entirely within cells, roots at 86 percent of cell, 15 percent transparent margins, same identity/scale progression. Soil mound shallow and unobtrusive. Genuine alpha, no background, floor, text, grid, watermark, checkerboard or vase. Front three-quarter view matching reference, not photoreal or 3D.",
+      "source": "sprites/sources/v3-sakura-sheet.png"
+    },
+    {
+      "id": "sunflower",
+      "reference": "v4-garden-flowers-ripe.webp",
+      "prompt": "Use case: stylized-concept. Transparent-alpha 2x2 production garden growth sprite sheet. Reference is art STYLE ONLY: cozy hand-painted warm gouache Japanese udon game, thin colored lines, sage foliage, honey yellow and cream soil light top left. SAME cluster of three compact sunflowers planted directly in a small natural mound, no pot. Four equal cells, square 1024x1024: top-left tiny sprouts with two leaves; top-right young stems with leaves and closed green buds; bottom-left mature healthy three sunflower blooms with ochre centers, sunny muted yellow petals and sage foliage; bottom-right same stems drooping brown leaves and wilted blooms. Each plant entirely within its cell, roots at 86 percent of cell, 15 percent transparent margins, same identity/scale progression. Soil mound shallow and unobtrusive. Genuine alpha, no background, floor, text, grid, watermark, checkerboard or vase. Front three-quarter view matching reference, not photoreal or 3D.",
+      "source": "sprites/sources/v3-sunflower-sheet.png"
+    },
+    {
+      "id": "corn-butter",
+      "reference": "v3-topping-egg.webp",
+      "prompt": "Use case: stylized-concept. Transparent-alpha 2x2 production food sprite sheet for Japanese cozy udon game. Reference is STYLE ONLY, same warm hand-painted honey/cream/sage gouache, thin colored outlines and gentle highlights. Square 1024x1024 four equal cells. Top-left: two fresh yellow sweetcorn cobs with sage husks partially peeled, no plate. Top-right: pale cream butter block on folded cream paper, one slice beside it, no text. Bottom-left: small pile of glossy golden cooked corn kernels, isolated no plate. Bottom-right: three small creamy golden butter cubes, isolated no plate. Sprites completely inside their cells, centered, generous transparent margins 15 percent, consistent front oblique food view and soft contact shadow only. No people, utensils, background, grid, labels, watermark or fake checkerboard; genuine alpha. Readable at 50px, not photoreal, no 3D.",
+      "source": "sprites/sources/v3-corn-butter-sheet.png"
+    }
+  ],
+  "packing": "scripts/prepare-season-plants-food.mjs",
+  "sunflowerCorrection": {
+    "prompt": "Precise edit of the supplied sunflower growth sprite sheet. Keep the exact transparent alpha background, 2x2 cell positions, sprout top left, leafy buds top right, soil mounds, flat front illustration style and scale. Correct only flower species in bottom left and bottom right: these MUST be unmistakable compact SUNFLOWERS, not white daisies. Bottom left three circular LARGE dark chocolate-brown seed centers taking 50 percent of each flower diameter, surrounded by many long narrow GOLDEN YELLOW petals, no white/cream petals. Broad heart-shaped sunflower leaves with simple stems. Bottom right same three sunflowers wilted, with downward heavy DARK BROWN seed heads and withered golden brown petals. Whole objects inside each cell, generous margins. Do not add any text, grid, background, vase or frame. Preserve true alpha transparency.",
+    "source": "assets/sprites/sources/v3-sunflower-corrected-sheet.png",
+    "reason": "Original generated flowers looked like white daisies. Corrected to golden sunflower petals and large brown centers, inspected visually."
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "tool": "image_gen",
+  "prompt": "Production sprite sheet for a cozy udon shop mobile game. Reference is STYLE ONLY: warm cream pottery, sage leaf motif, fine warm brown outline and flat soft watercolor. Transparent background, no checkerboard or halos. Exactly 4 columns by 3 rows in an evenly spaced uniform rectangular grid, each cell identical square dimensions, no labels or borders. EACH CELL contains the SAME small ceramic tea cup with a small handle, same position, camera angle, scale and bottom pivot, isolated with ample transparent padding; no steam, no spoon, no saucer. Show these twelve fluid stages, left to right top to bottom: [0] empty cream interior; [1] shallow amber tea; [2] half amber tea; [3] full amber tea; [4] a little dry green matcha powder inside empty cup; [5] half green matcha liquid; [6] full green matcha liquid with fine foam; [7] full pale green matcha latte with a white leaf swirl; [8] shallow dark coffee; [9] half dark coffee; [10] full light brown milky coffee with swirl; [11] full white milk foam. This is one sprite sheet with consistent aligned frames, not a scene. One cup per cell, keep exact identical exterior across all cells.",
+  "reference": "assets/sprites/v3-drink-matcha-latte.webp",
+  "alpha": true,
+  "source": "assets/sprites/sources/gdw-ceramic-stages.png",
+  "technicalExport": "uniform 4x3 cells, alpha trim, contain 256x256"
+}

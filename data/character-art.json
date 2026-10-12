@@ -1,0 +1,92 @@
+{
+  "artVersion": 3,
+  "reference": "style_reference/character_ref.png",
+  "style": "selected-c-small-nose-flat-pastel",
+  "expressionFrames": {
+    "owner": [
+      "neutral",
+      "happy",
+      "sad"
+    ],
+    "an": [
+      "neutral",
+      "happy",
+      "very-happy",
+      "sad",
+      "angry",
+      "thinking"
+    ],
+    "mai": [
+      "neutral",
+      "happy",
+      "very-happy",
+      "sad",
+      "angry",
+      "thinking"
+    ],
+    "ha": [
+      "neutral",
+      "happy",
+      "very-happy",
+      "sad",
+      "angry",
+      "thinking"
+    ],
+    "son": [
+      "neutral",
+      "happy",
+      "very-happy",
+      "sad",
+      "angry",
+      "thinking"
+    ],
+    "linh": [
+      "neutral",
+      "happy",
+      "very-happy",
+      "sad",
+      "angry",
+      "thinking"
+    ],
+    "ken": [
+      "neutral",
+      "happy",
+      "very-happy",
+      "sad",
+      "angry",
+      "thinking"
+    ],
+    "vip": [
+      "neutral",
+      "happy",
+      "very-happy",
+      "sad",
+      "angry",
+      "thinking"
+    ],
+    "thu": [
+      "neutral",
+      "happy",
+      "sad",
+      "thinking"
+    ],
+    "binh": [
+      "neutral",
+      "happy",
+      "sad",
+      "thinking"
+    ],
+    "mika": [
+      "neutral",
+      "happy",
+      "sad",
+      "thinking"
+    ],
+    "yui": [
+      "neutral",
+      "happy",
+      "sad",
+      "thinking"
+    ]
+  }
+}

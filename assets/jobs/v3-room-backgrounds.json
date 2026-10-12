@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-02",
+  "mode": "built-in-imagegen",
+  "purpose": "Give each of the six swipeable rooms a recognizable setting while preserving the established character, order, and interaction layout.",
+  "stylePrompt": "Cozy hand-painted gouache mobile game background, warm cream, sage, honey and terracotta, thin olive-brown outlines, soft morning light, flat straight-on theatrical camera, no people, text, UI or duplicated interactive props.",
+  "rooms": [
+    {
+      "id": "garden",
+      "promptSummary": "Outdoor Japanese garden with blue sky, flowering tree, tiled boundary wall, sunlit potting bench and stone path; leave the bench open for movable planters and watering can.",
+      "references": ["assets/backgrounds/v2-garden.webp", "assets/backgrounds/garden.webp"],
+      "source": "assets/backgrounds/sources/v3-garden-outdoor.png",
+      "output": "assets/backgrounds/v3-garden-outdoor.webp",
+      "processing": "Crop 1024x1536 source at x=80, width=864, then resize to 941x1672 and encode WebP quality 86.",
+      "replacedBy": "v3-garden-vegetable"
+    },
+    {
+      "id": "garden-vegetable",
+      "promptSummary": "Replace the potting counter with an outdoor vegetable garden: blue sky, bamboo fence, flowering tree, soil field and stone path. Add two low decorative rows of scallions and cabbages only at the back of the field, leaving the center open for one to four interactive raised beds.",
+      "references": ["assets/backgrounds/v3-garden-outdoor.webp", "assets/backgrounds/v3-kitchen-workroom.webp", "assets/sprites/planter.webp"],
+      "source": "assets/backgrounds/sources/v3-garden-vegetable.png",
+      "output": "assets/backgrounds/v3-garden-vegetable.webp",
+      "processing": "Generated and revised at 941x1672; encode final PNG as WebP quality 86.",
+      "replacedBy": "v4-garden-field"
+    },
+    {
+      "id": "storage",
+      "promptSummary": "Dedicated udon pantry with three empty wood shelves, shoji window, wooden stock bench and plank floor; leave shelves and bench clear for interactive stock objects.",
+      "references": ["assets/backgrounds/v2-storage.webp", "assets/backgrounds/storage.webp"],
+      "source": "assets/backgrounds/sources/v3-storage-pantry.png",
+      "output": "assets/backgrounds/v3-storage-pantry.webp",
+      "processing": "Crop 1024x1536 source at x=80, width=864, then resize to 941x1672 and encode WebP quality 86."
+    },
+    {
+      "id": "guests",
+      "promptSummary": "Dining nook with sage upholstered booth, two small wooden tables and stools, shoji window, paper lamps, tatami and rug; keep central space clear for customer busts and order tickets.",
+      "references": ["assets/backgrounds/v2-seating.webp", "assets/backgrounds/v3-storage-pantry.webp"],
+      "source": "assets/backgrounds/sources/v3-guests-dining.png",
+      "output": "assets/backgrounds/v3-guests-dining.webp",
+      "processing": "Generated at target 941x1672; encode WebP quality 86."
+    },
+    {
+      "id": "kitchen",
+      "promptSummary": "Working kitchen with cream tiles, right-side shelf, wood worktop, lower cupboards and pale tile floor; leave room for tickets, pots and food props.",
+      "references": ["assets/backgrounds/v2-kitchen.webp", "assets/backgrounds/v3-guests-dining.webp"],
+      "source": "assets/backgrounds/sources/v3-kitchen-workroom.png",
+      "output": "assets/backgrounds/v3-kitchen-workroom.webp",
+      "processing": "Generated at target 941x1672; encode WebP quality 86."
+    },
+    {
+      "id": "drinks",
+      "promptSummary": "Drink alcove with sage tile, two tea shelves, arched window, pale terrazzo prep surface, floral tile front and checker floor; leave the counter clear for drink props.",
+      "references": ["assets/backgrounds/v2-drinks.webp", "assets/backgrounds/v3-guests-dining.webp"],
+      "source": "assets/backgrounds/sources/v3-drinks-alcove.png",
+      "output": "assets/backgrounds/v3-drinks-alcove.webp",
+      "processing": "Generated at target 941x1672; encode WebP quality 86."
+    }
+  ],
+  "retained": "The front entrance uses the existing v2-front painting; it was already visually distinct and aligned with the approved half-body owner."
+}
